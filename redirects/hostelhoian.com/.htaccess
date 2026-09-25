@@ -1,0 +1,9 @@
+# hostelhoian.com -> easylifevietnam.com (301 = dauerhaft, Google überträgt die Rankings)
+RewriteEngine On
+RewriteRule ^nalani-hostel-homestay/?$  https://easylifevietnam.com/nalani-hostel-homestay/ [R=301,L]
+RewriteRule ^easylife-villa/?$          https://easylifevietnam.com/villa-hoi-an/ [R=301,L]
+RewriteRule ^sup-hoi-an-easylife/?$     https://easylifevietnam.com/rentals/sup-hoi-an/ [R=301,L]
+RewriteRule ^catalogue/?$               https://easylifevietnam.com/activities/ [R=301,L]
+RewriteRule ^busses-from-hoi-an/?$      https://easylifevietnam.com/transport-hoi-an/ [R=301,L]
+RewriteRule ^(food|cyber-hostel)/?$     https://easylifevietnam.com/nalani-hostel-homestay/ [R=301,L]
+RewriteRule ^.*$                        https://easylifevietnam.com/nalani-hostel-homestay/ [R=301,L]
