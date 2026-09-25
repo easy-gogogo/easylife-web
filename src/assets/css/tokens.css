@@ -1,0 +1,35 @@
+/* ==========================================================
+   EasyLife Markenfarben & Schriften – NUR HIER ändern.
+   Quelle: easylifevietnam.com-PDF (freigegeben 23.09.2026)
+   ========================================================== */
+:root{
+  /* Grundfarben aus dem PDF */
+  --yellow:    #F4B224;  /* Muschel-Gelb – Buttons/Flächen, Schrift immer dunkel */
+  --teal:      #4F9597;  /* Lagunen-Türkis – große Flächen */
+  --pink:      #F87EFF;  /* Lotus-Pink – Akzente, Badges (nie Text auf Weiß) */
+  --blue:      #5679FF;  /* Periwinkle – große Überschriften auf Weiß/Creme */
+  --ink:       #1A1A1A;  /* Tinte – Fließtext */
+  /* Abgeleitet für Lesbarkeit */
+  --teal-deep: #2F6B6D;  /* Header-Flächen, Links, Tabellenköpfe */
+  --teal-ink:  #1E4A4B;  /* dunkelster Türkis-Ton */
+  --cream:     #FFF8E8;  /* heller Seitengrund */
+  --white:     #FFFFFF;
+  --wa:        #25D366;  /* nur WhatsApp */
+  --soft:      #4A5556;  /* Nebentext */
+  --line:      rgba(47,107,109,.18);
+
+  --font-display: 'Anton', 'Impact', 'Arial Narrow Bold', sans-serif;
+  --font-body:    'Be Vietnam Pro', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-mono:    'IBM Plex Mono', ui-monospace, Consolas, monospace;
+
+  --radius: 18px;
+  --shadow: 0 14px 34px rgba(30,74,75,.10);
+  --max: 1280px;
+}
+/* Koreanisch: Anton hat kein Hangul */
+:lang(ko){
+  --font-display: 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', 'Anton', sans-serif;
+  --font-body: 'Be Vietnam Pro', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', sans-serif;
+}
+:lang(ko) h1, :lang(ko) h2, :lang(ko) h3, :lang(ko) .zero, :lang(ko) .pv-head { font-weight: 800; letter-spacing: -.02em; word-break: keep-all; }
+:lang(ko) body, :lang(ko) p { word-break: keep-all; }
