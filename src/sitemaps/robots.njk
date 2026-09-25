@@ -1,0 +1,10 @@
+---
+pagination: { data: domains, size: 1, alias: domain }
+domains: ["easylifevietnam.com", "einfachasien.com"]
+permalink: "/{{ domain }}/robots.txt"
+eleventyExcludeFromCollections: true
+---
+User-agent: *
+Allow: /
+
+Sitemap: https://{{ domain }}/sitemap.xml

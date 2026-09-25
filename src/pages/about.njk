@@ -1,0 +1,46 @@
+---
+pagination: { data: langsFor.about, size: 1, alias: L }
+pageKey: about
+contentFile: about
+ogImage: /images/about/owners-lan-and-martin.jpg
+---
+{% from "partials/icons.njk" import icon %}
+{% set c = "about" | cx %}{% set u = "ui" | cx %}
+{% set hero = { eyebrow: c.hero.eyebrow, title: c.hero.title, lead: c.hero.lead, image: "/images/about/owners-lan-and-martin.jpg", alt: ("home" | cx).about.alt } %}
+{% set crumbs = [["about", u.nav.about]] %}
+{% include "partials/page-hero.njk" %}
+<script type="application/ld+json">{{ { "@context": "https://schema.org", "@type": "AboutPage", "url": "about" | abs(lang), "about": { "@id": "https://easylifevietnam.com/#org" } } | json | safe }}</script>
+<section class="section">
+  <div class="wrap narrow">
+    {% for para in c.story %}<p class="prose-lead">{{ para }}</p>{% endfor %}
+  </div>
+</section>
+<section class="section about">
+  <div class="wrap">
+    <h2>{{ c.values.title }}</h2>
+    <div class="values three">{% for v in c.values.items %}<div class="value"><h3>{{ v.title }}</h3><p>{{ v.text }}</p></div>{% endfor %}</div>
+  </div>
+</section>
+{% include "partials/upsell.njk" %}
+<section class="section discount" id="contact">
+  <div class="wrap discount-grid">
+    <div>
+      <h2>{{ c.contact.title }}</h2>
+      <p class="lead">{{ c.contact.text }}</p>
+      <dl class="info-list on-yellow">
+        <dt>{{ c.contact.phone }}</dt><dd><a href="tel:{{ site.phone }}">{{ site.phoneDisplay }}</a> (WhatsApp, Zalo)</dd>
+        <dt>{{ c.contact.email }}</dt><dd><a href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
+        <dt>{{ c.contact.emailHostel }}</dt><dd><a href="mailto:{{ site.emailHostel }}">{{ site.emailHostel }}</a></dd>
+      </dl>
+    </div>
+    <div>{% include "partials/contact-cta.njk" %}
+      <div style="margin-top:22px">{% set socialClass = "" %}{% include "partials/social.njk" %}</div>
+    </div>
+  </div>
+</section>
+<section class="section cream" id="find-us">
+  <div class="wrap">
+    <div class="cat-head"><h2>{{ ("home" | cx).find.title }}</h2><p>{{ ("home" | cx).find.intro }}</p></div>
+    {% include "partials/places.njk" %}
+  </div>
+</section>

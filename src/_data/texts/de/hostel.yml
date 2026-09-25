@@ -1,0 +1,39 @@
+# Nalani Hostel & Homestay (Deutsch)
+meta:
+  title: "Nalani Hostel & Homestay Hoi An – Pool, Dachterrasse & 4 Min. zum An Bang Beach"
+  description: "Geselliges, aber entspanntes Hostel in Cẩm An, Hội An: Schlafsäle und Privatzimmer, Pool, Dachterrasse, Wasser und Handtücher gratis – 4 Minuten zu Fuß zum Strand. 10 % günstiger als auf Buchungsportalen."
+hero:
+  eyebrow: "Nalani Hostel & Homestay · An Bang, Hội An"
+  title: "Komm chillen"
+  lead: "Backpacking für jedes Alter: Dachterrasse, Pool, Wasser und Handtücher gratis und der Strand nur 4 Minuten entfernt. Kein reines Partyhostel – aber niemand hält dich davon ab, eine Party zu starten."
+  alt: "Gäste entspannen auf der Dachterrasse des Nalani Hostels"
+  free: [Wasser gratis, Handtücher gratis, Pool, Dachterrasse, Wäscheservice]
+rooms:
+  title: Betten & Zimmer
+  items:
+    - { name: Bett im Schlafsaal, text: "Gemischte Schlafsäle, reine Frauen- oder Männerschlafsäle.", image: /images/hostel/nalani-hostel-terrace-swings.jpg, alt: "Hängesessel auf der Dachterrasse des Nalani" }
+    - { name: Privatzimmer für 1–3, text: "Dein eigenes Zimmer für eine, zwei oder drei Personen.", image: /images/hostel/nalani-hostel-private-room.jpg, alt: "Privatzimmer im Nalani Hostel mit Balkonblick" }
+  prices: "Preise und Bewertungen vergleichen:"
+discount:
+  title: "10 % günstiger als auf Booking.com"
+  text: "Schreib uns einfach oder ruf an – und nenn uns in deiner Nachricht:"
+  checklist: [Wie viele Personen, "Welches Zimmer: Bett im Schlafsaal (gemischt / Frauen / Männer) oder Privatzimmer für 1, 2 oder 3 Personen", Anreisedatum, Abreisedatum, Name, Geschlecht (für Schlafsäle)]
+  wa: einem Bett im Nalani Hostel
+area:
+  title: Die Umgebung
+  text: "Das Nalani liegt in einer schönen, ruhigen Gegend in einer stillen Straße in An Bang, Hội An. Zum Strand sind es 4 Minuten zu Fuß, zu einer der Hauptattraktionen Hội Ans – den Reisfeldern und dem Gemüsedorf mit ihren schönen Radwegen – 10 Minuten. Die Altstadt erreichst du in 20 Minuten mit dem Fahrrad – oder in der Hälfte der Zeit mit einem Roller von uns."
+  alt: "Schild am An Bang Beach: 4 Minuten zum Strand"
+  links: { bicycles: Fahrrad mieten, motorbikes: Roller mieten, tips: So kommst du zum Strand }
+gallery:
+  title: Fotos
+  items:
+    - { src: /images/hostel/nalani-hostel-pool-aerial.jpg, alt: "Luftaufnahme eines Gastes, der im Nalani-Pool treibt" }
+    - { src: /images/hostel/nalani-hostel-community-dinner.jpg, alt: "Gäste beim großen gemeinsamen Abendessen" }
+    - { src: /images/hostel/nalani-hostel-pool-volleyball.jpg, alt: "Gäste spielen Ball im Pool" }
+    - { src: /images/hostel/nalani-hostel-breakfast-table.jpg, alt: "Frühstückstisch mit Teeservice und Passionsfrucht" }
+    - { src: /images/hostel/nalani-hostel-exterior.jpg, alt: "Vorderseite des Nalani-Hostel-Gebäudes" }
+    - { src: /images/hostel/nalani-hostel-guests-scooter.jpg, alt: "Gäste posieren mit einem Roller vor dem Nalani-Wandbild" }
+todo:
+  title: Was du in Hội An machen kannst
+  text: "Hội An ist eine charmante Altstadt in Zentralvietnam, bekannt für ihre gut erhaltene Architektur, die von Laternen beleuchteten Gassen und ihr einzigartiges kulturelles Erbe. Bummel durch die Altstadt, besuch die Märkte und probier dich durch das Essen. Für Geschichtsfans gibt es die Japanische Brücke und den Quan-Công-Tempel – und die Strände liegen direkt vor der Tür."
+  links: { activities: Aktivitäten-Katalog, transport: Bustickets, tips: Reisetipps }

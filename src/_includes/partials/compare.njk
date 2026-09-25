@@ -1,0 +1,11 @@
+{# Booking.com-Vergleich. Optional: compareWhich = "villa" | "hostel" (sonst beide) #}
+{% from "partials/icons.njk" import icon %}
+{% set cm = ("ui" | cx).compare %}
+<div class="compare-box">
+  <p><b>{{ cm.title }}:</b> {{ cm.text }}</p>
+  <div class="compare">
+    {% for k in (["villa", "hostel"] if not compareWhich else [compareWhich]) %}
+    <a href="{{ site.booking[k] }}" target="_blank" rel="noopener nofollow">{{ cm[k] }} ↗</a>
+    {% endfor %}
+  </div>
+</div>

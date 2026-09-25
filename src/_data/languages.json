@@ -1,0 +1,38 @@
+[
+  {
+    "code": "en",
+    "name": "English",
+    "short": "EN",
+    "domain": "easylifevietnam.com",
+    "pathPrefix": "",
+    "live": true,
+    "locale": "en_US"
+  },
+  {
+    "code": "de",
+    "name": "Deutsch",
+    "short": "DE",
+    "domain": "einfachasien.com",
+    "pathPrefix": "",
+    "live": true,
+    "locale": "de_DE"
+  },
+  {
+    "code": "vi",
+    "name": "Tiếng Việt",
+    "short": "VI",
+    "domain": "easylifevietnam.com",
+    "pathPrefix": "/vi",
+    "live": true,
+    "locale": "vi_VN"
+  },
+  {
+    "code": "ko",
+    "name": "한국어",
+    "short": "KO",
+    "domain": "easylifevietnam.com",
+    "pathPrefix": "/ko",
+    "live": true,
+    "locale": "ko_KR"
+  }
+]

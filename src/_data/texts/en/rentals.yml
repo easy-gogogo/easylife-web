@@ -1,0 +1,97 @@
+# Verleih (Englisch): Übersicht + ein Block pro Produkt (Schlüssel wie in rentals.json)
+meta:
+  title: "Rentals in Hoi An – SUP, Scooters & Bicycles | EasyLife"
+  description: "Rent stand-up paddleboards, scooters and bicycles right at EasyLife Villa and Nalani Hostel in Cẩm An, Hội An. Fair prices, local tips — just message us."
+hero:
+  eyebrow: "Rentals · picked up at our place"
+  title: "Boards, bikes & scooters"
+  lead: "Everything you need to explore Hội An at your own pace — from sunset paddles on the river to a scooter ride over the Hai Van Pass."
+how:
+  title: How renting works
+  steps:
+    - { title: Message us, text: "Tell us what you'd like to rent, when, and for how long." }
+    - { title: We get it ready, text: "Boards, bikes and scooters are prepared at EasyLife Villa or Nalani Hostel." }
+    - { title: Pay on site, text: "No online payment, no hidden fees — you pay when you pick it up." }
+priceLabels:
+  1h: 1 hour
+  2h: 2–3 hours
+  day: 1 day
+  hue: One-way to Huế
+products:
+  sup:
+    meta:
+      title: "SUP Rental Hoi An – Sunset Stand-Up Paddleboarding | EasyLife"
+      description: "Rent a stand-up paddleboard in Hội An from 200K VND. Paddle into the sunset on the river — for every age. Meeting point EasyLife Villa."
+    name: Stand-up paddleboards
+    short: "Paddle into the sunset on the river. For every age — best start for sunset is 16:30."
+    meta_line: "Meeting point: EasyLife Villa"
+    alt: "Group of stand-up paddlers on the river near Hoi An at sunset"
+    eyebrow: "EasyLife SUP · sunset on the river"
+    title: "SUP in Hội An"
+    intro: "Definitely the best sunset experience you can get in town. Watch the sun go down on the river and see the fishermen preparing their nets. Stand-up paddleboarding is for everyone, at every age."
+    highlights:
+      - { title: Sunset on the river, text: "Start around 16:30 to be on the water when the sun goes down." }
+      - { title: River life up close, text: "Glide past fishing boats and nets on the calm water — the quietest way to see Hội An." }
+      - { title: For every age, text: "Beginners, kids and families are welcome — we show you the basics." }
+    info:
+      - { label: Meeting point, value: "EasyLife Villa (unless we agree on another place)" }
+      - { label: Best time for sunset, value: "Start at 16:30" }
+      - { label: Villa guests, value: "25% discount on SUP rental" }
+    faq:
+      - { q: "Do I need experience?", a: "No. Most of our guests stand on a board for the first time — we explain everything before you start." }
+      - { q: "Can kids join?", a: "Yes, SUP is for every age — just tell us how old the kids are when you message us." }
+      - { q: "What should I bring?", a: "Swimwear, sunscreen, a hat and something to drink. Leave valuables at the house." }
+    galleryAlts:
+      - "Paddler silhouetted against the sunset on the river"
+      - "Group of friends carrying SUP boards to the water"
+      - "Child paddling on a SUP board on the river"
+      - "Aerial view of a paddleboarder on turquoise sea"
+  motorbikes:
+    meta:
+      title: "Scooter & Motorbike Rental Hoi An – One-Way to Hue | EasyLife"
+      description: "Rent an automatic scooter at Nalani Hostel or EasyLife Villa in Hội An — for the old town, the beaches or a one-way ride over the Hai Van Pass to Huế (700K VND incl. luggage transfer)."
+    name: Motorbikes & scooters
+    short: "Rent a scooter right at our place and reach the old town in half the time — or explore the coast at your own pace."
+    meta_line: "Automatic scooters · ask for today's price"
+    alt: "Couple riding a scooter on the coastal road of the Hai Van Pass"
+    eyebrow: "Scooter rental · Hội An"
+    title: "Scooters & motorbikes"
+    intro: "A scooter is the easiest way to get around Hội An: the old town is about 10 minutes away and An Bang beach is even closer. All our bikes are automatic, so they're easy to ride."
+    highlights:
+      - { title: Day rental, text: "Pick up your scooter at the hostel or villa and explore Hội An and the coast. Ask us for today's price." }
+      - { title: One-way to Huế — 700K, text: "Ride yourself over the famous Hai Van Pass. Your luggage is taken to your next hostel in Huế (+50K if two people share one bike)." }
+      - { title: Custom map included, text: "One of our guests made a detailed map with all the top spots along the way to Huế." }
+    info:
+      - { label: Pick-up, value: "Nalani Hostel or EasyLife Villa" }
+      - { label: Bikes, value: "Automatic scooters" }
+      - { label: Driving licence, value: "Please check that your licence is valid in Vietnam before you ride." }
+    faq:
+      - { q: "Do I need a driving licence?", a: "Vietnamese law requires a licence that is valid in Vietnam — usually an international driving permit. Please check this and your travel insurance before you ride." }
+      - { q: "Do you provide helmets?", a: "Wearing a helmet is mandatory in Vietnam — ask us about helmets when you book." }
+      - { q: "Can't ride a scooter?", a: "Book an Easy Rider tour or a private car on our transport page — or rent a bicycle instead." }
+    galleryAlts:
+      - "Nalani Hostel guests posing with a scooter"
+  bicycles:
+    meta:
+      title: "Bicycle Rental Hoi An – Ride Through the Rice Fields | EasyLife"
+      description: "Explore Hội An by bicycle: rice fields, the vegetable village and the old town are all in easy reach from EasyLife Villa and Nalani Hostel. Free bicycles for villa guests."
+    name: Bicycles
+    short: "Ride through the rice fields and the vegetable village — 20 minutes to the old town. Free for EasyLife Villa guests."
+    meta_line: "Free for villa guests"
+    alt: "Bicycle leaning against a yellow wall in Hoi An"
+    eyebrow: "Bicycle rental · Hội An"
+    title: "Bicycles"
+    intro: "A bicycle ride through the rice fields is an essential Hội An experience. From our houses the rice fields and the vegetable village are 10 minutes away, the beach is just around the corner and the old town is a relaxed 20-minute ride."
+    highlights:
+      - { title: Free for villa guests, text: "Staying at EasyLife Villa? Just take a bike." }
+      - { title: Rice fields & vegetable village, text: "Quiet paths between the fields — 10 minutes from the house." }
+      - { title: Old town in 20 minutes, text: "Park your bike at the edge of the old town and explore on foot." }
+    info:
+      - { label: Pick-up, value: "EasyLife Villa or Nalani Hostel" }
+      - { label: Villa guests, value: "Free" }
+      - { label: Other guests, value: "Ask us" }
+    faq:
+      - { q: "Do bikes come with a lock?", a: "Ask us when you pick up your bike — we'll make sure you can park it safely." }
+      - { q: "Is it safe to cycle in Hội An?", a: "The routes through the rice fields are quiet. In the old town and on main roads, ride carefully and keep to the right." }
+    galleryAlts:
+      - "Cyclists riding through the lantern-lit streets of Hoi An old town"

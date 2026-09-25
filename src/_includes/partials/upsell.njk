@@ -1,0 +1,24 @@
+{# "Mach mehr aus deinem Aufenthalt" – Aktivitäten & Verleih vorschlagen. Optional: upsellSkip = Seite, die nicht gezeigt wird; upsellTitle #}
+{% from "partials/icons.njk" import icon %}
+{% set s = ("ui" | cx).sell %}
+<section class="section upsell" id="more-to-do">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">{{ upsellIdx or "+" }}</span><h2>{{ upsellTitle or s.title }}</h2><p>{{ s.intro }}</p></div>
+    <div class="up-grid">
+      {% for x in upsell %}{% set skip = upsellSkip or [] %}{% if not (x.page in skip) and not (x.key in skip) %}{% set t = s.items[x.key] %}
+      {% set href = (x.page | link) + ("#" + x.anchor if x.anchor else "") %}
+      <a class="up" href="{{ href }}">
+        <span class="up-img"><img src="{{ x.image }}" alt="{{ t.title }}" loading="lazy" width="600" height="450"></span>
+        <span class="up-body"><b>{{ t.title }}</b><small>{{ t.text }}</small>
+          <span class="up-price">{% if x.vnd %}{{ ("ui" | cx).common.from }} {{ x.vnd | vndShort }} VND{% else %}{{ s.onRequest }}{% endif %} {{ icon("arrow", 16) }}</span></span>
+      </a>
+      {% endif %}{% endfor %}
+    </div>
+    {% if upsellLinks %}<div class="link-row up-links">{% for k in ["transport", "tips"] %}<a href="{{ k | link }}">{{ ("nav." + k) | t }} {{ icon("arrow", 16) }}</a>{% endfor %}</div>{% endif %}
+    <div class="up-cta">
+      <a class="btn btn-dark" href="{{ 'activities' | link }}">{{ s.allActivities }} {{ icon("arrow", 18) }}</a>
+      <a class="btn btn-outline" href="{{ 'rentals' | link }}">{{ s.allRentals }}</a>
+      <a class="btn btn-wa" href="{{ (('ui' | cx).cta.waHello + ' ' + s.wa) | wa }}" target="_blank" rel="noopener">{{ icon("whatsapp") }} {{ s.ask }}</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,39 @@
+{# Grundgerüst jeder Seite: Meta, hreflang, Schema, Kopf, Fuß #}
+{%- set cur = languages | find("code", lang) -%}
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ pageKey | abs(lang) }}">
+{%- for l in languages %}{% if l.live and routes[pageKey][l.code] %}
+<link rel="alternate" hreflang="{{ l.code }}" href="{{ pageKey | abs(l.code) }}">
+{%- endif %}{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ pageKey | abs('en') }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ pageKey | abs(lang) }}">
+{% if ogImage %}<meta property="og:image" content="https://{{ cur.domain }}{{ ogImage }}">{% endif %}
+<meta property="og:locale" content="{{ cur.locale }}">
+<meta property="og:site_name" content="EasyLife Hoi An">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/images/brand/favicon.png">
+<link rel="preload" href="/assets/fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/fonts.css">
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+<a class="skip" href="#main">{{ "nav.skip" | t }}</a>
+<div class="promo"><div class="wrap"><span>★ {{ "promo.text" | t }}</span> <a href="{{ 'home' | link }}#discount">{{ "promo.link" | t }} →</a></div></div>
+{% include "partials/header.njk" %}
+<main id="main">
+{{ content | safe }}
+</main>
+{% include "partials/footer.njk" %}
+<script src="/assets/js/main.js" defer></script>
+</body>
+</html>

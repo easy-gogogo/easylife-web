@@ -1,0 +1,11 @@
+{# Zentrale Kontakt-/Buchungsbuttons. Später hier ein Buchungs-Widget einsetzen. #}
+{% from "partials/icons.njk" import icon %}
+{% set waText = ("cta.waHello" | t) + " " + (ctaTopic or ("cta.waStay" | t)) %}
+{% set mail = site.emailHostel if useHostelEmail else site.email %}
+<div class="contact-buttons">
+  <a class="cbtn cbtn-wa" href="{{ waText | wa }}" target="_blank" rel="noopener">{{ icon("whatsapp") }}<span>WhatsApp</span></a>
+  <a class="cbtn" href="{{ site.zalo }}" target="_blank" rel="noopener">{{ icon("zalo") }}<span>Zalo</span></a>
+  <a class="cbtn" href="{{ site.messenger }}" target="_blank" rel="noopener">{{ icon("messenger") }}<span>Messenger</span></a>
+  <a class="cbtn" href="mailto:{{ mail }}">{{ icon("mail") }}<span>{{ mail }}</span></a>
+  <a class="cbtn" href="tel:{{ site.phone }}">{{ icon("phone") }}<span>{{ site.phoneDisplay }}</span></a>
+</div>

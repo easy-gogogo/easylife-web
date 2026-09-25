@@ -1,0 +1,69 @@
+# Menü-, Button- und Footer-Texte (Koreanisch)
+nav:
+  stay: 숙소
+  villa: 이지라이프 빌라
+  hostel: 날라니 호스텔
+  rentals: 대여
+  activities: 액티비티
+  transport: 버스 & 교통
+  tips: 여행 팁
+  about: 소개
+  ask: 문의하기
+  menu: 메뉴
+  language: 언어
+  skip: 본문 바로가기
+  home: 홈
+cta:
+  discount: 직접 예약 시 10% 할인
+  zeroRisk: 부담 없이 — 결제는 현장에서만.
+  waHello: "안녕하세요 EasyLife! 문의드립니다:"
+  waStay: 호이안 숙박
+  choose: 연락 방법을 선택하세요
+  bookDirect: 직접 예약
+footer:
+  contact: 연락처
+  find: 오시는 길
+  follow: 팔로우
+  explore: 둘러보기
+  tag: 사진에 저희를 태그해 주세요!
+  rights: All rights reserved.
+  directions: 길찾기
+common:
+  more: 더 보기
+  from: 부터
+  priceOnRequest: 문의
+  vnd: VND
+  readMore: 계속 읽기
+  related: 함께 보면 좋아요
+  relatedTips: 관련 여행 팁
+  gallery: 사진
+  faq: 알아두면 좋아요
+  prices: 요금
+  minRead: 분 소요
+  updated: 업데이트
+  new: NEW
+  onlyEnglish: 이 페이지는 현재 영어로만 제공됩니다.
+promo:
+  text: "직접 예약하면 Booking.com보다 10% 저렴해요"
+  link: 예약 방법
+sell:
+  title: 여행을 더 알차게
+  intro: "일몰 SUP, 스쿠터, 쿠킹 클래스, 섬 투어 — 모두 대신 예약해 드려요. 숙소 픽업이 포함된 경우가 많아요."
+  combo: 숙박, 체험, 이동 — 메시지 한 번이면 돼요
+  allActivities: 모든 액티비티
+  allRentals: 모든 대여
+  ask: 일정 추천 받기
+  wa: 숙박 중 즐길 거리
+  onRequest: 문의하기
+  items:
+    sup: { title: 강 위의 일몰 SUP, text: "호이안 최고의 일몰 — 누구나 가능해요." }
+    motorbikes: { title: 스쿠터 대여, text: "호이안, 해변, 하이반 고개를 자유롭게." }
+    cooking: { title: 에코 쿠킹 클래스, text: "강변 요리 학교에서 베트남 요리 4가지." }
+    lantern: { title: 등불 만들기, text: "나만의 실크 등불 만들기 — 3세부터." }
+    cham: { title: 참섬 스노클링, text: "스노클링 또는 다이빙이 포함된 하루 보트 투어." }
+    easyrider: { title: 이지 라이더 후에 투어, text: "현지 기사와 함께 하이반 고개를 넘어요." }
+compare:
+  title: 직접 비교해 보세요
+  text: "Booking.com에서 가격을 확인한 뒤 메시지를 주시면 10% 할인해 드려요."
+  villa: Booking.com의 이지라이프 빌라
+  hostel: Booking.com의 날라니

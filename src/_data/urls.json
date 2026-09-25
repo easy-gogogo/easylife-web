@@ -1,0 +1,11 @@
+{
+  "_hinweis": "Adresse jeder festen Seite je Sprache. Fehlt eine Sprache, gibt es die Seite dort nicht. Verleih-URLs stehen in rentals.json, Reisetipps ergeben sich aus dem Dateinamen.",
+  "home":       { "en": "/",                        "de": "/",                  "vi": "/",                        "ko": "/" },
+  "villa":      { "en": "/villa-hoi-an/",           "de": "/villa-hoi-an/",     "vi": "/villa-hoi-an/",           "ko": "/villa-hoi-an/" },
+  "hostel":     { "en": "/nalani-hostel-homestay/", "de": "/nalani-hostel-homestay/", "vi": "/nalani-hostel-homestay/", "ko": "/nalani-hostel-homestay/" },
+  "rentals":    { "en": "/rentals/",                "de": "/verleih/",          "vi": "/rentals/",                "ko": "/rentals/" },
+  "tips":       { "en": "/travel-tips/",            "de": "/reisetipps/",       "vi": "/travel-tips/",            "ko": "/travel-tips/" },
+  "about":      { "en": "/about/",                  "de": "/ueber-uns/",        "vi": "/about/",                  "ko": "/about/" },
+  "activities": { "en": "/activities/" },
+  "transport":  { "en": "/transport-hoi-an/" }
+}

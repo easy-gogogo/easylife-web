@@ -1,0 +1,110 @@
+---
+pagination: { data: langsFor.villa, size: 1, alias: L }
+pageKey: villa
+contentFile: villa
+ogImage: /images/hotel/easylife-villa-pool-hanging-chair.jpg
+---
+{% from "partials/icons.njk" import icon %}
+{% set c = "villa" | cx %}{% set u = "ui" | cx %}
+{% set hero = { eyebrow: c.hero.eyebrow, title: c.hero.title, lead: c.hero.lead, image: "/images/hotel/easylife-villa-exterior.jpg", alt: c.hero.alt, chips: c.hero.chips,
+  cta: '<a class="btn btn-yellow" href="#book">' + u.cta.bookDirect + ' −10%</a><a class="btn btn-wa" href="' + ((u.cta.waHello + " " + c.book.wa) | wa) + '" target="_blank" rel="noopener">WhatsApp</a>' } %}
+{% set crumbs = [["villa", u.nav.villa]] %}
+{% include "partials/page-hero.njk" %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org", "@type": "Hotel", "name": site.places.villa.name, "url": "villa" | abs(lang),
+  "description": description, "image": "https://easylifevietnam.com/images/hotel/easylife-villa-exterior.jpg",
+  "telephone": site.phone, "email": site.email,
+  "address": { "@type": "PostalAddress", "streetAddress": site.places.villa.street, "addressLocality": site.places.villa.city, "addressRegion": site.places.villa.region, "postalCode": site.places.villa.postal, "addressCountry": "VN" },
+  "amenityFeature": [
+    {"@type":"LocationFeatureSpecification","name":"Swimming pool","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Laundry service","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Free bicycles","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Breakfast included","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Game room","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Free Wi-Fi","value":true}
+  ],
+  "parentOrganization": { "@id": "https://easylifevietnam.com/#org" }
+} | json | safe }}</script>
+
+<section class="section cream" id="rooms">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">01</span><h2>{{ c.rooms.title }}</h2><p>{{ c.rooms.intro }}</p></div>
+    <div class="card-grid">
+      {% for r in c.rooms.items %}
+      <article class="card">
+        <div class="card-img"><img src="{{ r.image }}" alt="{{ r.alt }}" loading="lazy" width="800" height="600"></div>
+        <div class="card-body">
+          <div class="card-top"><h3 class="card-title">{{ r.name }}</h3><span class="price-tag">{{ r.guests }}</span></div>
+          <div class="card-meta">{{ r.beds }}</div>
+          <ul class="facts">{% for f in c.rooms.features %}<li>{{ f }}</li>{% endfor %}</ul>
+          <div class="card-footer one"><a class="book-btn" href="{{ (u.cta.waHello + ' ' + r.name + ' – EasyLife Villa') | wa }}" target="_blank" rel="noopener">{{ icon("whatsapp", 18) }} {{ c.rooms.ask }}</a></div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section discount" id="book">
+  <div class="wrap discount-grid">
+    <div>
+      <p class="eyebrow">{{ u.cta.bookDirect }}</p>
+      <h2>{{ c.book.title }}</h2>
+      <p class="lead">{{ c.book.text }}</p>
+      <p class="zero">{{ u.cta.zeroRisk }}</p>
+      {% set compareWhich = "villa" %}{% include "partials/compare.njk" %}
+    </div>
+    <div>{% set ctaTopic = c.book.wa %}{% include "partials/contact-cta.njk" %}
+      <div class="places single">{% set p = site.places.villa %}<p><b>{{ p.name }}</b><br>{{ p.street }}, {{ p.city }}, {{ p.region }} {{ p.postal }}<br><a href="{{ p.maps }}" target="_blank" rel="noopener">{{ icon("pin", 16) }} {{ "footer.directions" | t }}</a></p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div class="split-img"><img src="/images/hotel/easylife-villa-room-desk.jpg" alt="{{ c.long.alt }}" loading="lazy" width="1024" height="768"></div>
+    <div class="split-text">
+      <span class="idx">02</span>
+      <h2 class="h-teal">{{ c.long.title }}</h2>
+      <p>{{ c.long.text }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section cream">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">03</span><h2>{{ c.perks.title }}</h2></div>
+    <div class="card-grid">
+      {% for p in c.perks.items %}
+      <article class="card">
+        <div class="card-img"><img src="{{ p.image }}" alt="{{ p.alt }}" loading="lazy" width="800" height="600"></div>
+        <div class="card-body"><h3 class="card-title">{{ p.title }}</h3><p class="card-desc">{{ p.text }}</p>
+          {% if loop.index == 2 %}<div class="card-footer one"><a class="more-btn" href="{{ 'bicycles' | link }}">{{ c.perks.link.bicycles }} {{ icon("arrow", 16) }}</a></div>{% endif %}
+          {% if loop.index == 3 %}<div class="card-footer one"><a class="more-btn" href="{{ 'sup' | link }}">{{ c.perks.link.sup }} {{ icon("arrow", 16) }}</a></div>{% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% include "partials/upsell.njk" %}
+
+<section class="section">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">04</span><h2>{{ c.gallery.title }}</h2></div>
+    {% set gallery = c.gallery.items %}{% include "partials/gallery.njk" %}
+  </div>
+</section>
+
+<section class="section about">
+  <div class="wrap split">
+    <div class="split-text">
+      <h2>{{ c.story.title }}</h2>
+      <p class="about-text">{{ c.story.text }}</p>
+      <div class="btn-row"><a class="btn btn-dark" href="{{ 'hostel' | link }}">{{ c.story.cta }} {{ icon("arrow", 18) }}</a></div>
+    </div>
+    <div class="split-img"><img src="/images/hostel/nalani-hostel-pool-friends.jpg" alt="{{ ('home' | cx).stay.hostel.alt }}" loading="lazy" width="1200" height="800"></div>
+  </div>
+</section>
+
+{% include "partials/insta.njk" %}

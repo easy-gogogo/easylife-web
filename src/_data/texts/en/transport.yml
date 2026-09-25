@@ -1,0 +1,274 @@
+# Texte der Seite transport (Englisch). Preise/Zeiten hier ändern.
+meta:
+  title: Bus & Transport from Hội An – Sleeper Bus, Da Nang Shuttle, Private Car | EasyLife
+  description: Sleeper bus timetables from Hội An to Huế, Phong Nha, Ninh Bình and more, shuttle bus and private car to Da Nang airport, one-way scooter and Easy Rider tours to Huế — with free pick-up.
+hero:
+  eyebrow: Transfers & rides in Central Vietnam
+  title: Bus & transport
+  lead: Comfortable, reliable and bookable directly with us — sleeper bus, shuttle to Da Nang, private car or the legendary ride over the Hải Vân Pass.
+  chips:
+  - Free pick-up in Hội An
+  - Daily departures
+  - Book via WhatsApp
+  alt: Inside a VIP sleeper bus
+filters:
+  bus: Sleeper bus times
+  shuttles: Shuttles & transfers
+  guide: VIP vs limousine bus
+bus:
+  title: Long-distance bus times
+  note: All rides include free pick-up directly from your accommodation in Hội An.
+  cols:
+  - Bus
+  - Destination
+  - Departs
+  - Arrives
+  - Price (VND)
+  book: Book a bus ticket
+  north:
+    title: Northbound from Hội An
+    wa: a sleeper bus ticket (northbound)
+    rows:
+    - - 32 Cabin HT
+      - Hue (Morning)
+      - 07:00
+      - '11:00'
+      - '380.000'
+    - - 32 Cabin
+      - Hue (Afternoon)
+      - '13:30'
+      - '17:00'
+      - '280.000'
+    - - VIP 22 Cabin
+      - Hue (Afternoon)
+      - '13:00'
+      - '16:30'
+      - '320.000'
+    - - 32 Cabin
+      - Dong Hoi
+      - '13:30'
+      - '21:00'
+      - '550.000'
+    - - 32 Cabin
+      - Phong Nha
+      - '13:30'
+      - '21:00'
+      - '550.000'
+    - - 32 Cabin
+      - Ninh Binh
+      - '13:30'
+      - 05:00
+      - '700.000'
+    - - VIP 22 Cabin
+      - Ninh Binh
+      - '13:00'
+      - 05:00
+      - '850.000'
+    - - VIP 22 Cabin
+      - Ninh Binh
+      - '19:00'
+      - '10:00'
+      - '950.000'
+    - - 32 Cabin
+      - Ha Noi
+      - '13:30'
+      - 06:00
+      - '700.000'
+    - - VIP 22 Cabin
+      - Ha Noi
+      - '13:00'
+      - 06:00
+      - '850.000'
+    - - VIP 22 Cabin
+      - Ha Noi
+      - '19:00'
+      - '11:30'
+      - '950.000'
+    - - VIP 22 Cabin
+      - Dong Hoi
+      - '13:00'
+      - '21:00'
+      - '650.000'
+    - - VIP 22 Cabin
+      - Phong Nha
+      - '13:00'
+      - '21:00'
+      - '650.000'
+  south:
+    title: Southbound from Hội An
+    wa: a sleeper bus ticket (southbound)
+    rows:
+    - - VIP 22 Cabin
+      - Nha Trang
+      - '19:30'
+      - 05:00
+      - '650.000'
+    - - VIP 22 Cabin
+      - Mui Ne
+      - '19:30'
+      - 09:30
+      - '800.000'
+    - - VIP 22 Cabin
+      - Sai Gon
+      - '19:30'
+      - '15:00'
+      - 1.050.000
+    - - 32 Cabin
+      - Da Lat
+      - '16:00'
+      - 06:00
+      - '650.000'
+    - - VIP 22 Cabin
+      - Da Lat
+      - '19:30'
+      - 08:00
+      - '750.000'
+    - - Sleeper Bus HT
+      - Quy Nhon
+      - 08:30
+      - '14:30'
+      - '550.000'
+    - - Sleeper Bus HT
+      - Quy Nhon
+      - 09:00
+      - '15:00'
+      - '550.000'
+    - - Sleeper Bus HT
+      - Quy Nhon
+      - '10:00'
+      - '16:00'
+      - '550.000'
+    - - Sleeper Bus HT
+      - Quy Nhon
+      - '11:00'
+      - '17:00'
+      - '430.000'
+    - - Sleeper Bus HT
+      - Quy Nhon
+      - '15:30'
+      - '21:30'
+      - '550.000'
+    - - Sleeper Bus HT
+      - Quy Nhon
+      - '18:00'
+      - 00:00
+      - '550.000'
+    - - Sleeper Bus HT
+      - Quy Nhon
+      - '19:00'
+      - 01:00
+      - '550.000'
+transfers:
+  title: Shuttles & transfers
+  ask: Book now
+  more: More info
+  items:
+  - id: shuttle-danang
+    title: Shuttle bus to Da Nang
+    price: 170K VND
+    meta:
+    - Hotel Pickup
+    - Daily departures
+    short: |-
+      <p><strong>Pickup directly from your hostel/hotel!</strong></p>
+      <p><strong>Departure times from Hội An:</strong><br/>
+      6:00 · 7:00 · 9:00 · 10:00 · 12:00 · 13:00 · 15:00 · 16:00 · 18:00 · 20:00</p>
+    images:
+    - /images/transport/airport-shuttle-hoi-an.jpg
+    full: |-
+      <div class="stop-group">
+      <div class="stop-title">✈️ Da Nang Airport Stops:</div>
+      <ul class="stop-list">
+      <li><strong>Pick up:</strong> Arrival Gate A4 – Domestic Terminal</li>
+      <li><strong>Drop off:</strong> Departure Hall of Domestic Terminal</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏙️ Da Nang City Center Stops:</div>
+      <ul class="stop-list">
+      <li>Da Nang Train Station (Train cafe at Main entrance)</li>
+      <li>Cham Museum Da Nang</li>
+      <li>Hiyori Garden Tower – 02 Vo Van Kiet St.</li>
+      <li>A La Carte Beach Hotel – 200 Vo Nguyen Giap St.</li>
+      <li>Holiday Beach Hotel – 300 Vo Nguyen Giap St.</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏡 Hoi An City Center Stops:</div>
+      <ul class="stop-list">
+      <li>Barri Ann Travel office – 30/2 Tran Hung Dao St.</li>
+      <li>Agribank ATM – 255 Cua Dai St.</li>
+      <li>Silk Village The Tourist – 28 Nguyen Tat Thanh St.</li>
+      <li>Hoi An iVy Hotel – 01 Dao Duy Tu St.</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏖️ Hoi An Beach Area Stops:</div>
+      <ul class="stop-list">
+      <li>Dahan Spa – 130 Lac Long Quan St.</li>
+      <li>Hoi An Beach Resort – 01 Cua Dai St.</li>
+      </ul>
+      </div>
+  - id: private-car
+    title: Private car to Da Nang
+    price: 320K VND
+    meta:
+    - Door-to-Door
+    - 24/7 Available
+    short: |-
+      <p>Direct, comfortable ride in a private car from door to door.</p>
+      <p><strong>Price:</strong> 320,000 VND</p>
+      <p><small>(+50K surcharge for night rides between 10:00 PM and 5:00 AM)</small></p>
+    images:
+    - /images/transport/private-car-hoi-an.jpg
+    full: |-
+      <p>Perfect for families, groups with lots of luggage, or if you want to reach your destination flexibly and without stops (airport, train station, or hotel in Da Nang).</p>
+  - id: hue-motorbike
+    title: One-way scooter to Huế
+    price: 700K VND
+    meta:
+    - Self-Drive
+    - Luggage Transport
+    short: |-
+      <p>For only <strong>700K VND</strong> you can drive by yourself to Hue!</p>
+      <p>You will get a Motorbike at our Hostel. Your luggage will be transported to your new Hostel in Hue (+50K extra if you are 2 people on 1 Motorbike).</p>
+    images:
+    - /images/rentals/motorbikes/scooter-rental-hai-van-pass.jpg
+    full: |-
+      <ul>
+      <li>You will use the famous <strong>Hai Van Pass</strong> and see waterfalls &amp; beautiful beaches.</li>
+      <li>The road is easy to ride and all bikes are automatic.</li>
+      <li><strong>Custom Map included:</strong> One of our guests made a detailed map with all top spots along the way!</li>
+      </ul>
+  - id: easy-rider
+    title: Easy Rider tour to Huế
+    price: 1.3M VND
+    meta:
+    - Incl. Entrance Fees
+    - Experienced Local Driver
+    short: |-
+      <p><strong>For only 1,300,000 VND (incl. entrance fees)</strong></p>
+      <p>Sit back, relax and enjoy the ride! Our experienced drivers know all the best local spots and tell you amazing stories along the way.</p>
+    images:
+    - /images/transport/easy-rider-hoi-an-1.jpg
+    - /images/transport/easy-rider-hoi-an-2.jpg
+    full: |-
+      <ul>
+      <li>Stop at Marble Mountain or Lady Buddha</li>
+      <li>Scenic drive across the Hai Van Pass</li>
+      <li>Stop at Lap An Lagoon</li>
+      <li>Stop at Lang Co Beach for delicious lunch</li>
+      <li>Refreshing stop at the Waterfall</li>
+      </ul>
+guide:
+  title: VIP or limousine bus?
+  intro: All our long-distance buses have curtains for privacy and USB chargers for your devices.
+  items:
+  - title: VIP sleeper bus
+    image: /images/transport/vip-bus-inside-view.jpg
+    text: Wider individual cabins for extra comfort and privacy, in a bus of the same length. Highly recommended for longer rides!
+  - title: Limousine sleeper bus (standard)
+    image: /images/transport/limousine-bus-inside-view.jpg
+    text: Modern sleeper berths in standard width. Cozy, budget-friendly and fully equipped with curtains and USB chargers.
+  wa: the sleeper buses
+  ask: Ask us on WhatsApp

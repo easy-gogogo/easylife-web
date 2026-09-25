@@ -1,0 +1,39 @@
+# Nalani Hostel & Homestay (Vietnamesisch)
+meta:
+  title: "Nalani Hostel & Homestay Hội An – Hồ bơi, sân thượng & 4 phút ra biển An Bàng"
+  description: "Hostel vui vẻ mà thư thái ở Cẩm An, Hội An: phòng dorm và phòng riêng, hồ bơi, sân thượng, nước uống và khăn tắm miễn phí — 4 phút đi bộ ra biển. Rẻ hơn 10% so với các trang đặt phòng."
+hero:
+  eyebrow: "Nalani Hostel & Homestay · An Bàng, Hội An"
+  title: "Đến chill cùng chúng tôi"
+  lead: "Du lịch bụi cho mọi lứa tuổi: sân thượng, hồ bơi, nước uống và khăn tắm miễn phí, biển chỉ cách 4 phút. Không phải hostel chỉ để tiệc tùng — nhưng cũng chẳng ai cản bạn mở tiệc."
+  alt: "Khách thư giãn trên sân thượng Nalani Hostel"
+  free: [Nước uống miễn phí, Khăn tắm miễn phí, Hồ bơi, Sân thượng, Dịch vụ giặt ủi]
+rooms:
+  title: Giường & phòng
+  items:
+    - { name: Giường dorm, text: "Phòng dorm chung, dorm nữ hoặc dorm nam.", image: /images/hostel/nalani-hostel-terrace-swings.jpg, alt: "Xích đu trên sân thượng Nalani" }
+    - { name: Phòng riêng cho 1–3 người, text: "Phòng riêng cho một, hai hoặc ba người.", image: /images/hostel/nalani-hostel-private-room.jpg, alt: "Phòng riêng ở Nalani Hostel nhìn ra ban công" }
+  prices: "So sánh giá và đánh giá:"
+discount:
+  title: "Rẻ hơn 10% so với Booking.com"
+  text: "Chỉ cần nhắn tin hoặc gọi cho chúng tôi — và ghi rõ trong tin nhắn:"
+  checklist: [Số người, "Loại phòng: giường dorm (chung / nữ / nam) hoặc phòng riêng cho 1, 2 hoặc 3 người", Ngày nhận phòng, Ngày trả phòng, Họ tên, Giới tính (với phòng dorm)]
+  wa: giường ở Nalani Hostel
+area:
+  title: Khu vực xung quanh
+  text: "Nalani nằm trong một khu vực đẹp và yên bình, trên con đường nhỏ yên tĩnh ở An Bàng, Hội An. Đi bộ 4 phút là ra biển, 10 phút là tới một trong những điểm hấp dẫn nhất Hội An: cánh đồng lúa và làng rau với những con đường đạp xe tuyệt đẹp. Phố cổ cách 20 phút đạp xe — hoặc chỉ một nửa thời gian nếu bạn thuê xe máy của chúng tôi."
+  alt: "Biển báo ở biển An Bàng: 4 phút ra biển"
+  links: { bicycles: Thuê xe đạp, motorbikes: Thuê xe máy, tips: Cách ra biển }
+gallery:
+  title: Hình ảnh
+  items:
+    - { src: /images/hostel/nalani-hostel-pool-aerial.jpg, alt: "Ảnh từ trên cao khách thả nổi trong hồ bơi Nalani" }
+    - { src: /images/hostel/nalani-hostel-community-dinner.jpg, alt: "Khách cùng ăn tối kiểu gia đình" }
+    - { src: /images/hostel/nalani-hostel-pool-volleyball.jpg, alt: "Khách chơi bóng trong hồ bơi" }
+    - { src: /images/hostel/nalani-hostel-breakfast-table.jpg, alt: "Bàn ăn sáng với bộ ấm trà và chanh dây" }
+    - { src: /images/hostel/nalani-hostel-exterior.jpg, alt: "Mặt tiền tòa nhà Nalani Hostel" }
+    - { src: /images/hostel/nalani-hostel-guests-scooter.jpg, alt: "Khách chụp ảnh với xe máy trước bức tranh tường Nalani" }
+todo:
+  title: Làm gì ở Hội An
+  text: "Hội An là một đô thị cổ duyên dáng ở miền Trung Việt Nam, nổi tiếng với kiến trúc được bảo tồn tốt, những con phố rực rỡ đèn lồng và di sản văn hóa độc đáo. Dạo quanh phố cổ, ghé chợ và thưởng thức ẩm thực. Với người yêu lịch sử có Chùa Cầu và Quan Công Miếu — còn biển thì ngay trước cửa."
+  links: { activities: Danh mục hoạt động, transport: Vé xe khách, tips: Cẩm nang du lịch }

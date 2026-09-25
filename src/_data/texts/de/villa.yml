@@ -1,0 +1,47 @@
+# EasyLife Villa (Deutsch)
+meta:
+  title: "EasyLife Villa Hoi An – Kleines Hotel mit Pool & Balkonen nahe dem Strand"
+  description: "Kleines Hotel in Cẩm An, Hội An: jedes Zimmer mit Balkon, Pool, Game Room, Frühstück inklusive und Fahrräder gratis. 2 Minuten zum Fluss, kurzer Spaziergang zum Strand. 10 % Rabatt bei Direktbuchung."
+hero:
+  chips: [Pool, Frühstück inklusive, Fahrräder gratis, Wäscheservice]
+  eyebrow: "EasyLife Villa · Cẩm An, Hội An"
+  title: "Dein Zuhause auf Zeit"
+  lead: "Am Fluss gelegen, einen kurzen Spaziergang von einem ruhigen, unberührten Strand entfernt und versteckt in einer friedlichen Straße. Ein kleines, modernes Hotel für Alleinreisende, Paare und Familien – mit Pool, Game Room und Balkon für jedes Zimmer."
+  alt: "Das Gebäude der EasyLife Villa mit Balkonen und Palmen"
+rooms:
+  title: Zimmer
+  intro: "Alle Zimmer haben Klimaanlage, TV, eigenes Bad und Balkon. Kinder sind in jedem Zimmer willkommen."
+  items:
+    - { name: De-Luxe-Doppelzimmer, guests: "1–2 Personen + Kinder", beds: "1 Queen-Size-Bett", image: /images/hotel/easylife-villa-deluxe-double-room.jpg, alt: "De-Luxe-Doppelzimmer mit blauem Bettläufer und Balkontür" }
+    - { name: Familienzimmer, guests: "1–4 Personen + Kinder", beds: "2 Queen-Size-Betten", image: /images/hotel/easylife-villa-family-room.jpg, alt: "Familienzimmer mit zwei Queen-Size-Betten" }
+    - { name: Dreibettzimmer, guests: "1–6 Personen + Kinder", beds: "3 Queen-Size-Betten", image: /images/hotel/easylife-villa-triple-room.jpg, alt: "Zimmer mit drei Queen-Size-Betten und Bildern an der Wand" }
+  features: [Klimaanlage, TV, Eigenes Bad, Balkon, Schreibtisch & schnelles WLAN]
+  ask: Dieses Zimmer anfragen
+long:
+  title: Kurz oder lang bleiben
+  text: "Buche ein einzelnes Zimmer oder gleich das ganze Haus. Mit superschnellem Internet, Schreibtischen in jedem Zimmer, einer gut zugänglichen Küche und einem Kühlschrank voller Getränke bist du für alles gerüstet – vom Wochenende bis zu ein paar Monaten Remote Work."
+  alt: "Schreibtisch mit Lampe in einem Gästezimmer der EasyLife Villa"
+perks:
+  title: Inklusive & Angebote
+  items:
+    - { title: Frühstück inklusive, text: "Jeden Morgen süße, herzhafte und vegane Optionen.", image: /images/hotel/easylife-villa-breakfast-crepes.jpg, alt: "Crêpes mit Mango zum Frühstück in der EasyLife Villa" }
+    - { title: Fahrräder gratis, text: "Eine Radtour durch die Reisfelder gehört in Hội An einfach dazu. Roller gibt es auch.", image: /images/rentals/bicycles/bicycle-yellow-wall.jpg, alt: "Fahrrad an einer gelben Wand" }
+    - { title: 25 % auf SUP, text: "Gleich um die Ecke erlebst du den schönsten Sonnenuntergang von Hội An auf dem Stand-up-Paddleboard.", image: /images/rentals/sup/sup-sunset-sea-silhouette.jpg, alt: "Silhouette eines Paddlers vor dem Sonnenuntergang" }
+  link: { bicycles: Fahrradverleih, sup: SUP-Verleih }
+gallery:
+  title: Fotos
+  items:
+    - { src: /images/hotel/easylife-villa-pool-hanging-chair.jpg, alt: "Hängesessel am Pool der EasyLife Villa" }
+    - { src: /images/hotel/easylife-villa-balcony-chairs.jpg, alt: "Türkisfarbene Stühle auf einem Balkon mit Blick über das Viertel" }
+    - { src: /images/hotel/easylife-villa-pool-couple.jpg, alt: "Paar am Rand des Villa-Pools" }
+    - { src: /images/hotel/easylife-villa-guest-balcony.jpg, alt: "Gast entspannt auf einem Balkon der EasyLife Villa" }
+    - { src: /images/hotel/easylife-villa-room-desk.jpg, alt: "Gästezimmer mit Schreibtisch und TV" }
+    - { src: /images/hotel/easylife-villa-exterior.jpg, alt: "Vorderseite des Gebäudes der EasyLife Villa" }
+story:
+  title: "Eine Erfolgsgeschichte – bestätigt von unseren Gästen"
+  text: "Vor der EasyLife Villa haben wir das Nalani Homestay & Hostel eröffnet. Allein im ersten Jahr bekam es über 100 Fünf-Sterne-Bewertungen – in der Villa steckt dieselbe Sorgfalt, nur ruhiger und privater."
+  cta: Zum Nalani Hostel
+book:
+  title: Direkt buchen und 10 % sparen
+  text: "Schick uns deine Reisedaten und die Anzahl der Gäste. Wir bestätigen dein Zimmer, bezahlt wird bei Ankunft."
+  wa: einem Zimmer in der EasyLife Villa

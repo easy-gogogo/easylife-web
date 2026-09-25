@@ -1,0 +1,47 @@
+# EasyLife Villa (Koreanisch)
+meta:
+  title: "이지라이프 빌라 호이안 – 해변 근처 수영장 & 발코니 있는 소규모 호텔"
+  description: "호이안 껌안의 소규모 호텔: 전 객실 발코니, 수영장, 게임룸, 조식 포함, 자전거 무료. 강까지 2분, 해변까지 도보로 금방. 직접 예약 시 10% 할인."
+hero:
+  chips: [수영장, 조식 포함, 무료 자전거, 세탁 서비스]
+  eyebrow: "이지라이프 빌라 · 호이안 껌안"
+  title: "집처럼 편안한 곳"
+  lead: "강가에 자리해 조용하고 한적한 해변까지 걸어서 금방, 평화로운 골목에 숨어 있어요. 혼자, 커플, 가족을 위한 모던한 소규모 호텔 — 수영장, 게임룸, 그리고 모든 객실에 발코니가 있어요."
+  alt: "발코니와 야자수가 있는 이지라이프 빌라 건물"
+rooms:
+  title: 객실
+  intro: "모든 객실에 에어컨, TV, 전용 욕실, 발코니가 있어요. 모든 객실에 아이 동반 가능합니다."
+  items:
+    - { name: 디럭스 더블룸, guests: "1–2인 + 아이", beds: "퀸 사이즈 침대 1개", image: /images/hotel/easylife-villa-deluxe-double-room.jpg, alt: "파란 베드 러너와 발코니 문이 있는 디럭스 더블룸" }
+    - { name: 패밀리룸, guests: "1–4인 + 아이", beds: "퀸 사이즈 침대 2개", image: /images/hotel/easylife-villa-family-room.jpg, alt: "퀸 사이즈 침대 두 개가 있는 패밀리룸" }
+    - { name: 트리플룸, guests: "1–6인 + 아이", beds: "퀸 사이즈 침대 3개", image: /images/hotel/easylife-villa-triple-room.jpg, alt: "퀸 사이즈 침대 세 개와 그림이 걸린 객실" }
+  features: [에어컨, TV, 전용 욕실, 발코니, 책상 & 빠른 와이파이]
+  ask: 이 객실 문의하기
+long:
+  title: 단기 또는 장기 숙박
+  text: "객실 하나만, 또는 집 전체를 예약하세요. 초고속 인터넷, 모든 객실의 책상, 쓰기 편한 주방, 음료가 가득한 냉장고까지 — 주말 여행부터 몇 달간의 원격 근무까지 준비 완료."
+  alt: "이지라이프 빌라 객실의 스탠드가 있는 책상"
+perks:
+  title: 포함 사항 & 혜택
+  items:
+    - { title: 조식 포함, text: "매일 아침 달콤한 메뉴, 짭짤한 메뉴, 비건 메뉴.", image: /images/hotel/easylife-villa-breakfast-crepes.jpg, alt: "이지라이프 빌라 조식의 망고 크레이프" }
+    - { title: 자전거 무료, text: "논길 자전거 여행은 호이안의 필수 코스예요. 스쿠터 대여도 가능해요.", image: /images/rentals/bicycles/bicycle-yellow-wall.jpg, alt: "노란 벽에 기대 놓은 자전거" }
+    - { title: SUP 25% 할인, text: "바로 근처에서 스탠드업 패들보드를 타고 호이안 최고의 일몰을 감상하세요.", image: /images/rentals/sup/sup-sunset-sea-silhouette.jpg, alt: "일몰을 배경으로 한 패들보더 실루엣" }
+  link: { bicycles: 자전거 대여, sup: SUP 대여 }
+gallery:
+  title: 사진
+  items:
+    - { src: /images/hotel/easylife-villa-pool-hanging-chair.jpg, alt: "이지라이프 빌라 수영장 옆 행잉 체어" }
+    - { src: /images/hotel/easylife-villa-balcony-chairs.jpg, alt: "동네가 내려다보이는 발코니의 청록색 의자" }
+    - { src: /images/hotel/easylife-villa-pool-couple.jpg, alt: "빌라 수영장 가장자리의 커플" }
+    - { src: /images/hotel/easylife-villa-guest-balcony.jpg, alt: "이지라이프 빌라 발코니에서 쉬고 있는 게스트" }
+    - { src: /images/hotel/easylife-villa-room-desk.jpg, alt: "책상과 TV가 있는 객실" }
+    - { src: /images/hotel/easylife-villa-exterior.jpg, alt: "이지라이프 빌라 건물 정면" }
+story:
+  title: "게스트가 증명한 성공 스토리"
+  text: "이지라이프 빌라 이전에 저희는 날라니 홈스테이 & 호스텔을 열었어요. 첫해에만 5성 후기가 100개 넘게 달렸죠 — 빌라는 같은 정성을 더 조용하고 프라이빗한 공간에 담았어요."
+  cta: 날라니 호스텔 보기
+book:
+  title: 직접 예약하고 10% 절약하세요
+  text: "날짜와 인원을 보내주세요. 객실을 확정해 드리고, 결제는 도착 후에 하시면 돼요."
+  wa: 이지라이프 빌라 객실

@@ -1,0 +1,15 @@
+{# Reisetipp-Karten. Erwartet: list = Artikel (aus _data/articles.js) #}
+{% from "partials/icons.njk" import icon %}
+<div class="card-grid">
+  {% for a in list %}
+  <article class="card">
+    <a class="card-img" href="{{ ('tip:' + a.key) | link }}" tabindex="-1" aria-hidden="true"><img src="{{ a.image }}" alt="{{ a.imageAlt }}" loading="lazy" width="800" height="600"></a>
+    <div class="card-body">
+      <div class="card-meta">{{ a.kicker }}</div>
+      <h3 class="card-title"><a href="{{ ('tip:' + a.key) | link }}">{{ a.title }}</a></h3>
+      <p class="card-desc">{{ a.description }}</p>
+      <div class="card-footer one"><a class="more-btn" href="{{ ('tip:' + a.key) | link }}">{{ "common.readMore" | t }} {{ icon("arrow", 16) }}</a></div>
+    </div>
+  </article>
+  {% endfor %}
+</div>

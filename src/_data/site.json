@@ -1,0 +1,71 @@
+{
+  "_hinweis": "Kontaktdaten und Social-Links: NUR HIER ändern. Gilt für alle Seiten und Sprachen.",
+  "brand": "EasyLife Hoi An",
+  "phone": "+84378131691",
+  "phoneDisplay": "+84 378 131 691",
+  "whatsapp": "https://wa.me/84378131691",
+  "zalo": "https://zalo.me/84378131691",
+  "messenger": "https://m.me/nalanihomestay",
+  "email": "easylifevillahoian@gmail.com",
+  "emailHostel": "nalanihomestayhoian@gmail.com",
+  "directDiscount": "10%",
+  "places": {
+    "villa": {
+      "name": "EasyLife Villa Hoi An",
+      "street": "W83W+XMJ, Mẹ Thứ, Cẩm An",
+      "city": "Hội An",
+      "region": "Quảng Nam",
+      "postal": "56000",
+      "maps": "https://www.google.com/maps/search/?api=1&query=W83W%2BXMJ+H%E1%BB%99i+An"
+    },
+    "hostel": {
+      "name": "Nalani Hostel & Homestay Hoi An",
+      "street": "04 Trương Bút, Cẩm An",
+      "city": "Hội An",
+      "region": "Quảng Nam",
+      "postal": "56000",
+      "maps": "https://maps.app.goo.gl/E7Ub35om6McLYNLHA"
+    }
+  },
+  "social": [
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "handle": "@easylifevietnam",
+      "url": "https://www.instagram.com/easylifevietnam/"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "handle": "@nalani_hostel_hoian",
+      "url": "https://www.instagram.com/nalani_hostel_hoian/"
+    },
+    {
+      "id": "facebook",
+      "label": "Facebook",
+      "handle": "nalanihomestay",
+      "url": "https://www.facebook.com/nalanihomestay"
+    },
+    {
+      "id": "tiktok",
+      "label": "TikTok",
+      "handle": "@ineedthiseditor",
+      "url": "https://www.tiktok.com/@ineedthiseditor"
+    }
+  ],
+  "reviews": {
+    "booking": {
+      "score": "9.7",
+      "count": 134,
+      "url": "https://www.booking.com/hotel/vn/nalani-homestay-amp-hostel-hoi-an.html"
+    },
+    "hostelworld": {
+      "score": "9.9",
+      "url": "https://www.hostelworld.com/st/hostels/p/321516/nalani-homestay-and-hostel-hoi-an/"
+    }
+  },
+  "booking": {
+    "villa": "https://www.booking.com/hotel/vn/golden-river-villa-hoi-an.html",
+    "hostel": "https://www.booking.com/hotel/vn/nalani-homestay-amp-hostel-hoi-an.html"
+  }
+}

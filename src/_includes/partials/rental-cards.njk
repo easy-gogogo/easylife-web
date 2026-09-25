@@ -1,0 +1,27 @@
+{# Verleih-Karten – Daten: _data/rentals.json, Texte: texts/<sprache>/rentals.yml #}
+{% from "partials/icons.njk" import icon %}
+{% set rt = "rentals" | cx %}
+{% set ui = "ui" | cx %}
+<div class="card-grid">
+  {% for r in rentals %}{% if not r.hidden %}
+  {% set p = rt.products[r.key] %}
+  <article class="card">
+    <a class="card-img" href="{{ r.key | link }}" tabindex="-1" aria-hidden="true"><img src="{{ r.image }}" alt="{{ p.alt }}" loading="lazy" width="800" height="600"></a>
+    <div class="card-body">
+      <div class="card-top">
+        <h3 class="card-title"><a href="{{ r.key | link }}">{{ p.name }}</a></h3>
+        <span class="price-tag">{% if r.prices.length and r.showFrom !== false %}{{ ui.common.from }} {{ r.prices[0].vnd | vndShort }}<br>VND{% else %}{{ ui.common.priceOnRequest }}{% endif %}</span>
+      </div>
+      <div class="card-meta">{{ p.meta_line }}</div>
+      <p class="card-desc">{{ p.short }}</p>
+      {% if r.prices.length %}
+      <ul class="price-list">{% for pr in r.prices %}<li><b>{{ pr.vnd | vndShort }}</b>{{ rt.priceLabels[pr.id] }}</li>{% endfor %}</ul>
+      {% endif %}
+      <div class="card-footer">
+        <a class="book-btn" href="{{ (ui.cta.waHello + ' ' + p.name) | wa }}" target="_blank" rel="noopener">{{ icon("whatsapp", 18) }} {{ ui.nav.ask }}</a>
+        <a class="more-btn" href="{{ r.key | link }}" aria-label="{{ ui.common.more }}: {{ p.name }}">{{ ui.common.more }}</a>
+      </div>
+    </div>
+  </article>
+  {% endif %}{% endfor %}
+</div>

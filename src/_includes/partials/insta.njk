@@ -1,0 +1,18 @@
+{# Instagram-Streifen #}
+{% set hc = "home" | cx %}
+<section class="section" id="instagram">
+  <div class="wrap">
+    <div class="insta-head">
+      <div>
+        <p class="eyebrow" style="color:var(--teal-deep)">{{ "footer.tag" | t }}</p>
+        <h2>{{ hc.insta.title }}</h2>
+      </div>
+      {% set socialClass = "" %}{% include "partials/social.njk" %}
+    </div>
+    <div class="insta-grid">
+      {% for img in ["/images/rentals/sup/sup-aerial-turquoise-sea.jpg", "/images/hostel/nalani-hostel-community-dinner.jpg", "/images/hotel/easylife-villa-pool-hanging-chair.jpg", "/images/travel-tips/hoi-an-old-town-rooftops-sunset.jpg", "/images/hostel/nalani-hostel-pool-volleyball.jpg", "/images/rentals/sup/sup-woman-with-paddle.jpg"] %}
+      <a href="{{ site.social[0].url }}" target="_blank" rel="noopener" aria-label="Instagram {{ site.social[0].handle }}"><img src="{{ img }}" alt="{{ hc.insta.alts[loop.index0] }}" loading="lazy" width="400" height="400"></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,7 @@
+{# Social-Links – Daten kommen aus _data/site.json #}
+{% from "partials/icons.njk" import icon %}
+<ul class="social {{ socialClass }}">
+  {% for s in site.social %}
+  <li><a href="{{ s.url }}" target="_blank" rel="noopener" aria-label="{{ s.label }} {{ s.handle }}">{{ icon(s.id, 20) }}<span>{{ s.handle }}</span></a></li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,11 @@
+# hostelhoian.com -> easylifevietnam.com (301 = dauerhaft, Google überträgt die Rankings)
+# Format (Cloudflare Pages / Netlify): alte-URL  neue-URL  301
+/                         https://easylifevietnam.com/nalani-hostel-homestay/   301
+/nalani-hostel-homestay   https://easylifevietnam.com/nalani-hostel-homestay/   301
+/easylife-villa           https://easylifevietnam.com/villa-hoi-an/             301
+/sup-hoi-an-easylife      https://easylifevietnam.com/rentals/sup-hoi-an/       301
+/catalogue                https://easylifevietnam.com/activities/               301
+/busses-from-hoi-an       https://easylifevietnam.com/transport-hoi-an/         301
+/food                     https://easylifevietnam.com/nalani-hostel-homestay/   301
+/cyber-hostel             https://easylifevietnam.com/nalani-hostel-homestay/   301
+/*                        https://easylifevietnam.com/nalani-hostel-homestay/   301

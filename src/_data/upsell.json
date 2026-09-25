@@ -1,0 +1,9 @@
+[
+  { "_hinweis": "Angebote, die auf vielen Seiten vorgeschlagen werden (Block 'Mach mehr aus deinem Aufenthalt'). Texte: texts/<sprache>/ui.yml unter sell.items.<key>. page = Seite, anchor = Abschnitt darauf.",
+    "key": "sup", "page": "sup", "image": "/images/rentals/sup/sup-sunset-river-silhouette.jpg", "vnd": 200000 },
+  { "key": "motorbikes", "page": "motorbikes", "image": "/images/hostel/nalani-hostel-guests-scooter.jpg", "vnd": null },
+  { "key": "cooking", "page": "activities", "anchor": "cooking-class", "image": "/images/tours/cooking-class-hoi-an/cooking-class-hoi-an-1.jpg", "vnd": 520000 },
+  { "key": "lantern", "page": "activities", "anchor": "lantern-making", "image": "/images/tours/lantern-making-hoi-an/lantern-making-hoi-an-2.jpg", "vnd": 250000 },
+  { "key": "cham", "page": "activities", "anchor": "cham-island-snorkeling", "image": "/images/tours/snorkeling-diving-hoi-an/snorkeling-diving-hoi-an-1.jpg", "vnd": 1500000 },
+  { "key": "easyrider", "page": "transport", "anchor": "easy-rider", "image": "/images/transport/easy-rider-hoi-an-1.jpg", "vnd": 1300000 }
+]

@@ -1,0 +1,47 @@
+# EasyLife Villa (Vietnamesisch)
+meta:
+  title: "EasyLife Villa Hội An – Khách sạn nhỏ có hồ bơi & ban công gần biển"
+  description: "Khách sạn nhỏ ở Cẩm An, Hội An: phòng nào cũng có ban công, hồ bơi, phòng giải trí, bao gồm bữa sáng và xe đạp miễn phí. 2 phút ra sông, vài bước tới biển. Giảm 10% khi đặt trực tiếp."
+hero:
+  chips: [Hồ bơi, Bao gồm bữa sáng, Xe đạp miễn phí, Dịch vụ giặt ủi]
+  eyebrow: "EasyLife Villa · Cẩm An, Hội An"
+  title: "Ngôi nhà thứ hai của bạn"
+  lead: "Nằm bên sông, chỉ vài bước chân tới một bãi biển yên tĩnh, hoang sơ, trên một con đường thanh bình. Khách sạn nhỏ, hiện đại cho khách đi một mình, cặp đôi và gia đình — có hồ bơi, phòng giải trí và ban công ở mọi phòng."
+  alt: "Tòa nhà EasyLife Villa với ban công và hàng dừa"
+rooms:
+  title: Phòng
+  intro: "Tất cả các phòng đều có điều hòa, TV, phòng tắm riêng và ban công. Trẻ em được chào đón ở mọi phòng."
+  items:
+    - { name: Phòng đôi Deluxe, guests: "1–2 người + trẻ em", beds: "1 giường cỡ Queen", image: /images/hotel/easylife-villa-deluxe-double-room.jpg, alt: "Phòng đôi Deluxe với khăn trải giường xanh và cửa ra ban công" }
+    - { name: Phòng gia đình, guests: "1–4 người + trẻ em", beds: "2 giường cỡ Queen", image: /images/hotel/easylife-villa-family-room.jpg, alt: "Phòng gia đình với hai giường cỡ Queen" }
+    - { name: Phòng ba giường, guests: "1–6 người + trẻ em", beds: "3 giường cỡ Queen", image: /images/hotel/easylife-villa-triple-room.jpg, alt: "Phòng với ba giường cỡ Queen và tranh treo tường" }
+  features: [Điều hòa, TV, Phòng tắm riêng, Ban công, Bàn làm việc & Wi-Fi nhanh]
+  ask: Hỏi về phòng này
+long:
+  title: Ở ngắn hay dài ngày
+  text: "Đặt một phòng hoặc cả căn nhà. Với internet siêu nhanh, bàn làm việc ở mọi phòng, bếp dễ sử dụng và tủ lạnh đầy đồ uống, bạn có đủ mọi thứ — từ một cuối tuần đến vài tháng làm việc từ xa."
+  alt: "Bàn làm việc có đèn trong phòng khách EasyLife Villa"
+perks:
+  title: Bao gồm & ưu đãi
+  items:
+    - { title: Bao gồm bữa sáng, text: "Mỗi sáng có món ngọt, món mặn và món chay.", image: /images/hotel/easylife-villa-breakfast-crepes.jpg, alt: "Bánh crêpe với xoài cho bữa sáng ở EasyLife Villa" }
+    - { title: Xe đạp miễn phí, text: "Đạp xe qua đồng lúa là trải nghiệm không thể thiếu ở Hội An. Có cả xe máy cho thuê.", image: /images/rentals/bicycles/bicycle-yellow-wall.jpg, alt: "Xe đạp dựa vào bức tường vàng" }
+    - { title: Giảm 25% SUP, text: "Ngay gần đây bạn có thể ngắm hoàng hôn đẹp nhất Hội An trên ván chèo đứng.", image: /images/rentals/sup/sup-sunset-sea-silhouette.jpg, alt: "Bóng người chèo SUP trước hoàng hôn" }
+  link: { bicycles: Thuê xe đạp, sup: Thuê SUP }
+gallery:
+  title: Hình ảnh
+  items:
+    - { src: /images/hotel/easylife-villa-pool-hanging-chair.jpg, alt: "Ghế treo cạnh hồ bơi EasyLife Villa" }
+    - { src: /images/hotel/easylife-villa-balcony-chairs.jpg, alt: "Ghế màu xanh ngọc trên ban công nhìn ra khu phố" }
+    - { src: /images/hotel/easylife-villa-pool-couple.jpg, alt: "Cặp đôi bên hồ bơi của villa" }
+    - { src: /images/hotel/easylife-villa-guest-balcony.jpg, alt: "Khách thư giãn trên ban công EasyLife Villa" }
+    - { src: /images/hotel/easylife-villa-room-desk.jpg, alt: "Phòng có bàn làm việc và TV" }
+    - { src: /images/hotel/easylife-villa-exterior.jpg, alt: "Mặt tiền tòa nhà EasyLife Villa" }
+story:
+  title: "Câu chuyện thành công được khách hàng chứng thực"
+  text: "Trước EasyLife Villa, chúng tôi đã mở Nalani Homestay & Hostel. Chỉ riêng năm đầu tiên đã nhận hơn 100 đánh giá năm sao — villa mang cùng sự chu đáo ấy đến một không gian yên tĩnh và riêng tư hơn."
+  cta: Xem Nalani Hostel
+book:
+  title: Đặt trực tiếp và tiết kiệm 10%
+  text: "Gửi cho chúng tôi ngày đi và số khách. Chúng tôi xác nhận phòng, bạn thanh toán khi đến."
+  wa: phòng ở EasyLife Villa

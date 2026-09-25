@@ -1,0 +1,47 @@
+# EasyLife Villa (Englisch)
+meta:
+  title: "EasyLife Villa Hoi An – Small Hotel with Pool & Balconies near the Beach"
+  description: "Boutique hotel in Cẩm An, Hội An: every room with a balcony, pool, game room, breakfast included and free bicycles. 2 minutes to the river, a short walk to the beach. Save 10% when you book direct."
+hero:
+  chips: [Pool, Breakfast included, Free bicycles, Laundry service]
+  eyebrow: "EasyLife Villa · Cẩm An, Hội An"
+  title: "Your home away from home"
+  lead: "By the river and a short stroll to a quiet, untouched beach, tucked away on a peaceful street. A small, modern hotel for solo travellers, couples and families — with a pool, a game room and a balcony for every room."
+  alt: "The EasyLife Villa building with balconies and palm trees"
+rooms:
+  title: Rooms
+  intro: "All rooms have air conditioning, a TV, their own bathroom and a balcony. Children are welcome in every room."
+  items:
+    - { name: De Luxe Double Room, guests: "1–2 people + children", beds: "1 queen-size bed", image: /images/hotel/easylife-villa-deluxe-double-room.jpg, alt: "De Luxe Double Room with blue bed runner and balcony door" }
+    - { name: Family Room, guests: "1–4 people + children", beds: "2 queen-size beds", image: /images/hotel/easylife-villa-family-room.jpg, alt: "Family room with two queen-size beds" }
+    - { name: Triple Room, guests: "1–6 people + children", beds: "3 queen-size beds", image: /images/hotel/easylife-villa-triple-room.jpg, alt: "Triple room with three queen-size beds and paintings" }
+  features: [Air conditioning, TV, Private bathroom, Balcony, Desk & fast Wi-Fi]
+  ask: Ask for this room
+long:
+  title: Short or long stay
+  text: "Book a single room or the whole house. With superfast internet, desks in every room, a kitchen that is easy to access and a fridge full of drinks, you're prepared for everything — from a weekend to a few months of remote work."
+  alt: "Desk with lamp in a guest room at EasyLife Villa"
+perks:
+  title: Included & offers
+  items:
+    - { title: Breakfast included, text: "Sweet, savoury and vegan options every morning.", image: /images/hotel/easylife-villa-breakfast-crepes.jpg, alt: "Crêpes with mango for breakfast at EasyLife Villa" }
+    - { title: Free bicycles, text: "A ride through the rice fields is an essential Hội An experience. Scooters are available too.", image: /images/rentals/bicycles/bicycle-yellow-wall.jpg, alt: "Bicycle leaning against a yellow wall" }
+    - { title: 25% off SUP, text: "Just around the corner you can watch Hội An's most stunning sunset from a stand-up paddleboard.", image: /images/rentals/sup/sup-sunset-sea-silhouette.jpg, alt: "Paddleboarder silhouetted against the sunset" }
+  link: { bicycles: Bicycle rental, sup: SUP rental }
+gallery:
+  title: Photos
+  items:
+    - { src: /images/hotel/easylife-villa-pool-hanging-chair.jpg, alt: "Hanging chair by the pool at EasyLife Villa" }
+    - { src: /images/hotel/easylife-villa-balcony-chairs.jpg, alt: "Turquoise chairs on a balcony overlooking the neighbourhood" }
+    - { src: /images/hotel/easylife-villa-pool-couple.jpg, alt: "Couple at the edge of the villa pool" }
+    - { src: /images/hotel/easylife-villa-guest-balcony.jpg, alt: "Guest relaxing on a balcony at EasyLife Villa" }
+    - { src: /images/hotel/easylife-villa-room-desk.jpg, alt: "Guest room with desk and TV" }
+    - { src: /images/hotel/easylife-villa-exterior.jpg, alt: "Front of the EasyLife Villa building" }
+story:
+  title: "A success story validated by our guests"
+  text: "Before EasyLife Villa we opened Nalani Homestay & Hostel. In its first year alone it received more than 100 five-star reviews — the villa brings the same care to a quieter, more private setting."
+  cta: See Nalani Hostel
+book:
+  title: Book directly and save 10%
+  text: "Send us your dates and the number of guests. We confirm your room and you pay on arrival."
+  wa: a room at EasyLife Villa

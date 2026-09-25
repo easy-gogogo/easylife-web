@@ -1,0 +1,4 @@
+{# Fotogalerie. Erwartet: gallery = [{src, alt}, ...] #}
+<div class="gallery">
+  {% for g in gallery %}<a href="{{ g.src }}" class="g-item" target="_blank" rel="noopener"><img src="{{ g.src }}" alt="{{ g.alt }}" loading="lazy" width="600" height="450"></a>{% endfor %}
+</div>

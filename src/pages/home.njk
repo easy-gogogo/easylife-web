@@ -1,0 +1,149 @@
+---
+pagination: { data: langsFor.home, size: 1, alias: L }
+pageKey: home
+contentFile: home
+ogImage: /images/hostel/nalani-hostel-terrace-hero.jpg
+---
+{% from "partials/icons.njk" import icon %}
+{% set c = "home" | cx %}
+{% set u = "ui" | cx %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "Organization", "@id": "https://easylifevietnam.com/#org", "name": "EasyLife Hoi An", "url": "https://easylifevietnam.com/",
+      "logo": "https://easylifevietnam.com/images/brand/logos/easylife-hoian-logo-dark.png", "telephone": site.phone, "email": site.email,
+      "founder": [{"@type":"Person","name":"Lan"},{"@type":"Person","name":"Martin"}], "sameAs": site.social | pluck("url") },
+    { "@type": "WebSite", "url": "home" | abs(lang), "name": "EasyLife Hoi An", "inLanguage": lang }
+  ]
+} | json | safe }}</script>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">{{ c.hero.eyebrow }}</p>
+        <h1>{{ c.hero.title1 }} <em>{{ c.hero.title2 }}</em></h1>
+        <p class="hero-lead">{{ c.hero.lead }}</p>
+        <span class="badge">{{ icon("star", 16) }} {{ u.cta.discount }}</span>
+        <div class="btn-row">
+          <a class="btn btn-yellow" href="#stay">{{ c.hero.ctaRooms }}</a>
+          <a class="btn btn-wa" href="{{ (u.cta.waHello + ' ' + u.cta.waStay) | wa }}" target="_blank" rel="noopener">{{ icon("whatsapp") }} {{ c.hero.ctaWhatsapp }}</a>
+        </div>
+        <div class="ratings">
+          <a class="rating" href="{{ site.reviews.booking.url }}" target="_blank" rel="noopener"><b>{{ site.reviews.booking.score }}</b> Booking.com · {{ site.reviews.booking.count }} {{ c.hero.reviews }}</a>
+          <a class="rating" href="{{ site.reviews.hostelworld.url }}" target="_blank" rel="noopener"><b>{{ site.reviews.hostelworld.score }}</b> Hostelworld · {{ c.reviews.superb }}</a>
+        </div>
+      </div>
+      <div class="mosaic">
+        <figure><img src="/images/hostel/nalani-hostel-terrace-hero.jpg" alt="{{ c.hero.alts.hostel }}" width="1800" height="1350" fetchpriority="high"><figcaption>{{ c.hero.captions.hostel }}</figcaption></figure>
+        <figure><img src="/images/rentals/sup/sup-sunset-group-river.jpg" alt="{{ c.hero.alts.sup }}" width="1800" height="1355"><figcaption>{{ c.hero.captions.sup }}</figcaption></figure>
+        <figure><img src="/images/hotel/easylife-villa-pool-couple.jpg" alt="{{ c.hero.alts.villa }}" width="1024" height="768"><figcaption>{{ c.hero.captions.villa }}</figcaption></figure>
+      </div>
+    </div>
+    <nav class="pills" aria-label="{{ c.stay.title }}">
+      <a class="pill" href="#stay">{{ c.pills.stay }}</a>
+      <a class="pill" href="#rentals">{{ c.pills.rentals }}</a>
+      <a class="pill" href="#more-to-do">{{ c.pills.todo }}</a>
+      <a class="pill" href="#discount">{{ c.pills.discount }}</a>
+      <a class="pill" href="#about">{{ c.pills.about }}</a>
+      <a class="pill" href="#find-us">{{ c.pills.find }}</a>
+    </nav>
+  </div>
+</section>
+
+<section class="section cream" id="stay">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">01</span><h2>{{ c.stay.title }}</h2><p>{{ c.stay.intro }}</p></div>
+    <div class="stay-list">
+      {% for key, img, w, h, logo in [["villa", "/images/hotel/easylife-villa-deluxe-double-room.jpg", 1800, 1006, false], ["hostel", "/images/hostel/nalani-hostel-pool-friends.jpg", 1800, 1200, true]] %}
+      {% set s = c.stay[key] %}
+      <article class="stay">
+        <div class="stay-media">
+          <img src="{{ img }}" alt="{{ s.alt }}" width="{{ w }}" height="{{ h }}" loading="lazy">
+          <span class="deal-tag">{{ u.cta.discount }}</span>
+          {% if logo %}<span class="logo-chip"><img src="/images/brand/logos/nalani-logo.png" alt="Nalani Homestay & Hostel logo" width="48" height="48" loading="lazy"></span>{% endif %}
+        </div>
+        <div class="stay-body">
+          <span class="stay-kicker">{{ s.kicker }}</span>
+          <h3>{{ s.name }}</h3>
+          <p>{{ s.text }}</p>
+          <ul class="facts">{% for f in s.facts %}<li>{{ f }}</li>{% endfor %}</ul>
+          <div class="stay-actions">
+            <a class="btn btn-yellow btn-sm" href="{{ key | link }}">{{ s.cta }} {{ icon("arrow", 18) }}</a>
+            <a class="btn btn-outline btn-sm" href="{{ (u.cta.waHello + ' ' + s.wa) | wa }}" target="_blank" rel="noopener">{{ s.ask }}</a>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section discount" id="discount">
+  <div class="wrap discount-grid">
+    <div>
+      <p class="eyebrow">{{ c.discount.eyebrow }}</p>
+      <h2>{{ c.discount.title1 }} <span>{{ c.discount.title2 }}</span></h2>
+      <p class="lead">{{ c.discount.lead }}</p>
+      <p class="zero">{{ c.discount.zero }}</p>
+      {% include "partials/compare.njk" %}
+    </div>
+    <div>
+      <ol class="steps">{% for s in c.discount.steps %}<li><div><b>{{ s.title }}</b>{{ s.text }}</div></li>{% endfor %}</ol>
+      {% include "partials/contact-cta.njk" %}
+    </div>
+  </div>
+</section>
+
+{% set upsellTitle = c.todo.title %}{% set upsellIdx = "02" %}{% set upsellLinks = true %}{% include "partials/upsell.njk" %}
+
+<section class="section cream" id="rentals">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">03</span><h2>{{ c.rentals.title }}</h2><a class="head-link" href="{{ 'rentals' | link }}">{{ c.rentals.all }} {{ icon("arrow", 18) }}</a><p>{{ c.rentals.intro }}</p></div>
+    {% include "partials/rental-cards.njk" %}
+  </div>
+</section>
+
+<section class="section about" id="about">
+  <div class="wrap about-grid">
+    <div>
+      <p class="eyebrow">{{ c.about.eyebrow }}</p>
+      <h2>{{ c.about.title }}</h2>
+      <p class="about-text">{{ c.about.text }}</p>
+      <div class="values">{% for v in c.about.values %}<div class="value"><h3>{{ v.title }}</h3><p>{{ v.text }}</p></div>{% endfor %}</div>
+      <div class="btn-row"><a class="btn btn-dark" href="{{ 'about' | link }}">{{ c.about.cta }} {{ icon("arrow", 18) }}</a></div>
+    </div>
+    <div class="about-photo"><img src="/images/about/owners-lan-and-martin.jpg" alt="{{ c.about.alt }}" loading="lazy" width="986" height="1312"></div>
+  </div>
+</section>
+
+<section class="section cream" id="reviews">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">04</span><h2>{{ c.reviews.title }}</h2>{% if lang != "en" %}<p>{{ c.reviews.note }}</p>{% endif %}</div>
+    <div class="score-row">
+      <a class="score" href="{{ site.reviews.booking.url }}" target="_blank" rel="noopener"><b>{{ site.reviews.booking.score }}</b><span>{{ c.reviews.exceptional }}<br>Booking.com · {{ site.reviews.booking.count }} {{ c.hero.reviews }}</span></a>
+      <a class="score" href="{{ site.reviews.hostelworld.url }}" target="_blank" rel="noopener"><b>{{ site.reviews.hostelworld.score }}</b><span>{{ c.reviews.superb }}<br>Hostelworld 2025</span></a>
+    </div>
+    <div class="reviews">
+      {% for r in c.reviews.items %}
+      <figure class="review" lang="en">
+        <div class="stars">{% for i in range(5) %}{{ icon("star", 18) }}{% endfor %}</div>
+        <blockquote>“{{ r.text }}”</blockquote>
+        <figcaption>{{ r.name }} · booking.com</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include "partials/insta.njk" %}
+
+<section class="section cream" id="find-us">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">05</span><h2>{{ c.find.title }}</h2><p>{{ c.find.intro }}</p></div>
+    {% include "partials/places.njk" %}
+  </div>
+</section>

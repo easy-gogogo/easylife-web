@@ -1,0 +1,69 @@
+# Menü-, Button- und Footer-Texte (Englisch)
+nav:
+  stay: Stay
+  villa: EasyLife Villa
+  hostel: Nalani Hostel
+  rentals: Rentals
+  activities: Activities
+  transport: Bus & Transport
+  tips: Travel tips
+  about: About us
+  ask: Ask us now
+  menu: Menu
+  language: Language
+  skip: Skip to content
+  home: Home
+cta:
+  discount: Save 10% when you book direct
+  zeroRisk: Zero risk — you only pay on site.
+  waHello: "Hi EasyLife! I'd like to ask about"
+  waStay: a stay in Hoi An
+  choose: Choose how to reach us
+  bookDirect: Book direct
+footer:
+  contact: Contact
+  find: Find us
+  follow: Follow us
+  explore: Explore
+  tag: Tag us in your photos!
+  rights: All rights reserved.
+  directions: Directions
+common:
+  more: More
+  from: from
+  priceOnRequest: Ask us
+  vnd: VND
+  readMore: Read more
+  related: You might also need
+  relatedTips: Travel tips for this
+  gallery: Photos
+  faq: Good to know
+  prices: Prices
+  minRead: min read
+  updated: Updated
+  new: New
+  onlyEnglish: This page is currently available in English only.
+promo:
+  text: "Book direct: 10% cheaper than on Booking.com"
+  link: How it works
+sell:
+  title: Make the most of your stay
+  intro: "SUP at sunset, scooters, cooking classes, island trips — we book it all for you, often with pick-up from your door."
+  combo: Stay, play and ride — one message is enough
+  allActivities: All activities
+  allRentals: All rentals
+  ask: Ask for a plan
+  wa: things to do during my stay
+  onRequest: Ask us
+  items:
+    sup: { title: Sunset SUP on the river, text: "The best sunset in town — for every age." }
+    motorbikes: { title: Scooter rental, text: "Explore Hội An, the beaches and the Hải Vân Pass on your own." }
+    cooking: { title: Eco cooking class, text: "4 Vietnamese dishes in a riverside cookery school." }
+    lantern: { title: Lantern making, text: "Build your own silk lantern — from age 3." }
+    cham: { title: Cham Island snorkelling, text: "Full-day boat trip with snorkelling or diving." }
+    easyrider: { title: Easy Rider to Huế, text: "Ride pillion over the Hải Vân Pass with a local driver." }
+compare:
+  title: Compare for yourself
+  text: "Check our price on Booking.com — then message us and pay 10% less."
+  villa: EasyLife Villa on Booking.com
+  hostel: Nalani on Booking.com

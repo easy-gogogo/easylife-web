@@ -1,0 +1,102 @@
+---
+pagination: { data: langsFor.hostel, size: 1, alias: L }
+pageKey: hostel
+contentFile: hostel
+useHostelEmail: true
+ogImage: /images/hostel/nalani-hostel-terrace-hero.jpg
+---
+{% from "partials/icons.njk" import icon %}
+{% set c = "hostel" | cx %}{% set u = "ui" | cx %}
+{% set hero = { eyebrow: c.hero.eyebrow, title: c.hero.title, lead: c.hero.lead, image: "/images/hostel/nalani-hostel-terrace-hero.jpg", alt: c.hero.alt, chips: c.hero.free,
+  cta: '<a class="btn btn-yellow" href="#book">' + u.cta.bookDirect + ' −10%</a><a class="btn btn-wa" href="' + ((u.cta.waHello + " " + c.discount.wa) | wa) + '" target="_blank" rel="noopener">WhatsApp</a>' } %}
+{% set crumbs = [["hostel", u.nav.hostel]] %}
+{% include "partials/page-hero.njk" %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org", "@type": "Hostel", "name": site.places.hostel.name, "url": "hostel" | abs(lang),
+  "description": description, "image": "https://easylifevietnam.com/images/hostel/nalani-hostel-terrace-hero.jpg",
+  "telephone": site.phone, "email": site.emailHostel,
+  "address": { "@type": "PostalAddress", "streetAddress": site.places.hostel.street, "addressLocality": site.places.hostel.city, "addressRegion": site.places.hostel.region, "postalCode": site.places.hostel.postal, "addressCountry": "VN" },
+  "amenityFeature": [
+    {"@type":"LocationFeatureSpecification","name":"Swimming pool","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Laundry service","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Rooftop terrace","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Free drinking water","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Free towels","value":true}
+  ],
+  "sameAs": [site.reviews.booking.url, site.reviews.hostelworld.url, "https://www.instagram.com/nalani_hostel_hoian/", "https://www.facebook.com/nalanihomestay"],
+  "parentOrganization": { "@id": "https://easylifevietnam.com/#org" }
+} | json | safe }}</script>
+
+<section class="section cream" id="rooms">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">01</span><h2>{{ c.rooms.title }}</h2></div>
+    <div class="card-grid">
+      {% for r in c.rooms.items %}
+      <article class="card">
+        <div class="card-img"><img src="{{ r.image }}" alt="{{ r.alt }}" loading="lazy" width="800" height="600"></div>
+        <div class="card-body"><h3 class="card-title">{{ r.name }}</h3><p class="card-desc">{{ r.text }}</p>
+          <div class="card-footer one"><a class="book-btn" href="{{ (u.cta.waHello + ' ' + r.name + ' – Nalani Hostel') | wa }}" target="_blank" rel="noopener">{{ icon("whatsapp", 18) }} {{ u.nav.ask }}</a></div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+    <div class="compare"><span>{{ c.rooms.prices }}</span>
+      <a href="{{ site.reviews.booking.url }}" target="_blank" rel="noopener">Booking.com · {{ site.reviews.booking.score }}</a>
+      <a href="{{ site.reviews.hostelworld.url }}" target="_blank" rel="noopener">Hostelworld · {{ site.reviews.hostelworld.score }}</a>
+      <a href="{{ site.places.hostel.maps }}" target="_blank" rel="noopener">Google Maps</a>
+    </div>
+  </div>
+</section>
+
+<section class="section discount" id="book">
+  <div class="wrap discount-grid">
+    <div>
+      <p class="eyebrow">{{ u.cta.bookDirect }}</p>
+      <h2>{{ c.discount.title }}</h2>
+      <p class="lead">{{ c.discount.text }}</p>
+      <ul class="checklist">{% for i in c.discount.checklist %}<li>{{ i }}</li>{% endfor %}</ul>
+      {% set compareWhich = "hostel" %}{% include "partials/compare.njk" %}
+    </div>
+    <div>
+      <ol class="steps">{% for s in ("home" | cx).discount.steps %}<li><div><b>{{ s.title }}</b>{{ s.text }}</div></li>{% endfor %}</ol>
+      {% set ctaTopic = c.discount.wa %}{% include "partials/contact-cta.njk" %}
+    </div>
+  </div>
+</section>
+{% include "partials/upsell.njk" %}
+
+<section class="section">
+  <div class="wrap split">
+    <div class="split-img"><img src="/images/hostel/nalani-hostel-4-minutes-to-beach.jpg" alt="{{ c.area.alt }}" loading="lazy" width="1200" height="800"></div>
+    <div class="split-text">
+      <span class="idx">02</span>
+      <h2 class="h-teal">{{ c.area.title }}</h2>
+      <p>{{ c.area.text }}</p>
+      <div class="link-row">
+        <a class="more-btn" href="{{ 'bicycles' | link }}">{{ c.area.links.bicycles }} {{ icon("arrow", 16) }}</a>
+        <a class="more-btn" href="{{ 'motorbikes' | link }}">{{ c.area.links.motorbikes }} {{ icon("arrow", 16) }}</a>
+        <a class="more-btn" href="{{ 'tip:beach' | link }}">{{ c.area.links.tips }} {{ icon("arrow", 16) }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section cream">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">03</span><h2>{{ c.gallery.title }}</h2></div>
+    {% set gallery = c.gallery.items %}{% include "partials/gallery.njk" %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap narrow">
+    <div class="cat-head"><span class="idx">04</span><h2>{{ c.todo.title }}</h2></div>
+    <p class="prose-lead">{{ c.todo.text }}</p>
+    <div class="link-row">
+      <a class="more-btn" href="{{ 'activities' | link('en') }}">{{ c.todo.links.activities }} {{ icon("arrow", 16) }}</a>
+      <a class="more-btn" href="{{ 'transport' | link('en') }}">{{ c.todo.links.transport }} {{ icon("arrow", 16) }}</a>
+      <a class="more-btn" href="{{ 'tips' | link }}">{{ c.todo.links.tips }} {{ icon("arrow", 16) }}</a>
+    </div>
+  </div>
+</section>
+{% include "partials/insta.njk" %}

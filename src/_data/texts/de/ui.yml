@@ -1,0 +1,69 @@
+# Menü-, Button- und Footer-Texte (Deutsch)
+nav:
+  stay: Übernachten
+  villa: EasyLife Villa
+  hostel: Nalani Hostel
+  rentals: Verleih
+  activities: Aktivitäten
+  transport: Bus & Transport
+  tips: Reisetipps
+  about: Über uns
+  ask: Jetzt anfragen
+  menu: Menü
+  language: Sprache
+  skip: Zum Inhalt springen
+  home: Start
+cta:
+  discount: 10 % sparen bei Direktbuchung
+  zeroRisk: Kein Risiko – du zahlst erst vor Ort.
+  waHello: "Hallo EasyLife! Ich habe eine Frage zu"
+  waStay: einem Aufenthalt in Hoi An
+  choose: So erreichst du uns
+  bookDirect: Direkt buchen
+footer:
+  contact: Kontakt
+  find: So findest du uns
+  follow: Folge uns
+  explore: Entdecken
+  tag: Markiere uns auf deinen Fotos!
+  rights: Alle Rechte vorbehalten.
+  directions: Route
+common:
+  more: Mehr
+  from: ab
+  priceOnRequest: Auf Anfrage
+  vnd: VND
+  readMore: Weiterlesen
+  related: Das könnte dich auch interessieren
+  relatedTips: Reisetipps dazu
+  gallery: Fotos
+  faq: Gut zu wissen
+  prices: Preise
+  minRead: Min. Lesezeit
+  updated: Aktualisiert
+  new: Neu
+  onlyEnglish: Diese Seite gibt es derzeit nur auf Englisch.
+promo:
+  text: "Direkt buchen: 10 % günstiger als auf Booking.com"
+  link: So geht's
+sell:
+  title: Mach mehr aus deinem Aufenthalt
+  intro: "SUP im Sonnenuntergang, Roller, Kochkurse, Inselausflüge – wir buchen alles für dich, oft mit Abholung direkt an deiner Unterkunft."
+  combo: Wohnen, erleben, losfahren – eine Nachricht genügt
+  allActivities: Alle Aktivitäten
+  allRentals: Alle Verleih-Angebote
+  ask: Plan anfragen
+  wa: Aktivitäten während meines Aufenthalts
+  onRequest: Frag uns
+  items:
+    sup: { title: Sonnenuntergangs-SUP auf dem Fluss, text: "Der schönste Sonnenuntergang der Stadt – für jedes Alter." }
+    motorbikes: { title: Roller mieten, text: "Hội An, die Strände und den Hải-Vân-Pass selbst entdecken." }
+    cooking: { title: Öko-Kochkurs, text: "4 vietnamesische Gerichte in einer Kochschule am Fluss." }
+    lantern: { title: Laternen basteln, text: "Bau deine eigene Seidenlaterne – ab 3 Jahren." }
+    cham: { title: Schnorcheln auf Cham Island, text: "Ganztägiger Bootsausflug mit Schnorcheln oder Tauchen." }
+    easyrider: { title: Easy Rider nach Huế, text: "Als Sozius mit einem lokalen Fahrer über den Hải-Vân-Pass." }
+compare:
+  title: Vergleich selbst
+  text: "Schau dir unseren Preis auf Booking.com an – dann schreib uns und zahl 10 % weniger."
+  villa: EasyLife Villa auf Booking.com
+  hostel: Nalani auf Booking.com

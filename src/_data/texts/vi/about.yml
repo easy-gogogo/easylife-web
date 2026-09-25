@@ -1,0 +1,23 @@
+# Über uns & Kontakt (Vietnamesisch)
+meta:
+  title: "Về Lan & Martin – EasyLife Hội An | Liên hệ"
+  description: "Làm quen với Lan và Martin, cặp đôi Việt – Đức đứng sau Nalani Hostel và EasyLife Villa ở Hội An. Liên hệ qua WhatsApp, Zalo, Messenger hoặc email."
+hero:
+  eyebrow: Về chúng tôi & liên hệ
+  title: "Xin chào, chúng tôi là Lan & Martin"
+  lead: "Cặp đôi Việt – Đức đã đón khách hơn 10 năm."
+story:
+  - "Khách của chúng tôi thường ở lâu, có khi cả tháng. Có người thích phiêu lưu, có người chỉ thích trò chuyện và nghỉ ngơi. Chúng tôi rất hạnh phúc với những gì mình đang làm — xung quanh luôn là những người muốn biết mọi điều về thế giới và con người."
+  - "Chúng tôi bắt đầu với Nalani Homestay & Hostel. Chỉ trong năm đầu tiên, khách đã để lại hơn 100 đánh giá năm sao. Sau đó là EasyLife Villa — khách sạn nhỏ cho những ai muốn riêng tư hơn — cùng dịch vụ cho thuê và danh mục tour, để khách tận hưởng Hội An trọn vẹn nhất."
+values:
+  title: Điều chúng tôi theo đuổi
+  items:
+    - { title: Tiêu chuẩn cao, text: "Chúng tôi muốn phòng luôn siêu sạch cho khách đi một mình, cặp đôi và gia đình. Nhà mới và rất ấm cúng." }
+    - { title: Giao lưu & thoải mái, text: "Muốn tiệc tùng? Cứ tự nhiên. Muốn nghỉ ngơi? Chúng tôi lo. Cùng nhau tạo nên không gian thoải mái cho tất cả." }
+    - { title: Khám phá, text: "Chúng tôi chia sẻ những mẹo hay nhất để bạn tận hưởng chuyến đi. Gần biển, sông và phố cổ, cách sân bay Đà Nẵng chỉ 45 phút." }
+contact:
+  title: Liên hệ
+  text: "Cách nhanh nhất là nhắn qua WhatsApp hoặc Zalo."
+  phone: Điện thoại
+  email: Email
+  emailHostel: "Email (Nalani Hostel)"

@@ -1,0 +1,59 @@
+---
+pagination: { data: langsFor.transport, size: 1, alias: L }
+pageKey: transport
+contentFile: transport
+ogImage: /images/transport/vip-bus-inside-view.jpg
+---
+{% from "partials/icons.njk" import icon %}
+{% set c = "transport" | cx %}{% set u = "ui" | cx %}
+{% set hero = { eyebrow: c.hero.eyebrow, title: c.hero.title, lead: c.hero.lead, chips: c.hero.chips, image: "/images/transport/vip-bus-inside-view.jpg", alt: c.hero.alt,
+  cta: '<a class="btn btn-yellow" href="#bus-times">' + c.filters.bus + '</a><a class="btn btn-wa" href="' + ((u.cta.waHello + " " + c.bus.north.wa) | wa) + '" target="_blank" rel="noopener">WhatsApp</a>' } %}
+{% set crumbs = [["transport", u.nav.transport]] %}
+{% include "partials/page-hero.njk" %}
+<nav class="jump" aria-label="{{ c.hero.title }}"><div class="wrap">
+  <a href="#bus-times">{{ c.filters.bus }}</a><a href="#shuttles">{{ c.filters.shuttles }}</a><a href="#bus-info">{{ c.filters.guide }}</a>
+</div></nav>
+
+<section class="section cream" id="bus-times">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">01</span><h2>{{ c.bus.title }}</h2><p>{{ c.bus.note }}</p></div>
+    <div class="bus-grid">
+      {% for dir in ["north", "south"] %}{% set d = c.bus[dir] %}
+      <div class="bus-box">
+        <h3>{{ d.title }}</h3>
+        <div class="table-scroll"><table class="bus-table">
+          <thead><tr>{% for col in c.bus.cols %}<th scope="col"{% if loop.first %} class="bus-type"{% endif %}>{{ col }}</th>{% endfor %}</tr></thead>
+          <tbody>{% for r in d.rows %}<tr><td class="bus-type">{{ r[0] }}</td><td><b>{{ r[1] }}</b><small class="bus-sm">{{ r[0] }}</small></td><td class="num">{{ r[2] }}</td><td class="num">{{ r[3] }}</td><td class="num">{{ r[4] }}</td></tr>{% endfor %}</tbody>
+        </table></div>
+        <a class="book-btn" href="{{ (u.cta.waHello + ' ' + d.wa) | wa }}" target="_blank" rel="noopener">{{ icon("whatsapp", 18) }} {{ c.bus.book }}</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="shuttles">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">02</span><h2>{{ c.transfers.title }}</h2></div>
+    <div class="card-grid four">
+      {% for o in c.transfers.items %}{% set askLabel = c.transfers.ask %}{% set moreLabel = c.transfers.more %}{% include "partials/offer-card.njk" %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section cream" id="bus-info">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">03</span><h2>{{ c.guide.title }}</h2><p>{{ c.guide.intro }}</p></div>
+    <div class="card-grid two">
+      {% for g in c.guide.items %}
+      <article class="card">
+        <div class="card-img wide"><img src="{{ g.image }}" alt="{{ g.title }}" loading="lazy" width="800" height="450"></div>
+        <div class="card-body"><h3 class="card-title">{{ g.title }}</h3><p class="card-desc">{{ g.text }}</p></div>
+      </article>
+      {% endfor %}
+    </div>
+    <div class="btn-row center"><a class="btn btn-wa" href="{{ (u.cta.waHello + ' ' + c.guide.wa) | wa }}" target="_blank" rel="noopener">{{ icon("whatsapp") }} {{ c.guide.ask }}</a></div>
+  </div>
+</section>
+{% set upsellSkip = ["transport"] %}{% include "partials/upsell.njk" %}
+{% include "partials/insta.njk" %}

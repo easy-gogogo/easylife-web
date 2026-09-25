@@ -1,0 +1,20 @@
+---
+pagination: { data: domains, size: 1, alias: domain }
+domains: ["easylifevietnam.com", "einfachasien.com"]
+permalink: "/{{ domain }}/sitemap.xml"
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for key, byLang in routes %}
+{%- for l in languages %}{% if l.live and l.domain == domain and byLang[l.code] !== undefined %}
+  <url>
+    <loc>{{ key | abs(l.code) }}</loc>
+    {%- for l2 in languages %}{% if l2.live and byLang[l2.code] !== undefined %}
+    <xhtml:link rel="alternate" hreflang="{{ l2.code }}" href="{{ key | abs(l2.code) }}"/>
+    {%- endif %}{% endfor %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ key | abs('en') }}"/>
+  </url>
+{%- endif %}{% endfor %}
+{%- endfor %}
+</urlset>

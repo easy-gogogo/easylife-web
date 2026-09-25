@@ -1,0 +1,40 @@
+---
+pagination: { data: langsFor.activities, size: 1, alias: L }
+pageKey: activities
+contentFile: activities
+ogImage: /images/tours/lantern-making-hoi-an/lantern-making-hoi-an-1.jpg
+---
+{% from "partials/icons.njk" import icon %}
+{% set c = "activities" | cx %}{% set u = "ui" | cx %}
+{% set hero = { eyebrow: c.hero.eyebrow, title: c.hero.title, lead: c.hero.lead, chips: c.hero.chips, image: "/images/tours/lantern-making-hoi-an/lantern-making-hoi-an-1.jpg", alt: c.hero.alt,
+  cta: '<a class="btn btn-wa" href="' + ((u.cta.waHello + " " + c.help.wa) | wa) + '" target="_blank" rel="noopener">WhatsApp</a>' } %}
+{% set crumbs = [["activities", u.nav.activities]] %}
+{% include "partials/page-hero.njk" %}
+<nav class="jump" aria-label="{{ c.hero.title }}"><div class="wrap">
+  {% for cat in c.categories %}<a href="#{{ cat.id }}">{{ cat.title }}</a>{% endfor %}
+</div></nav>
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org", "@type": "ItemList", "name": c.hero.title,
+  "itemListElement": c.categories | offerList("activities" | abs(lang))
+} | json | safe }}</script>
+
+{% for cat in c.categories %}
+<section class="section{% if loop.index is odd %} cream{% endif %}" id="{{ cat.id }}">
+  <div class="wrap">
+    <div class="cat-head"><span class="idx">{{ "0" if loop.index < 10 }}{{ loop.index }}</span><h2>{{ cat.title }}</h2></div>
+    <div class="card-grid">
+      {% for o in cat.items %}{% set askLabel = c.ask %}{% set moreLabel = c.more %}{% set detailsLabel = c.details %}{% include "partials/offer-card.njk" %}{% endfor %}
+    </div>
+  </div>
+</section>
+{% if loop.index == 1 %}
+<section class="section discount slim">
+  <div class="wrap discount-grid">
+    <div><p class="eyebrow">{{ c.help.title }}</p><h2>{{ u.sell.combo }}</h2><p class="lead">{{ c.help.text }}</p></div>
+    <div>{% set ctaTopic = c.help.wa %}{% include "partials/contact-cta.njk" %}</div>
+  </div>
+</section>
+{% endif %}
+{% endfor %}
+{% set upsellSkip = ["activities"] %}{% include "partials/upsell.njk" %}
+{% include "partials/insta.njk" %}

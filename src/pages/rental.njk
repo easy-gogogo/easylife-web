@@ -1,0 +1,84 @@
+---
+pagination: { data: rentalPages, size: 1, alias: R }
+contentFile: rentals
+---
+{% from "partials/icons.njk" import icon %}
+{% set rt = "rentals" | cx %}{% set u = "ui" | cx %}
+{% set r = rentals | find("key", R.key) %}
+{% set p = rt.products[R.key] %}
+{% set hero = { eyebrow: p.eyebrow, title: p.title, lead: p.intro, image: r.image, alt: p.alt,
+  cta: '<a class="btn btn-wa" href="' + ((u.cta.waHello + " " + p.name) | wa) + '" target="_blank" rel="noopener">' + u.nav.ask + '</a>' } %}
+{% set crumbs = [["rentals", u.nav.rentals], [R.key, p.name]] %}
+{% include "partials/page-hero.njk" %}
+{% if r.schema == "Product" and r.prices.length %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org", "@type": "Product", "name": p.name + " – EasyLife Hoi An", "description": description,
+  "image": "https://easylifevietnam.com" + r.image, "brand": { "@type": "Brand", "name": "EasyLife Hoi An" },
+  "offers": r.prices | offers(R.key | abs(lang), rt.priceLabels)
+} | json | safe }}</script>
+{% else %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org", "@type": "Service", "name": p.name + " – EasyLife Hoi An", "description": description,
+  "serviceType": "Rental", "areaServed": { "@type": "City", "name": "Hội An" },
+  "provider": { "@id": "https://easylifevietnam.com/#org" }, "url": R.key | abs(lang)
+} | json | safe }}</script>
+{% endif %}
+
+<section class="section cream">
+  <div class="wrap">
+    <div class="rental-grid">
+      <div>
+        <div class="highlights">
+          {% for h in p.highlights %}<div class="hl"><h3>{{ h.title }}</h3><p>{{ h.text }}</p></div>{% endfor %}
+        </div>
+      </div>
+      <aside class="info-box">
+        {% if r.prices.length %}
+        <h2 class="f-h dark">{{ u.common.prices }}</h2>
+        <table class="price-table"><tbody>{% for pr in r.prices %}<tr><th>{{ rt.priceLabels[pr.id] }}</th><td>{{ pr.vnd | vndShort }} VND</td></tr>{% endfor %}</tbody></table>
+        {% endif %}
+        <dl class="info-list">{% for i in p.info %}<dt>{{ i.label }}</dt><dd>{{ i.value }}</dd>{% endfor %}</dl>
+        <a class="book-btn full" href="{{ (u.cta.waHello + ' ' + p.name) | wa }}" target="_blank" rel="noopener">{{ icon("whatsapp", 18) }} {{ u.nav.ask }}</a>
+        <p class="small">{{ u.cta.zeroRisk }}</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+{% set g = r.gallery | zipGallery(p.galleryAlts) %}
+{% if g.length %}
+<section class="section">
+  <div class="wrap">
+    <div class="cat-head"><h2>{{ u.common.gallery }}</h2></div>
+    {% set gallery = g %}{% include "partials/gallery.njk" %}
+  </div>
+</section>
+{% endif %}
+
+{% if p.faq %}
+<section class="section cream">
+  <div class="wrap narrow">
+    <div class="cat-head"><h2>{{ u.common.faq }}</h2></div>
+    <div class="faq">{% for f in p.faq %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>{% endfor %}</div>
+  </div>
+</section>
+<script type="application/ld+json">{{ { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": p.faq | faqSchema } | json | safe }}</script>
+{% endif %}
+
+{% set rel = articles | where("lang", lang) | relatedTo(R.key) %}
+{% if rel.length %}
+<section class="section">
+  <div class="wrap">
+    <div class="cat-head"><h2>{{ u.common.relatedTips }}</h2></div>
+    {% set list = rel %}{% include "partials/tip-cards.njk" %}
+  </div>
+</section>
+{% endif %}
+
+{% set upsellSkip = [r.key] %}{% include "partials/upsell.njk" %}
+<section class="section cream">
+  <div class="wrap">
+    <div class="cat-head"><h2>{{ u.common.related }}</h2></div>
+    {% include "partials/rental-cards.njk" %}
+  </div>
+</section>

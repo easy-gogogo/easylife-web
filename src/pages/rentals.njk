@@ -1,0 +1,24 @@
+---
+pagination: { data: langsFor.rentals, size: 1, alias: L }
+pageKey: rentals
+contentFile: rentals
+ogImage: /images/rentals/sup/sup-sunset-group-river.jpg
+---
+{% set c = "rentals" | cx %}{% set u = "ui" | cx %}
+{% set hero = { eyebrow: c.hero.eyebrow, title: c.hero.title, lead: c.hero.lead, image: "/images/rentals/motorbikes/scooter-rental-hai-van-pass.jpg", alt: c.products.motorbikes.alt } %}
+{% set crumbs = [["rentals", u.nav.rentals]] %}
+{% include "partials/page-hero.njk" %}
+<section class="section cream">
+  <div class="wrap">
+    {% include "partials/rental-cards.njk" %}
+  </div>
+</section>
+<section class="section discount">
+  <div class="wrap discount-grid">
+    <div><h2>{{ c.how.title }}</h2><p class="zero">{{ u.cta.zeroRisk }}</p></div>
+    <div><ol class="steps">{% for s in c.how.steps %}<li><div><b>{{ s.title }}</b>{{ s.text }}</div></li>{% endfor %}</ol>
+      {% set ctaTopic = c.hero.title %}{% include "partials/contact-cta.njk" %}</div>
+  </div>
+</section>
+{% set upsellSkip = ["sup", "motorbikes"] %}{% include "partials/upsell.njk" %}
+{% include "partials/insta.njk" %}

@@ -1,0 +1,41 @@
+{# Fußzeile – für ALLE Seiten und Sprachen nur hier bearbeiten #}
+{% from "partials/icons.njk" import icon %}
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="/images/brand/logos/easylife-hoian-logo-light.png" alt="EasyLife Hoi An" width="180" height="83">
+      <p>{{ "cta.discount" | t }}. {{ "cta.zeroRisk" | t }}</p>
+      {% set socialClass = "social-footer" %}{% include "partials/social.njk" %}
+    </div>
+    <div>
+      <h2 class="f-h">{{ "footer.explore" | t }}</h2>
+      <ul class="f-list">
+        <li><a href="{{ 'villa' | link }}">{{ "nav.villa" | t }}</a></li>
+        <li><a href="{{ 'hostel' | link }}">{{ "nav.hostel" | t }}</a></li>
+        <li><a href="{{ 'rentals' | link }}">{{ "nav.rentals" | t }}</a></li>
+        <li><a href="{{ 'activities' | link }}">{{ "nav.activities" | t }}</a></li>
+        <li><a href="{{ 'transport' | link }}">{{ "nav.transport" | t }}</a></li>
+        <li><a href="{{ 'tips' | link }}">{{ "nav.tips" | t }}</a></li>
+        <li><a href="{{ 'about' | link }}">{{ "nav.about" | t }}</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="f-h">{{ "footer.contact" | t }}</h2>
+      <ul class="f-list">
+        <li><a href="{{ site.whatsapp }}" target="_blank" rel="noopener">{{ icon("whatsapp", 16) }} WhatsApp / Zalo {{ site.phoneDisplay }}</a></li>
+        <li><a href="mailto:{{ site.emailHostel if useHostelEmail else site.email }}">{{ icon("mail", 16) }} {{ site.emailHostel if useHostelEmail else site.email }}</a></li>
+      </ul>
+      <h2 class="f-h">{{ "footer.find" | t }}</h2>
+      <ul class="f-list">
+        {% for key, p in site.places %}
+        <li><a href="{{ p.maps }}" target="_blank" rel="noopener">{{ icon("pin", 16) }} <span><b>{{ p.name }}</b><br>{{ p.street }}, {{ p.city }}</span></a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© {{ "" | year }} EasyLife Hoi An · Lan &amp; Martin. {{ "footer.rights" | t }}</span>
+    <span class="f-langs">{% for l in languages %}{% if l.live and routes[pageKey][l.code] %}<a href="{{ pageKey | link(l.code) }}" hreflang="{{ l.code }}">{{ l.name }}</a>{% endif %}{% endfor %}</span>
+  </div>
+</footer>
+<a class="float-wa" href="{{ site.whatsapp }}" target="_blank" rel="noopener" aria-label="WhatsApp">{{ icon("whatsapp", 26) }}</a>

@@ -1,0 +1,39 @@
+# Nalani Hostel & Homestay (Englisch)
+meta:
+  title: "Nalani Hostel & Homestay Hoi An – Pool, Rooftop & 4 Min to An Bang Beach"
+  description: "Social but relaxed hostel in Cẩm An, Hội An: dorms and private rooms, swimming pool, rooftop terrace, free water and towels — 4 minutes' walk to the beach. 10% cheaper than booking platforms."
+hero:
+  eyebrow: "Nalani Hostel & Homestay · An Bang, Hội An"
+  title: "Come chill with us"
+  lead: "Backpacking for every age: rooftop terrace, swimming pool, free water and towels, and the beach just 4 minutes away. It's not a full-on party hostel — but nobody stops you from starting one."
+  alt: "Guests relaxing on the rooftop terrace of Nalani Hostel"
+  free: [Free water, Free towels, Pool, Rooftop terrace, Laundry service]
+rooms:
+  title: Beds & rooms
+  items:
+    - { name: Dorm bed, text: "Mixed, female-only or male-only dorms.", image: /images/hostel/nalani-hostel-terrace-swings.jpg, alt: "Swing chairs on the Nalani rooftop terrace" }
+    - { name: Private room for 1–3, text: "Your own room for one, two or three people.", image: /images/hostel/nalani-hostel-private-room.jpg, alt: "Private room at Nalani Hostel with balcony view" }
+  prices: "Compare prices and ratings:"
+discount:
+  title: "10% cheaper than on Booking.com"
+  text: "Just write or call us — and include this information in your message:"
+  checklist: [How many people, "Which room: dorm bed (mixed / female / male) or private room for 1, 2 or 3 people", Check-in date, Check-out date, Name, Gender (for dorms)]
+  wa: a bed at Nalani Hostel
+area:
+  title: The area
+  text: "Nalani is in a beautiful, peaceful area on a quiet street in An Bang, Hội An. It's a 4-minute walk to the beach and a 10-minute walk to one of Hội An's main attractions: the rice fields and the vegetable village with their scenic bicycle paths. The old town is a 20-minute bike ride away — or half the time if you rent a scooter from us."
+  alt: "Sign on An Bang beach: 4 minutes to the beach"
+  links: { bicycles: Rent a bicycle, motorbikes: Rent a scooter, tips: How to get to the beach }
+gallery:
+  title: Photos
+  items:
+    - { src: /images/hostel/nalani-hostel-pool-aerial.jpg, alt: "Aerial view of a guest floating in the Nalani pool" }
+    - { src: /images/hostel/nalani-hostel-community-dinner.jpg, alt: "Guests sharing a big family-style dinner" }
+    - { src: /images/hostel/nalani-hostel-pool-volleyball.jpg, alt: "Guests playing ball in the pool" }
+    - { src: /images/hostel/nalani-hostel-breakfast-table.jpg, alt: "Breakfast table with tea set and passion fruit" }
+    - { src: /images/hostel/nalani-hostel-exterior.jpg, alt: "Front of the Nalani Hostel building" }
+    - { src: /images/hostel/nalani-hostel-guests-scooter.jpg, alt: "Guests posing with a scooter in front of the Nalani mural" }
+todo:
+  title: What to do in Hội An
+  text: "Hội An is a charming ancient town in central Vietnam, known for its well-preserved architecture, lantern-lit streets and unique cultural heritage. Stroll through the old town, visit the local markets and try the food. For history lovers there's the Japanese Covered Bridge and the Quan Công Temple — and the beaches are right on your doorstep."
+  links: { activities: Activity catalog, transport: Bus tickets, tips: Travel tips }

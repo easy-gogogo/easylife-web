@@ -1,0 +1,39 @@
+# Nalani Hostel & Homestay (Koreanisch)
+meta:
+  title: "날라니 호스텔 & 홈스테이 호이안 – 수영장, 루프탑 & 안방 비치 도보 4분"
+  description: "호이안 껌안의 어울리기 좋지만 여유로운 호스텔: 도미토리와 개인실, 수영장, 루프탑 테라스, 무료 생수와 수건 — 해변까지 도보 4분. 예약 사이트보다 10% 저렴."
+hero:
+  eyebrow: "날라니 호스텔 & 홈스테이 · 호이안 안방"
+  title: "함께 쉬어가요"
+  lead: "나이 상관없는 배낭여행: 루프탑 테라스, 수영장, 무료 생수와 수건, 해변까지 단 4분. 파티만 하는 호스텔은 아니지만 — 파티를 열고 싶다면 아무도 말리지 않아요."
+  alt: "날라니 호스텔 루프탑 테라스에서 쉬고 있는 게스트들"
+  free: [무료 생수, 무료 수건, 수영장, 루프탑 테라스, 세탁 서비스]
+rooms:
+  title: 침대 & 객실
+  items:
+    - { name: 도미토리 침대, text: "혼성, 여성 전용, 남성 전용 도미토리.", image: /images/hostel/nalani-hostel-terrace-swings.jpg, alt: "날라니 루프탑 테라스의 그네 의자" }
+    - { name: 1–3인 개인실, text: "1인, 2인, 3인을 위한 나만의 방.", image: /images/hostel/nalani-hostel-private-room.jpg, alt: "발코니 전망이 있는 날라니 호스텔 개인실" }
+  prices: "요금과 평점 비교:"
+discount:
+  title: "Booking.com보다 10% 저렴"
+  text: "메시지나 전화 주세요 — 메시지에 아래 정보를 적어 주시면 돼요:"
+  checklist: [인원, "객실: 도미토리 침대 (혼성 / 여성 / 남성) 또는 1·2·3인 개인실", 체크인 날짜, 체크아웃 날짜, 이름, 성별 (도미토리의 경우)]
+  wa: 날라니 호스텔 침대
+area:
+  title: 주변 환경
+  text: "날라니는 호이안 안방의 조용한 골목, 아름답고 평화로운 동네에 있어요. 해변까지 도보 4분, 호이안의 대표 명소인 논과 채소 마을까지는 도보 10분이에요. 멋진 자전거 길도 있어요. 올드타운까지는 자전거로 20분 — 저희 스쿠터를 빌리면 그 절반이면 충분해요."
+  alt: "안방 비치의 표지판: 해변까지 4분"
+  links: { bicycles: 자전거 대여, motorbikes: 스쿠터 대여, tips: 해변 가는 법 }
+gallery:
+  title: 사진
+  items:
+    - { src: /images/hostel/nalani-hostel-pool-aerial.jpg, alt: "날라니 수영장에 떠 있는 게스트 항공 사진" }
+    - { src: /images/hostel/nalani-hostel-community-dinner.jpg, alt: "함께 저녁을 먹는 게스트들" }
+    - { src: /images/hostel/nalani-hostel-pool-volleyball.jpg, alt: "수영장에서 공놀이하는 게스트들" }
+    - { src: /images/hostel/nalani-hostel-breakfast-table.jpg, alt: "찻잔 세트와 패션프루트가 놓인 아침 식탁" }
+    - { src: /images/hostel/nalani-hostel-exterior.jpg, alt: "날라니 호스텔 건물 정면" }
+    - { src: /images/hostel/nalani-hostel-guests-scooter.jpg, alt: "날라니 벽화 앞에서 스쿠터와 포즈를 취한 게스트들" }
+todo:
+  title: 호이안에서 할 일
+  text: "호이안은 베트남 중부의 매력적인 옛 도시로, 잘 보존된 건축물과 등불이 빛나는 거리, 독특한 문화유산으로 유명해요. 올드타운을 거닐고 시장을 구경하며 음식을 맛보세요. 역사를 좋아한다면 내원교(일본교)와 관공묘가 있고, 해변은 바로 문 앞에 있어요."
+  links: { activities: 액티비티 카탈로그, transport: 버스 티켓, tips: 여행 팁 }

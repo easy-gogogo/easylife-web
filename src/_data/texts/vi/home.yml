@@ -1,0 +1,88 @@
+# Startseite (Vietnamesisch)
+meta:
+  title: "EasyLife Hội An – Hostel, Villa, thuê SUP & xe máy gần biển An Bàng"
+  description: "Nghỉ tại Nalani Hostel hoặc EasyLife Villa ở Hội An, thuê ván chèo SUP, xe máy, xe đạp và đặt tour chọn lọc cùng Lan & Martin. Giảm 10% khi đặt trực tiếp."
+hero:
+  eyebrow: "Hostel · Villa · Cho thuê · Tour — Hội An, Việt Nam"
+  title1: "Sống thảnh thơi."
+  title2: "Khám phá Hội An."
+  lead: "Hai ngôi nhà gần biển An Bàng, ván chèo và xe máy ngay trước cửa, cùng những bí quyết chỉ người địa phương mới biết. Chúng tôi là Lan & Martin — đã đón khách du lịch hơn 10 năm."
+  ctaRooms: Tìm phòng
+  ctaWhatsapp: Nhắn qua WhatsApp
+  reviews: đánh giá
+  captions: { hostel: Sân thượng Nalani, sup: SUP lúc hoàng hôn, villa: Hồ bơi Villa }
+  alts:
+    hostel: "Khách thư giãn trên sân thượng Nalani Hostel, một người ngồi xích đu"
+    sup: "Người chèo SUP trên sông lúc hoàng hôn gần Hội An"
+    villa: "Cặp đôi tươi cười bên hồ bơi EasyLife Villa"
+pills: { stay: Lưu trú, rentals: Cho thuê, todo: Trải nghiệm, discount: Giảm 10% đặt trực tiếp, about: Về chúng tôi, find: Địa chỉ }
+stay:
+  title: Lưu trú
+  intro: "Cả hai ngôi nhà nằm trên một con đường yên tĩnh ở Cẩm An — cách biển và sông vài phút, đạp xe 20 phút là tới phố cổ."
+  villa:
+    kicker: "Khách sạn nhỏ · cho cặp đôi, bạn bè & gia đình"
+    name: EasyLife Villa
+    text: "Khách sạn nhỏ tiêu chuẩn cao, cách sông hai phút và chỉ vài bước chân tới một bãi biển yên tĩnh, hoang sơ. Phòng nào cũng có ban công riêng. Bơi ở hồ bơi, chơi ở phòng giải trí và mượn xe đạp miễn phí."
+    facts: [Phòng nào cũng có ban công, Hồ bơi & phòng giải trí, Bao gồm bữa sáng, Xe đạp miễn phí, Ở ngắn & dài ngày, Dịch vụ giặt ủi]
+    cta: Xem phòng
+    ask: Hỏi lịch trống
+    wa: phòng ở EasyLife Villa
+    alt: "Phòng đôi sáng sủa ở EasyLife Villa với khăn trải giường màu xanh và cửa ra ban công"
+  hostel:
+    kicker: "Hostel & homestay · du lịch bụi cho mọi lứa tuổi"
+    name: Nalani Hostel & Homestay
+    text: "Sân thượng, hồ bơi, nước uống và khăn tắm miễn phí — chỉ 4 phút đi bộ ra biển An Bàng. Không phải hostel chỉ để tiệc tùng, nhưng cũng chẳng ai cản bạn mở một bữa tiệc."
+    facts: [Phòng dorm (chung / nữ / nam), Phòng riêng cho 1–3 người, Sân thượng & hồ bơi, Nước & khăn tắm miễn phí, Dịch vụ giặt ủi]
+    cta: Xem hostel
+    ask: Hỏi giường trống
+    wa: giường ở Nalani Hostel
+    alt: "Hai người bạn tươi cười bên hồ bơi Nalani Hostel"
+rentals:
+  title: Cho thuê
+  all: Tất cả dịch vụ cho thuê
+  intro: "Nhận ngay tại chỗ chúng tôi. Giá tính bằng đồng Việt Nam (VND)."
+todo:
+  title: Trải nghiệm
+  intro: "Tour và workshop chọn lọc, vé xe khách có đón tận nơi, cùng những mẹo riêng của chúng tôi về Hội An."
+  activities: { title: Danh mục hoạt động, meta: "Workshop · tour · show diễn", text: "Làm đèn lồng, lớp nấu ăn và pha cà phê, Mỹ Sơn, Bà Nà Hills, lặn ngắm san hô ở Cù Lao Chàm — những trải nghiệm khách yêu thích nhất.", cta: Xem hoạt động, alt: "Đôi tay đang làm đèn lồng lụa trên khung tre ở một xưởng tại Hội An" }
+  transport: { title: Xe buýt & di chuyển, meta: "Xe giường nằm · shuttle Đà Nẵng · xe riêng", text: "Lịch xe đi Huế, Phong Nha, Ninh Bình và nhiều nơi khác — tất cả đều đón miễn phí tại chỗ ở của bạn ở Hội An.", cta: Lịch xe, alt: "Ghế cabin bọc da bên trong xe limousine giường nằm" }
+  tips: { title: Cẩm nang du lịch, meta: "Biển · phố cổ · di chuyển", text: "Cách ra biển, những điểm ngắm hoàng hôn đẹp nhất và cách đi từ sân bay Đà Nẵng về đây — do chính chúng tôi viết.", cta: Đọc cẩm nang, alt: "Chùa Cầu ở phố cổ Hội An" }
+discount:
+  eyebrow: Đặt trực tiếp
+  title1: Giảm 10%
+  title2: chỉ cần nhắn tin
+  lead: "Không cần qua các trang đặt phòng: gửi cho chúng tôi ngày đi của bạn và được giảm 10%. Đơn giản vậy thôi."
+  zero: "Không rủi ro — chỉ thanh toán khi đến nơi."
+  steps:
+    - { title: Nhắn cho chúng tôi, text: "WhatsApp, Zalo, Messenger hoặc email — tùy bạn." }
+    - { title: Cho biết thông tin cơ bản, text: "Số người, loại phòng hoặc giường, ngày nhận và trả phòng." }
+    - { title: Chúng tôi xác nhận chỗ, text: "Bạn thanh toán khi đến — đã trừ sẵn 10%." }
+about:
+  eyebrow: Chúng tôi là ai
+  title: Lan & Martin
+  text: "Chúng tôi là cặp đôi Việt – Đức và đã đón khách hơn 10 năm. Khách của chúng tôi thường ở lâu, có khi cả tháng. Có người thích phiêu lưu, có người chỉ muốn trò chuyện và nghỉ ngơi — chúng tôi đều thích cả hai."
+  values:
+    - { title: Tiêu chuẩn cao, text: "Phòng siêu sạch, ấm cúng cho khách đi một mình, cặp đôi và gia đình." }
+    - { title: Giao lưu & thoải mái, text: "Muốn tiệc tùng? Cứ tự nhiên. Muốn nghỉ ngơi? Chúng tôi lo." }
+    - { title: Khám phá, text: "Gần biển, sông và phố cổ — cách sân bay Đà Nẵng 45 phút." }
+  cta: Tìm hiểu thêm về chúng tôi
+  alt: "Lan và Martin, chủ của EasyLife, tươi cười trên con đường rợp bóng dừa ở Hội An"
+reviews:
+  title: Khách nói gì
+  exceptional: Xuất sắc
+  superb: Tuyệt vời
+  note: "Đánh giá được giữ nguyên ngôn ngữ gốc."
+insta:
+  title: Theo dõi EasyLife
+  alts:
+    - Ảnh chụp từ trên cao người chèo SUP trên biển xanh ngọc
+    - Khách cùng ăn tối kiểu gia đình ở Nalani Hostel
+    - Ghế treo cạnh hồ bơi EasyLife Villa
+    - Mái ngói phố cổ Hội An lúc hoàng hôn
+    - Khách chơi bóng trong hồ bơi Nalani Hostel
+    - Cô gái cầm mái chèo bên ván SUP
+find:
+  title: Địa chỉ
+  intro: "Cả hai ngôi nhà nằm ở Cẩm An, giữa phố cổ và biển An Bàng — cách sân bay Đà Nẵng khoảng 45 phút."
+  villa: { kicker: Khách sạn, facts: [2 phút ra sông, Điểm hẹn chèo SUP] }
+  hostel: { kicker: Hostel & homestay, facts: [4 phút đi bộ ra biển, 10 phút đi bộ ra đồng lúa] }

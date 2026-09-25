@@ -1,0 +1,17 @@
+---
+pagination: { data: langsFor.tips, size: 1, alias: L }
+pageKey: tips
+contentFile: tips
+ogImage: /images/travel-tips/hoi-an-old-town-rooftops-sunset.jpg
+---
+{% set c = "tips" | cx %}{% set u = "ui" | cx %}
+{% set hero = { eyebrow: c.hero.eyebrow, title: c.hero.title, lead: c.hero.lead, image: "/images/travel-tips/hoi-an-old-town-rooftops-sunset.jpg", alt: c.hero.alt } %}
+{% set crumbs = [["tips", u.nav.tips]] %}
+{% include "partials/page-hero.njk" %}
+<section class="section cream">
+  <div class="wrap">
+    {% set list = articles | where("lang", lang) | sort(false, false, "order") %}{% include "partials/tip-cards.njk" %}
+  </div>
+</section>
+{% include "partials/upsell.njk" %}
+{% include "partials/insta.njk" %}

@@ -1,0 +1,97 @@
+# Verleih (Deutsch)
+meta:
+  title: "Verleih in Hoi An – SUP, Roller & Fahrräder | EasyLife"
+  description: "Miete Stand-up-Paddleboards, Roller und Fahrräder direkt in der EasyLife Villa und im Nalani Hostel in Cẩm An, Hội An. Faire Preise, lokale Tipps – schreib uns einfach."
+hero:
+  eyebrow: "Verleih · Abholung direkt bei uns"
+  title: "Boards, Räder & Roller"
+  lead: "Alles, um Hội An in deinem eigenen Tempo zu entdecken – vom Sonnenuntergang auf dem Fluss bis zur Rollerfahrt über den Hải-Vân-Pass."
+how:
+  title: So funktioniert's
+  steps:
+    - { title: Schreib uns, text: "Sag uns, was du mieten möchtest, wann und wie lange." }
+    - { title: Wir machen alles fertig, text: "Boards, Räder und Roller stehen in der EasyLife Villa oder im Nalani Hostel für dich bereit." }
+    - { title: Bezahlung vor Ort, text: "Keine Online-Zahlung, keine versteckten Kosten – du zahlst bei der Abholung." }
+priceLabels:
+  1h: 1 Stunde
+  2h: 2–3 Stunden
+  day: 1 Tag
+  hue: One-Way nach Huế
+products:
+  sup:
+    meta:
+      title: "SUP-Verleih Hoi An – Stand-up-Paddling bei Sonnenuntergang | EasyLife"
+      description: "Stand-up-Paddleboard in Hội An mieten ab 200K VND. Paddle in den Sonnenuntergang auf dem Fluss – für jedes Alter. Treffpunkt EasyLife Villa."
+    name: Stand-up-Paddleboards
+    short: "Paddle in den Sonnenuntergang auf dem Fluss. Für jedes Alter – beste Startzeit für den Sonnenuntergang ist 16:30 Uhr."
+    meta_line: "Treffpunkt: EasyLife Villa"
+    alt: "Gruppe von Stand-up-Paddlern auf dem Fluss bei Hoi An im Sonnenuntergang"
+    eyebrow: "EasyLife SUP · Sonnenuntergang auf dem Fluss"
+    title: "SUP in Hội An"
+    intro: "Das wohl schönste Sonnenuntergangserlebnis der Stadt. Sieh zu, wie die Sonne über dem Fluss untergeht und die Fischer ihre Netze vorbereiten. Stand-up-Paddling ist für alle, in jedem Alter."
+    highlights:
+      - { title: Sonnenuntergang auf dem Fluss, text: "Starte gegen 16:30 Uhr, dann bist du pünktlich zum Sonnenuntergang auf dem Wasser." }
+      - { title: Flussleben hautnah, text: "Gleite auf ruhigem Wasser an Fischerbooten und Netzen vorbei – die entspannteste Art, Hội An zu erleben." }
+      - { title: Für jedes Alter, text: "Anfänger, Kinder und Familien sind willkommen – wir zeigen dir die Grundlagen." }
+    info:
+      - { label: Treffpunkt, value: "EasyLife Villa (sofern nicht anders abgesprochen)" }
+      - { label: Beste Zeit für den Sonnenuntergang, value: "Start um 16:30 Uhr" }
+      - { label: Villa-Gäste, value: "25 % Rabatt auf den SUP-Verleih" }
+    faq:
+      - { q: "Brauche ich Erfahrung?", a: "Nein. Die meisten unserer Gäste stehen zum ersten Mal auf einem Board – wir erklären dir vorher alles." }
+      - { q: "Können Kinder mitmachen?", a: "Ja, SUP ist für jedes Alter – sag uns in deiner Nachricht einfach, wie alt die Kinder sind." }
+      - { q: "Was sollte ich mitbringen?", a: "Badesachen, Sonnencreme, einen Hut und etwas zu trinken. Wertsachen lässt du am besten im Haus." }
+    galleryAlts:
+      - "Silhouette eines Paddlers vor dem Sonnenuntergang auf dem Fluss"
+      - "Freunde tragen ihre SUP-Boards zum Wasser"
+      - "Kind paddelt auf einem SUP-Board auf dem Fluss"
+      - "Luftaufnahme einer Paddlerin auf türkisem Meer"
+  motorbikes:
+    meta:
+      title: "Roller mieten Hoi An – Motorroller-Verleih & One-Way nach Huế | EasyLife"
+      description: "Miete einen Automatik-Roller im Nalani Hostel oder in der EasyLife Villa in Hội An – für die Altstadt, die Strände oder als One-Way-Tour über den Hải-Vân-Pass nach Huế (700K VND inkl. Gepäcktransport)."
+    name: Roller & Motorräder
+    short: "Miete einen Roller direkt bei uns und sei in der halben Zeit in der Altstadt – oder erkunde die Küste in deinem eigenen Tempo."
+    meta_line: "Automatik-Roller · Tagespreis auf Anfrage"
+    alt: "Paar fährt mit einem Roller über die Küstenstraße am Hải-Vân-Pass"
+    eyebrow: "Rollerverleih · Hội An"
+    title: "Roller & Motorräder"
+    intro: "Mit dem Roller kommst du in Hội An am einfachsten herum: Die Altstadt ist etwa 10 Minuten entfernt, der An Bang Beach noch näher. Alle unsere Roller haben Automatikgetriebe und sind leicht zu fahren."
+    highlights:
+      - { title: Tagesmiete, text: "Hol deinen Roller im Hostel oder in der Villa ab und erkunde Hội An und die Küste. Frag uns nach dem aktuellen Tagespreis." }
+      - { title: One-Way nach Huế – 700K, text: "Fahr selbst über den berühmten Hải-Vân-Pass. Dein Gepäck wird zu deinem nächsten Hostel in Huế gebracht (+50K, wenn ihr zu zweit auf einem Roller fahrt)." }
+      - { title: Eigene Karte inklusive, text: "Einer unserer Gäste hat eine detaillierte Karte mit allen Highlights auf dem Weg nach Huế erstellt." }
+    info:
+      - { label: Abholung, value: "Nalani Hostel oder EasyLife Villa" }
+      - { label: Fahrzeuge, value: "Automatik-Roller" }
+      - { label: Führerschein, value: "Bitte prüfe vor der Fahrt, ob dein Führerschein in Vietnam gültig ist." }
+    faq:
+      - { q: "Brauche ich einen Führerschein?", a: "Laut vietnamesischem Recht brauchst du einen in Vietnam gültigen Führerschein – in der Regel einen internationalen Führerschein. Bitte prüfe das und deine Reiseversicherung, bevor du losfährst." }
+      - { q: "Gibt es Helme?", a: "In Vietnam herrscht Helmpflicht – frag uns bei der Buchung nach Helmen." }
+      - { q: "Du kannst nicht Roller fahren?", a: "Buch eine Easy-Rider-Tour oder einen Privatwagen auf unserer Transportseite – oder miete stattdessen ein Fahrrad." }
+    galleryAlts:
+      - "Gäste des Nalani Hostels posieren mit einem Roller"
+  bicycles:
+    meta:
+      title: "Fahrrad mieten Hoi An – Radtour durch die Reisfelder | EasyLife"
+      description: "Entdecke Hội An mit dem Fahrrad: Reisfelder, Gemüsedorf und Altstadt sind von der EasyLife Villa und dem Nalani Hostel aus leicht erreichbar. Fahrräder gratis für Villa-Gäste."
+    name: Fahrräder
+    short: "Radle durch die Reisfelder und das Gemüsedorf – 20 Minuten bis in die Altstadt. Gratis für Gäste der EasyLife Villa."
+    meta_line: "Gratis für Villa-Gäste"
+    alt: "Fahrrad an einer gelben Wand in Hoi An"
+    eyebrow: "Fahrradverleih · Hội An"
+    title: "Fahrräder"
+    intro: "Eine Radtour durch die Reisfelder gehört in Hội An einfach dazu. Von unseren Häusern aus sind die Reisfelder und das Gemüsedorf 10 Minuten entfernt, der Strand liegt gleich um die Ecke und die Altstadt erreichst du in entspannten 20 Minuten."
+    highlights:
+      - { title: Gratis für Villa-Gäste, text: "Du wohnst in der EasyLife Villa? Nimm dir einfach ein Rad." }
+      - { title: Reisfelder & Gemüsedorf, text: "Ruhige Wege zwischen den Feldern – 10 Minuten vom Haus." }
+      - { title: In 20 Minuten in der Altstadt, text: "Stell dein Rad am Rand der Altstadt ab und erkunde sie zu Fuß." }
+    info:
+      - { label: Abholung, value: "EasyLife Villa oder Nalani Hostel" }
+      - { label: Villa-Gäste, value: "Gratis" }
+      - { label: Andere Gäste, value: "Auf Anfrage" }
+    faq:
+      - { q: "Gibt es ein Schloss zum Rad?", a: "Frag uns bei der Abholung – wir sorgen dafür, dass du dein Rad sicher abstellen kannst." }
+      - { q: "Ist Radfahren in Hội An sicher?", a: "Die Wege durch die Reisfelder sind ruhig. In der Altstadt und auf Hauptstraßen fahr vorsichtig und halte dich rechts." }
+    galleryAlts:
+      - "Radfahrer in den laternengeschmückten Gassen der Altstadt von Hoi An"

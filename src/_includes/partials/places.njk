@@ -1,0 +1,14 @@
+{# Die zwei Standorte – Adressen aus site.json #}
+{% from "partials/icons.njk" import icon %}
+{% set hc = "home" | cx %}
+<div class="places">
+  {% for key in ["villa", "hostel"] %}{% set p = site.places[key] %}
+  <div class="place">
+    <span class="stay-kicker">{{ hc.find[key].kicker }}</span>
+    <h3>{{ p.name }}</h3>
+    <address>{{ p.street }}, {{ p.city }}, {{ p.region }} {{ p.postal }}</address>
+    <ul class="facts">{% for f in hc.find[key].facts %}<li>{{ f }}</li>{% endfor %}</ul>
+    <div class="stay-actions"><a class="btn btn-outline btn-sm" href="{{ p.maps }}" target="_blank" rel="noopener">{{ icon("pin", 18) }} {{ "footer.directions" | t }}</a></div>
+  </div>
+  {% endfor %}
+</div>

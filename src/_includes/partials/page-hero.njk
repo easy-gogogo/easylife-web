@@ -1,0 +1,21 @@
+{# Kopfbereich für Unterseiten. Erwartet: hero = {eyebrow,title,lead,image,alt}, crumbs = [[key,label],...] #}
+<section class="page-hero{% if not hero.image %} no-img{% endif %}">
+  <div class="wrap page-hero-grid">
+    <div>
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="{{ 'home' | link }}">{{ "nav.home" | t }}</a>
+        {% for cr in crumbs %}<span aria-hidden="true">/</span>{% if loop.last %}<span aria-current="page">{{ cr[1] }}</span>{% else %}<a href="{{ cr[0] | link }}">{{ cr[1] }}</a>{% endif %}{% endfor %}
+      </nav>
+      <p class="eyebrow">{{ hero.eyebrow }}</p>
+      <h1>{{ hero.title }}</h1>
+      {% if hero.lead %}<p class="hero-lead">{{ hero.lead }}</p>{% endif %}
+      {% if hero.chips %}<ul class="hero-chips">{% for ch in hero.chips %}<li>{{ ch }}</li>{% endfor %}</ul>{% endif %}
+      {% if hero.cta %}<div class="btn-row">{{ hero.cta | safe }}</div>{% endif %}
+    </div>
+    {% if hero.image %}<figure class="page-hero-img"><img src="{{ hero.image }}" alt="{{ hero.alt }}" width="1200" height="900" fetchpriority="high"></figure>{% endif %}
+  </div>
+</section>
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org", "@type": "BreadcrumbList",
+  "itemListElement": crumbs | crumbList
+} | json | safe }}</script>

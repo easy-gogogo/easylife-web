@@ -1,0 +1,97 @@
+# Verleih (Vietnamesisch)
+meta:
+  title: "Cho thuê ở Hội An – SUP, xe máy & xe đạp | EasyLife"
+  description: "Thuê ván chèo đứng SUP, xe máy và xe đạp ngay tại EasyLife Villa và Nalani Hostel ở Cẩm An, Hội An. Giá hợp lý, mẹo địa phương — chỉ cần nhắn tin."
+hero:
+  eyebrow: "Cho thuê · nhận ngay tại chỗ"
+  title: "Ván chèo, xe đạp & xe máy"
+  lead: "Mọi thứ để khám phá Hội An theo nhịp của riêng bạn — từ chèo SUP ngắm hoàng hôn trên sông đến chạy xe qua đèo Hải Vân."
+how:
+  title: Cách thuê
+  steps:
+    - { title: Nhắn cho chúng tôi, text: "Cho biết bạn muốn thuê gì, khi nào và bao lâu." }
+    - { title: Chúng tôi chuẩn bị sẵn, text: "Ván, xe đạp và xe máy được chuẩn bị tại EasyLife Villa hoặc Nalani Hostel." }
+    - { title: Thanh toán tại chỗ, text: "Không thanh toán online, không phí ẩn — bạn trả khi nhận." }
+priceLabels:
+  1h: 1 giờ
+  2h: 2–3 giờ
+  day: 1 ngày
+  hue: Một chiều đi Huế
+products:
+  sup:
+    meta:
+      title: "Thuê SUP Hội An – Chèo ván đứng ngắm hoàng hôn | EasyLife"
+      description: "Thuê ván chèo đứng SUP ở Hội An từ 200K VND. Chèo ngắm hoàng hôn trên sông — cho mọi lứa tuổi. Điểm hẹn tại EasyLife Villa."
+    name: Ván chèo đứng (SUP)
+    short: "Chèo ngắm hoàng hôn trên sông. Cho mọi lứa tuổi — giờ xuất phát đẹp nhất để ngắm hoàng hôn là 16:30."
+    meta_line: "Điểm hẹn: EasyLife Villa"
+    alt: "Nhóm người chèo SUP trên sông gần Hội An lúc hoàng hôn"
+    eyebrow: "EasyLife SUP · hoàng hôn trên sông"
+    title: "Chèo SUP ở Hội An"
+    intro: "Có lẽ là trải nghiệm hoàng hôn đẹp nhất trong thành phố. Ngắm mặt trời lặn trên sông, nhìn ngư dân chuẩn bị lưới. Chèo SUP dành cho tất cả mọi người, ở mọi lứa tuổi."
+    highlights:
+      - { title: Hoàng hôn trên sông, text: "Xuất phát khoảng 16:30 để có mặt trên sông đúng lúc mặt trời lặn." }
+      - { title: Cận cảnh đời sống trên sông, text: "Lướt qua thuyền và lưới đánh cá trên mặt nước yên ả — cách thư thái nhất để ngắm Hội An." }
+      - { title: Cho mọi lứa tuổi, text: "Người mới, trẻ em và gia đình đều được chào đón — chúng tôi hướng dẫn những điều cơ bản." }
+    info:
+      - { label: Điểm hẹn, value: "EasyLife Villa (trừ khi hẹn nơi khác)" }
+      - { label: Giờ đẹp ngắm hoàng hôn, value: "Xuất phát lúc 16:30" }
+      - { label: Khách của Villa, value: "Giảm 25% khi thuê SUP" }
+    faq:
+      - { q: "Tôi có cần kinh nghiệm không?", a: "Không. Hầu hết khách lần đầu đứng trên ván — chúng tôi giải thích mọi thứ trước khi bạn xuất phát." }
+      - { q: "Trẻ em có tham gia được không?", a: "Được, SUP dành cho mọi lứa tuổi — chỉ cần cho chúng tôi biết tuổi của các bé khi nhắn tin." }
+      - { q: "Tôi nên mang theo gì?", a: "Đồ bơi, kem chống nắng, mũ và nước uống. Đồ có giá trị nên để lại ở nhà." }
+    galleryAlts:
+      - "Bóng người chèo SUP trước hoàng hôn trên sông"
+      - "Nhóm bạn khiêng ván SUP xuống nước"
+      - "Em bé chèo ván SUP trên sông"
+      - "Ảnh từ trên cao người chèo SUP trên biển xanh ngọc"
+  motorbikes:
+    meta:
+      title: "Thuê xe máy Hội An – Xe tay ga & đi Huế một chiều | EasyLife"
+      description: "Thuê xe tay ga tại Nalani Hostel hoặc EasyLife Villa ở Hội An — đi phố cổ, ra biển hoặc chạy một chiều qua đèo Hải Vân ra Huế (700K VND, đã gồm chuyển hành lý)."
+    name: Xe máy & xe tay ga
+    short: "Thuê xe máy ngay tại chỗ chúng tôi, tới phố cổ nhanh gấp đôi — hoặc khám phá bờ biển theo cách của bạn."
+    meta_line: "Xe tay ga · hỏi giá trong ngày"
+    alt: "Cặp đôi chạy xe tay ga trên cung đường ven biển đèo Hải Vân"
+    eyebrow: "Thuê xe máy · Hội An"
+    title: "Xe máy & xe tay ga"
+    intro: "Xe máy là cách dễ nhất để đi lại ở Hội An: phố cổ cách khoảng 10 phút, biển An Bàng còn gần hơn. Tất cả xe của chúng tôi đều là xe tay ga, rất dễ chạy."
+    highlights:
+      - { title: Thuê theo ngày, text: "Nhận xe ở hostel hoặc villa và khám phá Hội An cùng bờ biển. Hỏi chúng tôi giá trong ngày." }
+      - { title: Một chiều đi Huế — 700K, text: "Tự lái qua đèo Hải Vân nổi tiếng. Hành lý được chuyển tới hostel tiếp theo của bạn ở Huế (+50K nếu hai người đi một xe)." }
+      - { title: Kèm bản đồ riêng, text: "Một vị khách đã làm bản đồ chi tiết với tất cả điểm đẹp trên đường ra Huế." }
+    info:
+      - { label: Nhận xe, value: "Nalani Hostel hoặc EasyLife Villa" }
+      - { label: Loại xe, value: "Xe tay ga" }
+      - { label: Giấy phép lái xe, value: "Vui lòng kiểm tra giấy phép lái xe của bạn có hợp lệ tại Việt Nam trước khi chạy." }
+    faq:
+      - { q: "Tôi có cần bằng lái không?", a: "Theo luật Việt Nam, bạn cần giấy phép lái xe hợp lệ tại Việt Nam — với khách nước ngoài thường là bằng lái quốc tế. Hãy kiểm tra điều này và bảo hiểm du lịch trước khi chạy xe." }
+      - { q: "Có mũ bảo hiểm không?", a: "Ở Việt Nam bắt buộc đội mũ bảo hiểm — hãy hỏi chúng tôi về mũ khi đặt xe." }
+      - { q: "Không biết chạy xe máy?", a: "Đặt tour Easy Rider hoặc xe riêng trên trang di chuyển của chúng tôi — hoặc thuê xe đạp." }
+    galleryAlts:
+      - "Khách Nalani Hostel chụp ảnh cùng xe máy"
+  bicycles:
+    meta:
+      title: "Thuê xe đạp Hội An – Đạp xe qua đồng lúa | EasyLife"
+      description: "Khám phá Hội An bằng xe đạp: đồng lúa, làng rau và phố cổ đều dễ dàng tới được từ EasyLife Villa và Nalani Hostel. Xe đạp miễn phí cho khách Villa."
+    name: Xe đạp
+    short: "Đạp xe qua đồng lúa và làng rau — 20 phút tới phố cổ. Miễn phí cho khách EasyLife Villa."
+    meta_line: "Miễn phí cho khách Villa"
+    alt: "Xe đạp dựa vào bức tường vàng ở Hội An"
+    eyebrow: "Thuê xe đạp · Hội An"
+    title: "Xe đạp"
+    intro: "Đạp xe qua đồng lúa là trải nghiệm không thể thiếu ở Hội An. Từ nhà chúng tôi, đồng lúa và làng rau cách 10 phút, biển ngay gần và phố cổ chỉ cách 20 phút đạp xe thong thả."
+    highlights:
+      - { title: Miễn phí cho khách Villa, text: "Ở EasyLife Villa? Cứ lấy xe mà đi." }
+      - { title: Đồng lúa & làng rau, text: "Những con đường yên tĩnh giữa đồng — cách nhà 10 phút." }
+      - { title: 20 phút tới phố cổ, text: "Gửi xe ở rìa phố cổ rồi đi bộ khám phá." }
+    info:
+      - { label: Nhận xe, value: "EasyLife Villa hoặc Nalani Hostel" }
+      - { label: Khách Villa, value: "Miễn phí" }
+      - { label: Khách khác, value: "Liên hệ" }
+    faq:
+      - { q: "Xe có kèm khóa không?", a: "Hãy hỏi chúng tôi khi nhận xe — chúng tôi đảm bảo bạn gửi xe an toàn." }
+      - { q: "Đạp xe ở Hội An có an toàn không?", a: "Đường qua đồng lúa rất yên tĩnh. Ở phố cổ và đường lớn, hãy đi cẩn thận và giữ bên phải." }
+    galleryAlts:
+      - "Người đạp xe trên phố cổ Hội An rực rỡ đèn lồng"

@@ -1,0 +1,69 @@
+# Menü-, Button- und Footer-Texte (Vietnamesisch)
+nav:
+  stay: Lưu trú
+  villa: EasyLife Villa
+  hostel: Nalani Hostel
+  rentals: Cho thuê
+  activities: Hoạt động
+  transport: Xe buýt & di chuyển
+  tips: Cẩm nang du lịch
+  about: Về chúng tôi
+  ask: Hỏi ngay
+  menu: Menu
+  language: Ngôn ngữ
+  skip: Chuyển đến nội dung
+  home: Trang chủ
+cta:
+  discount: Giảm 10% khi đặt trực tiếp
+  zeroRisk: Không rủi ro — bạn chỉ thanh toán khi đến nơi.
+  waHello: "Chào EasyLife! Mình muốn hỏi về"
+  waStay: việc lưu trú ở Hội An
+  choose: Chọn cách liên hệ
+  bookDirect: Đặt trực tiếp
+footer:
+  contact: Liên hệ
+  find: Địa chỉ
+  follow: Theo dõi chúng tôi
+  explore: Khám phá
+  tag: Gắn thẻ chúng tôi trong ảnh của bạn nhé!
+  rights: Bảo lưu mọi quyền.
+  directions: Chỉ đường
+common:
+  more: Xem thêm
+  from: từ
+  priceOnRequest: Liên hệ
+  vnd: VND
+  readMore: Đọc tiếp
+  related: Có thể bạn cũng cần
+  relatedTips: Mẹo du lịch liên quan
+  gallery: Hình ảnh
+  faq: Thông tin hữu ích
+  prices: Bảng giá
+  minRead: phút đọc
+  updated: Cập nhật
+  new: Mới
+  onlyEnglish: Trang này hiện chỉ có bằng tiếng Anh.
+promo:
+  text: "Đặt trực tiếp: rẻ hơn 10% so với Booking.com"
+  link: Cách đặt
+sell:
+  title: Tận hưởng trọn kỳ nghỉ
+  intro: "Chèo SUP ngắm hoàng hôn, thuê xe máy, lớp nấu ăn, tour ra đảo — chúng tôi đặt tất cả cho bạn, thường có đón tận nơi."
+  combo: Nghỉ, chơi và khám phá — chỉ cần một tin nhắn
+  allActivities: Tất cả hoạt động
+  allRentals: Tất cả dịch vụ cho thuê
+  ask: Nhờ lên lịch trình
+  wa: các hoạt động trong thời gian lưu trú
+  onRequest: Hỏi chúng tôi
+  items:
+    sup: { title: Chèo SUP ngắm hoàng hôn, text: "Hoàng hôn đẹp nhất thành phố — cho mọi lứa tuổi." }
+    motorbikes: { title: Thuê xe máy, text: "Tự khám phá Hội An, bãi biển và đèo Hải Vân." }
+    cooking: { title: Lớp nấu ăn sinh thái, text: "4 món Việt tại trường dạy nấu ăn bên sông." }
+    lantern: { title: Làm đèn lồng, text: "Tự làm chiếc đèn lồng lụa — từ 3 tuổi." }
+    cham: { title: Lặn ngắm san hô Cù Lao Chàm, text: "Tour thuyền cả ngày, lặn ống thở hoặc lặn bình." }
+    easyrider: { title: Easy Rider đi Huế, text: "Ngồi sau tài xế địa phương vượt đèo Hải Vân." }
+compare:
+  title: Tự so sánh nhé
+  text: "Xem giá của chúng tôi trên Booking.com — rồi nhắn tin và trả ít hơn 10%."
+  villa: EasyLife Villa trên Booking.com
+  hostel: Nalani trên Booking.com
