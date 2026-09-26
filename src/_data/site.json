@@ -12,11 +12,11 @@
   "places": {
     "villa": {
       "name": "EasyLife Villa Hoi An",
-      "street": "W83W+XMJ, Mẹ Thứ, Cẩm An",
+      "street": "Lot C3-40, Mẹ Thứ, Cẩm An",
       "city": "Hội An",
       "region": "Quảng Nam",
       "postal": "56000",
-      "maps": "https://www.google.com/maps/search/?api=1&query=W83W%2BXMJ+H%E1%BB%99i+An"
+      "maps": "https://www.google.com/maps/search/?api=1&query=EasyLife+Villa+Hoi+An"
     },
     "hostel": {
       "name": "Nalani Hostel & Homestay Hoi An",

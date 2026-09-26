@@ -14,7 +14,6 @@ rooms:
   items:
     - { name: 디럭스 더블룸, guests: "1–2인 + 아이", beds: "퀸 사이즈 침대 1개", image: /images/hotel/easylife-villa-deluxe-double-room.jpg, alt: "파란 베드 러너와 발코니 문이 있는 디럭스 더블룸" }
     - { name: 패밀리룸, guests: "1–4인 + 아이", beds: "퀸 사이즈 침대 2개", image: /images/hotel/easylife-villa-family-room.jpg, alt: "퀸 사이즈 침대 두 개가 있는 패밀리룸" }
-    - { name: 트리플룸, guests: "1–6인 + 아이", beds: "퀸 사이즈 침대 3개", image: /images/hotel/easylife-villa-triple-room.jpg, alt: "퀸 사이즈 침대 세 개와 그림이 걸린 객실" }
   features: [에어컨, TV, 전용 욕실, 발코니, 책상 & 빠른 와이파이]
   ask: 이 객실 문의하기
 long:

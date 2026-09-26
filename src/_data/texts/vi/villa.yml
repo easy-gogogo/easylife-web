@@ -14,7 +14,6 @@ rooms:
   items:
     - { name: Phòng đôi Deluxe, guests: "1–2 người + trẻ em", beds: "1 giường cỡ Queen", image: /images/hotel/easylife-villa-deluxe-double-room.jpg, alt: "Phòng đôi Deluxe với khăn trải giường xanh và cửa ra ban công" }
     - { name: Phòng gia đình, guests: "1–4 người + trẻ em", beds: "2 giường cỡ Queen", image: /images/hotel/easylife-villa-family-room.jpg, alt: "Phòng gia đình với hai giường cỡ Queen" }
-    - { name: Phòng ba giường, guests: "1–6 người + trẻ em", beds: "3 giường cỡ Queen", image: /images/hotel/easylife-villa-triple-room.jpg, alt: "Phòng với ba giường cỡ Queen và tranh treo tường" }
   features: [Điều hòa, TV, Phòng tắm riêng, Ban công, Bàn làm việc & Wi-Fi nhanh]
   ask: Hỏi về phòng này
 long:

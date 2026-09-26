@@ -1,0 +1,23 @@
+# Über uns & Kontakt (Chinesisch)
+meta:
+  title: "关于 Lan 和 Martin – EasyLife 会安 | 联系我们"
+  description: "认识 Lan 和 Martin——会安 Nalani 青旅和 EasyLife 别墅背后的越南—德国夫妻。可通过 WhatsApp、Zalo、Messenger 或电子邮件联系我们。"
+hero:
+  eyebrow: 关于我们与联系方式
+  title: "你好，我们是 Lan 和 Martin"
+  lead: "一对接待旅行者超过 10 年的越南—德国夫妻。"
+story:
+  - "我们的客人常常住很久，有时长达几个月。有人爱热闹，有人只想聊聊天、放松一下。我们非常喜欢自己做的事——身边总是围绕着想了解世界、了解世界上的人的朋友。"
+  - "我们从 Nalani 青旅民宿起步，仅第一年客人就留下了 100 多条五星好评。之后有了 EasyLife 别墅——为想要多一点私密空间的客人准备的小酒店——还有我们的租赁服务和行程目录，让客人充分享受会安。"
+values:
+  title: 我们的理念
+  items:
+    - { title: 高标准, text: "我们希望为独自旅行者、情侣和家庭提供非常干净的房间。我们的房子都是新的，住起来非常舒适。" }
+    - { title: 社交与舒适, text: "想开派对？尽管来。想放松？我们确保您可以。我们一起为每个人营造舒适的空间。" }
+    - { title: 探索, text: "我们会给您最好的建议，让旅程收获满满。这里离海滩、河边和古城都很近，距岘港机场只有 45 分钟。" }
+contact:
+  title: 联系我们
+  text: "最快的联系方式是 WhatsApp 或 Zalo。"
+  phone: 电话
+  email: 电子邮件
+  emailHostel: "电子邮件（Nalani 青旅）"

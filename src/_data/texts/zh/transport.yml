@@ -1,0 +1,153 @@
+# Texte der Seite transport (Chinesisch). Abfahrtszeiten/Preise der Busse stehen NUR in en/transport.yml (bus.north/south.rows).
+# bus.names übersetzt Bus-Typen und Ziele aus diesen Zeilen. Transfer-Preise bei Änderungen in ALLEN Sprachen anpassen.
+meta:
+  title: 会安出发的巴士与交通 – 卧铺巴士、岘港班车、包车 | EasyLife
+  description: 会安至顺化、峰牙、宁平等地的卧铺巴士时刻表，前往岘港机场的班车和包车，单程摩托车和 Easy Rider 摩托游到顺化——均可免费接送。
+hero:
+  eyebrow: 越南中部接送与出行
+  title: 巴士与交通
+  lead: 舒适、可靠，可直接找我们预订——卧铺巴士、岘港班车、包车，或是翻越海云岭的传奇之旅。
+  chips:
+  - 会安免费接送
+  - 每日发车
+  - WhatsApp 预订
+  alt: VIP 卧铺巴士内部
+filters:
+  bus: 卧铺巴士时刻
+  shuttles: 班车与接送
+  guide: VIP 还是豪华巴士
+bus:
+  title: 长途巴士时刻表
+  note: 所有班次都可从您在会安的住处免费接送。
+  cols:
+  - 巴士
+  - 目的地
+  - 出发
+  - 到达
+  - 价格（越南盾）
+  book: 预订巴士票
+  names:
+    Hue (Morning): 顺化（上午）
+    Hue (Afternoon): 顺化（下午）
+    Dong Hoi: 洞海
+    Phong Nha: 峰牙
+    Ninh Binh: 宁平
+    Ha Noi: 河内
+    Nha Trang: 芽庄
+    Mui Ne: 美奈
+    Sai Gon: 西贡（胡志明市）
+    Da Lat: 大叻
+    Quy Nhon: 归仁
+    Sleeper Bus HT: 卧铺巴士 HT
+    32 Cabin: 32 包厢
+    32 Cabin HT: 32 包厢 HT
+    VIP 22 Cabin: VIP 22 包厢
+  north:
+    title: 会安向北
+    wa: 卧铺巴士票（向北）
+  south:
+    title: 会安向南
+    wa: 卧铺巴士票（向南）
+transfers:
+  title: 班车与接送
+  ask: 立即预订
+  more: 更多信息
+  items:
+  - id: shuttle-danang
+    title: 岘港班车
+    price: 170K 越南盾
+    meta:
+    - 酒店接人
+    - 每日发车
+    short: |-
+      <p><strong>直接到您的青旅/酒店接人！</strong></p>
+      <p><strong>会安发车时间：</strong><br/>
+      6:00 · 7:00 · 9:00 · 10:00 · 12:00 · 13:00 · 15:00 · 16:00 · 18:00 · 20:00</p>
+    full: |-
+      <div class="stop-group">
+      <div class="stop-title">✈️ 岘港机场站点：</div>
+      <ul class="stop-list">
+      <li><strong>上车：</strong>国内航站楼到达口 A4</li>
+      <li><strong>下车：</strong>国内航站楼出发大厅</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏙️ 岘港市中心站点：</div>
+      <ul class="stop-list">
+      <li>岘港火车站（正门 Train Cafe）</li>
+      <li>岘港占族雕刻博物馆</li>
+      <li>Hiyori Garden Tower – 02 Vo Van Kiet St.</li>
+      <li>A La Carte Beach Hotel – 200 Vo Nguyen Giap St.</li>
+      <li>Holiday Beach Hotel – 300 Vo Nguyen Giap St.</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏡 会安市中心站点：</div>
+      <ul class="stop-list">
+      <li>Barri Ann Travel 办公室 – 30/2 Tran Hung Dao St.</li>
+      <li>Agribank ATM – 255 Cua Dai St.</li>
+      <li>Silk Village The Tourist – 28 Nguyen Tat Thanh St.</li>
+      <li>Hoi An iVy Hotel – 01 Dao Duy Tu St.</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏖️ 会安海滩区站点：</div>
+      <ul class="stop-list">
+      <li>Dahan Spa – 130 Lac Long Quan St.</li>
+      <li>Hoi An Beach Resort – 01 Cua Dai St.</li>
+      </ul>
+      </div>
+  - id: private-car
+    title: 包车去岘港
+    price: 320K 越南盾
+    meta:
+    - 门到门
+    - 24 小时服务
+    short: |-
+      <p>专车门到门直达，舒适方便。</p>
+      <p><strong>价格：</strong>320,000 越南盾</p>
+      <p><small>（22:00 至 5:00 的夜间行程加收 50K）</small></p>
+    full: |-
+      <p>非常适合家庭、行李多的团体，或想灵活出行、中途不停车的旅客（前往岘港的机场、火车站或酒店）。</p>
+  - id: hue-motorbike
+    title: 单程骑摩托车到顺化
+    price: 700K 越南盾
+    meta:
+    - 自驾
+    - 行李转运
+    short: |-
+      <p>只需 <strong>700K 越南盾</strong>，就能自己骑车去顺化！</p>
+      <p>在我们青旅取车，行李会送到您在顺化的新青旅（两人共骑一辆 +50K）。</p>
+    full: |-
+      <ul>
+      <li>途经著名的<strong>海云岭</strong>，沿途有瀑布和美丽的海滩。</li>
+      <li>道路好骑，所有摩托车都是自动挡。</li>
+      <li><strong>附赠定制地图：</strong>我们的一位客人制作了一份详细地图，标出了沿途所有必去景点！</li>
+      </ul>
+  - id: easy-rider
+    title: Easy Rider 摩托游到顺化
+    price: 130 万越南盾
+    meta:
+    - 含门票
+    - 经验丰富的本地司机
+    short: |-
+      <p><strong>只需 1,300,000 越南盾（含门票）</strong></p>
+      <p>坐稳、放松、享受旅程！我们经验丰富的司机熟悉所有本地好去处，一路上还会给您讲精彩的故事。</p>
+    full: |-
+      <ul>
+      <li>停留五行山或灵应寺观音像</li>
+      <li>风景绝美的海云岭</li>
+      <li>停留立安潟湖</li>
+      <li>在朗姑海滩享用美味午餐</li>
+      <li>瀑布边清凉小憩</li>
+      </ul>
+guide:
+  title: VIP 巴士还是豪华巴士？
+  intro: 我们所有长途巴士都配有保护隐私的帘子和为设备充电的 USB 接口。
+  items:
+  - title: VIP 卧铺巴士
+    text: 车身长度相同，但单人包厢更宽，更舒适也更私密。长途强烈推荐！
+  - title: 豪华卧铺巴士（标准）
+    text: 标准宽度的现代卧铺。舒适实惠，配有帘子和 USB 充电口。
+  wa: 卧铺巴士
+  ask: WhatsApp 咨询

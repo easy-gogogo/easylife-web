@@ -1,0 +1,39 @@
+# Nalani Hostel & Homestay (Französisch) – Bilder stehen in en/hostel.yml
+meta:
+  title: "Nalani Hostel & Homestay Hoi An – Piscine, toit-terrasse et plage d'An Bang à 4 min"
+  description: "Auberge conviviale mais détendue à Cẩm An, Hội An : dortoirs et chambres privées, piscine, toit-terrasse, petit-déjeuner inclus, eau et serviettes gratuites — à 4 minutes à pied de la plage. 10 % moins cher que sur les plateformes de réservation."
+hero:
+  eyebrow: "Nalani Hostel & Homestay · An Bang, Hội An"
+  title: "Venez vous détendre avec nous"
+  lead: "Le backpacking à tout âge : toit-terrasse, piscine, eau et serviettes gratuites, et la plage à seulement 4 minutes. Ce n'est pas une auberge festive à fond — mais personne ne vous empêche de lancer la fête."
+  alt: "Des voyageurs se détendent sur le toit-terrasse du Nalani Hostel"
+  free: [Petit-déjeuner inclus, Eau gratuite, Serviettes gratuites, Piscine, Toit-terrasse, Service de blanchisserie]
+rooms:
+  title: Lits et chambres
+  items:
+    - { name: Lit en dortoir, text: "Dortoirs mixtes, réservés aux femmes ou aux hommes.", alt: "Balançoires sur le toit-terrasse du Nalani" }
+    - { name: Chambre privée pour 1 à 3, text: "Votre propre chambre pour une, deux ou trois personnes.", alt: "Chambre privée du Nalani Hostel avec vue sur le balcon" }
+  prices: "Comparez les prix et les notes :"
+discount:
+  title: "10 % moins cher que sur Booking.com"
+  text: "Écrivez-nous ou appelez-nous simplement — en indiquant ces informations dans votre message :"
+  checklist: [Nombre de personnes, "Quelle chambre : lit en dortoir (mixte / femmes / hommes) ou chambre privée pour 1, 2 ou 3 personnes", Date d'arrivée, Date de départ, Nom, Sexe (pour les dortoirs)]
+  wa: un lit au Nalani Hostel
+area:
+  title: Le quartier
+  text: "Le Nalani se trouve dans un quartier beau et paisible, dans une rue calme d'An Bang, à Hội An. La plage est à 4 minutes à pied, et l'une des grandes attractions de Hội An — les rizières et le village maraîcher avec leurs pistes cyclables pittoresques — à 10 minutes à pied. La vieille ville est à 20 minutes à vélo — ou deux fois moins si vous nous louez un scooter."
+  alt: "Panneau à la plage d'An Bang : 4 minutes jusqu'à la plage"
+  links: { bicycles: Louer un vélo, motorbikes: Louer un scooter, tips: Comment aller à la plage }
+gallery:
+  title: Photos
+  items:
+    - { alt: "Vue aérienne d'un voyageur flottant dans la piscine du Nalani" }
+    - { alt: "Des voyageurs partagent un grand dîner convivial" }
+    - { alt: "Des voyageurs jouent au ballon dans la piscine" }
+    - { alt: "Table de petit-déjeuner avec service à thé et fruits de la passion" }
+    - { alt: "Façade du bâtiment du Nalani Hostel" }
+    - { alt: "Des voyageurs posent avec un scooter devant la fresque du Nalani" }
+todo:
+  title: Que faire à Hội An
+  text: "Hội An est une charmante ville ancienne du centre du Vietnam, connue pour son architecture bien préservée, ses rues illuminées de lanternes et son patrimoine culturel unique. Flânez dans la vieille ville, visitez les marchés locaux et goûtez la cuisine. Pour les amateurs d'histoire, il y a le pont couvert japonais et le temple Quan Công — et les plages sont à votre porte."
+  links: { activities: Catalogue d'activités, transport: Billets de bus, tips: Conseils de voyage }

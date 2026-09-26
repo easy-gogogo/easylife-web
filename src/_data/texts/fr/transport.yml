@@ -1,0 +1,145 @@
+# Texte der Seite transport (Französisch). Abfahrtszeiten/Preise der Busse stehen NUR in en/transport.yml (bus.north/south.rows).
+# bus.names übersetzt Bus-Typen und Ziele aus diesen Zeilen. Transfer-Preise bei Änderungen in ALLEN Sprachen anpassen.
+meta:
+  title: Bus et transport depuis Hội An – Bus couchette, navette Da Nang, voiture privée | EasyLife
+  description: Horaires des bus couchettes de Hội An vers Huế, Phong Nha, Ninh Bình et plus encore, navette et voiture privée vers l'aéroport de Da Nang, scooter aller simple et tours Easy Rider vers Huế — avec prise en charge gratuite.
+hero:
+  eyebrow: Transferts et trajets dans le Centre du Vietnam
+  title: Bus et transport
+  lead: Confortable, fiable et réservable directement chez nous — bus couchette, navette vers Da Nang, voiture privée ou le légendaire trajet par le col de Hải Vân.
+  chips:
+  - Prise en charge gratuite à Hội An
+  - Départs quotidiens
+  - Réservation par WhatsApp
+  alt: Intérieur d'un bus couchette VIP
+filters:
+  bus: Horaires des bus couchettes
+  shuttles: Navettes et transferts
+  guide: Bus VIP ou limousine
+bus:
+  title: Horaires des bus longue distance
+  note: Tous les trajets incluent la prise en charge gratuite directement à votre hébergement à Hội An.
+  cols:
+  - Bus
+  - Destination
+  - Départ
+  - Arrivée
+  - Prix (VND)
+  book: Réserver un billet de bus
+  names:
+    Hue (Morning): Huế (matin)
+    Hue (Afternoon): Huế (après-midi)
+    Ninh Binh: Ninh Bình
+    Ha Noi: Hanoï
+    Sai Gon: Saïgon
+    Da Lat: Đà Lạt
+    Sleeper Bus HT: Bus couchette HT
+  north:
+    title: Vers le nord depuis Hội An
+    wa: un billet de bus couchette (vers le nord)
+  south:
+    title: Vers le sud depuis Hội An
+    wa: un billet de bus couchette (vers le sud)
+transfers:
+  title: Navettes et transferts
+  ask: Réserver
+  more: Plus d'infos
+  items:
+  - id: shuttle-danang
+    title: Navette vers Da Nang
+    price: 170K VND
+    meta:
+    - Prise en charge à l'hôtel
+    - Départs quotidiens
+    short: |-
+      <p><strong>Prise en charge directement à votre auberge/hôtel !</strong></p>
+      <p><strong>Départs depuis Hội An :</strong><br/>
+      6 h · 7 h · 9 h · 10 h · 12 h · 13 h · 15 h · 16 h · 18 h · 20 h</p>
+    full: |-
+      <div class="stop-group">
+      <div class="stop-title">✈️ Arrêts à l'aéroport de Da Nang :</div>
+      <ul class="stop-list">
+      <li><strong>Prise en charge :</strong> porte d'arrivée A4 – terminal national</li>
+      <li><strong>Dépose :</strong> hall des départs du terminal national</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏙️ Arrêts au centre de Da Nang :</div>
+      <ul class="stop-list">
+      <li>Gare de Da Nang (Train Cafe à l'entrée principale)</li>
+      <li>Musée de la sculpture cham de Da Nang</li>
+      <li>Hiyori Garden Tower – 02 Vo Van Kiet St.</li>
+      <li>A La Carte Beach Hotel – 200 Vo Nguyen Giap St.</li>
+      <li>Holiday Beach Hotel – 300 Vo Nguyen Giap St.</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏡 Arrêts au centre de Hội An :</div>
+      <ul class="stop-list">
+      <li>Agence Barri Ann Travel – 30/2 Tran Hung Dao St.</li>
+      <li>Distributeur Agribank – 255 Cua Dai St.</li>
+      <li>Silk Village The Tourist – 28 Nguyen Tat Thanh St.</li>
+      <li>Hoi An iVy Hotel – 01 Dao Duy Tu St.</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏖️ Arrêts côté plage à Hội An :</div>
+      <ul class="stop-list">
+      <li>Dahan Spa – 130 Lac Long Quan St.</li>
+      <li>Hoi An Beach Resort – 01 Cua Dai St.</li>
+      </ul>
+      </div>
+  - id: private-car
+    title: Voiture privée vers Da Nang
+    price: 320K VND
+    meta:
+    - Porte à porte
+    - Disponible 24 h/24
+    short: |-
+      <p>Trajet direct et confortable en voiture privée, de porte à porte.</p>
+      <p><strong>Prix :</strong> 320 000 VND</p>
+      <p><small>(supplément de 50K pour les trajets de nuit entre 22 h et 5 h)</small></p>
+    full: |-
+      <p>Idéal pour les familles, les groupes avec beaucoup de bagages, ou pour arriver en toute flexibilité et sans arrêt (aéroport, gare ou hôtel à Da Nang).</p>
+  - id: hue-motorbike
+    title: Scooter aller simple vers Huế
+    price: 700K VND
+    meta:
+    - Conduite libre
+    - Transport des bagages
+    short: |-
+      <p>Pour seulement <strong>700K VND</strong>, rejoignez Huế par vous-même !</p>
+      <p>Vous récupérez le scooter à notre auberge. Vos bagages sont transportés jusqu'à votre nouvelle auberge à Huế (+50K si vous êtes deux sur un scooter).</p>
+    full: |-
+      <ul>
+      <li>Vous empruntez le célèbre <strong>col de Hải Vân</strong> et découvrez cascades et plages magnifiques.</li>
+      <li>La route est facile et tous les scooters sont automatiques.</li>
+      <li><strong>Carte personnalisée incluse :</strong> l'un de nos hôtes a réalisé une carte détaillée avec tous les meilleurs arrêts du trajet !</li>
+      </ul>
+  - id: easy-rider
+    title: Tour Easy Rider vers Huế
+    price: 1,3 M VND
+    meta:
+    - Entrées incluses
+    - Pilote local expérimenté
+    short: |-
+      <p><strong>Pour seulement 1 300 000 VND (entrées incluses)</strong></p>
+      <p>Installez-vous, détendez-vous et profitez du trajet ! Nos pilotes expérimentés connaissent les meilleurs endroits et vous racontent des histoires passionnantes en chemin.</p>
+    full: |-
+      <ul>
+      <li>Arrêt aux montagnes de Marbre ou à la Lady Buddha</li>
+      <li>Traversée panoramique du col de Hải Vân</li>
+      <li>Arrêt à la lagune de Lập An</li>
+      <li>Arrêt à la plage de Lăng Cô pour un délicieux déjeuner</li>
+      <li>Pause rafraîchissante à la cascade</li>
+      </ul>
+guide:
+  title: Bus VIP ou limousine ?
+  intro: Tous nos bus longue distance ont des rideaux pour l'intimité et des prises USB pour recharger vos appareils.
+  items:
+  - title: Bus couchette VIP
+    text: Des cabines individuelles plus larges pour plus de confort et d'intimité, dans un bus de même longueur. Vivement recommandé pour les longs trajets !
+  - title: Bus couchette limousine (standard)
+    text: Couchettes modernes de largeur standard. Confortable, économique et entièrement équipé de rideaux et de prises USB.
+  wa: les bus couchettes
+  ask: Demandez-nous sur WhatsApp

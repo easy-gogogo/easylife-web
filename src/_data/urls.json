@@ -1,11 +1,11 @@
 {
   "_hinweis": "Adresse jeder festen Seite je Sprache. Fehlt eine Sprache, gibt es die Seite dort nicht. Verleih-URLs stehen in rentals.json, Reisetipps ergeben sich aus dem Dateinamen.",
-  "home":       { "en": "/",                        "de": "/",                  "vi": "/",                        "ko": "/" },
-  "villa":      { "en": "/villa-hoi-an/",           "de": "/villa-hoi-an/",     "vi": "/villa-hoi-an/",           "ko": "/villa-hoi-an/" },
-  "hostel":     { "en": "/nalani-hostel-homestay/", "de": "/nalani-hostel-homestay/", "vi": "/nalani-hostel-homestay/", "ko": "/nalani-hostel-homestay/" },
-  "rentals":    { "en": "/rentals/",                "de": "/verleih/",          "vi": "/rentals/",                "ko": "/rentals/" },
-  "tips":       { "en": "/travel-tips/",            "de": "/reisetipps/",       "vi": "/travel-tips/",            "ko": "/travel-tips/" },
-  "about":      { "en": "/about/",                  "de": "/ueber-uns/",        "vi": "/about/",                  "ko": "/about/" },
-  "activities": { "en": "/activities/" },
-  "transport":  { "en": "/transport-hoi-an/" }
+  "home": { "en": "/", "de": "/", "vi": "/", "ko": "/", "fr": "/", "zh": "/" },
+  "villa": { "en": "/villa-hoi-an/", "de": "/villa-hoi-an/", "vi": "/villa-hoi-an/", "ko": "/villa-hoi-an/", "fr": "/villa-hoi-an/", "zh": "/villa-hoi-an/" },
+  "hostel": { "en": "/nalani-hostel-homestay/", "de": "/nalani-hostel-homestay/", "vi": "/nalani-hostel-homestay/", "ko": "/nalani-hostel-homestay/", "fr": "/nalani-hostel-homestay/", "zh": "/nalani-hostel-homestay/" },
+  "rentals": { "en": "/rentals/", "de": "/verleih/", "vi": "/rentals/", "ko": "/rentals/", "fr": "/rentals/", "zh": "/rentals/" },
+  "tips": { "en": "/travel-tips/", "de": "/reisetipps/", "vi": "/travel-tips/", "ko": "/travel-tips/", "fr": "/travel-tips/", "zh": "/travel-tips/" },
+  "about": { "en": "/about/", "de": "/ueber-uns/", "vi": "/about/", "ko": "/about/", "fr": "/about/", "zh": "/about/" },
+  "activities": { "en": "/activities/", "de": "/aktivitaeten/", "vi": "/activities/", "ko": "/activities/", "fr": "/activities/", "zh": "/activities/" },
+  "transport": { "en": "/transport-hoi-an/", "de": "/transport-hoi-an/", "vi": "/transport-hoi-an/", "ko": "/transport-hoi-an/", "fr": "/transport-hoi-an/", "zh": "/transport-hoi-an/" }
 }

@@ -4,14 +4,47 @@ pageKey: tips
 contentFile: tips
 ogImage: /images/travel-tips/hoi-an-old-town-rooftops-sunset.jpg
 ---
+{% from "partials/icons.njk" import icon %}
 {% set c = "tips" | cx %}{% set u = "ui" | cx %}
 {% set hero = { eyebrow: c.hero.eyebrow, title: c.hero.title, lead: c.hero.lead, image: "/images/travel-tips/hoi-an-old-town-rooftops-sunset.jpg", alt: c.hero.alt } %}
 {% set crumbs = [["tips", u.nav.tips]] %}
 {% include "partials/page-hero.njk" %}
-<section class="section cream">
+{% if c.faq %}
+<nav class="jump" aria-label="{{ c.faq.title }}"><div class="wrap">
+  <a href="#articles">{{ c.articles }}</a>{% for g in c.faq.groups %}<a href="#{{ g.id }}">{{ g.title }}</a>{% endfor %}
+</div></nav>
+{% endif %}
+<section class="section cream" id="articles">
   <div class="wrap">
     {% set list = articles | where("lang", lang) | sort(false, false, "order") %}{% include "partials/tip-cards.njk" %}
   </div>
 </section>
+{% if c.faq %}
+{# Häufige Fragen: Texte in texts/<sprache>/tips.yml unter faq.groups #}
+<section class="section" id="faq">
+  <div class="wrap narrow">
+    <div class="cat-head"><span class="idx">FAQ</span><h2>{{ c.faq.title }}</h2><p>{{ c.faq.intro }} <span class="faq-date">{{ c.faq.updated }}</span></p></div>
+    {% for g in c.faq.groups %}
+    <div class="faq-group" id="{{ g.id }}">
+      <h3>{{ g.title }}</h3>
+      <div class="faq">{% for f in g.items %}
+        <details id="{{ f.id }}"><summary>{{ f.q }}</summary>
+          <p>{{ f.a }}</p>
+          {% if f.tip %}<p class="faq-tip"><strong>{{ c.faq.tipLabel }}</strong> {{ f.tip }}</p>{% endif %}
+          {% if f.links %}<p class="faq-links">{% for l in f.links %}{% if l.to == "zalo" %}{% set href = site.zalo %}{% elif l.to == "whatsapp" %}{% set href = site.whatsapp %}{% else %}{% set href = (l.to | link) + ("#" + l.hash if l.hash else "") %}{% endif %}<a href="{{ href }}"{% if l.to == "zalo" or l.to == "whatsapp" %} target="_blank" rel="noopener"{% endif %}>{{ l.label }} {{ icon("arrow", 15) }}</a>{% endfor %}</p>{% endif %}
+        </details>{% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<script type="application/ld+json">{{ { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": c.faq.groups | faqGroupsSchema } | json | safe }}</script>
+<section class="section discount slim">
+  <div class="wrap discount-grid">
+    <div><h2>{{ c.faq.more.title }}</h2><p class="lead">{{ c.faq.more.text }}</p></div>
+    <div>{% set ctaTopic = c.faq.more.wa %}{% include "partials/contact-cta.njk" %}</div>
+  </div>
+</section>
+{% endif %}
 {% include "partials/upsell.njk" %}
 {% include "partials/insta.njk" %}

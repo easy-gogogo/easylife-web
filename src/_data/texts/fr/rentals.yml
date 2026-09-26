@@ -1,0 +1,97 @@
+# Verleih (Französisch): Übersicht + ein Block pro Produkt (Schlüssel wie in rentals.json)
+meta:
+  title: "Locations à Hội An – SUP, scooters et vélos | EasyLife"
+  description: "Louez des stand-up paddles, des scooters et des vélos directement à l'EasyLife Villa et au Nalani Hostel à Cẩm An, Hội An. Prix justes, conseils locaux — écrivez-nous simplement."
+hero:
+  eyebrow: "Locations · à récupérer chez nous"
+  title: "Planches, vélos et scooters"
+  lead: "Tout ce qu'il faut pour explorer Hội An à votre rythme — du paddle au coucher du soleil sur la rivière à la traversée du col de Hải Vân en scooter."
+how:
+  title: Comment fonctionne la location
+  steps:
+    - { title: Écrivez-nous, text: "Dites-nous ce que vous voulez louer, quand et pour combien de temps." }
+    - { title: Nous préparons tout, text: "Planches, vélos et scooters sont prêts à l'EasyLife Villa ou au Nalani Hostel." }
+    - { title: Paiement sur place, text: "Pas de paiement en ligne, pas de frais cachés — vous payez au moment de la prise en charge." }
+priceLabels:
+  1h: 1 heure
+  2h: 2 à 3 heures
+  day: 1 jour
+  hue: Aller simple vers Huế
+products:
+  sup:
+    meta:
+      title: "Location de SUP à Hội An – Stand-up paddle au coucher du soleil | EasyLife"
+      description: "Louez un stand-up paddle à Hội An dès 200K VND. Pagayez vers le coucher du soleil sur la rivière — pour tous les âges. Point de rendez-vous : EasyLife Villa."
+    name: Stand-up paddles
+    short: "Pagayez vers le coucher du soleil sur la rivière. Pour tous les âges — le meilleur départ pour le coucher du soleil est à 16 h 30."
+    meta_line: "Point de rendez-vous : EasyLife Villa"
+    alt: "Groupe de paddlers sur la rivière près de Hội An au coucher du soleil"
+    eyebrow: "EasyLife SUP · coucher de soleil sur la rivière"
+    title: "SUP à Hội An"
+    intro: "Sans aucun doute le plus beau coucher de soleil de la ville. Regardez le soleil se coucher sur la rivière et les pêcheurs préparer leurs filets. Le stand-up paddle, c'est pour tout le monde, à tout âge."
+    highlights:
+      - { title: Coucher de soleil sur la rivière, text: "Partez vers 16 h 30 pour être sur l'eau quand le soleil se couche." }
+      - { title: La vie de la rivière de près, text: "Glissez entre les bateaux de pêche et les filets sur l'eau calme — la façon la plus paisible de découvrir Hội An." }
+      - { title: Pour tous les âges, text: "Débutants, enfants et familles sont les bienvenus — nous vous montrons les bases." }
+    info:
+      - { label: Point de rendez-vous, value: "EasyLife Villa (sauf si nous convenons d'un autre lieu)" }
+      - { label: Meilleur moment pour le coucher du soleil, value: "Départ à 16 h 30" }
+      - { label: Hôtes de la villa, value: "25 % de réduction sur la location de SUP" }
+    faq:
+      - { q: "Faut-il de l'expérience ?", a: "Non. La plupart de nos hôtes montent sur une planche pour la première fois — nous vous expliquons tout avant de partir." }
+      - { q: "Les enfants peuvent-ils venir ?", a: "Oui, le SUP est pour tous les âges — indiquez-nous simplement l'âge des enfants dans votre message." }
+      - { q: "Que faut-il apporter ?", a: "Maillot de bain, crème solaire, chapeau et de quoi boire. Laissez vos objets de valeur à la maison." }
+    galleryAlts:
+      - "Silhouette d'un paddler devant le coucher du soleil sur la rivière"
+      - "Un groupe d'amis porte des planches de SUP vers l'eau"
+      - "Un enfant pagaie sur une planche de SUP sur la rivière"
+      - "Vue aérienne d'un paddler sur une mer turquoise"
+  motorbikes:
+    meta:
+      title: "Location de scooters et motos à Hội An – Aller simple vers Huế | EasyLife"
+      description: "Location de scooters à Hội An dès 150K VND par jour — toutes tailles, électriques ou à essence, avec un modèle pour chaque permis. Prise en charge au Nalani Hostel ou à l'EasyLife Villa. Aussi : aller simple par le col de Hải Vân jusqu'à Huế (700K VND, transfert des bagages inclus)."
+    name: Motos et scooters
+    short: "Scooters dès 150K VND par jour — toutes tailles, électriques ou à essence. Ou un aller simple par le col de Hải Vân jusqu'à Huế."
+    meta_line: "Dès 150K / jour · électrique & essence · toutes tailles"
+    alt: "Un couple en scooter sur la route côtière du col de Hải Vân"
+    eyebrow: "Location de scooters · Hội An"
+    title: "Scooters et motos"
+    intro: "Le scooter est le moyen le plus simple de se déplacer à Hội An : la vieille ville est à environ 10 minutes et la plage d'An Bang encore plus près. Nous avons des scooters de toutes tailles, électriques ou à essence — il y a un modèle adapté à chaque permis."
+    highlights:
+      - { title: Location à la journée — 150K, text: "Des scooters de toutes tailles, électriques ou à essence — du petit modèle facile au plus puissant. À récupérer à l'auberge ou à la villa." }
+      - { title: Aller simple vers Huế — 700K, text: "Traversez vous-même le célèbre col de Hải Vân. Vos bagages sont transportés jusqu'à votre prochaine auberge à Huế (+50K si vous êtes deux sur un scooter)." }
+      - { title: Carte personnalisée incluse, text: "L'un de nos hôtes a réalisé une carte détaillée avec tous les meilleurs arrêts sur la route de Huế." }
+    info:
+      - { label: Prise en charge, value: "Nalani Hostel ou EasyLife Villa" }
+      - { label: Deux-roues, value: "Toutes tailles · électrique & essence · pour chaque permis" }
+      - { label: Permis de conduire, value: "Vérifiez que votre permis est valable au Vietnam avant de prendre la route." }
+    faq:
+      - { q: "Ai-je besoin d'un permis ?", a: "La loi vietnamienne exige un permis valable au Vietnam — en général un permis international. Vérifiez ce point ainsi que votre assurance voyage avant de conduire." }
+      - { q: "Fournissez-vous des casques ?", a: "Le port du casque est obligatoire au Vietnam — demandez-nous un casque lors de la réservation." }
+      - { q: "Vous ne savez pas conduire un scooter ?", a: "Réservez un tour Easy Rider ou une voiture privée sur notre page transport — ou louez plutôt un vélo." }
+    galleryAlts:
+      - "Des hôtes du Nalani Hostel posent avec un scooter"
+  bicycles:
+    meta:
+      title: "Location de vélos à Hội An – À travers les rizières | EasyLife"
+      description: "Découvrez Hội An à vélo : rizières, village maraîcher et vieille ville sont facilement accessibles depuis l'EasyLife Villa et le Nalani Hostel. Vélos gratuits pour les hôtes de la villa."
+    name: Vélos
+    short: "Traversez les rizières et le village maraîcher — 20 minutes jusqu'à la vieille ville. Gratuit pour les hôtes de l'EasyLife Villa."
+    meta_line: "Gratuit pour les hôtes de la villa"
+    alt: "Vélo appuyé contre un mur jaune à Hội An"
+    eyebrow: "Location de vélos · Hội An"
+    title: "Vélos"
+    intro: "Une balade à vélo dans les rizières est incontournable à Hội An. Depuis nos maisons, les rizières et le village maraîcher sont à 10 minutes, la plage juste au coin de la rue et la vieille ville à 20 minutes de pédalage tranquille."
+    highlights:
+      - { title: Gratuit pour les hôtes de la villa, text: "Vous séjournez à l'EasyLife Villa ? Prenez simplement un vélo." }
+      - { title: Rizières et village maraîcher, text: "Des chemins tranquilles entre les champs — à 10 minutes de la maison." }
+      - { title: La vieille ville en 20 minutes, text: "Garez votre vélo à l'entrée de la vieille ville et continuez à pied." }
+    info:
+      - { label: Prise en charge, value: "EasyLife Villa ou Nalani Hostel" }
+      - { label: Hôtes de la villa, value: "Gratuit" }
+      - { label: Autres voyageurs, value: "Sur demande" }
+    faq:
+      - { q: "Les vélos ont-ils un antivol ?", a: "Demandez-nous quand vous récupérez votre vélo — on s'assure que vous puissiez le garer en sécurité." }
+      - { q: "Est-il sûr de faire du vélo à Hội An ?", a: "Les chemins à travers les rizières sont tranquilles. Dans la vieille ville et sur les grands axes, roulez prudemment et restez à droite." }
+    galleryAlts:
+      - "Des cyclistes dans les rues illuminées de lanternes de la vieille ville de Hội An"

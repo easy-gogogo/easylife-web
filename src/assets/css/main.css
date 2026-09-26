@@ -289,6 +289,14 @@ p{margin:0}
 .faq details[open] summary::after{content:"–"}
 .faq summary::-webkit-details-marker{display:none}
 .faq p{padding-bottom:14px;color:var(--soft)}
+.faq-group{margin-top:36px;scroll-margin-top:140px}
+.faq-group h3{font-size:clamp(24px,3vw,32px);color:var(--ink);margin-bottom:14px}
+.faq details{scroll-margin-top:140px}
+.faq .faq-tip{background:var(--cream);border-left:4px solid var(--yellow);border-radius:0 10px 10px 0;padding:10px 14px;margin-bottom:12px;color:var(--ink)}
+.faq .faq-links{display:flex;flex-wrap:wrap;gap:6px 18px}
+.faq-links a{display:inline-flex;align-items:center;gap:4px;font-weight:700;color:var(--teal-deep);text-decoration:none}
+.faq-links a:hover{text-decoration:underline}
+.faq-date{display:block;margin-top:6px;font-family:var(--font-mono);font-size:12.5px;letter-spacing:.04em}
 
 .values.three{margin-top:22px}
 .places.single{margin-top:18px}

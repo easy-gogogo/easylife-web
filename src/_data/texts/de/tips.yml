@@ -1,9 +1,145 @@
 # Reisetipps-Übersicht (Deutsch)
 meta:
-  title: "Reisetipps Hoi An – Strände, Sonnenuntergänge & Unterwegs | EasyLife"
-  description: "Reisetipps für Hội An von Lan & Martin: So kommst du zum An Bang Beach, die schönsten Orte für den Sonnenuntergang und vom Flughafen Da Nang nach Hội An."
+  title: "Vietnam Reisetipps & FAQ – Visum, Reisezeit, Geld, Transport | EasyLife Hoi An"
+  description: "Die 20 häufigsten Fragen zur Vietnam-Reise, beantwortet von Lan & Martin aus Hội An: Visum, beste Reisezeit, Budget, QR-Zahlung, Sicherheit, Roller, SIM-Karte – plus Tipps zu Strand, Sonnenuntergang und Flughafen."
 hero:
   eyebrow: Reisetipps · von Einheimischen
-  title: "Reisetipps für Hội An"
-  lead: "Was uns Gäste jeden Tag fragen – einmal richtig beantwortet. Vom Strand bis zum Flughafen."
+  title: "Reisetipps für Vietnam & Hội An"
+  lead: "Was uns Gäste jeden Tag fragen – einmal richtig beantwortet. Von Visum und Reisezeit bis zum Strand und Flughafen."
   alt: "Dächer der Altstadt von Hoi An bei Sonnenuntergang"
+articles: Artikel
+faq:
+  title: "Vietnam-Reise: die 20 häufigsten Fragen"
+  intro: "Unsere Antworten auf die Fragen, die wir am häufigsten hören – mit Tipps, wie wir dir in Hội An weiterhelfen können. Einreisebestimmungen können sich ändern: Prüfe sie vor deiner Reise beim Auswärtigen Amt oder der vietnamesischen Botschaft."
+  updated: "Stand: September 2026"
+  tipLabel: "Unser Tipp:"
+  more:
+    title: "Noch eine Frage offen?"
+    text: "Schreib uns – Lan und Martin antworten persönlich, auf Deutsch, Englisch oder Vietnamesisch."
+    wa: eine Frage zur Vietnam-Reise
+  groups:
+    - id: einreise
+      title: Einreise & Visum
+      items:
+        - id: visa
+          q: "Brauche ich ein Visum für Vietnam?"
+          a: "Bürger aus Deutschland, Frankreich, Italien, Spanien, Großbritannien und den skandinavischen Ländern dürfen bis zu 45 Tage ohne Visum bleiben (derzeit gültig bis März 2028). Befristet bis August 2028 gilt das auch für die Schweiz, die Niederlande, Belgien, Luxemburg, Polen, Tschechien und einige weitere EU-Länder. Österreich gehört nicht dazu – Reisende aus Österreich brauchen ein E-Visum. Wer länger als 45 Tage bleiben möchte, beantragt vorab online ein E-Visum: Es gilt bis zu 90 Tage und erlaubt auch mehrfache Einreisen (Multiple Entry). Beantrage es nur über das offizielle Portal evisa.gov.vn."
+        - id: passport
+          q: "Wie lange muss mein Reisepass noch gültig sein?"
+          a: "Der Reisepass muss bei der Einreise noch mindestens sechs Monate über das geplante Rückreisedatum hinaus gültig sein und mindestens eine leere Seite für den Einreisestempel haben."
+    - id: reisezeit
+      title: Reisezeit & Route
+      items:
+        - id: best-time
+          q: "Wann ist die beste Reisezeit für Vietnam?"
+          a: "Vietnam ist lang gestreckt und hat drei Klimazonen. Für eine Tour durch das ganze Land gelten Frühling (März bis April) und Herbst (September bis November) als beste Reisezeiten. Im Norden kann es im Winter sehr kühl werden, im Süden ist es das ganze Jahr tropisch warm."
+          tip: "In Hội An selbst ist es von Februar bis August am trockensten und sonnigsten – perfekt für Strand und Sonnenuntergang auf dem SUP-Board."
+          links:
+            - { to: sup, label: "SUP bei Sonnenuntergang" }
+            - { to: "tip:sunset", label: "Die schönsten Sonnenuntergänge" }
+        - id: rainy-season
+          q: "Lohnt sich eine Reise während der Regenzeit?"
+          a: "Ja. Meist regnet es in der Monsunzeit nur in kurzen, heftigen Schauern am Nachmittag, danach scheint wieder die Sonne. Eine Ausnahme ist Zentralvietnam (Hội An, Đà Nẵng, Huế): Hier kann es zwischen Oktober und November zu Taifunen und tagelangen Überschwemmungen kommen."
+          tip: "Regentag in Hội An? Dann ab in einen Kochkurs, einen Laternen-Workshop oder einen Kaffeekurs – wir buchen das für dich, oft mit Abholung."
+          links:
+            - { to: activities, hash: cooking-class, label: "Kochkurs" }
+            - { to: activities, hash: lantern-making, label: "Laternen basteln" }
+            - { to: activities, label: "Alle Aktivitäten" }
+        - id: duration
+          q: "Wie viel Zeit sollte ich für eine Vietnam-Reise einplanen?"
+          a: "Zwei Wochen sind das Minimum, um die wichtigsten Highlights (zum Beispiel Hanoi, Halong-Bucht, Hội An, Ho-Chi-Minh-Stadt) im Schnelldurchlauf zu sehen. Drei bis vier Wochen sind ideal, um das Land entspannter kennenzulernen."
+          tip: "Hội An liegt genau in der Mitte des Landes. Plane hier mindestens drei bis vier Nächte ein: Altstadt, Strand, Reisfelder und Ausflüge nach Mỹ Sơn oder in die Bà Nà Hills."
+          links:
+            - { to: villa, label: "EasyLife Villa" }
+            - { to: hostel, label: "Nalani Hostel" }
+            - { to: activities, hash: my-son, label: "Ausflug nach Mỹ Sơn" }
+        - id: direction
+          q: "Sollte ich von Nord nach Süd oder von Süd nach Nord reisen?"
+          a: "Beides ist problemlos machbar und hängt oft von den besten Flugverbindungen ab. Ein guter Tipp ist das Wetter: Reist du im europäischen Frühling, startest du am besten im warmen Süden und reist dem langsam wärmer werdenden Wetter im Norden hinterher."
+          tip: "Hội An ist der perfekte Zwischenstopp: Unsere Schlafbusse fahren von hier nach Norden (Huế, Phong Nha, Ninh Bình, Hanoi) und nach Süden (Quy Nhơn, Nha Trang, Đà Lạt, Saigon) – mit kostenloser Abholung an deiner Unterkunft."
+          links:
+            - { to: transport, hash: bus-times, label: "Busfahrpläne" }
+    - id: geld
+      title: Geld & Bezahlen
+      items:
+        - id: currency
+          q: "Welche Währung wird genutzt und wie kann ich vor Ort bezahlen?"
+          a: "Die Landeswährung ist der Vietnamesische Đồng (VND). Euro oder US-Dollar werden im Alltag so gut wie nie akzeptiert. Neben Bargeld ist QR-Code-Zahlung (VietQR) extrem verbreitet – selbst an kleinen Straßenständen. Mit Apps für Reisende wie Moreta Pay können auch Ausländer ohne vietnamesisches Bankkonto diese QR-Codes mit dem Smartphone scannen und bezahlen."
+        - id: budget
+          q: "Wie viel Budget brauche ich pro Tag?"
+          a: "Vietnam ist ein sehr günstiges Reiseland. Backpacker kommen mit 30 bis 50 Euro pro Tag für Hostel, Transport und Streetfood gut aus. Für eine komfortable Mittelklasse-Reise mit Boutique-Hotels und Inlandsflügen solltest du etwa 70 bis 120 Euro pro Tag und Person einplanen."
+          tip: "Kleines Budget: ein Bett im Nalani Hostel, Frühstück inklusive. Mehr Komfort: ein Zimmer mit Balkon und Pool in der EasyLife Villa. Bei Direktbuchung sparst du bei beiden 10 %."
+          links:
+            - { to: hostel, hash: book, label: "Nalani Hostel direkt buchen" }
+            - { to: villa, hash: book, label: "EasyLife Villa direkt buchen" }
+        - id: cash
+          q: "Sollte ich viel Bargeld mitnehmen oder reicht eine Kreditkarte?"
+          a: "Große Hotels und Restaurants akzeptieren Kreditkarten, und QR-Zahlungen wachsen stark. Für Märkte, Taxis und kleine Läden bleibt Bargeld aber wichtig. Am besten hebst du direkt nach der Ankunft am Geldautomaten Vietnamesische Đồng ab."
+        - id: tipping
+          q: "Wird in Vietnam Trinkgeld erwartet?"
+          a: "Trinkgeld ist in Vietnam traditionell nicht üblich, hat sich in touristischen Regionen aber etabliert. In besseren Restaurants oder für gute Guides und Fahrer sind 5 bis 10 Prozent eine willkommene Geste."
+    - id: sicherheit
+      title: Sicherheit & Gesundheit
+      items:
+        - id: safety
+          q: "Ist Vietnam ein sicheres Reiseland – auch für alleinreisende Frauen?"
+          a: "Ja. Vietnam gilt als eines der sichersten Länder Südostasiens, Gewaltverbrechen gegen Touristen sind sehr selten. Alleinreisende Frauen können sich frei im Land bewegen. Vorsicht ist vor allem vor Taschendieben geboten, etwa vor Handtaschenraub vom vorbeifahrenden Roller in touristischen Zentren."
+          tip: "Im Nalani Hostel gibt es neben gemischten auch reine Frauen-Schlafsäle."
+          links:
+            - { to: hostel, hash: rooms, label: "Zimmer im Nalani Hostel" }
+        - id: vaccines
+          q: "Welche Impfungen werden empfohlen?"
+          a: "Neben den Standardimpfungen (Tetanus, Diphtherie, Polio) wird Hepatitis A empfohlen, bei längeren Aufenthalten auch Hepatitis B, Tollwut und Typhus. Malaria ist auf den üblichen Touristenrouten selten ein Thema. Gegen Dengue-Fieber hilft konsequenter Mückenschutz (lange Kleidung, DEET-Spray). Lass dich vor der Reise reisemedizinisch beraten."
+        - id: water
+          q: "Kann ich das Leitungswasser in Vietnam trinken?"
+          a: "Nein, Leitungswasser hat keine Trinkwasserqualität. Trink nur gefiltertes Wasser oder Wasser aus verschlossenen Flaschen – bei empfindlichem Magen auch zum Zähneputzen. Eis in guten Restaurants wird aus industriell gefiltertem Wasser hergestellt und ist unbedenklich."
+          tip: "Im Nalani Hostel ist Trinkwasser für Gäste kostenlos."
+          links:
+            - { to: hostel, label: "Nalani Hostel" }
+        - id: street-food
+          q: "Ist Streetfood sicher?"
+          a: "Streetfood ist ein Highlight der vietnamesischen Kultur und sicher, wenn du ein paar Regeln beachtest: Iss dort, wo viele Einheimische sitzen (hoher Umsatz, frische Zutaten), und wähle Gerichte, die vor deinen Augen frisch und heiß zubereitet werden – zum Beispiel Phở, Bánh Mì oder Bún Chả."
+          tip: "Lerne die Klassiker selbst: Beim Bay Mau Eco Cooking Class im Kokoswald kochst du vier vietnamesische Gerichte."
+          links:
+            - { to: activities, hash: cooking-class, label: "Kochkurs in Hội An" }
+    - id: unterwegs
+      title: Transport & vor Ort
+      items:
+        - id: travel-options
+          q: "Wie bewege ich mich am besten durchs Land?"
+          a: "Für lange Strecken (zum Beispiel Hanoi – Đà Nẵng) sind Inlandsflüge am schnellsten und günstig. Für mittlere Strecken eignen sich Nachtzüge (Wiedervereinigungsexpress) oder bequeme Schlafbusse. In den Städten nutzt du am besten Ride-Hailing-Apps wie Grab."
+          tip: "Vom Flughafen Đà Nẵng kommst du mit unserem Shuttlebus oder Privatwagen nach Hội An. Für die Weiterreise buchen wir dir den Schlafbus – mit Abholung an der Unterkunft."
+          links:
+            - { to: "tip:airport", label: "Vom Flughafen nach Hội An" }
+            - { to: transport, hash: shuttles, label: "Shuttle & Privatwagen" }
+            - { to: transport, hash: bus-times, label: "Schlafbus buchen" }
+        - id: scooter
+          q: "Sollte ich mir einen Motorroller mieten?"
+          a: "Nur mit viel Fahrpraxis und dem richtigen Führerschein. Der Verkehr ist chaotisch, und für Ungeübte ist die Unfallgefahr hoch. Außerdem brauchst du einen Internationalen Führerschein mit Motorradklasse – sonst erlischt bei einem Unfall oft der Versicherungsschutz."
+          tip: "Du hast Erfahrung und den passenden Führerschein? Dann miete bei uns einen Roller ab 150.000 VND pro Tag – in allen Größen, auch elektrisch. Lieber ohne eigenes Fahren: Ein Easy Rider fährt dich über den Hải-Vân-Pass nach Huế, oder du erkundest die Reisfelder mit dem Fahrrad."
+          links:
+            - { to: motorbikes, label: "Roller mieten" }
+            - { to: transport, hash: easy-rider, label: "Easy-Rider-Tour" }
+            - { to: bicycles, label: "Fahrrad mieten" }
+        - id: crossing
+          q: "Wie überquere ich in vietnamesischen Städten die Straße?"
+          a: "Das kostet am Anfang etwas Überwindung: Geh langsam und in gleichmäßigem Tempo los, bleib auf keinen Fall plötzlich stehen und fang nicht an zu rennen. Die Rollerfahrer sind es gewohnt, Fußgänger vorausschauend zu umfahren."
+          tip: "Entspannter geht es auf ruhigen Wegen: Mit dem Fahrrad bist du in zehn Minuten in den Reisfeldern – für Gäste der EasyLife Villa sind die Räder kostenlos."
+          links:
+            - { to: bicycles, label: "Fahrradverleih" }
+        - id: sim
+          q: "Brauche ich eine lokale SIM-Karte?"
+          a: "Ja, das ist sehr zu empfehlen, um unterwegs zu navigieren und Apps zu nutzen. Eine lokale SIM-Karte (zum Beispiel von Viettel) oder eine vorab gekaufte eSIM (zum Beispiel Airalo) ist sehr günstig und erleichtert den Reisealltag enorm."
+          tip: "In der EasyLife Villa hast du schnelles WLAN und einen Schreibtisch im Zimmer – ideal auch zum Arbeiten."
+          links:
+            - { to: villa, label: "EasyLife Villa" }
+        - id: apps
+          q: "Welche Apps sind für Vietnam unverzichtbar?"
+          a: "Für Fahrten und Essenslieferungen Grab oder Be, zur Orientierung Google Maps, zum Übersetzen Google Translate und für QR-Zahlungen Apps wie Moreta Pay. Mit Hotels, Guides und Fahrern kommuniziert man meist über Zalo."
+          tip: "Uns erreichst du per Zalo oder WhatsApp – für Zimmer, Bustickets und Touren."
+          links:
+            - { to: zalo, label: "Zalo" }
+            - { to: whatsapp, label: "WhatsApp" }
+        - id: plugs
+          q: "Welcher Stecker wird in Vietnam verwendet?"
+          a: "Die Netzspannung beträgt 220 Volt. Üblich sind Steckdosen der Typen A, C und F, oft als Kombinationssteckdose. Europäische Flachstecker (Typ C) passen fast überall ohne Adapter. Schuko-Stecker (Typ F) passen nicht in jede Dose – ein kleiner Reiseadapter ist sinnvoll."

@@ -71,6 +71,8 @@ export default function (eleventyConfig) {
     return out;
   });
   eleventyConfig.addFilter("faqSchema", (faq) => (faq || []).map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })));
+  // FAQ mit Gruppen -> schema.org (Antwort + Tipp)
+  eleventyConfig.addFilter("faqGroupsSchema", (groups) => (groups || []).flatMap((g) => g.items || []).map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.tip ? f.a + " " + f.tip : f.a } })));
   eleventyConfig.addFilter("offers", (prices, url, labels) =>
     (prices || []).map((p) => ({ "@type": "Offer", name: labels?.[p.id] ?? p.id, price: p.vnd, priceCurrency: "VND", url, availability: "https://schema.org/InStock" })));
   // Reisetipps, die auf ein Produkt/eine Seite verlinken (Frontmatter "related")

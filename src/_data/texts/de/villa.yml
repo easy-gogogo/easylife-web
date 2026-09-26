@@ -12,9 +12,8 @@ rooms:
   title: Zimmer
   intro: "Alle Zimmer haben Klimaanlage, TV, eigenes Bad und Balkon. Kinder sind in jedem Zimmer willkommen."
   items:
-    - { name: De-Luxe-Doppelzimmer, guests: "1–2 Personen + Kinder", beds: "1 Queen-Size-Bett", image: /images/hotel/easylife-villa-deluxe-double-room.jpg, alt: "De-Luxe-Doppelzimmer mit blauem Bettläufer und Balkontür" }
+    - { name: Deluxe-Doppelzimmer, guests: "1–2 Personen + Kinder", beds: "1 Queen-Size-Bett", image: /images/hotel/easylife-villa-deluxe-double-room.jpg, alt: "Deluxe-Doppelzimmer mit blauem Bettläufer und Balkontür" }
     - { name: Familienzimmer, guests: "1–4 Personen + Kinder", beds: "2 Queen-Size-Betten", image: /images/hotel/easylife-villa-family-room.jpg, alt: "Familienzimmer mit zwei Queen-Size-Betten" }
-    - { name: Dreibettzimmer, guests: "1–6 Personen + Kinder", beds: "3 Queen-Size-Betten", image: /images/hotel/easylife-villa-triple-room.jpg, alt: "Zimmer mit drei Queen-Size-Betten und Bildern an der Wand" }
   features: [Klimaanlage, TV, Eigenes Bad, Balkon, Schreibtisch & schnelles WLAN]
   ask: Dieses Zimmer anfragen
 long:

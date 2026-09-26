@@ -34,5 +34,24 @@
     "pathPrefix": "/ko",
     "live": true,
     "locale": "ko_KR"
+  },
+  {
+    "code": "fr",
+    "name": "Français",
+    "short": "FR",
+    "domain": "easylifevietnam.com",
+    "pathPrefix": "/fr",
+    "live": true,
+    "locale": "fr_FR"
+  },
+  {
+    "code": "zh",
+    "name": "简体中文",
+    "short": "中文",
+    "domain": "easylifevietnam.com",
+    "pathPrefix": "/zh",
+    "live": true,
+    "locale": "zh_CN",
+    "hreflang": "zh-Hans"
   }
 ]

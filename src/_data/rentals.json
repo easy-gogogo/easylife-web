@@ -6,7 +6,9 @@
       "en": "/rentals/sup-hoi-an/",
       "de": "/verleih/sup-hoi-an/",
       "vi": "/rentals/sup-hoi-an/",
-      "ko": "/rentals/sup-hoi-an/"
+      "ko": "/rentals/sup-hoi-an/",
+      "fr": "/rentals/sup-hoi-an/",
+      "zh": "/rentals/sup-hoi-an/"
     },
     "image": "/images/rentals/sup/sup-sunset-group-river.jpg",
     "gallery": [
@@ -37,7 +39,9 @@
       "en": "/rentals/motorbike-rental-hoi-an/",
       "de": "/verleih/roller-mieten-hoi-an/",
       "vi": "/rentals/motorbike-rental-hoi-an/",
-      "ko": "/rentals/motorbike-rental-hoi-an/"
+      "ko": "/rentals/motorbike-rental-hoi-an/",
+      "fr": "/rentals/motorbike-rental-hoi-an/",
+      "zh": "/rentals/motorbike-rental-hoi-an/"
     },
     "image": "/images/rentals/motorbikes/scooter-rental-hai-van-pass.jpg",
     "gallery": [
@@ -45,12 +49,15 @@
     ],
     "prices": [
       {
+        "id": "day",
+        "vnd": 150000
+      },
+      {
         "id": "hue",
         "vnd": 700000
       }
     ],
-    "schema": "Service",
-    "showFrom": false
+    "schema": "Service"
   },
   {
     "key": "bicycles",
@@ -58,7 +65,9 @@
       "en": "/rentals/bicycle-rental-hoi-an/",
       "de": "/verleih/fahrrad-mieten-hoi-an/",
       "vi": "/rentals/bicycle-rental-hoi-an/",
-      "ko": "/rentals/bicycle-rental-hoi-an/"
+      "ko": "/rentals/bicycle-rental-hoi-an/",
+      "fr": "/rentals/bicycle-rental-hoi-an/",
+      "zh": "/rentals/bicycle-rental-hoi-an/"
     },
     "image": "/images/rentals/bicycles/bicycle-yellow-wall.jpg",
     "gallery": [

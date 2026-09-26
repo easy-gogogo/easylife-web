@@ -13,7 +13,7 @@ README_UP = """EasyLife Websites – so lädst du hoch
 Jeder Ordner hier = eine Domain. Lade den INHALT des Ordners in das Hauptverzeichnis der Domain hoch
 (per FTP, z. B. FileZilla, oder im Dateimanager deines Hosters):
 
-  easylifevietnam.com\\   ->  easylifevietnam.com   (Englisch + /vi/ + /ko/)
+  easylifevietnam.com\\   ->  easylifevietnam.com   (Englisch + /vi/ /ko/ /fr/ /zh/)
   einfachasien.com\\      ->  einfachasien.com      (Deutsch)
   hostelhoian.com\\       ->  hostelhoian.com       (nur Weiterleitung auf die neue Hostel-Seite)
 
@@ -26,15 +26,15 @@ Per Doppelklick sehen die Seiten hier auf dem PC ohne Design aus – das ist nor
 Zum Anschauen auf dem PC gibt es den Ordner "hochladen-offline".
 
 Änderungen (Preise, Texte, neue Produkte, neue Artikel):
-Einfach Claude sagen, was sich ändern soll. Die Vorlage ("Werkstatt") ist im Claude-Projekt
-"New Website" gespeichert (easylife-web-werkstatt-sicherung.txt). Claude baut daraus neu,
-du lädst den neuen Ordner hoch.
+Einfach Claude sagen, was sich ändern soll. Die Vorlage liegt im Ordner easylife-web-v3
+(src\) und auf GitHub (easy-gogogo/easylife-web). Claude baut daraus neu,
+du lädst den neuen Ordner "hochladen" hoch.
 """
 README_OFF = """Offline-Vorschau der EasyLife Websites
 ======================================
 
 Zum Anschauen auf dem PC: Doppelklick auf
-  easylifevietnam.com\\index.html   (Englisch, Vietnamesisch, Koreanisch)
+  easylifevietnam.com\\index.html   (Englisch, Vietnamesisch, Koreanisch, Französisch, Chinesisch)
   einfachasien.com\\index.html      (Deutsch)
 
 Menü, Bilder und Sprachwechsel funktionieren offline.
@@ -97,6 +97,9 @@ for dom in DOMAINS:
                 if "#" in url:
                     url, frag = url.split("#", 1)
                     frag = "#" + frag
+                if "?" in url:
+                    url, q = url.split("?", 1)
+                    frag = "?" + q + frag
                 if url.endswith("/"):
                     url += "index.html"
                 target = url if cross_dom is None else f"/../{cross_dom}{url}"

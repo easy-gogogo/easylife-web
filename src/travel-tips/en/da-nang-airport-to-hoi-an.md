@@ -16,13 +16,13 @@ Most of our guests arrive at **Da Nang International Airport**. The drive from t
 A shuttle bus runs between Hội An and Da Nang several times a day, with stops at the airport, in Da Nang city and in Hội An.
 
 - **At the airport:** pick-up at *Arrival Gate A4 – Domestic Terminal*; drop-off at the departure hall of the domestic terminal.
-- **Price and times:** see our [bus & transport page]({{ 'transport' | link('en') }}) for the current departures and price.
+- **Price and times:** see our [bus & transport page]({{ 'transport' | link }}) for the current departures and price.
 
 ## 2. Private car — door to door
 
 The most relaxed option, especially with family, lots of luggage or a late flight. The driver takes you straight to your accommodation, 24/7. Night rides between 22:00 and 05:00 cost a little extra.
 
-We book private cars for our guests — just send us your flight number and arrival time. → [Private car on our transport page]({{ 'transport' | link('en') }})
+We book private cars for our guests — just send us your flight number and arrival time. → [Private car on our transport page]({{ 'transport' | link }})
 
 ## 3. Grab or taxi
 

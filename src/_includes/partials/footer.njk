@@ -35,7 +35,7 @@
   </div>
   <div class="footer-bottom">
     <span>© {{ "" | year }} EasyLife Hoi An · Lan &amp; Martin. {{ "footer.rights" | t }}</span>
-    <span class="f-langs">{% for l in languages %}{% if l.live and routes[pageKey][l.code] %}<a href="{{ pageKey | link(l.code) }}" hreflang="{{ l.code }}">{{ l.name }}</a>{% endif %}{% endfor %}</span>
+    <span class="f-langs">{% for l in languages %}{% if l.live and routes[pageKey][l.code] %}<a href="{{ pageKey | link(l.code) }}?lang={{ l.code }}" hreflang="{{ l.hreflang or l.code }}">{{ l.name }}</a>{% endif %}{% endfor %}</span>
   </div>
 </footer>
 <a class="float-wa" href="{{ site.whatsapp }}" target="_blank" rel="noopener" aria-label="WhatsApp">{{ icon("whatsapp", 26) }}</a>

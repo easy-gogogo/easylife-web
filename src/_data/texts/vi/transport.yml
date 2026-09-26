@@ -1,0 +1,148 @@
+# Texte der Seite transport (Vietnamesisch). Abfahrtszeiten/Preise der Busse stehen NUR in en/transport.yml (bus.north/south.rows).
+# bus.names übersetzt Bus-Typen und Ziele aus diesen Zeilen. Transfer-Preise bei Änderungen in ALLEN Sprachen anpassen.
+meta:
+  title: Xe khách & di chuyển từ Hội An – Xe giường nằm, xe đưa đón Đà Nẵng, xe riêng | EasyLife
+  description: Lịch xe giường nằm từ Hội An đi Huế, Phong Nha, Ninh Bình và nhiều nơi khác, xe shuttle và xe riêng ra sân bay Đà Nẵng, xe máy một chiều và tour Easy Rider ra Huế — đón miễn phí tại chỗ ở.
+hero:
+  eyebrow: Đưa đón & di chuyển ở miền Trung
+  title: Xe khách & di chuyển
+  lead: Thoải mái, đáng tin cậy và đặt trực tiếp với chúng tôi — xe giường nằm, xe shuttle ra Đà Nẵng, xe riêng hay chuyến đi huyền thoại qua đèo Hải Vân.
+  chips:
+  - Đón miễn phí ở Hội An
+  - Khởi hành hằng ngày
+  - Đặt qua WhatsApp
+  alt: Bên trong xe giường nằm VIP
+filters:
+  bus: Giờ xe giường nằm
+  shuttles: Xe shuttle & đưa đón
+  guide: Xe VIP hay xe limousine
+bus:
+  title: Giờ xe khách đường dài
+  note: Tất cả các chuyến đều đón miễn phí tận nơi tại chỗ ở của bạn ở Hội An.
+  cols:
+  - Xe
+  - Điểm đến
+  - Khởi hành
+  - Đến nơi
+  - Giá (VND)
+  book: Đặt vé xe
+  names:
+    Hue (Morning): Huế (buổi sáng)
+    Hue (Afternoon): Huế (buổi chiều)
+    Dong Hoi: Đồng Hới
+    Ninh Binh: Ninh Bình
+    Ha Noi: Hà Nội
+    Mui Ne: Mũi Né
+    Sai Gon: Sài Gòn
+    Da Lat: Đà Lạt
+    Quy Nhon: Quy Nhơn
+    Sleeper Bus HT: Xe giường nằm HT
+  north:
+    title: Hướng Bắc từ Hội An
+    wa: vé xe giường nằm (hướng Bắc)
+  south:
+    title: Hướng Nam từ Hội An
+    wa: vé xe giường nằm (hướng Nam)
+transfers:
+  title: Xe shuttle & đưa đón
+  ask: Đặt ngay
+  more: Thêm thông tin
+  items:
+  - id: shuttle-danang
+    title: Xe shuttle đi Đà Nẵng
+    price: 170K VND
+    meta:
+    - Đón tại khách sạn
+    - Khởi hành hằng ngày
+    short: |-
+      <p><strong>Đón tận nơi tại hostel/khách sạn của bạn!</strong></p>
+      <p><strong>Giờ khởi hành từ Hội An:</strong><br/>
+      6:00 · 7:00 · 9:00 · 10:00 · 12:00 · 13:00 · 15:00 · 16:00 · 18:00 · 20:00</p>
+    full: |-
+      <div class="stop-group">
+      <div class="stop-title">✈️ Điểm dừng tại sân bay Đà Nẵng:</div>
+      <ul class="stop-list">
+      <li><strong>Đón:</strong> Cổng đến A4 – Nhà ga quốc nội</li>
+      <li><strong>Trả:</strong> Sảnh đi của Nhà ga quốc nội</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏙️ Điểm dừng trung tâm Đà Nẵng:</div>
+      <ul class="stop-list">
+      <li>Ga Đà Nẵng (Train Cafe ở cổng chính)</li>
+      <li>Bảo tàng Điêu khắc Chăm Đà Nẵng</li>
+      <li>Hiyori Garden Tower – 02 Võ Văn Kiệt</li>
+      <li>A La Carte Beach Hotel – 200 Võ Nguyên Giáp</li>
+      <li>Holiday Beach Hotel – 300 Võ Nguyên Giáp</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏡 Điểm dừng trung tâm Hội An:</div>
+      <ul class="stop-list">
+      <li>Văn phòng Barri Ann Travel – 30/2 Trần Hưng Đạo</li>
+      <li>ATM Agribank – 255 Cửa Đại</li>
+      <li>Silk Village The Tourist – 28 Nguyễn Tất Thành</li>
+      <li>Hoi An iVy Hotel – 01 Đào Duy Từ</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏖️ Điểm dừng khu biển Hội An:</div>
+      <ul class="stop-list">
+      <li>Dahan Spa – 130 Lạc Long Quân</li>
+      <li>Hoi An Beach Resort – 01 Cửa Đại</li>
+      </ul>
+      </div>
+  - id: private-car
+    title: Xe riêng đi Đà Nẵng
+    price: 320K VND
+    meta:
+    - Đón tận nơi, trả tận chỗ
+    - Phục vụ 24/7
+    short: |-
+      <p>Xe riêng đưa đón tận nơi, thẳng đường và thoải mái.</p>
+      <p><strong>Giá:</strong> 320.000 VND</p>
+      <p><small>(phụ thu 50K cho chuyến đêm từ 22:00 đến 5:00)</small></p>
+    full: |-
+      <p>Phù hợp cho gia đình, nhóm có nhiều hành lý, hoặc khi bạn muốn đến nơi linh hoạt, không dừng dọc đường (sân bay, ga tàu hoặc khách sạn ở Đà Nẵng).</p>
+  - id: hue-motorbike
+    title: Xe máy một chiều ra Huế
+    price: 700K VND
+    meta:
+    - Tự lái
+    - Chuyển hành lý
+    short: |-
+      <p>Chỉ <strong>700K VND</strong> là bạn có thể tự lái xe ra Huế!</p>
+      <p>Bạn nhận xe máy tại hostel của chúng tôi. Hành lý được chuyển đến hostel mới của bạn ở Huế (thêm 50K nếu 2 người đi chung 1 xe).</p>
+    full: |-
+      <ul>
+      <li>Bạn sẽ đi qua <strong>đèo Hải Vân</strong> nổi tiếng, ngắm thác nước &amp; những bãi biển tuyệt đẹp.</li>
+      <li>Đường dễ đi và tất cả xe đều là xe tay ga.</li>
+      <li><strong>Kèm bản đồ riêng:</strong> một vị khách của chúng tôi đã làm bản đồ chi tiết với mọi điểm đẹp nhất dọc đường!</li>
+      </ul>
+  - id: easy-rider
+    title: Tour Easy Rider ra Huế
+    price: 1,3 triệu VND
+    meta:
+    - Đã gồm vé tham quan
+    - Tài xế địa phương giàu kinh nghiệm
+    short: |-
+      <p><strong>Chỉ 1.300.000 VND (đã gồm vé tham quan)</strong></p>
+      <p>Cứ ngồi sau, thư giãn và tận hưởng! Các tài xế giàu kinh nghiệm của chúng tôi biết mọi điểm đẹp và kể bạn nghe những câu chuyện thú vị dọc đường.</p>
+    full: |-
+      <ul>
+      <li>Dừng ở Ngũ Hành Sơn hoặc chùa Linh Ứng (tượng Phật Bà)</li>
+      <li>Chạy qua đèo Hải Vân tuyệt đẹp</li>
+      <li>Dừng ở đầm Lập An</li>
+      <li>Dừng ở biển Lăng Cô ăn trưa ngon miệng</li>
+      <li>Dừng chân mát mẻ bên thác nước</li>
+      </ul>
+guide:
+  title: Xe VIP hay xe limousine?
+  intro: Tất cả xe đường dài của chúng tôi đều có rèm che riêng tư và cổng sạc USB cho thiết bị của bạn.
+  items:
+  - title: Xe giường nằm VIP
+    text: Cabin riêng rộng hơn cho thêm thoải mái và riêng tư, trên xe cùng chiều dài. Rất nên chọn cho chuyến đi dài!
+  - title: Xe giường nằm limousine (tiêu chuẩn)
+    text: Giường nằm hiện đại khổ tiêu chuẩn. Ấm cúng, tiết kiệm và đầy đủ rèm che cùng cổng sạc USB.
+  wa: các loại xe giường nằm
+  ask: Hỏi chúng tôi qua WhatsApp

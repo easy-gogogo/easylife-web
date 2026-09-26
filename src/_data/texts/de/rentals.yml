@@ -49,21 +49,21 @@ products:
   motorbikes:
     meta:
       title: "Roller mieten Hoi An – Motorroller-Verleih & One-Way nach Huế | EasyLife"
-      description: "Miete einen Automatik-Roller im Nalani Hostel oder in der EasyLife Villa in Hội An – für die Altstadt, die Strände oder als One-Way-Tour über den Hải-Vân-Pass nach Huế (700K VND inkl. Gepäcktransport)."
+      description: "Roller mieten in Hội An ab 150K VND pro Tag – alle Größen, elektrisch oder mit Benzin, passend für jeden Führerschein. Abholung im Nalani Hostel oder in der EasyLife Villa. Außerdem: One-Way über den Hải-Vân-Pass nach Huế (700K VND inkl. Gepäcktransport)."
     name: Roller & Motorräder
-    short: "Miete einen Roller direkt bei uns und sei in der halben Zeit in der Altstadt – oder erkunde die Küste in deinem eigenen Tempo."
-    meta_line: "Automatik-Roller · Tagespreis auf Anfrage"
+    short: "Roller ab 150K VND pro Tag – alle Größen, elektrisch oder mit Benzin. Oder als One-Way-Tour über den Hải-Vân-Pass nach Huế."
+    meta_line: "Ab 150K / Tag · Elektro & Benzin · alle Größen"
     alt: "Paar fährt mit einem Roller über die Küstenstraße am Hải-Vân-Pass"
     eyebrow: "Rollerverleih · Hội An"
     title: "Roller & Motorräder"
-    intro: "Mit dem Roller kommst du in Hội An am einfachsten herum: Die Altstadt ist etwa 10 Minuten entfernt, der An Bang Beach noch näher. Alle unsere Roller haben Automatikgetriebe und sind leicht zu fahren."
+    intro: "Mit dem Roller kommst du in Hội An am einfachsten herum: Die Altstadt ist etwa 10 Minuten entfernt, der An Bang Beach noch näher. Wir haben Roller in allen Größen, elektrisch oder mit Benzin – für jeden Führerschein ist das passende Modell dabei."
     highlights:
-      - { title: Tagesmiete, text: "Hol deinen Roller im Hostel oder in der Villa ab und erkunde Hội An und die Küste. Frag uns nach dem aktuellen Tagespreis." }
+      - { title: Tagesmiete – 150K, text: "Roller in jeder Größe, elektrisch oder mit Benzin – vom kleinen, einfachen Modell bis zum stärkeren. Abholung im Hostel oder in der Villa." }
       - { title: One-Way nach Huế – 700K, text: "Fahr selbst über den berühmten Hải-Vân-Pass. Dein Gepäck wird zu deinem nächsten Hostel in Huế gebracht (+50K, wenn ihr zu zweit auf einem Roller fahrt)." }
       - { title: Eigene Karte inklusive, text: "Einer unserer Gäste hat eine detaillierte Karte mit allen Highlights auf dem Weg nach Huế erstellt." }
     info:
       - { label: Abholung, value: "Nalani Hostel oder EasyLife Villa" }
-      - { label: Fahrzeuge, value: "Automatik-Roller" }
+      - { label: Fahrzeuge, value: "Alle Größen · Elektro & Benzin · für jeden Führerschein" }
       - { label: Führerschein, value: "Bitte prüfe vor der Fahrt, ob dein Führerschein in Vietnam gültig ist." }
     faq:
       - { q: "Brauche ich einen Führerschein?", a: "Laut vietnamesischem Recht brauchst du einen in Vietnam gültigen Führerschein – in der Regel einen internationalen Führerschein. Bitte prüfe das und deine Reiseversicherung, bevor du losfährst." }

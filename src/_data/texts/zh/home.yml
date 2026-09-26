@@ -1,0 +1,88 @@
+# Startseite (Chinesisch)
+meta:
+  title: "EasyLife 会安 – 安邦海滩附近的青旅、别墅、SUP 与摩托车租赁"
+  description: "入住会安的 Nalani 青旅或 EasyLife 别墅，租用 SUP、摩托车和自行车，预订 Lan 和 Martin 精选的行程。直接预订立减 10%。"
+hero:
+  eyebrow: "青旅 · 别墅 · 租赁 · 行程 — 越南会安"
+  title1: "轻松入住。"
+  title2: "畅游会安。"
+  lead: "安邦海滩附近的两处住所，门口就有桨板和摩托车，还有只有本地人才知道的好去处。我们是 Lan 和 Martin——接待旅行者已超过 10 年。"
+  ctaRooms: 查找房间
+  ctaWhatsapp: WhatsApp 咨询
+  reviews: 条评价
+  captions: { hostel: Nalani 屋顶露台, sup: 日落 SUP, villa: 别墅泳池 }
+  alts:
+    hostel: "客人在 Nalani 青旅屋顶露台上休闲，其中一人坐在秋千椅上"
+    sup: "会安附近河上日落时的桨板爱好者"
+    villa: "一对情侣在 EasyLife 别墅泳池边微笑"
+pills: { stay: 住宿, rentals: 租赁, todo: 玩乐, discount: 直订优惠 10%, about: 关于我们, find: 我们的位置 }
+stay:
+  title: 住在哪里
+  intro: "两处住所都位于锦安（Cẩm An）一条安静的街道上——离海滩和河边只有几分钟，骑自行车 20 分钟到古城。"
+  villa:
+    kicker: "精品小酒店 · 适合情侣、朋友和家庭"
+    name: EasyLife 别墅
+    text: "一家高标准的小酒店，距河边两分钟，步行不远就是一片安静、原生态的海滩。每间客房都有独立阳台。可以在泳池游泳、在游戏室玩耍，还能免费借用自行车。"
+    facts: [每间房都有阳台, 泳池和游戏室, 含早餐, 免费自行车, 短住长住皆可, 洗衣服务]
+    cta: 查看客房
+    ask: 询问档期
+    wa: EasyLife 别墅的房间
+    alt: "EasyLife 别墅明亮的双人房，床上铺着蓝色床旗，旁边是阳台门"
+  hostel:
+    kicker: "青旅和民宿 · 任何年龄都能背包旅行"
+    name: Nalani 青旅民宿
+    text: "屋顶露台、游泳池、免费饮用水和毛巾——步行 4 分钟就到安邦海滩。这里不是一家通宵派对青旅，但也没人拦着你开派对。"
+    facts: [多人间（混合 / 女生 / 男生）, 1–3 人独立房, 屋顶露台和泳池, 免费饮用水和毛巾, 含早餐, 洗衣服务]
+    cta: 查看青旅
+    ask: 询问床位
+    wa: Nalani 青旅的床位
+    alt: "两位朋友在 Nalani 青旅泳池边微笑"
+rentals:
+  title: 租赁
+  all: 全部租赁
+  intro: "直接在我们这里取车取板。价格以越南盾（VND）计。"
+todo:
+  title: 玩乐
+  intro: "精选行程和手作课程、免费接送的巴士票，以及我们自己的会安攻略。"
+  activities: { title: 活动目录, meta: "手作课 · 行程 · 演出", text: "灯笼制作、烹饪课和咖啡课、美山圣地、巴拿山、占婆岛浮潜——都是客人们最爱的项目。", cta: 浏览活动, alt: "会安手作坊里，一双手在竹架上制作丝绸灯笼" }
+  transport: { title: 巴士与交通, meta: "卧铺巴士 · 岘港班车 · 包车", text: "前往顺化、峰牙、宁平等地的时刻表——所有车程都可从您在会安的住处免费接送。", cta: 巴士时刻, alt: "豪华卧铺巴士内的皮质包厢座椅" }
+  tips: { title: 旅行攻略, meta: "海滩 · 古城 · 交通", text: "怎么去海滩、最佳日落观赏点、如何从岘港机场到这里——我们亲自为您解答。", cta: 阅读攻略, alt: "会安古城的日本廊桥" }
+discount:
+  eyebrow: 直接预订
+  title1: 立省 10%
+  title2: 只需给我们发消息
+  lead: "不用预订平台：把日期发给我们，就能享受 10% 优惠。再简单不过了。"
+  zero: "零风险——到店再付款。"
+  steps:
+    - { title: 联系我们, text: "WhatsApp、Zalo、Messenger 或电子邮件——随您喜欢。" }
+    - { title: 告诉我们基本信息, text: "人数、房型或床位、入住和退房日期。" }
+    - { title: 我们确认预订, text: "到店时付款——已经扣除 10%。" }
+about:
+  eyebrow: 我们是谁
+  title: Lan 和 Martin
+  text: "我们是一对越南—德国夫妻，接待旅行者已超过 10 年。我们的客人常常住很久，有时长达几个月。有人爱热闹，有人只想聊聊天、放松一下——这两种我们都喜欢。"
+  values:
+    - { title: 高标准, text: "干净舒适的房间，适合独自旅行者、情侣和家庭。" }
+    - { title: 社交与舒适, text: "想开派对？尽管来。想放松？我们确保您能安心休息。" }
+    - { title: 探索, text: "海滩、河流和古城都在附近——距岘港机场 45 分钟。" }
+  cta: 了解更多
+  alt: "EasyLife 的主人 Lan 和 Martin 在会安一条棕榈树夹道的路上微笑"
+reviews:
+  title: 客人怎么说
+  exceptional: 好极了
+  superb: 超赞
+  note: "评价以原文语言显示。"
+insta:
+  title: 关注轻松生活
+  alts:
+    - 俯瞰碧绿海面上的桨板者
+    - 客人们在 Nalani 青旅共享家庭式晚餐
+    - EasyLife 别墅泳池边的吊椅
+    - 日落时分的会安古城屋顶
+    - 客人们在 Nalani 青旅泳池里玩球
+    - 一位女士拿着桨站在 SUP 桨板旁
+find:
+  title: 我们的位置
+  intro: "两处住所都在锦安，位于古城和安邦海滩之间——距岘港机场约 45 分钟。"
+  villa: { kicker: 酒店, facts: [距河边 2 分钟, SUP 集合点] }
+  hostel: { kicker: 青旅和民宿, facts: [步行 4 分钟到海滩, 步行 10 分钟到稻田] }

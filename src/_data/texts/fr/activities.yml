@@ -1,0 +1,294 @@
+# Texte der Seite activities (Französisch). Bilder und Links stehen in en/activities.yml (Zuordnung per id).
+# Preise/Zeiten bei Änderungen in ALLEN Sprachen anpassen (en, de, vi, ko, fr, zh).
+meta:
+  title: Activités à Hội An – Excursions, ateliers et spectacles | EasyLife
+  description: "Des activités choisies à Hội An : SUP au coucher du soleil, fabrication de lanternes, cours de cuisine et de café, tailleurs, Mỹ Sơn, Bà Nà Hills, snorkeling aux îles Cham, spectacles et plus encore — réservation directe par WhatsApp."
+hero:
+  eyebrow: Votre guide pour Hội An et ses environs
+  title: Que faire à Hội An
+  lead: Des expériences soigneusement choisies, classées par popularité pour trouver les meilleures en premier. Dites-nous ce qui vous plaît — nous réservons pour vous, souvent avec prise en charge gratuite à votre hébergement.
+  chips:
+  - Réservation par WhatsApp
+  - Prise en charge pour de nombreuses excursions
+  - Conseils de locaux
+  alt: Atelier de fabrication de lanternes à Hội An
+ask: Réserver
+more: Description complète
+perPhoto: Photo
+details: Détails et tarifs
+help:
+  title: Vous hésitez ?
+  text: Dites-nous combien de jours vous avez et ce que vous aimez — Lan et Martin vous préparent un programme sur mesure, transport compris.
+  wa: de l'aide pour organiser des activités à Hội An
+categories:
+- id: top-highlights
+  title: Incontournables et meilleures ventes
+  items:
+  - id: tailor
+    title: Tailleur Bao Diep
+    price: sur demande
+    meta:
+    - Sur mesure
+    short: Confection sur mesure chez Bao Diep Tailor — des vêtements faits main de grande qualité, ajustés à votre silhouette. Découvrez leurs créations récentes sur Instagram et demandez-nous un rendez-vous.
+  - id: sup
+    title: EasyLife SUP – paddle au coucher du soleil
+    price: dès 200K VND / h
+    meta:
+    - coucher de soleil sur la rivière
+    - pour tous les âges
+    short: Sans aucun doute le plus beau coucher de soleil de la ville ! Regardez le soleil disparaître sur la rivière et les pêcheurs préparer leurs filets.
+  - id: cooking-class
+    title: Cours de cuisine éco Bay Mau
+    price: dès 520K VND/pers.
+    meta:
+    - Début 9 h 30 / 14 h 30
+    - 12 personnes max.
+    short: Découvrez la vraie cuisine vietnamienne dans une école de cuisine sur pilotis au bord de l'eau. Depuis 2002, les chefs y enseignent 4 plats classiques et font découvrir la forêt de cocotiers de Bay Mau.
+    full: |-
+      <p><strong>Cuisine avec bateau-panier :</strong> 670 000 VND/personne · Matin 8 h 20–13 h · Après-midi 13 h 35–18 h.</p>
+      <p><strong>Cuisine seule, sans bateau-panier :</strong> 520 000 VND/personne — début à 9 h 30 ou 14 h 30.</p>
+      <p><strong>Le cours de 4 plats comprend :</strong></p>
+      <ul>
+      <li>Bánh xèo (crêpes de riz croustillantes au porc et aux crevettes)</li>
+      <li>Phở bò (soupe de nouilles au bœuf parfumée aux épices)</li>
+      <li>Gỏi cuốn (rouleaux de printemps frais aux crevettes et au porc)</li>
+      <li>Bún bò Nam Bộ (salade de bœuf et vermicelles de riz)</li>
+      <li>Plus jus de fruit de la passion maison, sauce de poisson aigre-douce, sauce hoisin et fruits de saison</li>
+      </ul>
+      <p><strong>À vous de jouer :</strong> piler et trier le riz au mortier de pierre, moudre le riz au pilon en bois, fabriquer des galettes de riz à la main.</p>
+      <p><strong>Option bateau-panier (Bay Mau Eco Cooking Class) :</strong> matin 8 h 20–13 h / après-midi 13 h 35–18 h, 670K/personne, réduction enfants possible. Comprend la visite du marché, une balade en bateau-panier traditionnel en bambou dans la forêt de cocotiers de Bay Mau avec pêche au crabe et démonstration de bateau-panier, le cours de 4 plats, le repas partagé et la prise en charge à l'hôtel.</p>
+      <p><strong>Enfants :</strong> moins de 3 ans gratuit · 3–9 ans 50 % du prix adulte · à partir de 10 ans plein tarif.</p>
+      <p>Cuisine privée, régimes spéciaux bienvenus (végétarien, sans gluten, etc.), prise en charge à l'hôtel dans la vieille ville de Hội An, livret de recettes et cadeau en fin de cours.</p>
+  - id: cham-island-snorkeling
+    title: Snorkeling + plongée aux îles Cham
+    price: dès 1,5 M VND/pers.
+    meta:
+    - journée entière, départ 7 h
+    - Îles Cham
+    short: Découvrez la beauté des îles Cham, au-dessus et sous l'eau. Une journée guidée avec snorkeling ou plongée, du temps à la plage et un délicieux déjeuner local.
+    full: |-
+      <p><strong>Plongée (par personne) :</strong></p>
+      <ul>
+      <li>Plongeurs certifiés : 2 400 000 VND — 2 plongées guidées, tout l'équipement, bateau rapide et transfert depuis l'hôtel</li>
+      <li>Non certifiés : 2 100 000 VND — 1 baptême de plongée + snorkeling, équipement complet et encadrement</li>
+      <li>Snorkeling seul : 1 500 000 VND — récifs coralliens colorés, équipement de qualité, aucune expérience nécessaire</li>
+      </ul>
+      <p><strong>Également disponible :</strong> formations de plongée PADI (tous niveaux), excursions privées en bateau rapide, séjour de 2 jours / 1 nuit aux îles Cham.</p>
+      <p>✅ Prise en charge en minivan et transfert en bateau rapide · ✅ Équipement de plongée ou de snorkeling + guides professionnels · ✅ Café, thé et en-cas à bord · ✅ Déjeuner vietnamien traditionnel sur la plage (viande, fruits de mer ou végétarien) · ✅ Temps libre dans les hamacs + baignade</p>
+      <p><strong>Programme :</strong> 7 h–7 h 40 prise en charge à l'hôtel · 8 h départ du bateau pour les îles Cham · 9 h 30–10 h 30 première plongée/snorkeling · 10 h 30–10 h 50 pause avec en-cas · 11 h–12 h deuxième plongée/snorkeling · 12 h 30 arrivée à la plage de Bai Chong · 13 h déjeuner et plage · 14 h 15–14 h 45 départ · 16 h–16 h 30 retour à l'hôtel.</p>
+  - id: coffee-class
+    title: Cours de café — 5 cafés vietnamiens
+    price: 350 000 VND
+    meta:
+    - 2 h · 10 h/11 h, 14 h/15 h
+    short: Apprenez à préparer vous-même 5 cafés traditionnels vietnamiens.
+    full: |-
+      <ul>
+      <li>Vrai café noir traditionnel au filtre vietnamien</li>
+      <li>Café au lait vietnamien</li>
+      <li>Café au sel impérial de Huế</li>
+      <li>Café coco de Hội An</li>
+      <li>Café à l'œuf de Hà Nội</li>
+      </ul>
+      <p>Durée : 2 heures · Prix : 350 000 VND</p>
+  - id: lantern-making
+    title: Atelier de fabrication de lanternes
+    price: 250K–350K VND
+    meta:
+    - 2–3 h, horaires libres
+    - dès 3 ans
+    short: Plongez dans l'univers coloré de l'artisanat vietnamien et créez votre propre lanterne pliable en soie — un souvenir unique et un moment inoubliable de votre séjour à Hội An !
+    full: |-
+      <p><strong>Cours complet – 3 heures :</strong> les 11 étapes — attacher les baguettes de bambou avec du fil, donner à l'armature une forme de « soleil levant », la fixer sur l'anneau métallique, choisir le tissu, le découper, le tendre sur l'armature, habiller les côtés, décorer le haut et le bas, ajouter le pompon, finitions.</p>
+      <p><strong>Cours express – 2 heures :</strong> à partir de l'étape 5 — l'armature est prête, vous choisissez et fixez votre tissu.</p>
+      <p><strong>Horaire :</strong> libre, à tout moment de la journée. <strong>Tarifs :</strong> cours express 250 000 VND · cours complet 350 000 VND.</p>
+      <p>Inclus : votre lanterne pliable en soie faite main · thé vietnamien de bienvenue · petit souvenir · guide anglophone · accompagnement par des artisans locaux.</p>
+      <p>Pour tous les âges — voyageurs solo, amis ou enfants dès 3 ans !</p>
+  - id: langur-monkeys
+    title: Observation matinale des langurs
+    price: 55 $ par personne
+    meta:
+    - 3 h · départ 6 h 30
+    - petits groupes
+    - Faune sauvage
+    short: Explorez la réserve naturelle de Son Tra au petit matin pour observer les doucs à pattes rouges, une espèce menacée, dans leur habitat naturel — avec des gardes forestiers et des photographes animaliers expérimentés.
+    full: |-
+      <p>Départ entre 6 h 30 et 6 h 45 (selon la saison) avec prise en charge à l'hôtel. Le petit matin est le moment où les doucs à pattes rouges sont les plus actifs. Parcourez des sentiers de jungle luxuriants, respirez l'air frais de la montagne et apprenez à repérer les animaux cachés dans la canopée.</p>
+      <p><strong>Au programme :</strong></p>
+      <ul>
+      <li>Exploration de la réserve de Son Tra par de courtes marches faciles.</li>
+      <li>Trajet à moto en passager avec un chauffeur professionnel (voiture possible sur demande, avec supplément).</li>
+      <li>Encadrement par des gardes forestiers/guides expérimentés, pour une observation respectueuse des animaux.</li>
+      </ul>
+      <p><strong>Inclus :</strong> prise en charge à l'hôtel dans la région de Da Nang · eau et fruits frais · jumelles ou longue-vue.</p>
+- id: workshops
+  title: Artisanat et ateliers créatifs
+  items:
+  - id: woodart
+    title: Atelier Woodart
+    price: 600 000 VND
+    meta:
+    - 3 h · 9 h / 14 h
+    - plus d'1 M d'abonnés YouTube
+    short: Plus d'un million d'abonnés YouTube, ça parle de soi ! Travaillez directement avec les sculpteurs sur bois de « Woodart Vietnam » et apprenez la sculpture en 3 heures ou lors de formations professionnelles jusqu'à 28 jours.
+    full: |-
+      <p><strong>Horaires et durée :</strong> deux séances par jour de 3 heures (matin 9 h | après-midi 14 h).</p>
+      <p><strong>Expérience et points forts :</strong></p>
+      <ul>
+      <li>Créez votre propre œuvre en bois unique, guidé par un artisan expérimenté.</li>
+      <li>Choisissez un modèle ou créez le vôtre — motifs traditionnels, fleurs et feuilles, personnages d'anime ou créatures mythiques.</li>
+      <li>Visitez l'atelier de sculpture et ses centaines d'œuvres remarquables.</li>
+      <li>Admirez la collection d'Au Lac Artisan, connu grâce à la chaîne YouTube « Woodart Vietnam » et ses plus d'un million d'abonnés.</li>
+      </ul>
+      <p><strong>Prix :</strong> 600 000 VND par personne.</p>
+      <p><em>Places limitées — réservez la vôtre dès aujourd'hui ! Demandez-nous les formations professionnelles plus longues (jusqu'à 28 jours).</em></p>
+  - id: woodcarving
+    title: Atelier de sculpture — village du bois flotté
+    price: 400K–500K VND
+    meta:
+    - 2–2,5 h · 8 h 30 / 14 h
+    - 25 personnes max.
+    short: Quittez l'agitation des rues et découvrez l'artisanat vietnamien authentique ! Dans un atelier détendu en plein air, des artisans locaux vous apprennent à transformer du bois flotté en un souvenir sculpté à la main.
+    full: |-
+      <p>Deux séances par jour de 2 à 2,5 heures : matin 8 h 30, après-midi 14 h. 25 personnes maximum par séance.</p>
+      <p><strong>Tarifs :</strong> adultes 500 000 VND · enfants 400 000 VND.</p>
+      <p>Inclus : tout le bois de qualité, l'ensemble des outils, l'accompagnement pas à pas d'un artisan, une boisson de bienvenue et votre création à emporter.</p>
+      <p>Idéal pour les débutants, les familles et les créatifs.</p>
+  - id: leather
+    title: Atelier du cuir
+    price: dès 26 $ par personne
+    meta:
+    - de 2 h à 2 jours selon le cours
+    short: Quatre niveaux de cours très appréciés — du simple porte-cartes en deux heures à votre propre sac à dos en deux jours.
+    full: |-
+      <ul>
+      <li><strong>Cours express (2 h) :</strong> porte-cartes simple ou porte-clés (votre design ou le nôtre) — 26 $ par personne</li>
+      <li><strong>Cours de base (4 h) :</strong> étui à passeport, portefeuille simple, porte-monnaie, portefeuille long ou sac simple (selon nos modèles) — 45 $ par personne</li>
+      <li><strong>Cours intermédiaire (1 jour) :</strong> sac simple au design plus élaboré, ou ensemble portefeuille + porte-clés + porte-cartes — 96 $ par personne</li>
+      <li><strong>Cours avancé (2 jours) :</strong> sac à dos simple ou sac à main — 196 $ par personne</li>
+      </ul>
+      <p>Dans le cours de deux heures, créez votre design ou inspirez-vous de nos modèles de portefeuilles — demandez-nous des exemples.</p>
+  - id: bamboo
+    title: Atelier du bambou
+    price: 790K VND
+    meta:
+    - 3 h · 9 h–12 h / 14 h–17 h
+    - Village des cocotiers
+    short: Un grand atelier au bord de la rivière rempli d'œuvres. Tout ce que Tan construit en bambou est fascinant — des poissons de 2 mètres, de grandes chouettes, des vélos !
+    full: |-
+      <p>Le lieu vaut le détour même sans suivre le cours. Il se trouve dans le village des cocotiers, près des bateaux-paniers. Pendant le cours, vous choisissez ce que vous voulez fabriquer — nous avons d'ailleurs quelques lampes en bambou à la maison, demandez-nous.</p>
+      <p>Durée : 3 heures · matin 9 h–12 h, après-midi 14 h–17 h · Prix : 790 000 VND</p>
+  - id: jewelry
+    title: Atelier de bijoux
+    price: 1,1–1,5 M VND
+    meta:
+    - 10 h–12 h / 14 h–16 h
+    short: Laissez libre cours à votre créativité à Hội An. Guidé par des artisans expérimentés, transformez de l'argent brut en une pièce unique — bague, pendentif ou bracelet — à votre image.
+    full: |-
+      <p>Du façonnage à la soudure jusqu'au polissage, chaque étape vous plonge dans l'orfèvrerie traditionnelle vietnamienne. Aucune expérience requise — apportez votre imagination et repartez avec un bijou fait main et des souvenirs inoubliables.</p>
+      <p>Prix : 1 100 000 – 1 500 000 VND · Horaires : matin 10 h–12 h ou après-midi 14 h–16 h.</p>
+- id: tours
+  title: Excursions à la journée et aventures en plein air
+  items:
+  - id: sea-trek
+    title: Marcher sous l'eau — Sea Trek®
+    price: dès 890K VND/pers.
+    meta:
+    - prise en charge 7 h 30–8 h 15
+    - Hội An / Da Nang → îles Cham
+    short: Cette excursion vous emmène en bateau rapide de Hội An ou Da Nang aux îles Cham, reconnues par l'UNESCO. Baignade, snorkeling et « marche sous l'eau » guidée au milieu des poissons et des coraux colorés.
+    full: |-
+      <p>✅ Guide (anglais) · ✅ Prise en charge et retour · ✅ Transfert en bateau rapide · ✅ Marche sous l'eau et équipement complet de snorkeling · ✅ Déjeuner · ✅ Droits d'entrée · ✅ Assurance voyage</p>
+      <p><strong>Programme :</strong> 7 h 30–8 h 15 prise en charge à votre hébergement, trajet jusqu'au quai de Cua Dai, Hội An · 9 h 20 minutes de bateau rapide jusqu'aux îles Cham · 9 h 20 arrivée à la plage de Hon Nhon, temps libre pour la marche sous l'eau et le snorkeling · 11 h déjeuner de fruits de mer dans l'espace naturel unique de la plage de Bai Chong, baignade ou détente · 14 h retour au quai de Cua Dai.</p>
+      <p><strong>Tarifs :</strong> adulte 1 600 000 VND · enfant 8–12 ans 1 250 000 VND · enfant 4–7 ans (snorkeling uniquement) 890 000 VND · moins de 4 ans gratuit.</p>
+  - id: atv-tour
+    title: Excursion en quad — demi-journée
+    price: dès 1,65 M VND/pers.
+    meta:
+    - 5 h · départ 8 h 30 / 13 h 30
+    short: Une balade en quad à travers villages pittoresques et jungle, avec un déjeuner barbecue et de nombreux arrêts photo inoubliables.
+    full: |-
+      <p><strong>Inclus :</strong> prise en charge et trajet jusqu'à notre ferme (50 min) · présentation et consignes de sécurité (30 min, casque fourni) · quad à travers villages et jungle (1 h 30) avec de superbes photos · déjeuner barbecue ou végétarien (30 min) · retour (50 min) · 3 boissons.</p>
+      <p><strong>Tarifs :</strong> en duo (2 personnes sur 1 quad) 1 650 000 VND par personne · en solo 2 150 000 VND par personne.</p>
+      <p>Enfants de 6 à 8 ans : 20 % de réduction (uniquement en passager avec un parent). Pour piloter seul, il faut avoir 16 ans.</p>
+      <p><strong>À emporter :</strong> vêtements confortables et chaussures fermées, crème solaire et lunettes de soleil, appareil photo ou GoPro (facultatif) et l'esprit d'aventure !</p>
+  - id: ba-na-hills
+    title: Bà Nà Hills — Pont d'Or et pont du Dragon
+    price: dès 1,59 M VND
+    meta:
+    - Programme journée
+    - Excursion en soirée
+    - 1 487 m d'altitude
+    short: Prenez le téléphérique le plus moderne d'Asie du Sud-Est jusqu'au Pont d'Or, flânez dans le Village français et explorez le Fantasy Park — en excursion à la journée, ou l'après-midi avec photos du pont du Dragon illuminé.
+    full: |-
+      <p><strong>Excursion après-midi / soirée (départ 11 h 45) :</strong> téléphérique jusqu'à Bà Nà Hills, visite du Pont d'Or, du Jardin d'Amour, de la pagode Linh Ung ; 2e téléphérique vers le Village français (musique de rue, statue de l'artiste, campanile, sanctuaire de la Déesse aux neuf étages, spectacle de carnaval) ; train de lave depuis Sun Kingdom (cascade Hellios, Time Gate, Moon Kingdom) ; Fantasy Park (forêt des fées, parc des dinosaures, 5D Wild West, 4D Death Race, 3D Mega 360°, voyage souterrain, Jurassic Park, tour de chute libre, maison hantée, plus de 90 jeux gratuits). 18 h 45 retour au téléphérique · 19 h 15 photos du pont du Dragon illuminé · 20 h retour à l'hôtel.</p>
+      <p>Inclus : prise en charge et retour à l'hôtel, guide anglophone, billet de téléphérique aller-retour, dîner buffet, une bouteille d'eau. Non inclus : dépenses personnelles, boissons, pourboires.</p>
+      <p><strong>Programme journée (départ 7 h 30–8 h) :</strong> les mêmes temps forts plus la cave à vin, déjeuner buffet de plus de 90 plats. Retour 16 h 45–17 h 45.</p>
+      <p>Inclus : prise en charge et retour à l'hôtel, guide anglophone, téléphérique aller-retour (valeur 950 000 VND), déjeuner buffet, eau. Non inclus : musée de cire, entrée de la cave à vin, montagnes russes/jeux d'escalade avec lots, dépenses personnelles.</p>
+      <p><strong>Tarifs :</strong> adulte (plus de 1,40 m) 1 660 000 / 1 590 000 VND · enfant (1–1,40 m) 1 360 000 / 1 290 000 VND · moins d'1 m gratuit. Annulation : 12 heures avant le départ 20 % du prix, le jour du départ 35 %.</p>
+      <p>Conseil : prenez une veste contre le froid — vous êtes à 1 487 m d'altitude !</p>
+  - id: my-son
+    title: Sanctuaire de Mỹ Sơn — coucher de soleil ou matin
+    price: dès 400K VND/pers.
+    meta:
+    - Matin
+    - Coucher de soleil
+    short: Un ensemble de temples cham avec spectacles traditionnels et une balade en bateau apaisante sur la rivière Thu Bồn — choisissez l'excursion du coucher de soleil ou du matin.
+    full: |-
+      <p><strong>Excursion coucher de soleil :</strong> 13 h–13 h 30 votre guide vient vous chercher, départ en minibus · visite guidée de Mỹ Sơn et spectacles cham traditionnels · balade en bateau sur la rivière Thu Bồn · 18 h–18 h 30 retour à l'hôtel.</p>
+      <p>Tarifs : adulte (dès 5 ans) 500 000 VND · enfant (dès 5 ans) 400 000 VND · moins de 5 ans gratuit. Inclus : prise en charge et retour à l'hôtel, entrée du sanctuaire de Mỹ Sơn, guide anglophone, spectacle traditionnel, balade en bateau, en-cas local (bánh mì), eau. Non inclus : dépenses personnelles, le droit d'entrée de 150 000 VND, pourboires. Annulation le jour même = 50 % du prix. À noter : le coucher de soleil dépend de la météo.</p>
+      <p><strong>Excursion du matin :</strong> 7 h 30–8 h prise en charge et départ en minibus · 9 h 15 découverte de Mỹ Sơn avec spectacles cham traditionnels et fabrication de galettes de riz à emporter · 11 h 30 déjeuner chez l'habitant · 13 h balade en bateau sur la Thu Bồn, la plus grande rivière du Centre du Vietnam · 13 h 30 retour à l'hôtel.</p>
+      <p>Tarifs : adulte (dès 5 ans) 790 000 VND · enfant (dès 5 ans) 590 000 VND · moins de 5 ans gratuit. Inclus : prise en charge et retour à l'hôtel dans la région de Hội An, entrées + navette en voiture électrique, guide anglophone, déjeuner vietnamien, fabrication de galettes de riz, eau. Annulation le jour même = 50 % du prix.</p>
+  - id: bach-ma
+    title: Parc national de Bạch Mã — 2 jours de trek et camping
+    price: 130 $ par personne
+    meta:
+    - 2 jours / 1 nuit
+    - 10 km de trek
+    short: Échappez à l'agitation et plongez dans la nature sauvage du parc national de Bạch Mã — panoramas sur les montagnes, lacs naturels cristallins, cascades majestueuses et une nuit de camping inoubliable sous les étoiles.
+    full: |-
+      <p><strong>Prise en charge :</strong> Hội An 6 h 30–7 h · Da Nang 7 h 30–8 h. Retour : en fin d'après-midi le 2e jour.</p>
+      <p><strong>Temps forts :</strong> trek, baignade, camping, lever de soleil et soirée barbecue.</p>
+      <p><strong>Jour 1 — Vue du sommet, cinq lacs et cascade Đỗ Quyên :</strong> prise en charge le matin et route vers le parc · montée jusqu'au km 12, puis avec des guides/gardes locaux expérimentés jusqu'au sommet Hải Vọng Đài, le plus haut point de vue, avec une vue à couper le souffle sur la plage de Cảnh Dương et les lagunes de Tam Giang et de Cầu Hai, autour d'un déjeuner et d'un café · trek dans la jungle jusqu'aux Cinq Lacs (Ngũ Hồ), avec baignade dans le lac n° 5 · traversée de la forêt primaire jusqu'à la majestueuse cascade Đỗ Quyên, haute de 300 mètres · le soir : installation du camp et barbecue sous les étoiles.</p>
+      <p><strong>Jour 2 — Lever de soleil sur les montagnes et retour :</strong> 5 h 30 courte marche facultative jusqu'au sommet Hải Vọng Đài pour le lever du soleil (selon la météo) · thé chaud, bruits de la forêt au réveil et petit-déjeuner frais · 10 h départ et retour vers Da Nang / Hội An.</p>
+      <p>Inclus : transfert aller-retour depuis Hội An / Da Nang, guide local et accompagnement par un garde forestier, tous les repas (déjeuner, dîner barbecue, petit-déjeuner, café et thé chaud), matériel de camping et installation, tous les droits d'entrée du parc national et encadrement de sécurité.</p>
+      <p>Prix : 130 USD par personne.</p>
+- id: shows
+  title: Spectacles et culture
+  items:
+  - id: hoi-an-memories-show
+    title: Hội An Memories Show –10 %
+    price: dès 540K VND
+    meta:
+    - tous les jours sauf le mardi, 20 h
+    - Hội An Memories Land
+    short: Remontez 400 ans en arrière, à l'âge d'or de Hội An — sur une scène en plein air de 25 000 m², avec plus de 500 artistes, des effets visuels spectaculaires et une histoire envoûtante.
+    full: |-
+      <p><strong>Quand ?</strong> Tous les jours sauf le mardi. Le Hoi An Impression Park ouvre à 16 h, le Memories Show commence à 20 h (un spectacle époustouflant de 60 minutes).</p>
+      <p><strong>Où ?</strong> Hoi An Memories Land, juste à côté de la vieille ville de Hội An.</p>
+      <p><strong>Prix des billets (10 % de réduction déjà appliqués) :</strong></p>
+      <ul>
+      <li>Eco Class – 600 000 VND · places standard, idéal pour les petits budgets</li>
+      <li>High Class – 750 000 VND · places centrales avec la meilleure vue sur la scène</li>
+      <li>VIP Class – 1 200 000 VND · premier rang, fruits frais, eau minérale, serviettes rafraîchissantes et accueil VIP</li>
+      </ul>
+      <p>🎁 Bonus : les billets High Class et VIP incluent un bon de 50 000 VND pour des plats, boissons ou souvenirs.</p>
+      <p><strong>Pour aller plus loin :</strong> formule dîner-spectacle à l'An Bistro (+200 000 VND / +100 000 VND par enfant), mini-spectacles et visite du Village japonais, du Love Bridge et de lieux spirituels.</p>
+      <p>⚠ Places limitées — réservez vite pour garantir la vôtre !</p>
+  - id: lune-show
+    title: Lune Show — Teh Dar
+    price: dès 490K VND
+    meta:
+    - 18 h · mar.–dim. (pas lun./ven.)
+    - théâtre sous dôme de bambou
+    short: Le Lune Performing Center de Hội An propose une expérience culturelle envoûtante avec son célèbre spectacle Teh Dar — un mélange captivant de culture vietnamienne traditionnelle et d'arts du cirque contemporain, dans un théâtre unique sous un dôme de bambou.
+    full: |-
+      <p>Horaire : 18 h (environ 1 heure). Jours de représentation : du mardi au dimanche (pas de spectacle le lundi et le vendredi). À noter : les enfants de moins de 5 ans ne sont pas admis.</p>
+      <p><strong>Catégories de billets :</strong></p>
+      <ul>
+      <li>Zone AAH! [A] : 700 000 VND (adultes), 490 000 VND (enfants)</li>
+      <li>Zone OOH! [O] : 1 150 000 VND (adultes), 805 000 VND (enfants)</li>
+      <li>Zone WOW! [W] : 1 600 000 VND (adultes), 1 120 000 VND (enfants)</li>
+      </ul>
+      <p>Teh Dar, qui signifie « tourner en rond » en langue k'ho, plonge le public dans la riche culture des Hauts Plateaux du Centre du Vietnam : acrobaties sur bambou, musique traditionnelle live avec gongs, flûtes et tambours, et récits de la vie des peuples montagnards.</p>
+      <p>Le théâtre intimiste de 299 places, disposé en demi-cercle, permet à chaque spectateur de se sentir au cœur du spectacle. Adapté aux familles, dès 5 ans.</p>

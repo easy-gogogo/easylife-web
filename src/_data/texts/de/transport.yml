@@ -1,0 +1,141 @@
+# Texte der Seite transport (Deutsch). Abfahrtszeiten/Preise der Busse stehen NUR in en/transport.yml (bus.north/south.rows).
+# bus.names übersetzt Bus-Typen und Ziele aus diesen Zeilen. Transfer-Preise bei Änderungen in ALLEN Sprachen anpassen.
+meta:
+  title: Bus & Transport ab Hội An – Schlafbus, Shuttle nach Da Nang, Privatwagen | EasyLife
+  description: Fahrpläne der Schlafbusse ab Hội An nach Huế, Phong Nha, Ninh Bình und mehr, Shuttlebus und Privatwagen zum Flughafen Da Nang, Roller-Einwegmiete und Easy-Rider-Touren nach Huế – mit kostenloser Abholung.
+hero:
+  eyebrow: Transfers & Fahrten in Zentralvietnam
+  title: Bus & Transport
+  lead: Bequem, zuverlässig und direkt bei uns buchbar – Schlafbus, Shuttle nach Da Nang, Privatwagen oder die legendäre Fahrt über den Hải-Vân-Pass.
+  chips:
+  - Kostenlose Abholung in Hội An
+  - Tägliche Abfahrten
+  - Buchung per WhatsApp
+  alt: Innenansicht eines VIP-Schlafbusses
+filters:
+  bus: Schlafbus-Zeiten
+  shuttles: Shuttles & Transfers
+  guide: VIP- oder Limousinenbus
+bus:
+  title: Fernbus-Zeiten
+  note: Bei allen Fahrten holen wir dich kostenlos direkt an deiner Unterkunft in Hội An ab.
+  cols:
+  - Bus
+  - Ziel
+  - Abfahrt
+  - Ankunft
+  - Preis (VND)
+  book: Busticket buchen
+  names:
+    Hue (Morning): Huế (vormittags)
+    Hue (Afternoon): Huế (nachmittags)
+    Sleeper Bus HT: Schlafbus HT
+  north:
+    title: Richtung Norden ab Hội An
+    wa: ein Schlafbus-Ticket (Richtung Norden)
+  south:
+    title: Richtung Süden ab Hội An
+    wa: ein Schlafbus-Ticket (Richtung Süden)
+transfers:
+  title: Shuttles & Transfers
+  ask: Jetzt buchen
+  more: Mehr Infos
+  items:
+  - id: shuttle-danang
+    title: Shuttlebus nach Da Nang
+    price: 170K VND
+    meta:
+    - Abholung am Hotel
+    - Tägliche Abfahrten
+    short: |-
+      <p><strong>Abholung direkt an deinem Hostel/Hotel!</strong></p>
+      <p><strong>Abfahrtszeiten ab Hội An:</strong><br/>
+      6:00 · 7:00 · 9:00 · 10:00 · 12:00 · 13:00 · 15:00 · 16:00 · 18:00 · 20:00</p>
+    full: |-
+      <div class="stop-group">
+      <div class="stop-title">✈️ Haltestellen am Flughafen Da Nang:</div>
+      <ul class="stop-list">
+      <li><strong>Abholung:</strong> Ankunft Gate A4 – Inlandsterminal</li>
+      <li><strong>Ausstieg:</strong> Abflughalle des Inlandsterminals</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏙️ Haltestellen im Zentrum von Da Nang:</div>
+      <ul class="stop-list">
+      <li>Bahnhof Da Nang (Train Cafe am Haupteingang)</li>
+      <li>Cham-Museum Da Nang</li>
+      <li>Hiyori Garden Tower – 02 Vo Van Kiet St.</li>
+      <li>A La Carte Beach Hotel – 200 Vo Nguyen Giap St.</li>
+      <li>Holiday Beach Hotel – 300 Vo Nguyen Giap St.</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏡 Haltestellen im Zentrum von Hoi An:</div>
+      <ul class="stop-list">
+      <li>Büro von Barri Ann Travel – 30/2 Tran Hung Dao St.</li>
+      <li>Agribank-Geldautomat – 255 Cua Dai St.</li>
+      <li>Silk Village The Tourist – 28 Nguyen Tat Thanh St.</li>
+      <li>Hoi An iVy Hotel – 01 Dao Duy Tu St.</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏖️ Haltestellen im Strandgebiet von Hoi An:</div>
+      <ul class="stop-list">
+      <li>Dahan Spa – 130 Lac Long Quan St.</li>
+      <li>Hoi An Beach Resort – 01 Cua Dai St.</li>
+      </ul>
+      </div>
+  - id: private-car
+    title: Privatwagen nach Da Nang
+    price: 320K VND
+    meta:
+    - Von Tür zu Tür
+    - Rund um die Uhr
+    short: |-
+      <p>Direkte, bequeme Fahrt im Privatwagen von Tür zu Tür.</p>
+      <p><strong>Preis:</strong> 320.000 VND</p>
+      <p><small>(+50K Nachtzuschlag für Fahrten zwischen 22:00 und 5:00 Uhr)</small></p>
+    full: |-
+      <p>Ideal für Familien, Gruppen mit viel Gepäck oder wenn du flexibel und ohne Zwischenstopps ans Ziel willst (Flughafen, Bahnhof oder Hotel in Da Nang).</p>
+  - id: hue-motorbike
+    title: Mit dem Roller nach Huế (Einweg)
+    price: 700K VND
+    meta:
+    - Selbst fahren
+    - Gepäcktransport
+    short: |-
+      <p>Für nur <strong>700K VND</strong> fährst du selbst nach Huế!</p>
+      <p>Den Roller bekommst du bei uns im Hostel. Dein Gepäck wird zu deinem neuen Hostel in Huế gebracht (+50K, wenn ihr zu zweit auf einem Roller fahrt).</p>
+    full: |-
+      <ul>
+      <li>Du fährst über den berühmten <strong>Hải-Vân-Pass</strong> und siehst Wasserfälle &amp; traumhafte Strände.</li>
+      <li>Die Strecke ist leicht zu fahren und alle Roller haben Automatik.</li>
+      <li><strong>Eigene Karte inklusive:</strong> Einer unserer Gäste hat eine detaillierte Karte mit allen Top-Spots entlang der Strecke gemacht!</li>
+      </ul>
+  - id: easy-rider
+    title: Easy-Rider-Tour nach Huế
+    price: 1,3 Mio. VND
+    meta:
+    - Inkl. Eintritte
+    - Erfahrener einheimischer Fahrer
+    short: |-
+      <p><strong>Für nur 1.300.000 VND (inkl. Eintritte)</strong></p>
+      <p>Zurücklehnen und die Fahrt genießen! Unsere erfahrenen Fahrer kennen die besten Orte und erzählen dir unterwegs spannende Geschichten.</p>
+    full: |-
+      <ul>
+      <li>Stopp an den Marmorbergen oder der Lady Buddha</li>
+      <li>Traumhafte Fahrt über den Hải-Vân-Pass</li>
+      <li>Stopp an der Lagune Lập An</li>
+      <li>Stopp am Strand von Lăng Cô für ein leckeres Mittagessen</li>
+      <li>Erfrischender Stopp am Wasserfall</li>
+      </ul>
+guide:
+  title: VIP- oder Limousinenbus?
+  intro: Alle unsere Fernbusse haben Vorhänge für die Privatsphäre und USB-Ladebuchsen für deine Geräte.
+  items:
+  - title: VIP-Schlafbus
+    text: Breitere Einzelkabinen für mehr Komfort und Privatsphäre, in einem Bus gleicher Länge. Sehr zu empfehlen für längere Fahrten!
+  - title: Limousinen-Schlafbus (Standard)
+    text: Moderne Schlafplätze in Standardbreite. Gemütlich, günstig und komplett ausgestattet mit Vorhängen und USB-Ladebuchsen.
+  wa: die Schlafbusse
+  ask: Frag uns auf WhatsApp

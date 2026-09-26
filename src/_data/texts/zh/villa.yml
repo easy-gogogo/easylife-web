@@ -1,0 +1,46 @@
+# EasyLife Villa (Chinesisch) – Bilder stehen in en/villa.yml
+meta:
+  title: "EasyLife 别墅会安 – 海滩附近带泳池和阳台的精品小酒店"
+  description: "会安锦安的精品酒店：每间客房都有阳台，设有泳池、游戏室，含早餐，免费自行车。距河边 2 分钟，步行不远即到海滩。直接预订立减 10%。"
+hero:
+  chips: [泳池, 含早餐, 免费自行车, 洗衣服务]
+  eyebrow: "EasyLife 别墅 · 会安锦安"
+  title: "远方的家"
+  lead: "坐落在河边一条宁静的小街上，漫步不远就是一片安静、原生态的海滩。一家现代小酒店，适合独自旅行者、情侣和家庭——有泳池、游戏室，每间房都有阳台。"
+  alt: "带阳台和棕榈树的 EasyLife 别墅外观"
+rooms:
+  title: 客房
+  intro: "所有客房均配有空调、电视、独立卫浴和阳台。每间客房都欢迎儿童入住。"
+  items:
+    - { name: 豪华双人房, guests: "1–2 人 + 儿童", beds: "1 张大床（Queen size）", alt: "铺着蓝色床旗、带阳台门的豪华双人房" }
+    - { name: 家庭房, guests: "1–4 人 + 儿童", beds: "2 张大床（Queen size）", alt: "带两张大床的家庭房" }
+  features: [空调, 电视, 独立卫浴, 阳台, 书桌和高速 Wi-Fi]
+  ask: 咨询此房型
+long:
+  title: 短住或长住
+  text: "可以只订一间房，也可以包下整栋别墅。超高速网络、每间房都有书桌、方便使用的厨房和装满饮料的冰箱——从一个周末到几个月的远程办公，您都能应对自如。"
+  alt: "EasyLife 别墅客房里带台灯的书桌"
+perks:
+  title: 包含项目与优惠
+  items:
+    - { title: 含早餐, text: "每天早上都有甜、咸和纯素选择。", alt: "EasyLife 别墅早餐的芒果可丽饼" }
+    - { title: 免费自行车, text: "骑车穿过稻田是会安必不可少的体验。也可以租摩托车。", alt: "靠在黄色墙边的自行车" }
+    - { title: SUP 享 75 折, text: "就在附近，您可以站在桨板上欣赏会安最美的日落。", alt: "日落前桨板者的剪影" }
+  link: { bicycles: 自行车租赁, sup: SUP 租赁 }
+gallery:
+  title: 照片
+  items:
+    - { alt: "EasyLife 别墅泳池边的吊椅" }
+    - { alt: "阳台上俯瞰街区的蓝绿色椅子" }
+    - { alt: "别墅泳池边的一对情侣" }
+    - { alt: "在 EasyLife 别墅阳台上放松的客人" }
+    - { alt: "带书桌和电视的客房" }
+    - { alt: "EasyLife 别墅正面" }
+story:
+  title: "客人认可的成功故事"
+  text: "在 EasyLife 别墅之前，我们开了 Nalani 青旅民宿。仅第一年就收获了 100 多条五星好评——别墅把同样的用心带到了更安静、更私密的环境中。"
+  cta: 查看 Nalani 青旅
+book:
+  title: 直接预订，立省 10%
+  text: "把日期和人数发给我们。我们确认房间，您到店付款。"
+  wa: EasyLife 别墅的房间

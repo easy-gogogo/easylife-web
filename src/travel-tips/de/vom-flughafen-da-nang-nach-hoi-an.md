@@ -16,13 +16,13 @@ Die meisten unserer Gäste landen am **Flughafen Da Nang**. Von dort bis zu unse
 Ein Shuttlebus fährt mehrmals täglich zwischen Hội An und Da Nang, mit Haltestellen am Flughafen, in Da Nang und in Hội An.
 
 - **Am Flughafen:** Abholung an *Arrival Gate A4 – Domestic Terminal*, Ankunft in der Abflughalle des Inlandsterminals.
-- **Preis und Abfahrtszeiten:** Die aktuellen Zeiten und Preise findest du auf unserer [Bus- & Transportseite]({{ 'transport' | link('en') }}) (auf Englisch).
+- **Preis und Abfahrtszeiten:** Die aktuellen Zeiten und Preise findest du auf unserer [Bus- & Transportseite]({{ 'transport' | link }}).
 
 ## 2. Privatwagen – von Tür zu Tür
 
 Die entspannteste Variante, besonders mit Familie, viel Gepäck oder bei späten Flügen. Der Fahrer bringt dich rund um die Uhr direkt zu deiner Unterkunft. Nachtfahrten zwischen 22:00 und 5:00 Uhr kosten etwas mehr.
 
-Wir buchen Privatwagen für unsere Gäste – schick uns einfach deine Flugnummer und Ankunftszeit. → [Privatwagen auf unserer Transportseite]({{ 'transport' | link('en') }})
+Wir buchen Privatwagen für unsere Gäste – schick uns einfach deine Flugnummer und Ankunftszeit. → [Privatwagen auf unserer Transportseite]({{ 'transport' | link }})
 
 ## 3. Grab oder Taxi
 

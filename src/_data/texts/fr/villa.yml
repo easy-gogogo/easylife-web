@@ -1,0 +1,46 @@
+# EasyLife Villa (Französisch) – Bilder stehen in en/villa.yml
+meta:
+  title: "EasyLife Villa Hoi An – Petit hôtel avec piscine et balcons près de la plage"
+  description: "Hôtel de charme à Cẩm An, Hội An : balcon dans chaque chambre, piscine, salle de jeux, petit-déjeuner inclus et vélos gratuits. À 2 minutes de la rivière et à quelques pas de la plage. 10 % de réduction en réservant en direct."
+hero:
+  chips: [Piscine, Petit-déjeuner inclus, Vélos gratuits, Service de blanchisserie]
+  eyebrow: "EasyLife Villa · Cẩm An, Hội An"
+  title: "Comme à la maison, en voyage"
+  lead: "Au bord de la rivière et à quelques pas d'une plage calme et préservée, dans une rue paisible. Un petit hôtel moderne pour voyageurs solo, couples et familles — avec piscine, salle de jeux et un balcon pour chaque chambre."
+  alt: "Le bâtiment de l'EasyLife Villa avec ses balcons et ses palmiers"
+rooms:
+  title: Chambres
+  intro: "Toutes les chambres ont la climatisation, une télévision, leur propre salle de bain et un balcon. Les enfants sont les bienvenus dans toutes les chambres."
+  items:
+    - { name: Chambre double Deluxe, guests: "1 à 2 personnes + enfants", beds: "1 lit queen size", alt: "Chambre double Deluxe avec chemin de lit bleu et porte-fenêtre sur le balcon" }
+    - { name: Chambre familiale, guests: "1 à 4 personnes + enfants", beds: "2 lits queen size", alt: "Chambre familiale avec deux lits queen size" }
+  features: [Climatisation, Télévision, Salle de bain privée, Balcon, Bureau et Wi-Fi rapide]
+  ask: Demander cette chambre
+long:
+  title: Court ou long séjour
+  text: "Réservez une seule chambre ou toute la maison. Avec une connexion internet ultra-rapide, un bureau dans chaque chambre, une cuisine facile d'accès et un frigo rempli de boissons, vous êtes paré pour tout — d'un week-end à quelques mois de télétravail."
+  alt: "Bureau avec lampe dans une chambre de l'EasyLife Villa"
+perks:
+  title: Inclus et offres
+  items:
+    - { title: Petit-déjeuner inclus, text: "Options sucrées, salées et véganes chaque matin.", alt: "Crêpes à la mangue au petit-déjeuner à l'EasyLife Villa" }
+    - { title: Vélos gratuits, text: "Une balade à vélo dans les rizières est incontournable à Hội An. Des scooters sont aussi disponibles.", alt: "Vélo appuyé contre un mur jaune" }
+    - { title: 25 % de réduction sur le SUP, text: "Juste au coin de la rue, admirez le plus beau coucher de soleil de Hội An depuis une planche de stand-up paddle.", alt: "Silhouette d'un paddler devant le coucher du soleil" }
+  link: { bicycles: Location de vélos, sup: Location de SUP }
+gallery:
+  title: Photos
+  items:
+    - { alt: "Fauteuil suspendu au bord de la piscine de l'EasyLife Villa" }
+    - { alt: "Chaises turquoise sur un balcon avec vue sur le quartier" }
+    - { alt: "Un couple au bord de la piscine de la villa" }
+    - { alt: "Une voyageuse se détend sur un balcon de l'EasyLife Villa" }
+    - { alt: "Chambre avec bureau et télévision" }
+    - { alt: "Façade du bâtiment de l'EasyLife Villa" }
+story:
+  title: "Une réussite confirmée par nos hôtes"
+  text: "Avant l'EasyLife Villa, nous avons ouvert le Nalani Homestay & Hostel. Dès sa première année, il a reçu plus de 100 avis cinq étoiles — la villa apporte le même soin dans un cadre plus calme et plus intime."
+  cta: Voir le Nalani Hostel
+book:
+  title: Réservez en direct et économisez 10 %
+  text: "Envoyez-nous vos dates et le nombre de personnes. Nous confirmons votre chambre et vous payez à l'arrivée."
+  wa: une chambre à l'EasyLife Villa

@@ -1,9 +1,72 @@
 # Reisetipps-Übersicht (Vietnamesisch)
+# FAQ bewusst gekürzt: Fragen zu Visum, Währung, Steckern usw. sind für vietnamesische Gäste nicht relevant.
 meta:
-  title: "Cẩm nang du lịch Hội An – Biển, hoàng hôn & di chuyển | EasyLife"
-  description: "Mẹo du lịch Hội An từ Lan & Martin: cách ra biển An Bàng, những điểm ngắm hoàng hôn đẹp nhất và cách đi từ sân bay Đà Nẵng về Hội An."
+  title: "Cẩm nang du lịch Hội An – Mùa đẹp, lịch trình, di chuyển | EasyLife"
+  description: "Mẹo du lịch Hội An từ Lan & Martin: mùa nào đẹp nhất, nên ở mấy ngày, đi lại thế nào, thuê xe máy, cách ra biển An Bàng, điểm ngắm hoàng hôn và cách đi từ sân bay Đà Nẵng về Hội An."
 hero:
   eyebrow: Cẩm nang · từ người địa phương
   title: "Cẩm nang du lịch Hội An"
-  lead: "Những câu khách hỏi chúng tôi mỗi ngày — trả lời một lần cho thật đủ. Từ biển đến sân bay."
+  lead: "Những câu khách hỏi chúng tôi mỗi ngày — trả lời một lần cho thật đủ. Từ mùa đẹp nhất đến biển và sân bay."
   alt: "Mái ngói phố cổ Hội An lúc hoàng hôn"
+articles: Bài viết
+faq:
+  title: "Câu hỏi thường gặp khi du lịch Hội An"
+  intro: "Những câu khách hỏi chúng tôi nhiều nhất — kèm gợi ý chúng tôi có thể giúp gì cho bạn ở Hội An."
+  updated: "Cập nhật: tháng 9/2026"
+  tipLabel: "Gợi ý của chúng tôi:"
+  more:
+    title: "Bạn còn câu hỏi?"
+    text: "Nhắn cho chúng tôi — Lan và Martin sẽ trả lời trực tiếp, bằng tiếng Việt, tiếng Anh hoặc tiếng Đức."
+    wa: một câu hỏi về du lịch Hội An
+  groups:
+    - id: timing
+      title: Thời điểm & lịch trình
+      items:
+        - id: best-time
+          q: "Đi Hội An mùa nào đẹp nhất?"
+          a: "Hội An khô ráo và nắng đẹp nhất từ tháng 2 đến tháng 8 — thích hợp để tắm biển và ngắm hoàng hôn. Tháng 3–4 trời dễ chịu, chưa quá nóng. Nếu đi xuyên Việt, mùa xuân (tháng 3–4) và mùa thu (tháng 9–11) là thời điểm lý tưởng vì miền Bắc không quá lạnh."
+          tip: "Đến Hội An vào mùa khô, đừng bỏ lỡ chèo SUP ngắm hoàng hôn trên sông."
+          links:
+            - { to: sup, label: "SUP hoàng hôn" }
+            - { to: "tip:sunset", label: "Điểm ngắm hoàng hôn đẹp nhất" }
+        - id: rainy-season
+          q: "Mùa mưa có nên đi Hội An không?"
+          a: "Vẫn đi được, vì thường chỉ mưa rào ngắn vào buổi chiều. Riêng tháng 10 và 11, miền Trung (Hội An, Đà Nẵng, Huế) có thể có bão và ngập lụt kéo dài vài ngày — hãy theo dõi dự báo thời tiết trước khi đi."
+          tip: "Trời mưa ở Hội An? Thử lớp nấu ăn, làm đèn lồng hay lớp pha cà phê — chúng tôi đặt giúp bạn, nhiều lớp có đưa đón."
+          links:
+            - { to: activities, hash: cooking-class, label: "Lớp nấu ăn" }
+            - { to: activities, hash: lantern-making, label: "Làm đèn lồng" }
+            - { to: activities, label: "Tất cả hoạt động" }
+        - id: duration
+          q: "Nên ở Hội An mấy ngày?"
+          a: "Ít nhất ba đến bốn đêm là vừa đủ để dạo phố cổ, tắm biển An Bàng, đạp xe qua đồng lúa và đi thêm một chuyến Mỹ Sơn hoặc Bà Nà Hills."
+          tip: "Ở gần biển mà vẫn yên tĩnh: EasyLife Villa có hồ bơi và ban công mỗi phòng, Nalani Hostel chỉ cách biển 4 phút đi bộ."
+          links:
+            - { to: villa, label: "EasyLife Villa" }
+            - { to: hostel, label: "Nalani Hostel" }
+            - { to: activities, hash: my-son, label: "Tour Mỹ Sơn" }
+    - id: getting-around
+      title: Đi lại
+      items:
+        - id: travel-options
+          q: "Từ Đà Nẵng về Hội An và đi tiếp thế nào?"
+          a: "Từ sân bay Đà Nẵng về Hội An khoảng 45 phút. Bạn có thể đi xe đưa đón, xe riêng hoặc gọi Grab. Để đi tiếp ra Bắc hoặc vào Nam, xe giường nằm là lựa chọn tiết kiệm và thoải mái."
+          tip: "Chúng tôi đặt xe đưa đón sân bay, xe riêng và vé xe giường nằm đi Huế, Phong Nha, Ninh Bình, Hà Nội, Nha Trang, Đà Lạt, Sài Gòn — đón tận nơi bạn ở."
+          links:
+            - { to: "tip:airport", label: "Từ sân bay về Hội An" }
+            - { to: transport, hash: shuttles, label: "Xe đưa đón & xe riêng" }
+            - { to: transport, hash: bus-times, label: "Vé xe giường nằm" }
+        - id: scooter
+          q: "Có nên thuê xe máy ở Hội An không?"
+          a: "Có, xe máy là cách tiện nhất để đi lại: phố cổ chỉ khoảng 10 phút, biển An Bàng còn gần hơn. Nhớ mang theo bằng lái và luôn đội mũ bảo hiểm."
+          tip: "Thuê xe máy ở chỗ chúng tôi từ 150.000đ/ngày — đủ loại, xe điện hoặc xe xăng. Muốn nhẹ nhàng hơn thì đạp xe qua đồng lúa, miễn phí cho khách EasyLife Villa."
+          links:
+            - { to: motorbikes, label: "Thuê xe máy" }
+            - { to: bicycles, hash: "", label: "Thuê xe đạp" }
+        - id: apps
+          q: "Liên hệ đặt phòng, đặt tour thế nào?"
+          a: "Cách nhanh nhất là nhắn tin qua Zalo hoặc WhatsApp. Đặt trực tiếp với chúng tôi rẻ hơn 10% so với các trang đặt phòng."
+          tip: "Nhắn cho chúng tôi số người, ngày đến và ngày đi — chúng tôi trả lời nhanh."
+          links:
+            - { to: zalo, label: "Zalo" }
+            - { to: whatsapp, label: "WhatsApp" }

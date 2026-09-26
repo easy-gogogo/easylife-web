@@ -1,0 +1,294 @@
+# Texte der Seite activities (Vietnamesisch). Bilder und Links stehen in en/activities.yml (Zuordnung per id).
+# Preise/Zeiten bei Änderungen in ALLEN Sprachen anpassen (en, de, vi, ko, fr, zh).
+meta:
+  title: Hoạt động ở Hội An – Tour, workshop & show diễn | EasyLife
+  description: 'Những hoạt động chọn lọc ở Hội An: SUP ngắm hoàng hôn, làm đèn lồng, lớp nấu ăn và pha cà phê, may đo, Mỹ Sơn, Bà Nà Hills, lặn ngắm san hô Cù Lao Chàm, show diễn và nhiều hơn nữa — đặt trực tiếp qua WhatsApp.'
+hero:
+  eyebrow: Cẩm nang Hội An & vùng lân cận
+  title: Chơi gì ở Hội An
+  lead: Những trải nghiệm được chọn lọc kỹ, xếp theo mức độ yêu thích để bạn thấy cái hay nhất trước. Cho chúng tôi biết bạn thích gì — chúng tôi đặt giúp, thường có đón miễn phí tại chỗ ở.
+  chips:
+  - Đặt qua WhatsApp
+  - Đón tận nơi với nhiều tour
+  - Mẹo từ người địa phương
+  alt: Workshop làm đèn lồng ở Hội An
+ask: Đặt ngay
+more: Xem mô tả đầy đủ
+perPhoto: Ảnh
+details: Chi tiết & giá
+help:
+  title: Chưa biết chọn gì?
+  text: Cho chúng tôi biết bạn có bao nhiêu ngày và thích gì — Lan và Martin sẽ lên kế hoạch phù hợp cho bạn, kể cả di chuyển.
+  wa: lên kế hoạch hoạt động ở Hội An
+categories:
+- id: top-highlights
+  title: Nổi bật & bán chạy nhất
+  items:
+  - id: tailor
+    title: Tiệm may Bảo Điệp
+    price: liên hệ
+    meta:
+    - May đo theo yêu cầu
+    short: May đo tại Bao Diep Tailor — quần áo thủ công chất lượng cao, vừa vặn với dáng của bạn. Xem các mẫu gần đây trên Instagram và hỏi chúng tôi để đặt lịch.
+  - id: sup
+    title: EasyLife SUP – chèo ngắm hoàng hôn
+    price: từ 200K VND / giờ
+    meta:
+    - hoàng hôn trên sông
+    - cho mọi lứa tuổi
+    short: Chắc chắn là trải nghiệm hoàng hôn đẹp nhất thành phố! Ngắm mặt trời lặn trên sông và xem ngư dân chuẩn bị lưới.
+  - id: cooking-class
+    title: Lớp nấu ăn sinh thái Bảy Mẫu
+    price: từ 520K VND/người
+    meta:
+    - Bắt đầu 9:30 / 14:30
+    - tối đa 12 người
+    short: Khám phá ẩm thực Việt đích thực tại một trường dạy nấu ăn nhà sàn bên sông. Từ năm 2002, các đầu bếp ở đây đã hướng dẫn khách nấu 4 món kinh điển và khám phá rừng dừa Bảy Mẫu.
+    full: |-
+      <p><strong>Nấu ăn kèm thuyền thúng:</strong> 670.000 VND/người · Buổi sáng 8:20–13:00 · Buổi chiều 13:35–18:00.</p>
+      <p><strong>Chỉ nấu ăn, không đi thuyền thúng:</strong> 520.000 VND/người — bắt đầu lúc 9:30 hoặc 14:30.</p>
+      <p><strong>Lớp nấu 4 món gồm:</strong></p>
+      <ul>
+      <li>Bánh xèo (nhân thịt heo &amp; tôm)</li>
+      <li>Phở bò (nước dùng thơm gia vị)</li>
+      <li>Gỏi cuốn (tôm &amp; thịt heo)</li>
+      <li>Bún bò Nam Bộ</li>
+      <li>Kèm nước chanh dây tự làm, nước mắm chua ngọt, tương đen &amp; trái cây theo mùa</li>
+      </ul>
+      <p><strong>Tự tay trải nghiệm:</strong> giã và sàng gạo bằng cối đá, xay gạo bằng chày gỗ, tráng bánh tráng thủ công.</p>
+      <p><strong>Lựa chọn có thuyền thúng (Bay Mau Eco Cooking Class):</strong> buổi sáng 8:20–13:00 / buổi chiều 13:35–18:00, 670K/người, có giảm giá cho trẻ em. Gồm đi chợ, đi thuyền thúng tre truyền thống qua rừng dừa Bảy Mẫu với câu cua và biểu diễn thuyền thúng, lớp nấu 4 món, cùng ăn trưa/tối và đưa đón tại khách sạn.</p>
+      <p><strong>Chính sách trẻ em:</strong> dưới 3 tuổi miễn phí · 3–9 tuổi 50% giá người lớn · từ 10 tuổi giá người lớn.</p>
+      <p>Bếp riêng, đáp ứng chế độ ăn đặc biệt (chay, không gluten…), đưa đón tại khách sạn trong khu phố cổ Hội An, sổ công thức &amp; quà tặng khi kết thúc.</p>
+  - id: cham-island-snorkeling
+    title: Lặn ngắm san hô + lặn bình khí ở Cù Lao Chàm
+    price: từ 1,5 triệu VND/người
+    meta:
+    - cả ngày, đón lúc 7:00
+    - Cù Lao Chàm
+    short: Khám phá vẻ đẹp Cù Lao Chàm trên mặt nước lẫn dưới đáy biển. Tour trọn ngày có hướng dẫn với lặn ngắm san hô hoặc lặn bình khí, thời gian tắm biển và bữa trưa địa phương ngon miệng.
+    full: |-
+      <p><strong>Lặn bình khí (mỗi người):</strong></p>
+      <ul>
+      <li>Đã có chứng chỉ: 2.400.000 VND — 2 lần lặn có hướng dẫn, đầy đủ thiết bị, ca nô &amp; đưa đón khách sạn</li>
+      <li>Chưa có chứng chỉ: 2.100.000 VND — 1 lần lặn cho người mới + lặn ngắm san hô, đầy đủ thiết bị &amp; hướng dẫn</li>
+      <li>Chỉ lặn ngắm san hô: 1.500.000 VND — rạn san hô rực rỡ, thiết bị tốt, không cần kinh nghiệm lặn</li>
+      </ul>
+      <p><strong>Ngoài ra:</strong> khóa học lặn PADI (mọi cấp độ), tour riêng bằng ca nô, trải nghiệm Cù Lao Chàm 2 ngày 1 đêm.</p>
+      <p>✅ Xe đón tại khách sạn &amp; ca nô · ✅ Thiết bị lặn bình khí hoặc lặn ngắm san hô + hướng dẫn viên chuyên nghiệp · ✅ Cà phê, trà &amp; đồ ăn nhẹ trên tàu · ✅ Bữa trưa Việt truyền thống trên bãi biển (thịt, hải sản hoặc chay) · ✅ Thời gian tự do trên võng + tắm biển</p>
+      <p><strong>Lịch trình:</strong> 7:00–7:40 đón tại khách sạn · 8:00 tàu khởi hành ra Cù Lao Chàm · 9:30–10:30 lặn lần 1 · 10:30–10:50 nghỉ và ăn nhẹ · 11:00–12:00 lặn lần 2 · 12:30 đến Bãi Chồng · 13:00 ăn trưa &amp; tắm biển · 14:15–14:45 quay về · 16:00–16:30 về đến khách sạn.</p>
+  - id: coffee-class
+    title: Lớp cà phê — 5 loại cà phê
+    price: 350.000 VND
+    meta:
+    - 2 giờ · 10/11 giờ sáng, 2/3 giờ chiều
+    short: Học tự pha 5 loại cà phê truyền thống Việt Nam.
+    full: |-
+      <ul>
+      <li>Cà phê đen truyền thống pha phin</li>
+      <li>Cà phê sữa Việt Nam</li>
+      <li>Cà phê muối cung đình Huế</li>
+      <li>Cà phê dừa Hội An</li>
+      <li>Cà phê trứng Hà Nội</li>
+      </ul>
+      <p>Thời lượng: 2 giờ · Giá: 350.000 VND</p>
+  - id: lantern-making
+    title: Workshop làm đèn lồng
+    price: 250K–350K VND
+    meta:
+    - 2–3 giờ, giờ linh hoạt
+    - từ 3 tuổi
+    short: Bước vào thế giới đầy màu sắc của nghề thủ công Việt và tự làm chiếc đèn lồng lụa gấp được — món quà lưu niệm độc nhất và kỷ niệm khó quên về Hội An!
+    full: |-
+      <p><strong>Lớp đầy đủ – 3 giờ:</strong> tự làm cả 11 bước — buộc nan tre bằng chỉ, uốn khung thành hình "mặt trời mọc", gắn vào vòng kim loại, chọn vải, cắt vải, căng vải lên khung, bọc các mặt bên, trang trí trên và dưới, gắn tua, hoàn thiện.</p>
+      <p><strong>Lớp nhanh – 2 giờ:</strong> bắt đầu từ bước 5 — khung đã làm sẵn, bạn chọn và dán vải.</p>
+      <p><strong>Giờ bắt đầu:</strong> linh hoạt, bất cứ lúc nào trong ngày. <strong>Giá:</strong> lớp nhanh 250.000 VND · lớp đầy đủ 350.000 VND.</p>
+      <p>Bao gồm: chiếc đèn lồng lụa gấp được do bạn tự làm · trà Việt chào đón · quà lưu niệm nhỏ · hướng dẫn viên nói tiếng Anh · nghệ nhân địa phương hỗ trợ tận tay.</p>
+      <p>Vui cho mọi lứa tuổi — khách đi một mình, nhóm bạn hay trẻ em từ 3 tuổi!</p>
+  - id: langur-monkeys
+    title: Ngắm voọc buổi sáng
+    price: 55 USD/người
+    meta:
+    - 3 giờ · bắt đầu 6:30
+    - nhóm nhỏ
+    - Thiên nhiên hoang dã
+    short: Khám phá Khu bảo tồn thiên nhiên Sơn Trà vào sáng sớm để quan sát loài voọc chà vá chân nâu quý hiếm trong môi trường tự nhiên, cùng kiểm lâm và nhiếp ảnh gia động vật hoang dã giàu kinh nghiệm.
+    full: |-
+      <p>Chúng tôi bắt đầu trong khoảng 6:30 – 6:45 (tùy mùa) với việc đón tại khách sạn. Sáng sớm là lúc voọc chà vá chân nâu hoạt động nhiều nhất. Đi bộ trên những lối mòn xanh mát, tận hưởng không khí núi trong lành và học cách phát hiện động vật ẩn trong tán lá.</p>
+      <p><strong>Trải nghiệm:</strong></p>
+      <ul>
+      <li>Khám phá Khu bảo tồn Sơn Trà với những đoạn đi bộ ngắn, dễ.</li>
+      <li>Di chuyển bằng xe máy, ngồi sau tài xế chuyên nghiệp (có thể đi ô tô theo yêu cầu, phụ thu thêm).</li>
+      <li>Kiểm lâm/hướng dẫn viên giàu kinh nghiệm, quan sát động vật có trách nhiệm.</li>
+      </ul>
+      <p><strong>Bao gồm:</strong> đón &amp; trả tại khách sạn khu vực Đà Nẵng · nước uống &amp; trái cây tươi · ống nhòm hoặc kính quan sát.</p>
+- id: workshops
+  title: Thủ công & workshop sáng tạo
+  items:
+  - id: woodart
+    title: Workshop Woodart
+    price: 600.000 VND
+    meta:
+    - 3 giờ · 9:00 / 14:00
+    - hơn 1 triệu người theo dõi YouTube
+    short: Hơn 1 triệu người đăng ký YouTube đã nói lên tất cả! Làm việc trực tiếp với các nghệ nhân chạm khắc hàng đầu đứng sau "Woodart Vietnam" và học chạm gỗ trong lớp 3 giờ hoặc khóa chuyên sâu đến 28 ngày.
+    full: |-
+      <p><strong>Lịch học &amp; thời lượng:</strong> hai buổi mỗi ngày, mỗi buổi 3 giờ (sáng 9:00 | chiều 14:00).</p>
+      <p><strong>Trải nghiệm &amp; điểm nổi bật:</strong></p>
+      <ul>
+      <li>Tự tạo tác phẩm gỗ độc đáo của riêng bạn dưới sự hướng dẫn tận tình của nghệ nhân lành nghề.</li>
+      <li>Chọn mẫu có sẵn hoặc tự thiết kế — từ họa tiết truyền thống, hoa lá đến nhân vật anime hay sinh vật huyền thoại.</li>
+      <li>Tham quan xưởng chạm khắc với hàng trăm tác phẩm tinh xảo.</li>
+      <li>Chiêm ngưỡng bộ sưu tập gỗ nghệ thuật của Âu Lạc Artisan, nổi tiếng qua kênh YouTube “Woodart Vietnam” với hơn 1 triệu người đăng ký.</li>
+      </ul>
+      <p><strong>Giá:</strong> 600.000 VND/người.</p>
+      <p><em>Số chỗ có hạn — hãy giữ chỗ ngay hôm nay! Hỏi chúng tôi về các khóa chuyên sâu dài hơn (đến 28 ngày).</em></p>
+  - id: woodcarving
+    title: Workshop khắc gỗ — Làng gỗ lũa
+    price: 400K–500K VND
+    meta:
+    - 2–2,5 giờ · 8:30 / 14:00
+    - tối đa 25 người
+    short: Tạm rời phố xá đông đúc để đắm mình trong nghề thủ công Việt đích thực! Tham gia workshop ngoài trời thoải mái và học từ nghệ nhân địa phương cách biến gỗ lũa tự nhiên thành món quà lưu niệm khắc tay của riêng bạn.
+    full: |-
+      <p>Hai buổi mỗi ngày, mỗi buổi 2 đến 2,5 giờ: buổi sáng 8:30, buổi chiều 14:00. Tối đa 25 người mỗi lớp.</p>
+      <p><strong>Giá:</strong> người lớn 500.000 VND · trẻ em 400.000 VND.</p>
+      <p>Bao gồm: toàn bộ gỗ chất lượng, đầy đủ dụng cụ, nghệ nhân hướng dẫn từng bước, đồ uống chào đón mát lạnh và tác phẩm hoàn thiện để mang về.</p>
+      <p>Phù hợp cho người mới, gia đình và những ai yêu sáng tạo.</p>
+  - id: leather
+    title: Workshop đồ da
+    price: từ 26 USD/người
+    meta:
+    - 2 giờ – 2 ngày, tùy lớp
+    short: Bốn cấp độ lớp học được yêu thích — từ ví đựng thẻ đơn giản trong hai giờ đến chiếc ba lô của riêng bạn trong hai ngày.
+    full: |-
+      <ul>
+      <li><strong>Lớp nhanh (2 giờ):</strong> làm ví đựng thẻ đơn giản hoặc móc khóa (tự thiết kế hoặc theo mẫu) — 26 USD/người</li>
+      <li><strong>Lớp cơ bản (4 giờ):</strong> làm bao hộ chiếu, ví đơn giản, ví cầm tay, ví dài hoặc túi đơn giản (theo mẫu) — 45 USD/người</li>
+      <li><strong>Lớp trung cấp (1 ngày):</strong> túi đơn giản với thiết kế phức tạp hơn, hoặc bộ ví + móc khóa + ví đựng thẻ — 96 USD/người</li>
+      <li><strong>Lớp nâng cao (2 ngày):</strong> ba lô đơn giản hoặc túi xách — 196 USD/người</li>
+      </ul>
+      <p>Trong lớp hai giờ bạn có thể tự thiết kế hoặc xem các mẫu ví — hỏi chúng tôi để xem ví dụ.</p>
+  - id: bamboo
+    title: Workshop tre
+    price: 790K VND
+    meta:
+    - 3 giờ · 9–12 giờ / 14–17 giờ
+    - Rừng dừa Bảy Mẫu
+    short: Một xưởng lớn bên sông đầy tác phẩm nghệ thuật. Thật thú vị khi xem anh Tấn làm được những gì từ tre — cá dài 2 mét, cú lớn, cả xe đạp!
+    full: |-
+      <p>Nơi này đáng ghé thăm ngay cả khi không học lớp tre. Xưởng nằm ở khu rừng dừa, gần chỗ thuyền thúng. Trong lớp học, bạn có thể chọn làm nhiều món khác nhau — ở nhà chúng tôi cũng có vài chiếc đèn tre, cứ hỏi nhé.</p>
+      <p>Thời lượng: 3 giờ · sáng 9:00–12:00, chiều 14:00–17:00 · Giá: 790.000 VND</p>
+  - id: jewelry
+    title: Workshop làm trang sức
+    price: 1,1–1,5 triệu VND
+    meta:
+    - 10–12 giờ / 14–16 giờ
+    short: Thỏa sức sáng tạo ở Hội An với workshop làm trang sức. Dưới sự hướng dẫn của nghệ nhân lành nghề, bạn biến bạc thô thành một món độc nhất — nhẫn, mặt dây chuyền hay vòng tay — mang phong cách riêng của bạn.
+    full: |-
+      <p>Từ tạo hình, hàn đến đánh bóng, mỗi bước đưa bạn đắm mình vào nghề kim hoàn bạc truyền thống Việt Nam. Không cần kinh nghiệm — chỉ cần trí tưởng tượng, và bạn sẽ mang về một món trang sức thủ công cùng những kỷ niệm khó quên.</p>
+      <p>Giá: 1.100.000 – 1.500.000 VND · Thời gian: sáng 10:00–12:00 hoặc chiều 14:00–16:00.</p>
+- id: tours
+  title: Tour trong ngày & phiêu lưu ngoài trời
+  items:
+  - id: sea-trek
+    title: Đi bộ dưới đáy biển — Sea Trek®
+    price: từ 890K VND/người
+    meta:
+    - đón 7:30–8:15
+    - Hội An / Đà Nẵng → Cù Lao Chàm
+    short: Tour đưa bạn từ Hội An hoặc Đà Nẵng ra Cù Lao Chàm — khu dự trữ sinh quyển được UNESCO công nhận — bằng ca nô. Tắm biển, lặn ngắm san hô và trải nghiệm "đi bộ dưới đáy biển" có hướng dẫn giữa đàn cá và san hô rực rỡ.
+    full: |-
+      <p>✅ Hướng dẫn viên (tiếng Anh) · ✅ Đưa đón · ✅ Ca nô · ✅ Đi bộ dưới biển và đầy đủ đồ lặn ngắm san hô · ✅ Bữa trưa · ✅ Vé tham quan · ✅ Bảo hiểm du lịch</p>
+      <p><strong>Lịch trình:</strong> 7:30–8:15 đón tại chỗ ở, di chuyển ra bến Cửa Đại, Hội An · 9:00 đi ca nô 20 phút ra Cù Lao Chàm · 9:20 đến bãi Hòn Nhồn, tự do đi bộ dưới biển và lặn ngắm san hô · 11:00 ăn trưa hải sản tại khu sinh thái Bãi Chồng, tắm biển hoặc nghỉ ngơi · 14:00 về lại bến Cửa Đại.</p>
+      <p><strong>Giá:</strong> người lớn 1.600.000 VND · trẻ 8–12 tuổi 1.250.000 VND · trẻ 4–7 tuổi (chỉ lặn ngắm san hô) 890.000 VND · dưới 4 tuổi miễn phí.</p>
+  - id: atv-tour
+    title: Tour xe ATV — nửa ngày
+    price: từ 1,65 triệu VND/người
+    meta:
+    - 5 giờ · bắt đầu 8:30 / 13:30
+    short: Lái xe ATV qua những ngôi làng và cánh rừng đẹp như tranh, kèm bữa trưa BBQ và nhiều điểm dừng chụp ảnh đáng nhớ.
+    full: |-
+      <p><strong>Bao gồm:</strong> đón &amp; đưa đến trang trại (50 phút) · giới thiệu &amp; hướng dẫn an toàn (30 phút, có mũ bảo hiểm) · lái ATV qua làng quê &amp; rừng (1,5 giờ) với những bức ảnh đáng nhớ · bữa trưa BBQ hoặc món chay (30 phút) · về lại (50 phút) · 3 đồ uống.</p>
+      <p><strong>Giá:</strong> đi đôi (2 người chung 1 xe) 1.650.000 VND/người · đi một mình 2.150.000 VND/người.</p>
+      <p>Trẻ 6–8 tuổi: giảm 20% (phải ngồi sau bố hoặc mẹ). Người lái một mình nên từ 16 tuổi.</p>
+      <p><strong>Mang theo:</strong> quần áo thoải mái &amp; giày kín mũi, kem chống nắng &amp; kính râm, máy ảnh hoặc GoPro (tùy chọn) và tinh thần phiêu lưu!</p>
+  - id: ba-na-hills
+    title: Bà Nà Hills — Cầu Vàng & Cầu Rồng
+    price: từ 1,59 triệu VND
+    meta:
+    - Tour trọn ngày
+    - Tour đêm
+    - cao 1.487 m so với mực nước biển
+    short: Đi cáp treo hiện đại nhất Đông Nam Á lên Cầu Vàng, dạo Làng Pháp và khám phá Fantasy Park — tour trọn ngày, hoặc tour buổi chiều kèm chụp ảnh Cầu Rồng về đêm.
+    full: |-
+      <p><strong>Tour chiều / đêm (bắt đầu 11:45):</strong> cáp treo lên Bà Nà Hills, tham quan Cầu Vàng, vườn hoa Le Jardin D'Amour, chùa Linh Ứng; cáp treo thứ hai lên Làng Pháp (nhạc đường phố, tượng nghệ sĩ, tháp chuông, Miếu Bà Chúa Ngọc, show Carnival); tàu hỏa leo núi từ Sun Kingdom (thác Hellios, Cổng Thời Gian, Moon Kingdom); Fantasy Park (Rừng Thần Tiên, Công viên Khủng long, 5D Miền Tây Hoang Dã, 4D Cuộc Đua Tử Thần, 3D Mega 360°, Hành trình vào lòng đất, Công viên Kỷ Jura, Tháp Rơi Tự Do, Nhà Ma, hơn 90 trò chơi miễn phí). 18:45 quay lại cáp treo · 19:15 chụp ảnh Cầu Rồng về đêm · 20:00 về đến khách sạn.</p>
+      <p>Bao gồm: đưa đón khách sạn hai chiều, hướng dẫn viên nói tiếng Anh, vé cáp treo khứ hồi, ăn tối buffet, một chai nước. Không bao gồm: chi phí cá nhân, đồ uống, tiền tip.</p>
+      <p><strong>Tour trọn ngày (bắt đầu 7:30–8:00):</strong> các điểm nổi bật như trên, thêm hầm rượu, ăn trưa buffet hơn 90 món. Về lúc 16:45–17:45.</p>
+      <p>Bao gồm: đưa đón khách sạn hai chiều, hướng dẫn viên nói tiếng Anh, cáp treo khứ hồi (trị giá 950.000 VND), ăn trưa buffet, nước uống. Không bao gồm: Bảo tàng Tượng Sáp, vé Hầm Rượu, tàu lượn/trò chơi leo trèo có thưởng, chi phí cá nhân.</p>
+      <p><strong>Giá:</strong> người lớn (trên 1,4 m) 1.660.000 / 1.590.000 VND · trẻ em (1–1,4 m) 1.360.000 / 1.290.000 VND · trẻ dưới 1 m miễn phí. Hủy tour: trước giờ khởi hành 12 tiếng tính 20% giá, trong ngày khởi hành 35%.</p>
+      <p>Mẹo: mang theo áo khoác cho khỏi lạnh — bạn đang ở độ cao 1.487 m!</p>
+  - id: my-son
+    title: Thánh địa Mỹ Sơn — Tour hoàng hôn & buổi sáng
+    price: từ 400K VND/người
+    meta:
+    - Buổi sáng
+    - Hoàng hôn
+    short: Quần thể đền tháp Chăm với các tiết mục biểu diễn truyền thống và chuyến đi thuyền thư thái trên sông Thu Bồn — chọn tour hoàng hôn hoặc tour buổi sáng.
+    full: |-
+      <p><strong>Tour hoàng hôn:</strong> 13:00–13:30 hướng dẫn viên đón bạn, khởi hành bằng xe minibus · tham quan Mỹ Sơn có hướng dẫn và xem biểu diễn Chăm truyền thống · đi thuyền trên sông Thu Bồn · 18:00–18:30 về đến khách sạn.</p>
+      <p>Giá: người lớn (từ 5 tuổi) 500.000 VND · trẻ em (từ 5 tuổi) 400.000 VND · dưới 5 tuổi miễn phí. Bao gồm: đưa đón khách sạn, vé vào Mỹ Sơn, hướng dẫn viên nói tiếng Anh, biểu diễn truyền thống, đi thuyền, món ăn địa phương (bánh mì), nước uống. Không bao gồm: chi phí cá nhân, vé vào cổng 150.000 VND, tiền tip. Hủy trong ngày = 50% giá. Lưu ý: hoàng hôn phụ thuộc vào thời tiết.</p>
+      <p><strong>Tour buổi sáng:</strong> 7:30–8:00 đón và khởi hành bằng xe minibus · 9:15 khám phá Mỹ Sơn, xem biểu diễn Chăm truyền thống và tự tay tráng bánh tráng mang về · 11:30 ăn trưa tại nhà người dân · 13:00 đi thuyền trên sông Thu Bồn, con sông lớn nhất miền Trung · 13:30 về đến khách sạn.</p>
+      <p>Giá: người lớn (từ 5 tuổi) 790.000 VND · trẻ em (từ 5 tuổi) 590.000 VND · dưới 5 tuổi miễn phí. Bao gồm: đưa đón khách sạn trong khu vực Hội An, vé vào cổng + xe điện, hướng dẫn viên nói tiếng Anh, bữa trưa món Việt, tráng bánh tráng, nước uống. Hủy trong ngày = 50% giá.</p>
+  - id: bach-ma
+    title: Vườn quốc gia Bạch Mã — Trekking & cắm trại 2 ngày
+    price: 130 USD/người
+    meta:
+    - 2 ngày 1 đêm
+    - trekking 10 km
+    short: Rời xa phố thị để hòa mình vào thiên nhiên hoang sơ của Vườn quốc gia Bạch Mã — toàn cảnh núi non, hồ nước trong vắt, thác nước hùng vĩ và một đêm cắm trại dưới bầu trời sao khó quên.
+    full: |-
+      <p><strong>Giờ đón:</strong> Hội An 6:30–7:00 · Đà Nẵng 7:30–8:00. Về: chiều muộn ngày thứ 2.</p>
+      <p><strong>Điểm nổi bật:</strong> trekking, tắm suối, cắm trại, ngắm bình minh &amp; tiệc BBQ.</p>
+      <p><strong>Ngày 1 — Đỉnh núi, Ngũ Hồ &amp; thác Đỗ Quyên:</strong> đón buổi sáng và di chuyển về vườn quốc gia · lên đến Km12 rồi cùng hướng dẫn viên/kiểm lâm địa phương giàu kinh nghiệm lên đỉnh Hải Vọng Đài, điểm ngắm cảnh cao nhất, với tầm nhìn ngoạn mục ra biển Cảnh Dương, đầm Tam Giang và đầm Cầu Hai trong lúc ăn trưa và uống cà phê · trekking xuyên rừng đến Ngũ Hồ, có thời gian tắm ở hồ số 5 · tiếp tục xuyên rừng nguyên sinh đến thác Đỗ Quyên cao 300 mét · buổi tối: dựng trại và tiệc BBQ dưới trời sao.</p>
+      <p><strong>Ngày 2 — Bình minh trên núi &amp; trở về:</strong> 5:30 tùy chọn đi bộ ngắn lên đỉnh Hải Vọng Đài ngắm bình minh (tùy thời tiết) · trà nóng, âm thanh rừng buổi sớm và bữa sáng tươi ngon · 10:00 khởi hành về Đà Nẵng / Hội An.</p>
+      <p>Bao gồm: xe đưa đón khứ hồi từ Hội An / Đà Nẵng, hướng dẫn viên &amp; kiểm lâm địa phương hỗ trợ, tất cả các bữa ăn (trưa, tối BBQ, sáng, kèm cà phê &amp; trà nóng), đồ cắm trại &amp; dựng trại, toàn bộ vé vào vườn quốc gia &amp; hỗ trợ an toàn.</p>
+      <p>Giá: 130 USD/người.</p>
+- id: shows
+  title: Show diễn & văn hóa
+  items:
+  - id: hoi-an-memories-show
+    title: Ký Ức Hội An –10%
+    price: từ 540K VND
+    meta:
+    - hằng ngày trừ thứ Ba, 20:00
+    - Hội An Memories Land
+    short: Quay ngược 400 năm để chứng kiến thời hoàng kim của Hội An — trên sân khấu ngoài trời rộng 25.000 m² với hơn 500 diễn viên, hiệu ứng mãn nhãn và câu chuyện cuốn hút.
+    full: |-
+      <p><strong>Khi nào?</strong> Hằng ngày trừ thứ Ba. Công viên Ấn tượng Hội An mở cửa lúc 16:00, show Ký Ức Hội An bắt đầu lúc 20:00 (60 phút mãn nhãn).</p>
+      <p><strong>Ở đâu?</strong> Hội An Memories Land, ngay cạnh phố cổ Hội An.</p>
+      <p><strong>Giá vé (đã giảm 10%):</strong></p>
+      <ul>
+      <li>Eco Class – 600.000 VND · ghế tiêu chuẩn, phù hợp khách tiết kiệm</li>
+      <li>High Class – 750.000 VND · ghế trung tâm, góc nhìn sân khấu đẹp nhất</li>
+      <li>VIP Class – 1.200.000 VND · hàng đầu, trái cây tươi, nước suối, khăn lạnh &amp; check-in VIP</li>
+      </ul>
+      <p>🎁 Quà tặng: vé High Class &amp; VIP kèm voucher 50.000 VND cho đồ ăn, đồ uống hoặc quà lưu niệm.</p>
+      <p><strong>Nâng cấp trải nghiệm:</strong> gói Ăn tối &amp; Xem show tại An Bistro (+200.000 VND / +100.000 VND mỗi trẻ em) và các show nhỏ, tham quan Làng Nhật, Cầu Tình Yêu và các điểm tâm linh.</p>
+      <p>⚠ Số ghế có hạn — đặt ngay để giữ chỗ!</p>
+  - id: lune-show
+    title: Lune Show — Teh Dar
+    price: từ 490K VND
+    meta:
+    - 18:00 · thứ Ba–Chủ nhật (nghỉ thứ Hai/thứ Sáu)
+    - nhà hát mái vòm tre
+    short: Trung tâm Biểu diễn Lune ở Hội An mang đến trải nghiệm văn hóa mê hoặc với show Teh Dar nổi tiếng — sự kết hợp cuốn hút giữa văn hóa truyền thống Việt Nam và nghệ thuật xiếc đương đại, trong một nhà hát mái vòm tre độc đáo.
+    full: |-
+      <p>Giờ diễn: 18:00 (khoảng 1 giờ). Ngày diễn: thứ Ba đến Chủ nhật (không diễn thứ Hai và thứ Sáu). Lưu ý: không nhận trẻ dưới 5 tuổi.</p>
+      <p><strong>Hạng vé:</strong></p>
+      <ul>
+      <li>Khu AAH! [A]: 700.000 VND (người lớn), 490.000 VND (trẻ em)</li>
+      <li>Khu OOH! [O]: 1.150.000 VND (người lớn), 805.000 VND (trẻ em)</li>
+      <li>Khu WOW! [W]: 1.600.000 VND (người lớn), 1.120.000 VND (trẻ em)</li>
+      </ul>
+      <p>Teh Dar, nghĩa là "đi theo vòng tròn" trong tiếng K'ho, đưa khán giả vào bức tranh văn hóa phong phú của Tây Nguyên: nhào lộn với tre, âm nhạc truyền thống trực tiếp với cồng chiêng, sáo và trống, cùng những câu chuyện về đời sống buôn làng.</p>
+      <p>Nhà hát ấm cúng 299 chỗ xếp hình bán nguyệt giúp mọi khán giả đều cảm thấy gần gũi với sân khấu. Phù hợp cho gia đình, trẻ từ 5 tuổi.</p>

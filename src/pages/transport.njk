@@ -23,7 +23,7 @@ ogImage: /images/transport/vip-bus-inside-view.jpg
         <h3>{{ d.title }}</h3>
         <div class="table-scroll"><table class="bus-table">
           <thead><tr>{% for col in c.bus.cols %}<th scope="col"{% if loop.first %} class="bus-type"{% endif %}>{{ col }}</th>{% endfor %}</tr></thead>
-          <tbody>{% for r in d.rows %}<tr><td class="bus-type">{{ r[0] }}</td><td><b>{{ r[1] }}</b><small class="bus-sm">{{ r[0] }}</small></td><td class="num">{{ r[2] }}</td><td class="num">{{ r[3] }}</td><td class="num">{{ r[4] }}</td></tr>{% endfor %}</tbody>
+          <tbody>{% for r in d.rows %}{% set bn = c.bus.names or {} %}<tr><td class="bus-type">{{ bn[r[0]] or r[0] }}</td><td><b>{{ bn[r[1]] or r[1] }}</b><small class="bus-sm">{{ bn[r[0]] or r[0] }}</small></td><td class="num">{{ r[2] }}</td><td class="num">{{ r[3] }}</td><td class="num">{{ r[4] }}</td></tr>{% endfor %}</tbody>
         </table></div>
         <a class="book-btn" href="{{ (u.cta.waHello + ' ' + d.wa) | wa }}" target="_blank" rel="noopener">{{ icon("whatsapp", 18) }} {{ c.bus.book }}</a>
       </div>

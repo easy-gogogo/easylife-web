@@ -9,9 +9,16 @@ const readJSON = (p) => JSON.parse(fs.readFileSync(path.join(ROOT, p), "utf8"));
 export const languages = () => readJSON("_data/languages.json");
 export const liveLanguages = () => languages().filter((l) => l.live);
 
-// Tiefe Zusammenführung: fehlende Übersetzungen fallen auf Englisch zurück
+// Tiefe Zusammenführung: fehlende Übersetzungen fallen auf Englisch zurück.
+// Listen von Objekten (z. B. Aktivitäten, Zimmer) werden Eintrag für Eintrag ergänzt –
+// per "id", sonst per Position. So stehen Bilder, Links usw. nur in der englischen Datei;
+// die Übersetzung bestimmt aber, welche Einträge es gibt.
+const isObj = (x) => x && typeof x === "object" && !Array.isArray(x);
 export function merge(base, over) {
-  if (Array.isArray(over)) return over;
+  if (Array.isArray(over)) {
+    if (!Array.isArray(base) || !over.every(isObj)) return over;
+    return over.map((o, i) => merge((o.id !== undefined ? base.find((b) => isObj(b) && b.id === o.id) : undefined) ?? base[i], o));
+  }
   if (over === undefined || over === null) return base;
   if (typeof base !== "object" || typeof over !== "object" || Array.isArray(base)) return over;
   const out = { ...base };

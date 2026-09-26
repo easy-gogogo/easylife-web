@@ -49,21 +49,21 @@ products:
   motorbikes:
     meta:
       title: "Scooter & Motorbike Rental Hoi An – One-Way to Hue | EasyLife"
-      description: "Rent an automatic scooter at Nalani Hostel or EasyLife Villa in Hội An — for the old town, the beaches or a one-way ride over the Hai Van Pass to Huế (700K VND incl. luggage transfer)."
+      description: "Rent a scooter in Hội An from 150K VND a day — all sizes, electric or petrol, with a bike for every driving licence. Pick-up at Nalani Hostel or EasyLife Villa. Also available: one-way over the Hai Van Pass to Huế (700K VND incl. luggage transfer)."
     name: Motorbikes & scooters
-    short: "Rent a scooter right at our place and reach the old town in half the time — or explore the coast at your own pace."
-    meta_line: "Automatic scooters · ask for today's price"
+    short: "Scooters from 150K VND a day — all sizes, electric or petrol. Or ride one-way over the Hải Vân Pass to Huế."
+    meta_line: "From 150K / day · electric & petrol · all sizes"
     alt: "Couple riding a scooter on the coastal road of the Hai Van Pass"
     eyebrow: "Scooter rental · Hội An"
     title: "Scooters & motorbikes"
-    intro: "A scooter is the easiest way to get around Hội An: the old town is about 10 minutes away and An Bang beach is even closer. All our bikes are automatic, so they're easy to ride."
+    intro: "A scooter is the easiest way to get around Hội An: the old town is about 10 minutes away and An Bang beach is even closer. We have scooters in all sizes, electric or petrol — so there is a suitable bike for every driving licence."
     highlights:
-      - { title: Day rental, text: "Pick up your scooter at the hostel or villa and explore Hội An and the coast. Ask us for today's price." }
+      - { title: Day rental — 150K, text: "Scooters in every size, electric or petrol — from small and easy to more powerful. Pick yours up at the hostel or the villa." }
       - { title: One-way to Huế — 700K, text: "Ride yourself over the famous Hai Van Pass. Your luggage is taken to your next hostel in Huế (+50K if two people share one bike)." }
       - { title: Custom map included, text: "One of our guests made a detailed map with all the top spots along the way to Huế." }
     info:
       - { label: Pick-up, value: "Nalani Hostel or EasyLife Villa" }
-      - { label: Bikes, value: "Automatic scooters" }
+      - { label: Bikes, value: "All sizes · electric & petrol · for every licence" }
       - { label: Driving licence, value: "Please check that your licence is valid in Vietnam before you ride." }
     faq:
       - { q: "Do I need a driving licence?", a: "Vietnamese law requires a licence that is valid in Vietnam — usually an international driving permit. Please check this and your travel insurance before you ride." }

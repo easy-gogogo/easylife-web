@@ -21,7 +21,8 @@ ogImage: /images/hostel/nalani-hostel-terrace-hero.jpg
     {"@type":"LocationFeatureSpecification","name":"Laundry service","value":true},
     {"@type":"LocationFeatureSpecification","name":"Rooftop terrace","value":true},
     {"@type":"LocationFeatureSpecification","name":"Free drinking water","value":true},
-    {"@type":"LocationFeatureSpecification","name":"Free towels","value":true}
+    {"@type":"LocationFeatureSpecification","name":"Free towels","value":true},
+    {"@type":"LocationFeatureSpecification","name":"Breakfast included","value":true}
   ],
   "sameAs": [site.reviews.booking.url, site.reviews.hostelworld.url, "https://www.instagram.com/nalani_hostel_hoian/", "https://www.facebook.com/nalanihomestay"],
   "parentOrganization": { "@id": "https://easylifevietnam.com/#org" }
@@ -93,8 +94,8 @@ ogImage: /images/hostel/nalani-hostel-terrace-hero.jpg
     <div class="cat-head"><span class="idx">04</span><h2>{{ c.todo.title }}</h2></div>
     <p class="prose-lead">{{ c.todo.text }}</p>
     <div class="link-row">
-      <a class="more-btn" href="{{ 'activities' | link('en') }}">{{ c.todo.links.activities }} {{ icon("arrow", 16) }}</a>
-      <a class="more-btn" href="{{ 'transport' | link('en') }}">{{ c.todo.links.transport }} {{ icon("arrow", 16) }}</a>
+      <a class="more-btn" href="{{ 'activities' | link }}">{{ c.todo.links.activities }} {{ icon("arrow", 16) }}</a>
+      <a class="more-btn" href="{{ 'transport' | link }}">{{ c.todo.links.transport }} {{ icon("arrow", 16) }}</a>
       <a class="more-btn" href="{{ 'tips' | link }}">{{ c.todo.links.tips }} {{ icon("arrow", 16) }}</a>
     </div>
   </div>

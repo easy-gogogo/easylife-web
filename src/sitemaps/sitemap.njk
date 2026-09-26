@@ -11,7 +11,7 @@ eleventyExcludeFromCollections: true
   <url>
     <loc>{{ key | abs(l.code) }}</loc>
     {%- for l2 in languages %}{% if l2.live and byLang[l2.code] !== undefined %}
-    <xhtml:link rel="alternate" hreflang="{{ l2.code }}" href="{{ key | abs(l2.code) }}"/>
+    <xhtml:link rel="alternate" hreflang="{{ l2.hreflang or l2.code }}" href="{{ key | abs(l2.code) }}"/>
     {%- endif %}{% endfor %}
     <xhtml:link rel="alternate" hreflang="x-default" href="{{ key | abs('en') }}"/>
   </url>

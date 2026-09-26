@@ -49,21 +49,21 @@ products:
   motorbikes:
     meta:
       title: "Thuê xe máy Hội An – Xe tay ga & đi Huế một chiều | EasyLife"
-      description: "Thuê xe tay ga tại Nalani Hostel hoặc EasyLife Villa ở Hội An — đi phố cổ, ra biển hoặc chạy một chiều qua đèo Hải Vân ra Huế (700K VND, đã gồm chuyển hành lý)."
+      description: "Thuê xe máy ở Hội An từ 150K VND/ngày — đủ mọi cỡ, xe điện hoặc xe xăng, có xe phù hợp với mọi loại bằng lái. Nhận xe tại Nalani Hostel hoặc EasyLife Villa. Ngoài ra: chạy một chiều qua đèo Hải Vân ra Huế (700K VND, đã gồm chuyển hành lý)."
     name: Xe máy & xe tay ga
-    short: "Thuê xe máy ngay tại chỗ chúng tôi, tới phố cổ nhanh gấp đôi — hoặc khám phá bờ biển theo cách của bạn."
-    meta_line: "Xe tay ga · hỏi giá trong ngày"
+    short: "Xe máy từ 150K VND/ngày — đủ mọi cỡ, xe điện hoặc xe xăng. Hoặc tự lái một chiều qua đèo Hải Vân ra Huế."
+    meta_line: "Từ 150K / ngày · xe điện & xe xăng · đủ mọi cỡ"
     alt: "Cặp đôi chạy xe tay ga trên cung đường ven biển đèo Hải Vân"
     eyebrow: "Thuê xe máy · Hội An"
     title: "Xe máy & xe tay ga"
-    intro: "Xe máy là cách dễ nhất để đi lại ở Hội An: phố cổ cách khoảng 10 phút, biển An Bàng còn gần hơn. Tất cả xe của chúng tôi đều là xe tay ga, rất dễ chạy."
+    intro: "Xe máy là cách dễ nhất để đi lại ở Hội An: phố cổ cách khoảng 10 phút, biển An Bàng còn gần hơn. Chúng tôi có xe đủ mọi cỡ, xe điện hoặc xe xăng — loại bằng lái nào cũng có xe phù hợp."
     highlights:
-      - { title: Thuê theo ngày, text: "Nhận xe ở hostel hoặc villa và khám phá Hội An cùng bờ biển. Hỏi chúng tôi giá trong ngày." }
+      - { title: Thuê theo ngày — 150K, text: "Xe đủ mọi cỡ, chạy điện hoặc chạy xăng — từ xe nhỏ dễ chạy đến xe mạnh hơn. Nhận xe ở hostel hoặc villa." }
       - { title: Một chiều đi Huế — 700K, text: "Tự lái qua đèo Hải Vân nổi tiếng. Hành lý được chuyển tới hostel tiếp theo của bạn ở Huế (+50K nếu hai người đi một xe)." }
       - { title: Kèm bản đồ riêng, text: "Một vị khách đã làm bản đồ chi tiết với tất cả điểm đẹp trên đường ra Huế." }
     info:
       - { label: Nhận xe, value: "Nalani Hostel hoặc EasyLife Villa" }
-      - { label: Loại xe, value: "Xe tay ga" }
+      - { label: Xe, value: "Đủ mọi cỡ · xe điện & xe xăng · phù hợp mọi loại bằng lái" }
       - { label: Giấy phép lái xe, value: "Vui lòng kiểm tra giấy phép lái xe của bạn có hợp lệ tại Việt Nam trước khi chạy." }
     faq:
       - { q: "Tôi có cần bằng lái không?", a: "Theo luật Việt Nam, bạn cần giấy phép lái xe hợp lệ tại Việt Nam — với khách nước ngoài thường là bằng lái quốc tế. Hãy kiểm tra điều này và bảo hiểm du lịch trước khi chạy xe." }

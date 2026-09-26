@@ -1,0 +1,88 @@
+# Startseite (Französisch)
+meta:
+  title: "EasyLife Hoi An – Auberge, villa, SUP et location de scooters près de la plage d'An Bang"
+  description: "Séjournez au Nalani Hostel ou à l'EasyLife Villa à Hội An, louez SUP, scooters et vélos, et réservez des excursions choisies par Lan & Martin. 10 % de réduction en réservant en direct."
+hero:
+  eyebrow: "Auberge · Villa · Locations · Excursions — Hội An, Vietnam"
+  title1: "Vivez simplement."
+  title2: "Explorez Hội An."
+  lead: "Deux maisons près de la plage d'An Bang, planches et scooters devant la porte, et les bons plans que seuls les locaux connaissent. Nous sommes Lan & Martin — nous accueillons des voyageurs depuis plus de 10 ans."
+  ctaRooms: Trouver votre chambre
+  ctaWhatsapp: Discuter sur WhatsApp
+  reviews: avis
+  captions: { hostel: Toit-terrasse du Nalani, sup: SUP au coucher du soleil, villa: Piscine de la villa }
+  alts:
+    hostel: "Des voyageurs se détendent sur le toit-terrasse du Nalani Hostel, l'un dans une balançoire"
+    sup: "Des paddlers sur la rivière au coucher du soleil près de Hội An"
+    villa: "Un couple souriant au bord de la piscine de l'EasyLife Villa"
+pills: { stay: Séjourner, rentals: Locations, todo: À faire, discount: 10 % en direct, about: Qui sommes-nous, find: Nous trouver }
+stay:
+  title: Où dormir
+  intro: "Les deux maisons se trouvent dans une rue calme de Cẩm An — à quelques minutes de la plage et de la rivière, à 20 minutes à vélo de la vieille ville."
+  villa:
+    kicker: "Petit hôtel · couples, amis et familles"
+    name: EasyLife Villa
+    text: "Un petit hôtel de standing à deux minutes de la rivière et à quelques pas d'une plage calme et préservée. Chaque chambre donne sur son propre balcon. Piscine, salle de jeux et vélos prêtés gratuitement."
+    facts: [Balcon dans chaque chambre, Piscine et salle de jeux, Petit-déjeuner inclus, Vélos gratuits, Courts et longs séjours, Service de blanchisserie]
+    cta: Voir les chambres
+    ask: Demander des dates
+    wa: une chambre à l'EasyLife Villa
+    alt: "Chambre double lumineuse de l'EasyLife Villa avec chemin de lit bleu et porte-fenêtre sur le balcon"
+  hostel:
+    kicker: "Auberge et chambres d'hôtes · le backpacking à tout âge"
+    name: Nalani Hostel & Homestay
+    text: "Toit-terrasse, piscine, eau et serviettes gratuites — et à seulement 4 minutes à pied de la plage d'An Bang. Ce n'est pas une auberge festive à fond, mais personne ne vous empêche de lancer la fête."
+    facts: [Dortoirs (mixtes / femmes / hommes), Chambres privées pour 1 à 3, Toit-terrasse et piscine, Eau et serviettes gratuites, Petit-déjeuner inclus, Service de blanchisserie]
+    cta: Voir l'auberge
+    ask: Demander un lit
+    wa: un lit au Nalani Hostel
+    alt: "Deux amies souriantes au bord de la piscine du Nalani Hostel"
+rentals:
+  title: Locations
+  all: Toutes les locations
+  intro: "À récupérer directement chez nous. Prix en dongs vietnamiens (VND)."
+todo:
+  title: À faire
+  intro: "Excursions et ateliers soigneusement choisis, billets de bus avec prise en charge gratuite, et nos propres conseils pour Hội An."
+  activities: { title: Catalogue d'activités, meta: "Ateliers · excursions · spectacles", text: "Fabrication de lanternes, cours de cuisine et de café, Mỹ Sơn, Bà Nà Hills, snorkeling aux îles Cham — les préférés de nos voyageurs.", cta: Voir les activités, alt: "Des mains façonnent une lanterne en soie sur une armature en bambou dans un atelier de Hội An" }
+  transport: { title: Bus & transport, meta: "Bus couchette · navette Da Nang · voiture privée", text: "Horaires vers Huế, Phong Nha, Ninh Bình et plus encore — tous les trajets avec prise en charge gratuite à votre hébergement à Hội An.", cta: Horaires des bus, alt: "Sièges-cabines en cuir dans un bus couchette limousine" }
+  tips: { title: Conseils de voyage, meta: "Plage · vieille ville · se déplacer", text: "Comment aller à la plage, les meilleurs spots pour le coucher du soleil et comment venir depuis l'aéroport de Da Nang — de notre part, directement.", cta: Lire les conseils, alt: "Le pont couvert japonais dans la vieille ville de Hội An" }
+discount:
+  eyebrow: Réservez en direct
+  title1: Économisez 10 %
+  title2: en nous écrivant
+  lead: "Oubliez les plateformes de réservation : envoyez-nous un message avec vos dates et vous obtenez 10 % de réduction. Rien de plus simple."
+  zero: "Zéro risque — paiement uniquement sur place."
+  steps:
+    - { title: Écrivez-nous, text: "WhatsApp, Zalo, Messenger ou e-mail — comme vous préférez." }
+    - { title: Donnez-nous l'essentiel, text: "Nombre de personnes, chambre ou lit, date d'arrivée et de départ." }
+    - { title: Nous confirmons votre place, text: "Vous payez à votre arrivée — les 10 % sont déjà déduits." }
+about:
+  eyebrow: Qui sommes-nous
+  title: Lan & Martin
+  text: "Nous sommes un couple vietnamo-allemand et nous accueillons des voyageurs depuis plus de 10 ans. Nos hôtes restent longtemps, parfois des mois. Certains aiment l'action, d'autres veulent juste discuter et se détendre — nous aimons les deux."
+  values:
+    - { title: Standing élevé, text: "Des chambres impeccables et cosy pour voyageurs solo, couples et familles." }
+    - { title: Convivialité et confort, text: "Envie de faire la fête ? Allez-y. Envie de repos ? On s'assure que vous puissiez en profiter." }
+    - { title: Exploration, text: "Plage, rivière et vieille ville tout près — et à 45 minutes de l'aéroport de Da Nang." }
+  cta: En savoir plus sur nous
+  alt: "Lan et Martin, les propriétaires d'EasyLife, souriant sur une route bordée de palmiers à Hội An"
+reviews:
+  title: Ce qu'en disent nos hôtes
+  exceptional: Exceptionnel
+  superb: Superbe
+  note: "Les avis sont affichés dans leur langue d'origine."
+insta:
+  title: Suivez la vie facile
+  alts:
+    - Vue aérienne d'un paddler sur une mer turquoise
+    - Des voyageurs partagent un dîner convivial au Nalani Hostel
+    - Fauteuil suspendu au bord de la piscine de l'EasyLife Villa
+    - Les toits de la vieille ville de Hội An au coucher du soleil
+    - Des voyageurs jouent au ballon dans la piscine du Nalani Hostel
+    - Une femme tient une pagaie à côté de sa planche de SUP
+find:
+  title: Nous trouver
+  intro: "Les deux maisons se trouvent à Cẩm An, entre la vieille ville et la plage d'An Bang — à environ 45 minutes de l'aéroport de Da Nang."
+  villa: { kicker: Hôtel, facts: [2 min de la rivière, Point de rendez-vous du SUP] }
+  hostel: { kicker: Auberge et chambres d'hôtes, facts: [4 min à pied de la plage, 10 min à pied des rizières] }

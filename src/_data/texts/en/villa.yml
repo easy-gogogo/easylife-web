@@ -12,9 +12,8 @@ rooms:
   title: Rooms
   intro: "All rooms have air conditioning, a TV, their own bathroom and a balcony. Children are welcome in every room."
   items:
-    - { name: De Luxe Double Room, guests: "1–2 people + children", beds: "1 queen-size bed", image: /images/hotel/easylife-villa-deluxe-double-room.jpg, alt: "De Luxe Double Room with blue bed runner and balcony door" }
+    - { name: Deluxe Double Room, guests: "1–2 people + children", beds: "1 queen-size bed", image: /images/hotel/easylife-villa-deluxe-double-room.jpg, alt: "Deluxe Double Room with blue bed runner and balcony door" }
     - { name: Family Room, guests: "1–4 people + children", beds: "2 queen-size beds", image: /images/hotel/easylife-villa-family-room.jpg, alt: "Family room with two queen-size beds" }
-    - { name: Triple Room, guests: "1–6 people + children", beds: "3 queen-size beds", image: /images/hotel/easylife-villa-triple-room.jpg, alt: "Triple room with three queen-size beds and paintings" }
   features: [Air conditioning, TV, Private bathroom, Balcony, Desk & fast Wi-Fi]
   ask: Ask for this room
 long:

@@ -1,0 +1,69 @@
+# Menü-, Button- und Footer-Texte (Chinesisch, vereinfacht)
+nav:
+  stay: 住宿
+  villa: EasyLife 别墅
+  hostel: Nalani 青旅
+  rentals: 租赁
+  activities: 活动
+  transport: 巴士与交通
+  tips: 旅行攻略
+  about: 关于我们
+  ask: 立即咨询
+  menu: 菜单
+  language: 语言
+  skip: 跳到正文
+  home: 首页
+cta:
+  discount: 直接预订立减 10%
+  zeroRisk: 零风险——到店再付款。
+  waHello: "你好 EasyLife！我想咨询一下"
+  waStay: 在会安的住宿
+  choose: 选择联系方式
+  bookDirect: 直接预订
+footer:
+  contact: 联系方式
+  find: 我们的位置
+  follow: 关注我们
+  explore: 探索
+  tag: 发照片时记得标记我们！
+  rights: 版权所有。
+  directions: 路线
+common:
+  more: 更多
+  from: 起
+  priceOnRequest: 请咨询
+  vnd: 越南盾
+  readMore: 阅读全文
+  related: 您可能还需要
+  relatedTips: 相关旅行攻略
+  gallery: 照片
+  faq: 须知
+  prices: 价格
+  minRead: 分钟阅读
+  updated: 更新于
+  new: 新
+  onlyEnglish: 本页面目前仅提供英文版。
+promo:
+  text: "直接预订：比 Booking.com 便宜 10%"
+  link: 如何预订
+sell:
+  title: 让您的旅程更精彩
+  intro: "日落 SUP、摩托车、烹饪课、海岛游——我们都能帮您预订，很多还能上门接送。"
+  combo: 住、玩、行——一条消息就搞定
+  allActivities: 全部活动
+  allRentals: 全部租赁
+  ask: 帮我规划行程
+  wa: 住宿期间的活动安排
+  onRequest: 请咨询
+  items:
+    sup: { title: 河上日落 SUP, text: "城里最美的日落——老少皆宜。" }
+    motorbikes: { title: 摩托车租赁, text: "自由探索会安、海滩和海云岭。" }
+    cooking: { title: 生态烹饪课, text: "在河边的烹饪学校学做 4 道越南菜。" }
+    lantern: { title: 手工灯笼制作, text: "亲手做一盏丝绸灯笼——3 岁以上即可参加。" }
+    cham: { title: 占婆岛浮潜, text: "全天乘船出海，浮潜或潜水。" }
+    easyrider: { title: Easy Rider 摩托游到顺化, text: "坐在本地司机的摩托车后座翻越海云岭。" }
+compare:
+  title: 自己比一比
+  text: "先在 Booking.com 查看我们的价格——然后给我们发消息，便宜 10%。"
+  villa: Booking.com 上的 EasyLife 别墅
+  hostel: Booking.com 上的 Nalani

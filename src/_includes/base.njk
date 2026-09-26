@@ -1,7 +1,7 @@
 {# Grundgerüst jeder Seite: Meta, hreflang, Schema, Kopf, Fuß #}
 {%- set cur = languages | find("code", lang) -%}
 <!doctype html>
-<html lang="{{ lang }}">
+<html lang="{{ cur.hreflang or lang }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,9 +9,25 @@
 <meta name="description" content="{{ description }}">
 <link rel="canonical" href="{{ pageKey | abs(lang) }}">
 {%- for l in languages %}{% if l.live and routes[pageKey][l.code] %}
-<link rel="alternate" hreflang="{{ l.code }}" href="{{ pageKey | abs(l.code) }}">
+<link rel="alternate" hreflang="{{ l.hreflang or l.code }}" href="{{ pageKey | abs(l.code) }}">
 {%- endif %}{% endfor %}
 <link rel="alternate" hreflang="x-default" href="{{ pageKey | abs('en') }}">
+{# Sprache automatisch: Besucher landen auf der Seite in ihrer Browsersprache (sonst Englisch).
+   Wer im Sprachmenü selbst wählt, dessen Wahl wird gemerkt. Suchmaschinen werden nie umgeleitet. #}
+<script>
+(function(){try{
+  var KEY="el-lang", cur=document.documentElement.lang.slice(0,2).toLowerCase();
+  var m=location.search.match(/[?&]lang=([a-z]{2})/);
+  if(m){localStorage.setItem(KEY,m[1]);var q=location.search.replace(/[?&]lang=[a-z]{2}/,"").replace(/^&/,"?");history.replaceState(null,"",location.pathname+q+location.hash);return;}
+  if(location.protocol==="file:")return;
+  if(/bot|crawl|spider|slurp|lighthouse|facebookexternalhit|preview/i.test(navigator.userAgent))return;
+  if(/(^|\.)(easylifevietnam|einfachasien)\.com$/.test((document.referrer.split("/")[2]||"")))return;
+  var alt={};[].forEach.call(document.querySelectorAll("link[rel=alternate][hreflang]"),function(l){var h=l.getAttribute("hreflang");if(h!=="x-default")alt[h.slice(0,2).toLowerCase()]=l.href;});
+  var want=localStorage.getItem(KEY);
+  if(!want||!alt[want]){want=null;var ls=navigator.languages||[navigator.language||""];for(var i=0;i<ls.length;i++){var c=String(ls[i]).slice(0,2).toLowerCase();if(alt[c]){want=c;break;}}want=want||"en";}
+  if(want!==cur&&alt[want])location.replace(alt[want]+location.hash);
+}catch(e){}})();
+</script>
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ title }}">
 <meta property="og:description" content="{{ description }}">

@@ -1,0 +1,150 @@
+# Texte der Seite transport (Koreanisch). Abfahrtszeiten/Preise der Busse stehen NUR in en/transport.yml (bus.north/south.rows).
+# bus.names übersetzt Bus-Typen und Ziele aus diesen Zeilen. Transfer-Preise bei Änderungen in ALLEN Sprachen anpassen.
+meta:
+  title: 호이안 출발 버스 & 교통 – 슬리핑 버스, 다낭 셔틀, 전용 차량 | EasyLife
+  description: 호이안에서 후에, 퐁냐, 닌빈 등으로 가는 슬리핑 버스 시간표, 다낭 공항 셔틀버스와 전용 차량, 후에행 편도 스쿠터와 이지라이더 투어 — 무료 픽업 포함.
+hero:
+  eyebrow: 베트남 중부 이동 & 교통
+  title: 버스 & 교통
+  lead: 편하고 믿을 수 있고, 저희에게 바로 예약할 수 있어요 — 슬리핑 버스, 다낭 셔틀, 전용 차량, 또는 전설적인 하이반 고개 라이딩까지.
+  chips:
+  - 호이안 무료 픽업
+  - 매일 출발
+  - WhatsApp으로 예약
+  alt: VIP 슬리핑 버스 내부
+filters:
+  bus: 슬리핑 버스 시간
+  shuttles: 셔틀 & 이동
+  guide: VIP vs 리무진 버스
+bus:
+  title: 장거리 버스 시간표
+  note: 모든 노선은 호이안 숙소에서 무료로 픽업해 드려요.
+  cols:
+  - 버스
+  - 목적지
+  - 출발
+  - 도착
+  - 가격 (VND)
+  book: 버스표 예약
+  names:
+    Hue (Morning): 후에 (오전)
+    Hue (Afternoon): 후에 (오후)
+    Dong Hoi: 동허이
+    Phong Nha: 퐁냐
+    Ninh Binh: 닌빈
+    Ha Noi: 하노이
+    Nha Trang: 나트랑
+    Mui Ne: 무이네
+    Sai Gon: 사이공 (호찌민)
+    Da Lat: 달랏
+    Quy Nhon: 꾸이년
+    Sleeper Bus HT: 슬리핑 버스 HT
+  north:
+    title: 호이안 출발 북쪽 방면
+    wa: 슬리핑 버스표 (북쪽 방면)
+  south:
+    title: 호이안 출발 남쪽 방면
+    wa: 슬리핑 버스표 (남쪽 방면)
+transfers:
+  title: 셔틀 & 이동
+  ask: 지금 예약
+  more: 자세히 보기
+  items:
+  - id: shuttle-danang
+    title: 다낭행 셔틀버스
+    price: 170K VND
+    meta:
+    - 호텔 픽업
+    - 매일 출발
+    short: |-
+      <p><strong>호스텔/호텔에서 바로 픽업!</strong></p>
+      <p><strong>호이안 출발 시간:</strong><br/>
+      6:00 · 7:00 · 9:00 · 10:00 · 12:00 · 13:00 · 15:00 · 16:00 · 18:00 · 20:00</p>
+    full: |-
+      <div class="stop-group">
+      <div class="stop-title">✈️ 다낭 공항 정류장:</div>
+      <ul class="stop-list">
+      <li><strong>탑승:</strong> 국내선 터미널 도착 게이트 A4</li>
+      <li><strong>하차:</strong> 국내선 터미널 출발 홀</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏙️ 다낭 시내 정류장:</div>
+      <ul class="stop-list">
+      <li>다낭 기차역 (정문 Train Cafe)</li>
+      <li>다낭 참 조각 박물관</li>
+      <li>Hiyori Garden Tower – 02 Vo Van Kiet St.</li>
+      <li>A La Carte Beach Hotel – 200 Vo Nguyen Giap St.</li>
+      <li>Holiday Beach Hotel – 300 Vo Nguyen Giap St.</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏡 호이안 시내 정류장:</div>
+      <ul class="stop-list">
+      <li>Barri Ann Travel 사무실 – 30/2 Tran Hung Dao St.</li>
+      <li>Agribank ATM – 255 Cua Dai St.</li>
+      <li>Silk Village The Tourist – 28 Nguyen Tat Thanh St.</li>
+      <li>Hoi An iVy Hotel – 01 Dao Duy Tu St.</li>
+      </ul>
+      </div>
+      <div class="stop-group">
+      <div class="stop-title">🏖️ 호이안 해변 지역 정류장:</div>
+      <ul class="stop-list">
+      <li>Dahan Spa – 130 Lac Long Quan St.</li>
+      <li>Hoi An Beach Resort – 01 Cua Dai St.</li>
+      </ul>
+      </div>
+  - id: private-car
+    title: 다낭행 전용 차량
+    price: 320K VND
+    meta:
+    - 문 앞에서 문 앞까지
+    - 24시간 운행
+    short: |-
+      <p>문 앞에서 문 앞까지, 전용 차량으로 편하게 바로 이동해요.</p>
+      <p><strong>가격:</strong> 320,000 VND</p>
+      <p><small>(밤 10시–새벽 5시 야간 할증 +50K)</small></p>
+    full: |-
+      <p>가족, 짐이 많은 그룹, 또는 중간 정차 없이 원하는 곳(다낭의 공항, 기차역, 호텔)까지 유연하게 가고 싶을 때 딱이에요.</p>
+  - id: hue-motorbike
+    title: 후에행 편도 스쿠터
+    price: 700K VND
+    meta:
+    - 직접 운전
+    - 짐 운송
+    short: |-
+      <p>단 <strong>700K VND</strong>로 후에까지 직접 운전해서 가요!</p>
+      <p>스쿠터는 저희 호스텔에서 받으시고, 짐은 후에의 새 호스텔까지 옮겨 드려요 (1대에 2명이 타면 +50K).</p>
+    full: |-
+      <ul>
+      <li>유명한 <strong>하이반 고개</strong>를 지나며 폭포 &amp; 아름다운 해변을 만나요.</li>
+      <li>길이 운전하기 쉽고 모든 스쿠터는 오토매틱이에요.</li>
+      <li><strong>맞춤 지도 제공:</strong> 저희 게스트 한 분이 가는 길의 모든 명소를 담은 상세 지도를 만들었어요!</li>
+      </ul>
+  - id: easy-rider
+    title: 후에행 이지라이더 투어
+    price: 1.3M VND
+    meta:
+    - 입장료 포함
+    - 경험 많은 현지 기사
+    short: |-
+      <p><strong>단 1,300,000 VND (입장료 포함)</strong></p>
+      <p>편하게 앉아서 라이딩을 즐기세요! 경험 많은 기사들이 최고의 현지 명소를 알고 있고, 가는 길에 재미있는 이야기도 들려줘요.</p>
+    full: |-
+      <ul>
+      <li>마블 마운틴 또는 레이디 붓다(린응 사원) 정차</li>
+      <li>하이반 고개를 넘는 절경 드라이브</li>
+      <li>랍안 석호 정차</li>
+      <li>랑꼬 해변에서 맛있는 점심</li>
+      <li>폭포에서 시원한 휴식</li>
+      </ul>
+guide:
+  title: VIP 버스? 리무진 버스?
+  intro: 모든 장거리 버스에는 사생활을 위한 커튼과 기기 충전용 USB 포트가 있어요.
+  items:
+  - title: VIP 슬리핑 버스
+    text: 같은 길이의 버스에 더 넓은 개인 캐빈으로 더 편하고 프라이빗해요. 장거리 이동에 강력 추천!
+  - title: 리무진 슬리핑 버스 (일반)
+    text: 표준 너비의 최신 침대 좌석. 아늑하고 저렴하며 커튼과 USB 충전 포트도 완비되어 있어요.
+  wa: 슬리핑 버스
+  ask: WhatsApp으로 문의

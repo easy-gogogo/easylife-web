@@ -1,0 +1,69 @@
+# Menü-, Button- und Footer-Texte (Französisch)
+nav:
+  stay: Séjourner
+  villa: EasyLife Villa
+  hostel: Nalani Hostel
+  rentals: Locations
+  activities: Activités
+  transport: Bus & transport
+  tips: Conseils de voyage
+  about: Qui sommes-nous
+  ask: Écrivez-nous
+  menu: Menu
+  language: Langue
+  skip: Aller au contenu
+  home: Accueil
+cta:
+  discount: 10 % de réduction en réservant en direct
+  zeroRisk: Zéro risque — vous ne payez que sur place.
+  waHello: "Bonjour EasyLife ! J'aimerais me renseigner sur"
+  waStay: un séjour à Hội An
+  choose: Choisissez comment nous contacter
+  bookDirect: Réserver en direct
+footer:
+  contact: Contact
+  find: Nous trouver
+  follow: Suivez-nous
+  explore: Découvrir
+  tag: Identifiez-nous sur vos photos !
+  rights: Tous droits réservés.
+  directions: Itinéraire
+common:
+  more: Plus
+  from: dès
+  priceOnRequest: Sur demande
+  vnd: VND
+  readMore: Lire la suite
+  related: Cela pourrait aussi vous servir
+  relatedTips: Conseils de voyage à ce sujet
+  gallery: Photos
+  faq: Bon à savoir
+  prices: Tarifs
+  minRead: min de lecture
+  updated: Mis à jour
+  new: Nouveau
+  onlyEnglish: Cette page n'est actuellement disponible qu'en anglais.
+promo:
+  text: "Réservez en direct : 10 % moins cher que sur Booking.com"
+  link: Comment ça marche
+sell:
+  title: Profitez pleinement de votre séjour
+  intro: "SUP au coucher du soleil, scooters, cours de cuisine, excursions sur les îles — on réserve tout pour vous, souvent avec prise en charge devant votre porte."
+  combo: Dormir, s'amuser, rouler — un seul message suffit
+  allActivities: Toutes les activités
+  allRentals: Toutes les locations
+  ask: Demander un programme
+  wa: des activités pendant mon séjour
+  onRequest: Sur demande
+  items:
+    sup: { title: SUP au coucher du soleil sur la rivière, text: "Le plus beau coucher de soleil de la ville — pour tous les âges." }
+    motorbikes: { title: Location de scooters, text: "Explorez Hội An, les plages et le col de Hải Vân en toute liberté." }
+    cooking: { title: Cours de cuisine éco, text: "4 plats vietnamiens dans une école de cuisine au bord de l'eau." }
+    lantern: { title: Fabrication de lanternes, text: "Créez votre propre lanterne en soie — dès 3 ans." }
+    cham: { title: Snorkeling aux îles Cham, text: "Journée en bateau avec snorkeling ou plongée." }
+    easyrider: { title: Easy Rider jusqu'à Huế, text: "Passez le col de Hải Vân à l'arrière d'une moto, avec un pilote local." }
+compare:
+  title: Comparez vous-même
+  text: "Regardez notre prix sur Booking.com — puis écrivez-nous et payez 10 % de moins."
+  villa: EasyLife Villa sur Booking.com
+  hostel: Nalani sur Booking.com
