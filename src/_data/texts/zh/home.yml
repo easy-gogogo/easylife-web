@@ -10,9 +10,9 @@ hero:
   ctaRooms: 查找房间
   ctaWhatsapp: WhatsApp 咨询
   reviews: 条评价
-  captions: { hostel: Nalani 屋顶露台, sup: 日落 SUP, villa: 别墅泳池 }
+  captions: { hostel: Nalani 泳池, sup: 日落 SUP, villa: 别墅泳池 }
   alts:
-    hostel: "客人在 Nalani 青旅屋顶露台上休闲，其中一人坐在秋千椅上"
+    hostel: "客人在 Nalani 青旅泳池边开心聊天"
     sup: "会安附近河上日落时的桨板爱好者"
     villa: "一对情侣在 EasyLife 别墅泳池边微笑"
 pills: { stay: 住宿, rentals: 租赁, todo: 玩乐, discount: 直订优惠 10%, about: 关于我们, find: 我们的位置 }

@@ -10,9 +10,9 @@ hero:
   ctaRooms: Find your room
   ctaWhatsapp: Chat on WhatsApp
   reviews: reviews
-  captions: { hostel: Nalani rooftop, sup: SUP at sunset, villa: Villa pool }
+  captions: { hostel: Nalani pool, sup: SUP at sunset, villa: Villa pool }
   alts:
-    hostel: "Guests relaxing on the rooftop terrace of Nalani Hostel, one on a swing chair"
+    hostel: "Guests laughing together at the Nalani Hostel pool"
     sup: "Stand-up paddlers on the river at sunset near Hoi An"
     villa: "Couple smiling at the edge of the EasyLife Villa pool"
 pills: { stay: Stay, rentals: Rentals, todo: Things to do, discount: 10% direct discount, about: About us, find: Find us }

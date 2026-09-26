@@ -10,9 +10,9 @@ hero:
   ctaRooms: Trouver votre chambre
   ctaWhatsapp: Discuter sur WhatsApp
   reviews: avis
-  captions: { hostel: Toit-terrasse du Nalani, sup: SUP au coucher du soleil, villa: Piscine de la villa }
+  captions: { hostel: Piscine du Nalani, sup: SUP au coucher du soleil, villa: Piscine de la villa }
   alts:
-    hostel: "Des voyageurs se détendent sur le toit-terrasse du Nalani Hostel, l'un dans une balançoire"
+    hostel: "Des voyageurs rient ensemble au bord de la piscine du Nalani Hostel"
     sup: "Des paddlers sur la rivière au coucher du soleil près de Hội An"
     villa: "Un couple souriant au bord de la piscine de l'EasyLife Villa"
 pills: { stay: Séjourner, rentals: Locations, todo: À faire, discount: 10 % en direct, about: Qui sommes-nous, find: Nous trouver }

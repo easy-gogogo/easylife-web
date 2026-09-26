@@ -12,7 +12,7 @@
       {% if hero.chips %}<ul class="hero-chips">{% for ch in hero.chips %}<li>{{ ch }}</li>{% endfor %}</ul>{% endif %}
       {% if hero.cta %}<div class="btn-row">{{ hero.cta | safe }}</div>{% endif %}
     </div>
-    {% if hero.image %}<figure class="page-hero-img"><img src="{{ hero.image }}" alt="{{ hero.alt }}" width="1200" height="900" fetchpriority="high"></figure>{% endif %}
+    {% if hero.image %}<figure class="page-hero-img"><img src="{{ hero.image }}" alt="{{ hero.alt }}" width="1200" height="900" fetchpriority="high">{% if hero.logo %}<span class="hero-logo"><img src="{{ hero.logo.src }}" alt="{{ hero.logo.alt }}" width="600" height="600"></span>{% endif %}</figure>{% endif %}
   </div>
 </section>
 <script type="application/ld+json">{{ {

@@ -10,9 +10,9 @@ hero:
   ctaRooms: Zimmer finden
   ctaWhatsapp: Per WhatsApp schreiben
   reviews: Bewertungen
-  captions: { hostel: Nalani-Dachterrasse, sup: SUP bei Sonnenuntergang, villa: Villa-Pool }
+  captions: { hostel: Nalani-Pool, sup: SUP bei Sonnenuntergang, villa: Villa-Pool }
   alts:
-    hostel: "Gäste entspannen auf der Dachterrasse des Nalani Hostels, eine davon im Hängesessel"
+    hostel: "Gäste lachen gemeinsam am Pool des Nalani Hostels"
     sup: "Stand-up-Paddler bei Sonnenuntergang auf dem Fluss bei Hoi An"
     villa: "Lachendes Paar am Rand des Pools der EasyLife Villa"
 pills: { stay: Übernachten, rentals: Verleih, todo: Unternehmungen, discount: 10 % Direktrabatt, about: Über uns, find: Anfahrt }

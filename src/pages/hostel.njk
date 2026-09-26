@@ -7,13 +7,13 @@ ogImage: /images/hostel/nalani-hostel-terrace-hero.jpg
 ---
 {% from "partials/icons.njk" import icon %}
 {% set c = "hostel" | cx %}{% set u = "ui" | cx %}
-{% set hero = { eyebrow: c.hero.eyebrow, title: c.hero.title, lead: c.hero.lead, image: "/images/hostel/nalani-hostel-terrace-hero.jpg", alt: c.hero.alt, chips: c.hero.free,
+{% set hero = { eyebrow: c.hero.eyebrow, title: c.hero.title, lead: c.hero.lead, image: "/images/hostel/nalani-hostel-terrace-hero.jpg", alt: c.hero.alt, chips: c.hero.free, logo: { src: "/images/brand/logos/nalani-logo.png", alt: "Nalani Homestay & Hostel Hoi An logo" },
   cta: '<a class="btn btn-yellow" href="#book">' + u.cta.bookDirect + ' −10%</a><a class="btn btn-wa" href="' + ((u.cta.waHello + " " + c.discount.wa) | wa) + '" target="_blank" rel="noopener">WhatsApp</a>' } %}
 {% set crumbs = [["hostel", u.nav.hostel]] %}
 {% include "partials/page-hero.njk" %}
 <script type="application/ld+json">{{ {
   "@context": "https://schema.org", "@type": "Hostel", "name": site.places.hostel.name, "url": "hostel" | abs(lang),
-  "description": description, "image": "https://easylifevietnam.com/images/hostel/nalani-hostel-terrace-hero.jpg",
+  "description": description, "image": ["https://easylifevietnam.com/images/hostel/nalani-hostel-terrace-hero.jpg", "https://easylifevietnam.com/images/hostel/nalani-hostel-pool-guests.jpg"], "logo": "https://easylifevietnam.com/images/brand/logos/nalani-logo.png",
   "telephone": site.phone, "email": site.emailHostel,
   "address": { "@type": "PostalAddress", "streetAddress": site.places.hostel.street, "addressLocality": site.places.hostel.city, "addressRegion": site.places.hostel.region, "postalCode": site.places.hostel.postal, "addressCountry": "VN" },
   "amenityFeature": [

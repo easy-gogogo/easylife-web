@@ -10,9 +10,9 @@ hero:
   ctaRooms: 객실 찾기
   ctaWhatsapp: WhatsApp으로 문의
   reviews: 개 후기
-  captions: { hostel: 날라니 루프탑, sup: 일몰 SUP, villa: 빌라 수영장 }
+  captions: { hostel: 날라니 수영장, sup: 일몰 SUP, villa: 빌라 수영장 }
   alts:
-    hostel: "날라니 호스텔 루프탑 테라스에서 쉬고 있는 게스트들, 한 명은 그네 의자에 앉아 있음"
+    hostel: "날라니 호스텔 수영장에서 함께 웃고 있는 게스트들"
     sup: "호이안 근처 강에서 일몰 무렵 스탠드업 패들보드를 타는 사람들"
     villa: "이지라이프 빌라 수영장 가장자리에서 웃고 있는 커플"
 pills: { stay: 숙소, rentals: 대여, todo: 즐길 거리, discount: 직접 예약 10% 할인, about: 소개, find: 오시는 길 }

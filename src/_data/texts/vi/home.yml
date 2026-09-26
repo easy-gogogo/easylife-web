@@ -10,9 +10,9 @@ hero:
   ctaRooms: Tìm phòng
   ctaWhatsapp: Nhắn qua WhatsApp
   reviews: đánh giá
-  captions: { hostel: Sân thượng Nalani, sup: SUP lúc hoàng hôn, villa: Hồ bơi Villa }
+  captions: { hostel: Hồ bơi Nalani, sup: SUP lúc hoàng hôn, villa: Hồ bơi Villa }
   alts:
-    hostel: "Khách thư giãn trên sân thượng Nalani Hostel, một người ngồi xích đu"
+    hostel: "Khách cười đùa bên hồ bơi Nalani Hostel"
     sup: "Người chèo SUP trên sông lúc hoàng hôn gần Hội An"
     villa: "Cặp đôi tươi cười bên hồ bơi EasyLife Villa"
 pills: { stay: Lưu trú, rentals: Cho thuê, todo: Trải nghiệm, discount: Giảm 10% đặt trực tiếp, about: Về chúng tôi, find: Địa chỉ }
