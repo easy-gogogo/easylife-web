@@ -27,14 +27,6 @@ ogImage: /images/tours/lantern-making-hoi-an/lantern-making-hoi-an-1.jpg
     </div>
   </div>
 </section>
-{% if loop.index == 1 %}
-<section class="section discount slim">
-  <div class="wrap discount-grid">
-    <div><p class="eyebrow">{{ c.help.title }}</p><h2>{{ u.sell.combo }}</h2><p class="lead">{{ c.help.text }}</p></div>
-    <div>{% set ctaTopic = c.help.wa %}{% include "partials/contact-cta.njk" %}</div>
-  </div>
-</section>
-{% endif %}
 {% endfor %}
 {% set upsellSkip = ["activities"] %}{% include "partials/upsell.njk" %}
 {% include "partials/insta.njk" %}
