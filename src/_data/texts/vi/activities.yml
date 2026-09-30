@@ -253,6 +253,20 @@ categories:
       <p><strong>Ngày 2 — Bình minh trên núi &amp; trở về:</strong> 5:30 tùy chọn đi bộ ngắn lên đỉnh Hải Vọng Đài ngắm bình minh (tùy thời tiết) · trà nóng, âm thanh rừng buổi sớm và bữa sáng tươi ngon · 10:00 khởi hành về Đà Nẵng / Hội An.</p>
       <p>Bao gồm: xe đưa đón khứ hồi từ Hội An / Đà Nẵng, hướng dẫn viên &amp; kiểm lâm địa phương hỗ trợ, tất cả các bữa ăn (trưa, tối BBQ, sáng, kèm cà phê &amp; trà nóng), đồ cắm trại &amp; dựng trại, toàn bộ vé vào vườn quốc gia &amp; hỗ trợ an toàn.</p>
       <p>Giá: 130 USD/người.</p>
+  - id: duck-stop
+    title: Duck Stop Hội An – Cho vịt ăn giữa đồng lúa
+    price: 100.000đ
+    meta:
+    - khoảng 30 phút · ở lại bao lâu tùy thích
+    - trẻ em 1–5 tuổi miễn phí
+    - Được gia đình yêu thích
+    short: Giữa cánh đồng lúa Hội An, cả đàn vịt thân thiện đang chờ bạn — cho vịt ăn, ôm vịt và chụp những bức ảnh vui nhất chuyến đi, có hướng dẫn viên địa phương đi cùng.
+    full: |-
+      <p>Duck Stop là một trang trại sinh thái nhỏ giữa đồng lúa Hội An. Chỉ cần cầm xô thức ăn, bạn sẽ được hàng chục chú vịt tò mò vây quanh. Hướng dẫn viên địa phương chỉ bạn cách bế vịt nhẹ nhàng, kể về cuộc sống của đàn vịt và nghề nuôi vịt, lấy trứng ở làng quê Việt Nam — và giúp bạn chụp ảnh thật đẹp.</p>
+      <p>Trải nghiệm kéo dài khoảng 30 phút, nhưng bạn có thể ở lại bao lâu tùy thích. Rất hợp với gia đình, các cặp đôi và người yêu động vật.</p>
+      <p><strong>Khung giờ:</strong> sáng 8:30 · 9:00 · 9:30 · 10:00 · 10:30 · 11:00 · 11:30 — chiều 13:30 · 14:00 · 14:30 · 15:00 · 15:30 · 16:00 · 16:30 · 17:00.</p>
+      <p><strong>Giá:</strong> 100.000đ/người · trẻ em 1–5 tuổi miễn phí.</p>
+      <p><strong>Vui lòng đặt trước</strong> để chúng tôi kiểm tra chỗ, giữ chuồng và sắp xếp nhân viên cho nhóm của bạn — chỉ cần nhắn WhatsApp cho chúng tôi.</p>
 - id: shows
   title: Show diễn & văn hóa
   items:

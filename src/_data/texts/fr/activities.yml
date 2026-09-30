@@ -253,6 +253,20 @@ categories:
       <p><strong>Jour 2 — Lever de soleil sur les montagnes et retour :</strong> 5 h 30 courte marche facultative jusqu'au sommet Hải Vọng Đài pour le lever du soleil (selon la météo) · thé chaud, bruits de la forêt au réveil et petit-déjeuner frais · 10 h départ et retour vers Da Nang / Hội An.</p>
       <p>Inclus : transfert aller-retour depuis Hội An / Da Nang, guide local et accompagnement par un garde forestier, tous les repas (déjeuner, dîner barbecue, petit-déjeuner, café et thé chaud), matériel de camping et installation, tous les droits d'entrée du parc national et encadrement de sécurité.</p>
       <p>Prix : 130 USD par personne.</p>
+  - id: duck-stop
+    title: Duck Stop Hội An – Nourrir les canards dans les rizières
+    price: 100 000 VND
+    meta:
+    - env. 30 min · restez aussi longtemps que vous voulez
+    - gratuit pour les 1–5 ans
+    - Coup de cœur des familles
+    short: Au milieu des rizières de Hội An, une grande troupe de canards très sociables vous attend – nourrissez-les, prenez-les dans vos bras et faites les photos les plus drôles de votre voyage, avec un guide local.
+    full: |-
+      <p>Duck Stop est une petite ferme écologique dans les rizières de Hội An. Un seau de nourriture à la main, vous êtes vite entouré de dizaines de canards curieux. Un guide local vous montre comment les manipuler en douceur, vous explique la vie des canards et l'élevage de canards et d'œufs à la campagne vietnamienne – et vous aide à réussir vos photos.</p>
+      <p>L'expérience dure environ 30 minutes, mais vous pouvez rester aussi longtemps que vous le souhaitez. Idéal pour les familles, les couples et tous les amoureux des animaux.</p>
+      <p><strong>Créneaux :</strong> matin 8h30 · 9h00 · 9h30 · 10h00 · 10h30 · 11h00 · 11h30 – après-midi 13h30 · 14h00 · 14h30 · 15h00 · 15h30 · 16h00 · 16h30 · 17h00.</p>
+      <p><strong>Prix :</strong> 100 000 VND par personne · gratuit pour les enfants de 1 à 5 ans.</p>
+      <p><strong>Réservation obligatoire</strong> pour vérifier la disponibilité, réserver un enclos et prévoir le personnel pour votre groupe – écrivez-nous simplement sur WhatsApp.</p>
 - id: shows
   title: Spectacles et culture
   items:
