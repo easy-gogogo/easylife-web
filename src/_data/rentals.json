@@ -75,5 +75,37 @@
     ],
     "prices": [],
     "schema": "Service"
+  },
+  {
+    "key": "fishing",
+    "slug": {
+      "en": "/rentals/fishing-gear-rental-hoi-an/",
+      "de": "/verleih/angelausruestung-mieten-hoi-an/",
+      "vi": "/rentals/fishing-gear-rental-hoi-an/",
+      "ko": "/rentals/fishing-gear-rental-hoi-an/",
+      "fr": "/rentals/fishing-gear-rental-hoi-an/",
+      "zh": "/rentals/fishing-gear-rental-hoi-an/"
+    },
+    "image": "/images/rentals/fishing/fishing-gear-rental-hoi-an-1.jpg",
+    "gallery": [
+      "/images/rentals/fishing/fishing-gear-rental-hoi-an-2.jpg",
+      "/images/rentals/fishing/fishing-gear-rental-hoi-an-3.jpg"
+    ],
+    "prices": [
+      {
+        "id": "flat",
+        "vnd": 250000
+      },
+      {
+        "id": "bait",
+        "vnd": 30000
+      },
+      {
+        "id": "delivery",
+        "vnd": 60000
+      }
+    ],
+    "priceTag": 250000,
+    "schema": "Service"
   }
 ]

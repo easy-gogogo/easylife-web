@@ -17,6 +17,9 @@ priceLabels:
   2h: 2–3 giờ
   day: 1 ngày
   hue: Một chiều đi Huế
+  flat: "Bộ đồ câu · không giới hạn giờ"
+  bait: "Thêm 1 gói mồi"
+  delivery: "Giao qua Grab (mỗi chiều)"
 products:
   sup:
     meta:
@@ -95,3 +98,40 @@ products:
       - { q: "Đạp xe ở Hội An có an toàn không?", a: "Đường qua đồng lúa rất yên tĩnh. Ở phố cổ và đường lớn, hãy đi cẩn thận và giữ bên phải." }
     galleryAlts:
       - "Người đạp xe trên phố cổ Hội An rực rỡ đèn lồng"
+  fishing:
+    meta:
+      title: "Cho thuê đồ câu cá Hội An – Cần, ghế & dù, 250K | EasyLife"
+      description: "Thuê trọn bộ đồ câu cá ở Hội An giá 250K, không giới hạn thời gian: cần câu, vợt, phao, ghế xếp, dù câu và tặng 1 gói mồi. Đến lấy tại chỗ chúng tôi miễn phí hoặc giao qua Grab 60K mỗi chiều."
+    name: Đồ câu cá
+    short: "Quăng cần, ngắm phao, thả lỏng: cần câu, vợt, ghế và dù với một giá duy nhất — không giới hạn thời gian, tặng gói mồi đầu tiên."
+    meta_line: "Đồng giá 250K · không giới hạn giờ · tặng 1 gói mồi"
+    alt: "Minh họa người câu cá lúc hoàng hôn với dù và ghế xếp, kèm dòng chữ tặng 1 gói mồi"
+    eyebrow: "Cho thuê đồ câu · Hội An"
+    title: "Câu cá ở Hội An"
+    intro: "Ngồi dưới bóng dù, quăng cần và ngắm phao. Chúng tôi cho thuê trọn bộ đồ câu — cần, vợt, phao, ghế và dù — với một giá duy nhất, dù bạn lấy bao nhiêu món và câu bao lâu."
+    highlights:
+      - { title: "Đồng giá 250K", text: "Lấy cả bộ hay chỉ cây cần, giá vẫn vậy. Không giới hạn thời gian — câu từ sáng đến chiều." }
+      - { title: "Tặng mồi câu", text: "Gói mồi tổng hợp đầu tiên miễn phí. Cần thêm? Mỗi gói 30K." }
+      - { title: "Tự lấy hoặc giao tận nơi", text: "Đến lấy đồ tại chỗ chúng tôi miễn phí — hoặc tài xế Grab giao đến và lấy lại cho bạn, 60K mỗi chiều." }
+    includes:
+      title: "Trong bộ có gì"
+      items:
+        - "Cần tay kèm bao đựng cần và gác cần"
+        - "Trục buộc sẵn, lưỡi câu và phao — có cả phao điện"
+        - "1 gói mồi (miễn phí)"
+        - "Rọng đựng cá và vợt"
+        - "Ghế xếp và dù câu"
+    info:
+      - { label: "Tự đến lấy", value: "Miễn phí tại chỗ chúng tôi" }
+      - { label: "Giao & lấy lại", value: "Qua tài xế Grab · 60.000đ mỗi chiều" }
+      - { label: "Đặt cọc", value: "Không cần" }
+      - { label: "Hư hỏng", value: "Đồ bị hỏng hoặc mất sẽ tính theo giá mua mới." }
+    faq:
+      - { q: "Có giới hạn thời gian không?", a: "Không. Bạn trả 250.000đ một lần và dùng đồ cho cả buổi câu — chỉ cần báo chúng tôi khoảng mấy giờ bạn trả." }
+      - { q: "Lấy nhiều đồ có tốn thêm tiền không?", a: "Không — đồng giá, dù bạn lấy bao nhiêu món." }
+      - { q: "Có cần đặt cọc không?", a: "Không cần đặt cọc. Đồ bị hỏng hoặc mất sẽ tính theo giá mua mới." }
+      - { q: "Có giao đồ tận nơi không?", a: "Có. Đến lấy tại chỗ chúng tôi thì miễn phí — hoặc tài xế Grab giao và lấy lại, 60.000đ mỗi chiều." }
+      - { q: "Hết mồi thì sao?", a: "Gói đầu tiên miễn phí. Mỗi gói thêm 30.000đ — đặt luôn khi thuê hoặc nhắn cho chúng tôi." }
+    galleryAlts:
+      - "Trọn bộ đồ câu: cần, vợt, phao, mồi, ghế xếp và dù"
+      - "Minh họa chỗ câu có dù và ghế — tự lấy miễn phí, giao 60.000đ mỗi chiều"

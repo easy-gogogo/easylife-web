@@ -17,6 +17,9 @@ priceLabels:
   2h: 2 à 3 heures
   day: 1 jour
   hue: Aller simple vers Huế
+  flat: "Kit de pêche · sans limite de temps"
+  bait: "Sachet d'appât supplémentaire"
+  delivery: "Livraison par Grab (par trajet)"
 products:
   sup:
     meta:
@@ -95,3 +98,40 @@ products:
       - { q: "Est-il sûr de faire du vélo à Hội An ?", a: "Les chemins à travers les rizières sont tranquilles. Dans la vieille ville et sur les grands axes, roulez prudemment et restez à droite." }
     galleryAlts:
       - "Des cyclistes dans les rues illuminées de lanternes de la vieille ville de Hội An"
+  fishing:
+    meta:
+      title: "Location de matériel de pêche Hoi An – canne, chaise & parasol, 250K | EasyLife"
+      description: "Louez un kit de pêche complet à Hội An pour 250K VND sans limite de temps : canne, épuisettes, flotteurs, chaise pliante, parasol et un sachet d'appât offert. Retrait gratuit chez nous ou livraison par Grab pour 60K par trajet."
+    name: Matériel de pêche
+    short: "Lancez la ligne, observez le flotteur, déconnectez : canne, épuisettes, chaise et parasol à prix unique — sans limite de temps, le premier sachet d'appât est offert."
+    meta_line: "250K forfait · sans limite de temps · 1 sachet d'appât offert"
+    alt: "Illustration d'un pêcheur au coucher du soleil avec parasol et chaise pliante, badge : 1 sachet d'appât offert"
+    eyebrow: "Location de matériel de pêche · Hội An"
+    title: "Pêcher à Hội An"
+    intro: "Installez-vous sous le parasol, lancez votre ligne et observez le flotteur. Nous louons un kit de pêche complet — canne, épuisettes, flotteurs, chaise et parasol — à prix unique, quelle que soit la quantité de matériel et la durée de votre sortie."
+    highlights:
+      - { title: "Un seul prix — 250K", text: "Tout le kit ou juste la canne : le prix reste le même. Et sans limite de temps — pêchez du lever au coucher du soleil." }
+      - { title: "Appât compris", text: "Le premier sachet d'appât est offert. Besoin de plus ? 30K le sachet supplémentaire." }
+      - { title: "Retrait ou livraison", text: "Récupérez le matériel gratuitement chez nous — ou un chauffeur Grab vous l'apporte et vient le reprendre, 60K par trajet." }
+    includes:
+      title: "Contenu du kit"
+      items:
+        - "Canne télescopique avec housse et support"
+        - "Lignes montées, hameçons et flotteurs — dont un flotteur lumineux LED"
+        - "1 sachet d'appât (offert)"
+        - "Bourriche et épuisette"
+        - "Chaise pliante et parasol"
+    info:
+      - { label: "Retrait", value: "Gratuit chez nous" }
+      - { label: "Livraison & reprise", value: "Par chauffeur Grab · 60 000 VND par trajet" }
+      - { label: "Caution", value: "Aucune" }
+      - { label: "Dommages", value: "Le matériel cassé ou perdu est facturé au prix de remplacement." }
+    faq:
+      - { q: "Y a-t-il une limite de temps ?", a: "Non. Vous payez 250 000 VND une fois et gardez le matériel pour votre journée de pêche — dites-nous simplement à peu près quand vous le rapportez." }
+      - { q: "Est-ce plus cher si je prends tout ?", a: "Non — un prix unique, quelle que soit la quantité de matériel." }
+      - { q: "Faut-il laisser une caution ?", a: "Aucune caution. Le matériel cassé ou perdu est facturé au prix de remplacement." }
+      - { q: "Pouvez-vous m'apporter le matériel ?", a: "Oui. Le retrait chez nous est gratuit — ou un chauffeur Grab le livre et vient le reprendre, 60 000 VND par trajet." }
+      - { q: "Et si je n'ai plus d'appât ?", a: "Le premier sachet est offert. Les suivants coûtent 30 000 VND — commandez-les avec la location ou écrivez-nous." }
+    galleryAlts:
+      - "Kit de pêche complet : canne, épuisettes, flotteurs, appât, chaise pliante et parasol"
+      - "Illustration d'un coin de pêche avec parasol et chaise — retrait gratuit, livraison 60 000 VND par trajet"

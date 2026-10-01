@@ -17,6 +17,9 @@ priceLabels:
   2h: 2–3 Stunden
   day: 1 Tag
   hue: One-Way nach Huế
+  flat: "Angelset · ohne Zeitlimit"
+  bait: "Weitere Packung Köder"
+  delivery: "Lieferung per Grab (pro Strecke)"
 products:
   sup:
     meta:
@@ -95,3 +98,40 @@ products:
       - { q: "Ist Radfahren in Hội An sicher?", a: "Die Wege durch die Reisfelder sind ruhig. In der Altstadt und auf Hauptstraßen fahr vorsichtig und halte dich rechts." }
     galleryAlts:
       - "Radfahrer in den laternengeschmückten Gassen der Altstadt von Hoi An"
+  fishing:
+    meta:
+      title: "Angelausrüstung mieten Hoi An – Angel, Stuhl & Schirm, 250K | EasyLife"
+      description: "Komplettes Angelset in Hội An mieten für 250K VND ohne Zeitlimit: Rute, Kescher, Posen, Klappstuhl, Schirm und eine Packung Köder gratis. Kostenlos bei uns abholen oder per Grab liefern lassen für 60K pro Strecke."
+    name: Angelausrüstung
+    short: "Angel auswerfen, Pose beobachten, abschalten: Rute, Kescher, Stuhl und Schirm zum Einheitspreis – ohne Zeitlimit, die erste Packung Köder gibt's gratis."
+    meta_line: "250K pauschal · ohne Zeitlimit · 1 Packung Köder gratis"
+    alt: "Angler am Fluss bei Sonnenuntergang mit Schirm und Klappstuhl, Hinweis: 1 Packung Köder gratis"
+    eyebrow: "Angelverleih · Hội An"
+    title: "Angeln in Hội An"
+    intro: "Zurücklehnen unterm Schirm, Angel auswerfen und die Pose beobachten. Wir verleihen ein komplettes Angelset – Rute, Kescher, Posen, Stuhl und Schirm – zum Einheitspreis, egal wie viel Ausrüstung du mitnimmst und wie lange du draußen bleibst."
+    highlights:
+      - { title: "Ein Preis – 250K", text: "Alles mitnehmen oder nur die Rute: Der Preis bleibt gleich. Und es gibt kein Zeitlimit – angel vom Sonnenaufgang bis zum Sonnenuntergang." }
+      - { title: "Köder inklusive", text: "Die erste Packung Köder ist gratis. Du brauchst mehr? Jede weitere Packung kostet 30K." }
+      - { title: "Abholen oder liefern lassen", text: "Hol die Ausrüstung kostenlos bei uns ab – oder ein Grab-Fahrer bringt sie dir und holt sie wieder ab, 60K pro Strecke." }
+    includes:
+      title: "Das ist im Set"
+      items:
+        - "Teleskoprute mit Rutentasche und Rutenablage"
+        - "Fertig montierte Schnüre, Haken und Posen – inkl. LED-Nachtpose"
+        - "1 Packung Köder (gratis)"
+        - "Setzkescher und Unterfangkescher"
+        - "Klappstuhl und Schirm"
+    info:
+      - { label: "Abholung", value: "Kostenlos bei uns" }
+      - { label: "Lieferung & Rückholung", value: "Per Grab-Fahrer · 60.000 VND pro Strecke" }
+      - { label: "Kaution", value: "Keine" }
+      - { label: "Schäden", value: "Kaputte oder verlorene Ausrüstung wird zum Wiederbeschaffungspreis berechnet." }
+    faq:
+      - { q: "Gibt es ein Zeitlimit?", a: "Nein. Du zahlst einmal 250.000 VND und behältst die Ausrüstung für deinen Angeltag – sag uns nur ungefähr, wann du sie zurückbringst." }
+      - { q: "Kostet es mehr, wenn ich alles nehme?", a: "Nein – ein Einheitspreis, egal wie viel Ausrüstung du mitnimmst." }
+      - { q: "Muss ich eine Kaution hinterlegen?", a: "Keine Kaution. Kaputte oder verlorene Ausrüstung wird zum Wiederbeschaffungspreis berechnet." }
+      - { q: "Könnt ihr mir die Ausrüstung bringen?", a: "Ja. Bei uns abholen ist kostenlos – oder ein Grab-Fahrer liefert sie und holt sie wieder ab, 60.000 VND pro Strecke." }
+      - { q: "Was, wenn mir die Köder ausgehen?", a: "Die erste Packung ist gratis. Jede weitere kostet 30.000 VND – bestell sie gleich mit oder schreib uns." }
+    galleryAlts:
+      - "Komplettes Angelset: Rute, Kescher, Posen, Köder, Klappstuhl und Schirm"
+      - "Angelplatz bei Sonnenuntergang mit Schirm und Stuhl – Abholung kostenlos, Lieferung 60.000 VND pro Strecke"

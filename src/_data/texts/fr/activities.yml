@@ -267,6 +267,14 @@ categories:
       <p><strong>Créneaux :</strong> matin 8h30 · 9h00 · 9h30 · 10h00 · 10h30 · 11h00 · 11h30 – après-midi 13h30 · 14h00 · 14h30 · 15h00 · 15h30 · 16h00 · 16h30 · 17h00.</p>
       <p><strong>Prix :</strong> 100 000 VND par personne · gratuit pour les enfants de 1 à 5 ans.</p>
       <p><strong>Réservation obligatoire</strong> pour vérifier la disponibilité, réserver un enclos et prévoir le personnel pour votre groupe – écrivez-nous simplement sur WhatsApp.</p>
+  - id: fishing
+    title: "Location de matériel de pêche"
+    price: "250 000 VND forfait"
+    meta:
+    - "sans limite de temps"
+    - "1 sachet d'appât offert"
+    - "retrait gratuit · livraison 60K par trajet"
+    short: "Canne, épuisettes, flotteurs, chaise pliante et parasol à prix unique — quelle que soit la quantité et la durée. Trouvez votre coin, lancez la ligne et observez le flotteur."
 - id: shows
   title: Spectacles et culture
   items:

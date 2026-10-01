@@ -267,6 +267,14 @@ categories:
       <p><strong>Zeiten:</strong> vormittags 8:30 · 9:00 · 9:30 · 10:00 · 10:30 · 11:00 · 11:30 Uhr – nachmittags 13:30 · 14:00 · 14:30 · 15:00 · 15:30 · 16:00 · 16:30 · 17:00 Uhr.</p>
       <p><strong>Preis:</strong> 100.000 VND pro Person · Kinder von 1 bis 5 Jahren kostenlos.</p>
       <p><strong>Bitte vorab buchen</strong>, damit wir die Verfügbarkeit prüfen, ein Gehege reservieren und Personal für deine Gruppe einplanen können – schreib uns einfach per WhatsApp.</p>
+  - id: fishing
+    title: "Angelausrüstung mieten"
+    price: "250.000 VND pauschal"
+    meta:
+    - "ohne Zeitlimit"
+    - "1 Packung Köder gratis"
+    - "Abholung gratis · Lieferung 60K pro Strecke"
+    short: "Rute, Kescher, Posen, Klappstuhl und Schirm zum Einheitspreis – egal wie viel du mitnimmst und wie lange du bleibst. Platz suchen, Angel auswerfen, Pose beobachten."
 - id: shows
   title: Shows & Kultur
   items:

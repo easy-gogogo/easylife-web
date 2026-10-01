@@ -31,6 +31,12 @@ contentFile: rentals
         <div class="highlights">
           {% for h in p.highlights %}<div class="hl"><h3>{{ h.title }}</h3><p>{{ h.text }}</p></div>{% endfor %}
         </div>
+        {% if p.includes %}
+        <div class="includes">
+          <h2 class="f-h dark">{{ p.includes.title }}</h2>
+          <ul class="check-list">{% for it in p.includes.items %}<li>{{ it }}</li>{% endfor %}</ul>
+        </div>
+        {% endif %}
       </div>
       <aside class="info-box">
         {% if r.prices.length %}

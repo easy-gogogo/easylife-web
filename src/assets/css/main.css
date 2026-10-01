@@ -271,6 +271,11 @@ p{margin:0}
 .rental-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:28px;align-items:start}
 .rental-grid>*{min-width:0}
 .highlights{display:grid;gap:14px}
+.includes{margin-top:28px;background:var(--white);border-radius:16px;padding:22px 22px 18px;box-shadow:var(--shadow)}
+.includes h2{margin:0 0 12px}
+.check-list{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.check-list li{position:relative;padding-left:28px;line-height:1.45}
+.check-list li::before{content:"";position:absolute;left:0;top:.2em;width:18px;height:18px;border-radius:50%;background:var(--teal,#4F9597) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 12.5l4 4 8-9' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/12px no-repeat}
 .hl{background:var(--white);border-radius:16px;padding:20px;box-shadow:var(--shadow)}
 .hl h3{font-size:clamp(22px,2.4vw,28px);color:var(--teal-deep)}
 .hl p{margin-top:6px;color:var(--soft)}

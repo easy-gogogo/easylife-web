@@ -339,6 +339,19 @@ categories:
       <p><strong>Time slots:</strong> Morning 8:30 · 9:00 · 9:30 · 10:00 · 10:30 · 11:00 · 11:30 AM — Afternoon 1:30 · 2:00 · 2:30 · 3:00 · 3:30 · 4:00 · 4:30 · 5:00 PM.</p>
       <p><strong>Price:</strong> 100,000 VND per person · children aged 1–5 free of charge.</p>
       <p><strong>Please book in advance</strong> so we can check availability, reserve a pen and arrange staff for your group — just message us on WhatsApp.</p>
+  - id: fishing
+    title: "Fishing Gear Rental"
+    price: "250,000 VND flat"
+    meta:
+    - "no time limit"
+    - "1 pack of bait free"
+    - "pick-up free · delivery 60K each way"
+    short: "Rod, nets, floats, folding chair and umbrella for one flat price — no matter how much you take or how long you stay. Find your spot, cast your line and watch the float."
+    images:
+    - /images/tours/fishing-gear-rental-hoi-an/fishing-gear-rental-hoi-an-1.jpg
+    - /images/tours/fishing-gear-rental-hoi-an/fishing-gear-rental-hoi-an-2.jpg
+    - /images/tours/fishing-gear-rental-hoi-an/fishing-gear-rental-hoi-an-3.jpg
+    link: fishing
 - id: shows
   title: Shows & culture
   items:

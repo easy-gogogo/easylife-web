@@ -267,6 +267,14 @@ categories:
       <p><strong>Khung giờ:</strong> sáng 8:30 · 9:00 · 9:30 · 10:00 · 10:30 · 11:00 · 11:30 — chiều 13:30 · 14:00 · 14:30 · 15:00 · 15:30 · 16:00 · 16:30 · 17:00.</p>
       <p><strong>Giá:</strong> 100.000đ/người · trẻ em 1–5 tuổi miễn phí.</p>
       <p><strong>Vui lòng đặt trước</strong> để chúng tôi kiểm tra chỗ, giữ chuồng và sắp xếp nhân viên cho nhóm của bạn — chỉ cần nhắn WhatsApp cho chúng tôi.</p>
+  - id: fishing
+    title: "Thuê đồ câu cá"
+    price: "Đồng giá 250.000đ"
+    meta:
+    - "không giới hạn thời gian"
+    - "tặng 1 gói mồi"
+    - "tự lấy miễn phí · giao 60K mỗi chiều"
+    short: "Cần câu, vợt, phao, ghế xếp và dù với một giá duy nhất — lấy bao nhiêu món, câu bao lâu cũng vậy. Chọn chỗ, quăng cần và ngắm phao."
 - id: shows
   title: Show diễn & văn hóa
   items:

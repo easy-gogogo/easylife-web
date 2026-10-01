@@ -17,6 +17,9 @@ priceLabels:
   2h: 2–3 hours
   day: 1 day
   hue: One-way to Huế
+  flat: "Gear set · no time limit"
+  bait: "Extra pack of bait"
+  delivery: "Delivery by Grab (each way)"
 products:
   sup:
     meta:
@@ -95,3 +98,40 @@ products:
       - { q: "Is it safe to cycle in Hội An?", a: "The routes through the rice fields are quiet. In the old town and on main roads, ride carefully and keep to the right." }
     galleryAlts:
       - "Cyclists riding through the lantern-lit streets of Hoi An old town"
+  fishing:
+    meta:
+      title: "Fishing Gear Rental Hoi An – Rod, Chair & Umbrella, 250K | EasyLife"
+      description: "Rent a complete fishing set in Hội An for 250K VND with no time limit: rod, nets, floats, folding chair, umbrella and a free pack of bait. Pick up free at our place or get it delivered by Grab for 60K each way."
+    name: Fishing gear
+    short: "Cast your line, watch the float, switch off: rod, nets, chair and umbrella for one flat price — no time limit, and the first pack of bait is free."
+    meta_line: "250K flat · no time limit · 1 pack of bait free"
+    alt: "Angler fishing on the river at sunset with umbrella and folding chair, badge: 1 pack of bait free"
+    eyebrow: "Fishing gear rental · Hội An"
+    title: "Fishing in Hội An"
+    intro: "Sit back under the umbrella, cast your line and watch the float. We rent out a complete fishing set — rod, nets, floats, chair and umbrella — for one flat price, no matter how much of the gear you take and how long you stay out."
+    highlights:
+      - { title: "One price — 250K", text: "Take everything or just the rod: the price stays the same. And there's no time limit — fish from sunrise to sunset." }
+      - { title: "Bait included", text: "The first pack of mixed bait is free. Need more? Each extra pack is 30K." }
+      - { title: "Pick up or delivered", text: "Pick up the gear at our place for free — or a Grab driver brings it to you and collects it again for 60K each way." }
+    includes:
+      title: "What's in the set"
+      items:
+        - "Telescopic rod with rod bag and rod rest"
+        - "Ready-tied lines, hooks and floats — incl. LED night float"
+        - "1 pack of bait (free)"
+        - "Keep net and landing net"
+        - "Folding chair and umbrella"
+    info:
+      - { label: "Pick-up", value: "Free at our place" }
+      - { label: "Delivery & collection", value: "By Grab driver · 60,000 VND each way" }
+      - { label: "Deposit", value: "None" }
+      - { label: "Damage", value: "Broken or lost equipment is charged at replacement cost." }
+    faq:
+      - { q: "Is there a time limit?", a: "No. You pay 250,000 VND once and keep the gear for your fishing day — just tell us roughly when you'll bring it back." }
+      - { q: "Does it cost more if I take everything?", a: "No — one flat price, no matter how much of the equipment you take." }
+      - { q: "Do I need to leave a deposit?", a: "No deposit. Broken or lost equipment is charged at replacement cost." }
+      - { q: "Can you bring the gear to me?", a: "Yes. Picking it up at our place is free — or a Grab driver delivers it and collects it again for 60,000 VND each way." }
+      - { q: "What if I run out of bait?", a: "The first pack is free. Extra packs are 30,000 VND each — order them with your rental or message us." }
+    galleryAlts:
+      - "Complete fishing set: rod, nets, floats, bait, folding chair and umbrella"
+      - "Fishing spot at sunset with umbrella and chair — pick-up free, delivery 60,000 VND each way"
