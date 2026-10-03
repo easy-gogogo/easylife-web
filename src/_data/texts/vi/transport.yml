@@ -18,7 +18,13 @@ filters:
   guide: Xe VIP hay xe limousine
 bus:
   title: Giờ xe khách đường dài
-  note: Tất cả các chuyến đều đón miễn phí tận nơi tại chỗ ở của bạn ở Hội An.
+  note: "Giá vé đã bao gồm đón miễn phí tận nơi bạn ở tại Hội An."
+  pickup:
+    title: "Đã bao gồm đón tận nơi"
+    text: "Chúng tôi đón bạn tận khách sạn, hostel hoặc homestay ở Hội An — không cần đi taxi ra bến xe, không tốn thêm phí. Chỉ các chuyến đêm có ghi “Pickup not included” là khởi hành từ văn phòng nhà xe."
+  noPickup: "Pickup not included (không đón tận nơi)"
+  names:
+    "Limousine sleeper": "Limousine giường nằm"
   cols:
   - Xe
   - Điểm đến
@@ -26,17 +32,6 @@ bus:
   - Đến nơi
   - Giá (VND)
   book: Đặt vé xe
-  names:
-    Hue (Morning): Huế (buổi sáng)
-    Hue (Afternoon): Huế (buổi chiều)
-    Dong Hoi: Đồng Hới
-    Ninh Binh: Ninh Bình
-    Ha Noi: Hà Nội
-    Mui Ne: Mũi Né
-    Sai Gon: Sài Gòn
-    Da Lat: Đà Lạt
-    Quy Nhon: Quy Nhơn
-    Sleeper Bus HT: Xe giường nằm HT
   north:
     title: Hướng Bắc từ Hội An
     wa: vé xe giường nằm (hướng Bắc)

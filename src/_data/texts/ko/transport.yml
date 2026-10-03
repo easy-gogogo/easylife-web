@@ -18,7 +18,24 @@ filters:
   guide: VIP vs 리무진 버스
 bus:
   title: 장거리 버스 시간표
-  note: 모든 노선은 호이안 숙소에서 무료로 픽업해 드려요.
+  note: "호이안 숙소 무료 픽업이 티켓 요금에 포함되어 있어요."
+  pickup:
+    title: "픽업 포함"
+    text: "호이안의 호텔, 호스텔, 홈스테이 어디든 직접 모시러 가요 — 버스터미널까지 택시 탈 필요도, 추가 요금도 없어요. ‘Pickup not included’ 표시가 있는 심야 버스만 버스 사무소에서 출발해요."
+  noPickup: "Pickup not included (픽업 불포함)"
+  names:
+    "Huế": "후에"
+    "Phong Nha": "퐁냐"
+    "Ninh Bình": "닌빈"
+    "Hà Nội": "하노이"
+    "Quy Nhơn": "꾸이년"
+    "Nha Trang": "나트랑"
+    "Đà Lạt": "달랏"
+    "Mũi Né": "무이네"
+    "Sài Gòn": "사이공 (호찌민)"
+    "Măng Đen": "망덴"
+    "Limousine sleeper": "리무진 슬리핑"
+    "Limousine": "리무진"
   cols:
   - 버스
   - 목적지
@@ -26,19 +43,6 @@ bus:
   - 도착
   - 가격 (VND)
   book: 버스표 예약
-  names:
-    Hue (Morning): 후에 (오전)
-    Hue (Afternoon): 후에 (오후)
-    Dong Hoi: 동허이
-    Phong Nha: 퐁냐
-    Ninh Binh: 닌빈
-    Ha Noi: 하노이
-    Nha Trang: 나트랑
-    Mui Ne: 무이네
-    Sai Gon: 사이공 (호찌민)
-    Da Lat: 달랏
-    Quy Nhon: 꾸이년
-    Sleeper Bus HT: 슬리핑 버스 HT
   north:
     title: 호이안 출발 북쪽 방면
     wa: 슬리핑 버스표 (북쪽 방면)

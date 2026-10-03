@@ -17,13 +17,14 @@ ogImage: /images/transport/vip-bus-inside-view.jpg
 <section class="section cream" id="bus-times">
   <div class="wrap">
     <div class="cat-head"><span class="idx">01</span><h2>{{ c.bus.title }}</h2><p>{{ c.bus.note }}</p></div>
+    {% if c.bus.pickup %}<div class="pickup-banner"><span class="pickup-ico">{{ icon("check", 26) }}</span><div><strong>{{ c.bus.pickup.title }}</strong><p>{{ c.bus.pickup.text }}</p></div></div>{% endif %}
     <div class="bus-grid">
       {% for dir in ["north", "south"] %}{% set d = c.bus[dir] %}
       <div class="bus-box">
-        <h3>{{ d.title }}</h3>
+        <div class="bus-box-head"><h3>{{ d.title }}</h3>{% if c.bus.pickup %}<span class="pickup-pill">{{ icon("check", 14) }} {{ c.bus.pickup.title }}</span>{% endif %}</div>
         <div class="table-scroll"><table class="bus-table">
           <thead><tr>{% for col in c.bus.cols %}<th scope="col"{% if loop.first %} class="bus-type"{% endif %}>{{ col }}</th>{% endfor %}</tr></thead>
-          <tbody>{% for r in d.rows %}{% set bn = c.bus.names or {} %}<tr><td class="bus-type">{{ bn[r[0]] or r[0] }}</td><td><b>{{ bn[r[1]] or r[1] }}</b><small class="bus-sm">{{ bn[r[0]] or r[0] }}</small></td><td class="num">{{ r[2] }}</td><td class="num">{{ r[3] }}</td><td class="num">{{ r[4] }}</td></tr>{% endfor %}</tbody>
+          <tbody>{% for r in d.rows %}{% set bn = c.bus.names or {} %}<tr{% if r[5] %} class="no-pu"{% endif %}><td class="bus-type">{{ bn[r[0]] or r[0] }}{% if r[5] %}<span class="no-pickup">{{ c.bus.noPickup }}</span>{% endif %}</td><td><b>{{ bn[r[1]] or r[1] }}</b><small class="bus-sm">{{ bn[r[0]] or r[0] }}{% if r[5] %} · <span class="no-pickup">{{ c.bus.noPickup }}</span>{% endif %}</small></td><td class="num">{{ r[2] }}</td><td class="num">{{ r[3] }}</td><td class="num">{{ r[4] }}</td></tr>{% endfor %}</tbody>
         </table></div>
         <a class="book-btn" href="{{ (u.cta.waHello + ' ' + d.wa) | wa }}" target="_blank" rel="noopener">{{ icon("whatsapp", 18) }} {{ c.bus.book }}</a>
       </div>

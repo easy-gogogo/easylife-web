@@ -18,7 +18,15 @@ filters:
   guide: Bus VIP ou limousine
 bus:
   title: Horaires des bus longue distance
-  note: Tous les trajets incluent la prise en charge gratuite directement à votre hébergement à Hội An.
+  note: "La prise en charge gratuite à votre hébergement à Hội An est comprise dans le prix du billet."
+  pickup:
+    title: "Prise en charge incluse"
+    text: "Nous venons vous chercher à votre hôtel, auberge ou homestay à Hội An — pas de taxi jusqu'à la gare routière, aucun supplément. Seuls les bus de nuit marqués « Pickup not included » partent de l'agence."
+  noPickup: "Pickup not included"
+  names:
+    "Hà Nội": "Hanoï"
+    "Sài Gòn": "Saïgon"
+    "Limousine sleeper": "Limousine couchette"
   cols:
   - Bus
   - Destination
@@ -26,14 +34,6 @@ bus:
   - Arrivée
   - Prix (VND)
   book: Réserver un billet de bus
-  names:
-    Hue (Morning): Huế (matin)
-    Hue (Afternoon): Huế (après-midi)
-    Ninh Binh: Ninh Bình
-    Ha Noi: Hanoï
-    Sai Gon: Saïgon
-    Da Lat: Đà Lạt
-    Sleeper Bus HT: Bus couchette HT
   north:
     title: Vers le nord depuis Hội An
     wa: un billet de bus couchette (vers le nord)

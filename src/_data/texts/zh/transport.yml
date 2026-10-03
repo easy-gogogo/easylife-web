@@ -18,7 +18,23 @@ filters:
   guide: VIP 还是豪华巴士
 bus:
   title: 长途巴士时刻表
-  note: 所有班次都可从您在会安的住处免费接送。
+  note: "票价已包含从您在会安的住处免费接客。"
+  pickup:
+    title: "含上门接送"
+    text: "我们到您在会安的酒店、青旅或民宿接您——无需打车去车站，不加任何费用。只有标注“Pickup not included”的深夜班车需要到车站办公室上车。"
+  noPickup: "Pickup not included（不含接送）"
+  names:
+    "Huế": "顺化"
+    "Phong Nha": "峰牙"
+    "Ninh Bình": "宁平"
+    "Hà Nội": "河内"
+    "Quy Nhơn": "归仁"
+    "Nha Trang": "芽庄"
+    "Đà Lạt": "大叻"
+    "Mũi Né": "美奈"
+    "Sài Gòn": "西贡（胡志明市）"
+    "Măng Đen": "芒登"
+    "Limousine sleeper": "Limousine 卧铺"
   cols:
   - 巴士
   - 目的地
@@ -26,22 +42,6 @@ bus:
   - 到达
   - 价格（越南盾）
   book: 预订巴士票
-  names:
-    Hue (Morning): 顺化（上午）
-    Hue (Afternoon): 顺化（下午）
-    Dong Hoi: 洞海
-    Phong Nha: 峰牙
-    Ninh Binh: 宁平
-    Ha Noi: 河内
-    Nha Trang: 芽庄
-    Mui Ne: 美奈
-    Sai Gon: 西贡（胡志明市）
-    Da Lat: 大叻
-    Quy Nhon: 归仁
-    Sleeper Bus HT: 卧铺巴士 HT
-    32 Cabin: 32 包厢
-    32 Cabin HT: 32 包厢 HT
-    VIP 22 Cabin: VIP 22 包厢
   north:
     title: 会安向北
     wa: 卧铺巴士票（向北）

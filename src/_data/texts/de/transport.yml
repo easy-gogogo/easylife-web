@@ -18,7 +18,13 @@ filters:
   guide: VIP- oder Limousinenbus
 bus:
   title: Fernbus-Zeiten
-  note: Bei allen Fahrten holen wir dich kostenlos direkt an deiner Unterkunft in Hội An ab.
+  note: "Die kostenlose Abholung an deiner Unterkunft in Hội An ist im Ticketpreis enthalten."
+  pickup:
+    title: "Abholung inklusive"
+    text: "Wir holen dich direkt an deinem Hotel, Hostel oder Homestay in Hội An ab – kein Taxi zum Busbahnhof, keine Zusatzkosten. Nur die Nachtbusse mit dem Hinweis „Pickup not included“ fahren ab dem Busbüro."
+  noPickup: "Pickup not included"
+  names:
+    "Limousine sleeper": "Limousine-Schlafbus"
   cols:
   - Bus
   - Ziel
@@ -26,10 +32,6 @@ bus:
   - Ankunft
   - Preis (VND)
   book: Busticket buchen
-  names:
-    Hue (Morning): Huế (vormittags)
-    Hue (Afternoon): Huế (nachmittags)
-    Sleeper Bus HT: Schlafbus HT
   north:
     title: Richtung Norden ab Hội An
     wa: ein Schlafbus-Ticket (Richtung Norden)

@@ -17,7 +17,11 @@ filters:
   guide: VIP vs limousine bus
 bus:
   title: Long-distance bus times
-  note: All rides include free pick-up directly from your accommodation in Hội An.
+  note: "Free pick-up from your accommodation in Hội An is included in the ticket price."
+  pickup:
+    title: "Pick-up included"
+    text: "We collect you at your hotel, hostel or homestay in Hội An — no taxi to the bus station, no extra cost. Only the late-night buses marked “Pickup not included” leave from the bus office."
+  noPickup: "Pickup not included"
   cols:
   - Bus
   - Destination
@@ -29,135 +33,35 @@ bus:
     title: Northbound from Hội An
     wa: a sleeper bus ticket (northbound)
     rows:
-    - - 32 Cabin HT
-      - Hue (Morning)
-      - 07:00
-      - '11:00'
-      - '380.000'
-    - - 32 Cabin
-      - Hue (Afternoon)
-      - '13:30'
-      - '17:00'
-      - '280.000'
-    - - VIP 22 Cabin
-      - Hue (Afternoon)
-      - '13:00'
-      - '16:30'
-      - '320.000'
-    - - 32 Cabin
-      - Dong Hoi
-      - '13:30'
-      - '21:00'
-      - '550.000'
-    - - 32 Cabin
-      - Phong Nha
-      - '13:30'
-      - '21:00'
-      - '550.000'
-    - - 32 Cabin
-      - Ninh Binh
-      - '13:30'
-      - 05:00
-      - '700.000'
-    - - VIP 22 Cabin
-      - Ninh Binh
-      - '13:00'
-      - 05:00
-      - '850.000'
-    - - VIP 22 Cabin
-      - Ninh Binh
-      - '19:00'
-      - '10:00'
-      - '950.000'
-    - - 32 Cabin
-      - Ha Noi
-      - '13:30'
-      - 06:00
-      - '700.000'
-    - - VIP 22 Cabin
-      - Ha Noi
-      - '13:00'
-      - 06:00
-      - '850.000'
-    - - VIP 22 Cabin
-      - Ha Noi
-      - '19:00'
-      - '11:30'
-      - '950.000'
-    - - VIP 22 Cabin
-      - Dong Hoi
-      - '13:00'
-      - '21:00'
-      - '650.000'
-    - - VIP 22 Cabin
-      - Phong Nha
-      - '13:00'
-      - '21:00'
-      - '650.000'
+    - ['VIP', 'Huế', '08:00', '11:30', '300.000']
+    - ['VIP', 'Huế', '13:30', '16:30', '300.000']
+    - ['Limousine sleeper', 'Huế', '17:30', '21:00', '300.000']
+    - ['VIP', 'Phong Nha', '08:00', '15:30', '550.000']
+    - ['VIP', 'Phong Nha', '13:00', '21:00', '550.000']
+    - ['VIP', 'Phong Nha', '22:00', '06:00', '550.000', nopickup]
+    - ['VIP', 'Phong Nha', '23:00', '07:00', '550.000', nopickup]
+    - ['VIP', 'Ninh Bình', '13:00', '05:00', '800.000']
+    - ['VIP', 'Ninh Bình', '20:00', '10:00', '850.000']
+    - ['Limousine sleeper', 'Ninh Bình', '17:30', '08:00', '670.000']
+    - ['VIP', 'Hà Nội', '13:00', '06:00', '800.000']
+    - ['VIP', 'Hà Nội', '20:00', '11:30', '850.000']
+    - ['Limousine sleeper', 'Hà Nội', '17:30', '09:00', '670.000']
   south:
     title: Southbound from Hội An
     wa: a sleeper bus ticket (southbound)
     rows:
-    - - VIP 22 Cabin
-      - Nha Trang
-      - '19:30'
-      - 05:00
-      - '650.000'
-    - - VIP 22 Cabin
-      - Mui Ne
-      - '19:30'
-      - 09:30
-      - '800.000'
-    - - VIP 22 Cabin
-      - Sai Gon
-      - '19:30'
-      - '15:00'
-      - 1.050.000
-    - - 32 Cabin
-      - Da Lat
-      - '16:00'
-      - 06:00
-      - '650.000'
-    - - VIP 22 Cabin
-      - Da Lat
-      - '19:30'
-      - 08:00
-      - '750.000'
-    - - Sleeper Bus HT
-      - Quy Nhon
-      - 08:30
-      - '14:30'
-      - '550.000'
-    - - Sleeper Bus HT
-      - Quy Nhon
-      - 09:00
-      - '15:00'
-      - '550.000'
-    - - Sleeper Bus HT
-      - Quy Nhon
-      - '10:00'
-      - '16:00'
-      - '550.000'
-    - - Sleeper Bus HT
-      - Quy Nhon
-      - '11:00'
-      - '17:00'
-      - '430.000'
-    - - Sleeper Bus HT
-      - Quy Nhon
-      - '15:30'
-      - '21:30'
-      - '550.000'
-    - - Sleeper Bus HT
-      - Quy Nhon
-      - '18:00'
-      - 00:00
-      - '550.000'
-    - - Sleeper Bus HT
-      - Quy Nhon
-      - '19:00'
-      - 01:00
-      - '550.000'
+    - ['Limousine sleeper', 'Quy Nhơn', '09:00', '15:00', '550.000']
+    - ['Limousine sleeper', 'Quy Nhơn', '10:00', '16:00', '550.000']
+    - ['Limousine sleeper', 'Quy Nhơn', '15:30', '21:30', '550.000']
+    - ['VIP', 'Nha Trang', '19:30', '05:30', '650.000']
+    - ['VIP', 'Nha Trang', '20:30', '06:30', '730.000']
+    - ['VIP', 'Nha Trang', '23:00', '09:00', '680.000', nopickup]
+    - ['VIP', 'Đà Lạt', '19:30', '08:00', '770.000']
+    - ['VIP', 'Đà Lạt', '20:00', '10:00', '830.000']
+    - ['VIP', 'Đà Lạt', '23:00', '13:00', '780.000', nopickup]
+    - ['VIP', 'Mũi Né', '19:30', '09:30', '820.000']
+    - ['VIP', 'Sài Gòn', '19:30', '13:00', '1.070.000']
+    - ['Limousine', 'Măng Đen', '08:00', '21:30', '650.000']
 transfers:
   title: Shuttles & transfers
   ask: Book now
