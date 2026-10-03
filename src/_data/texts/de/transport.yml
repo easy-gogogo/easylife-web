@@ -21,7 +21,7 @@ bus:
   note: "Die kostenlose Abholung an deiner Unterkunft in Hội An ist im Ticketpreis enthalten."
   pickup:
     title: "Abholung inklusive"
-    text: "Wir holen dich direkt an deinem Hotel, Hostel oder Homestay in Hội An ab – kein Taxi zum Busbahnhof, keine Zusatzkosten. Nur die Nachtbusse mit dem Hinweis „Pickup not included“ fahren ab dem Busbüro."
+    text: "Wir holen dich kostenlos ab."
   noPickup: "Pickup not included"
   names:
     "Limousine sleeper": "Limousine-Schlafbus"

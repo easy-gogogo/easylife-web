@@ -21,7 +21,7 @@ bus:
   note: "Giá vé đã bao gồm đón miễn phí tận nơi bạn ở tại Hội An."
   pickup:
     title: "Đã bao gồm đón tận nơi"
-    text: "Chúng tôi đón bạn tận khách sạn, hostel hoặc homestay ở Hội An — không cần đi taxi ra bến xe, không tốn thêm phí. Chỉ các chuyến đêm có ghi “Pickup not included” là khởi hành từ văn phòng nhà xe."
+    text: "Đón miễn phí tận nơi."
   noPickup: "Pickup not included (không đón tận nơi)"
   names:
     "Limousine sleeper": "Limousine giường nằm"

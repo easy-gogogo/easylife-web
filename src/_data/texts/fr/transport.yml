@@ -21,7 +21,7 @@ bus:
   note: "La prise en charge gratuite à votre hébergement à Hội An est comprise dans le prix du billet."
   pickup:
     title: "Prise en charge incluse"
-    text: "Nous venons vous chercher à votre hôtel, auberge ou homestay à Hội An — pas de taxi jusqu'à la gare routière, aucun supplément. Seuls les bus de nuit marqués « Pickup not included » partent de l'agence."
+    text: "Gratuit, directement à votre hébergement."
   noPickup: "Pickup not included"
   names:
     "Hà Nội": "Hanoï"

@@ -21,7 +21,7 @@ bus:
   note: "票价已包含从您在会安的住处免费接客。"
   pickup:
     title: "含上门接送"
-    text: "我们到您在会安的酒店、青旅或民宿接您——无需打车去车站，不加任何费用。只有标注“Pickup not included”的深夜班车需要到车站办公室上车。"
+    text: "住处免费上门接送"
   noPickup: "Pickup not included（不含接送）"
   names:
     "Huế": "顺化"

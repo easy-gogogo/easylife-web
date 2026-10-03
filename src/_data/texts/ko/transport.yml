@@ -21,7 +21,7 @@ bus:
   note: "호이안 숙소 무료 픽업이 티켓 요금에 포함되어 있어요."
   pickup:
     title: "픽업 포함"
-    text: "호이안의 호텔, 호스텔, 홈스테이 어디든 직접 모시러 가요 — 버스터미널까지 택시 탈 필요도, 추가 요금도 없어요. ‘Pickup not included’ 표시가 있는 심야 버스만 버스 사무소에서 출발해요."
+    text: "숙소에서 무료 픽업"
   noPickup: "Pickup not included (픽업 불포함)"
   names:
     "Huế": "후에"

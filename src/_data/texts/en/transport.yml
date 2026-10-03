@@ -20,7 +20,7 @@ bus:
   note: "Free pick-up from your accommodation in Hội An is included in the ticket price."
   pickup:
     title: "Pick-up included"
-    text: "We collect you at your hotel, hostel or homestay in Hội An — no taxi to the bus station, no extra cost. Only the late-night buses marked “Pickup not included” leave from the bus office."
+    text: "Free pick-up at your accommodation."
   noPickup: "Pickup not included"
   cols:
   - Bus
