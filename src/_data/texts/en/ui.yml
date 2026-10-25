@@ -29,6 +29,8 @@ footer:
   rights: All rights reserved.
   directions: Directions
 common:
+  share: "Share"
+  copied: "Link copied"
   more: More
   from: from
   priceOnRequest: Ask us

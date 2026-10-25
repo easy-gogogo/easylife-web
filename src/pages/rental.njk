@@ -45,6 +45,7 @@ contentFile: rentals
         {% endif %}
         <dl class="info-list">{% for i in p.info %}<dt>{{ i.label }}</dt><dd>{{ i.value }}</dd>{% endfor %}</dl>
         <a class="book-btn full" href="{{ (u.cta.waHello + ' ' + p.name) | wa }}" target="_blank" rel="noopener">{{ icon("whatsapp", 18) }} {{ u.nav.ask }}</a>
+        {% set shareTarget = R.key | link %}{% set shareTitle = p.name %}{% set shareClass = "share-wide" %}{% include "partials/share-btn.njk" %}
         <p class="small">{{ u.cta.zeroRisk }}</p>
       </aside>
     </div>

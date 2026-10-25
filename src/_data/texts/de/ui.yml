@@ -29,6 +29,8 @@ footer:
   rights: Alle Rechte vorbehalten.
   directions: Route
 common:
+  share: "Teilen"
+  copied: "Link kopiert"
   more: Mehr
   from: ab
   priceOnRequest: Auf Anfrage

@@ -29,6 +29,8 @@ footer:
   rights: 모든 권리 보유.
   directions: 길찾기
 common:
+  share: "공유"
+  copied: "링크가 복사됐어요"
   more: 더 보기
   from: 부터
   priceOnRequest: 문의

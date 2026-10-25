@@ -6,7 +6,7 @@
   {% for r in rentals %}{% if not r.hidden %}
   {% set p = rt.products[r.key] %}
   <article class="card">
-    <a class="card-img" href="{{ r.key | link }}" tabindex="-1" aria-hidden="true"><img src="{{ r.image }}" alt="{{ p.alt }}" loading="lazy" width="800" height="600"></a>
+    <div class="card-img-wrap"><a class="card-img" href="{{ r.key | link }}" tabindex="-1" aria-hidden="true"><img src="{{ r.image }}" alt="{{ p.alt }}" loading="lazy" width="800" height="600"></a>{% set shareTarget = r.key | link %}{% set shareTitle = p.name %}{% set shareClass = "" %}{% include "partials/share-btn.njk" %}</div>
     <div class="card-body">
       <div class="card-top">
         <h3 class="card-title"><a href="{{ r.key | link }}">{{ p.name }}</a></h3>

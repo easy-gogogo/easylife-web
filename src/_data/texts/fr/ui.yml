@@ -29,6 +29,8 @@ footer:
   rights: Tous droits réservés.
   directions: Itinéraire
 common:
+  share: "Partager"
+  copied: "Lien copié"
   more: Plus
   from: dès
   priceOnRequest: Sur demande

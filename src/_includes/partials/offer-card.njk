@@ -10,6 +10,7 @@
     <button class="car-btn next" type="button" aria-label="›">›</button>
     <span class="car-dots" aria-hidden="true">{% for img in o.images %}<i></i>{% endfor %}</span>
     {% endif %}
+    {% if share %}{% set shareTarget = "#" + o.id %}{% set shareTitle = o.title %}{% set shareClass = "" %}{% include "partials/share-btn.njk" %}{% endif %}
   </div>
   <div class="card-body">
     <div class="card-top"><h3 class="card-title">{{ o.title }}</h3>{% if o.price %}<span class="price-tag">{{ o.price }}</span>{% endif %}</div>

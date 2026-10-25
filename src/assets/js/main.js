@@ -23,3 +23,19 @@ document.querySelectorAll(".carousel").forEach((c) => {
   track.addEventListener("scroll", () => requestAnimationFrame(mark), { passive: true });
   mark();
 });
+
+// Teilen-Knopf: natives Teilen (Handy) oder Link kopieren (Desktop)
+document.querySelectorAll(".share-btn").forEach((b) => {
+  b.addEventListener("click", async (e) => {
+    e.preventDefault(); e.stopPropagation();
+    const t = b.dataset.share || "";
+    const url = t.startsWith("#") ? location.origin + location.pathname + t : new URL(t, location.href).href;
+    const title = b.dataset.title || document.title;
+    if (navigator.share) { try { await navigator.share({ title, url }); return; } catch (err) { if (err.name === "AbortError") return; } }
+    try { await navigator.clipboard.writeText(url); } catch (err) { window.prompt(title, url); return; }
+    let toast = document.querySelector(".share-toast");
+    if (!toast) { toast = document.createElement("div"); toast.className = "share-toast"; toast.setAttribute("role", "status"); document.body.appendChild(toast); }
+    toast.textContent = b.dataset.copied || "Link copied";
+    toast.classList.add("show"); clearTimeout(toast._t); toast._t = setTimeout(() => toast.classList.remove("show"), 2200);
+  });
+});

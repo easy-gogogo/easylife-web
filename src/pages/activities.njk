@@ -23,7 +23,7 @@ ogImage: /images/tours/lantern-making-hoi-an/lantern-making-hoi-an-1.jpg
   <div class="wrap">
     <div class="cat-head"><span class="idx">{{ "0" if loop.index < 10 }}{{ loop.index }}</span><h2>{{ cat.title }}</h2></div>
     <div class="card-grid">
-      {% for o in cat.items %}{% set askLabel = c.ask %}{% set moreLabel = c.more %}{% set detailsLabel = c.details %}{% include "partials/offer-card.njk" %}{% endfor %}
+      {% for o in cat.items %}{% set share = true %}{% set askLabel = c.ask %}{% set moreLabel = c.more %}{% set detailsLabel = c.details %}{% include "partials/offer-card.njk" %}{% endfor %}
     </div>
   </div>
 </section>
