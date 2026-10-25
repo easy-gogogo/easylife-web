@@ -1,3 +1,3 @@
 {# Teilen-Knopf. Erwartet: shareTarget ("#id" oder Link), shareTitle, optional shareClass #}
 {% from "partials/icons.njk" import icon %}{% set ux = "ui" | cx %}
-<button class="share-btn{% if shareClass %} {{ shareClass }}{% endif %}" type="button" data-share="{{ shareTarget }}" data-title="{{ shareTitle }}" data-copied="{{ ux.common.copied }}" aria-label="{{ ux.common.share }}: {{ shareTitle }}" title="{{ ux.common.share }}">{{ icon("share", 18) }}{% if shareClass %}<span>{{ ux.common.share }}</span>{% endif %}</button>
+<button class="share-btn{% if shareClass %} {{ shareClass }}{% endif %}" type="button" data-share="{{ shareTarget }}" data-title="{{ shareTitle }}" data-copied="{{ ux.common.copied }}" aria-label="{{ ux.common.share }}: {{ shareTitle }}" title="{{ ux.common.share }}">{{ icon("share", 17) }}<span>{{ ux.common.share }}</span></button>
